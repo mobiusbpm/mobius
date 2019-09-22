@@ -1,0 +1,125 @@
+/* Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package mobius.form.engine.test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
+import java.util.List;
+
+import mobius.form.api.FormDefinition;
+import mobius.form.api.FormDeployment;
+import mobius.form.api.FormInfo;
+import mobius.form.model.SimpleFormModel;
+import org.junit.jupiter.api.Test;
+
+public class DeploymentTest extends AbstractFlowableFormTest {
+
+    @Test
+    @FormDeploymentAnnotation(resources = "mobius/form/engine/test/deployment/simple.form")
+    public void deploySingleForm() {
+        FormDefinition formDefinition = repositoryService.createFormDefinitionQuery()
+                .latestVersion()
+                .formDefinitionKey("form1")
+                .singleResult();
+        assertNotNull(formDefinition);
+        assertEquals("form1", formDefinition.getKey());
+    }
+
+    @Test
+    @FormDeploymentAnnotation(resources = "mobius/form/engine/test/deployment/simple.form")
+    public void redeploySingleForm() {
+        FormDefinition formDefinition = repositoryService.createFormDefinitionQuery()
+                .latestVersion()
+                .formDefinitionKey("form1")
+                .singleResult();
+        assertNotNull(formDefinition);
+        assertEquals("form1", formDefinition.getKey());
+        assertEquals(1, formDefinition.getVersion());
+
+        FormInfo formInfo = repositoryService.getFormModelByKey("form1");
+        SimpleFormModel formModel = (SimpleFormModel) formInfo.getFormModel();
+        assertEquals(1, formModel.getFields().size());
+        assertEquals("input1", formModel.getFields().get(0).getId());
+        assertEquals("Input1", formModel.getFields().get(0).getName());
+
+        FormDeployment redeployment = repositoryService.createDeployment()
+                .addClasspathResource("mobius/form/engine/test/deployment/simple2.form")
+                .deploy();
+
+        formDefinition = repositoryService.createFormDefinitionQuery()
+                .latestVersion()
+                .formDefinitionKey("form1")
+                .singleResult();
+        assertNotNull(formDefinition);
+        assertEquals("form1", formDefinition.getKey());
+        assertEquals(2, formDefinition.getVersion());
+
+        formInfo = repositoryService.getFormModelByKey("form1");
+        formModel = (SimpleFormModel) formInfo.getFormModel();
+        assertEquals(1, formModel.getFields().size());
+        assertEquals("input2", formModel.getFields().get(0).getId());
+        assertEquals("Input2", formModel.getFields().get(0).getName());
+
+        repositoryService.deleteDeployment(redeployment.getId());
+    }
+
+    @Test
+    @FormDeploymentAnnotation(resources = { "mobius/form/engine/test/deployment/simple.form",
+            "mobius/form/engine/test/deployment/form_with_dates.form" })
+    public void deploy2Forms() {
+        List<FormDefinition> formDefinitions = repositoryService.createFormDefinitionQuery().orderByFormName().asc().list();
+        assertEquals(2, formDefinitions.size());
+
+        assertEquals("My date form", formDefinitions.get(0).getName());
+        assertEquals("My first form", formDefinitions.get(1).getName());
+    }
+    
+    @Test
+    public void deploySingleFormWithParentDeploymentId() {
+        FormDeployment deployment = repositoryService.createDeployment()
+                .addClasspathResource("mobius/form/engine/test/deployment/simple.form")
+                .parentDeploymentId("someDeploymentId")
+                .deploy();
+        
+        FormDeployment newDeployment = repositoryService.createDeployment()
+                .addClasspathResource("mobius/form/engine/test/deployment/simple.form")
+                .deploy();
+        
+        try {
+            FormDefinition definition = repositoryService.createFormDefinitionQuery().deploymentId(deployment.getId()).singleResult();
+            assertNotNull(definition);
+            assertEquals("form1", definition.getKey());
+            assertEquals(1, definition.getVersion());
+            
+            FormDefinition newDefinition = repositoryService.createFormDefinitionQuery().deploymentId(newDeployment.getId()).singleResult();
+            assertNotNull(newDefinition);
+            assertEquals("form1", newDefinition.getKey());
+            assertEquals(2, newDefinition.getVersion());
+            
+            FormInfo formInfo = repositoryService.getFormModelByKeyAndParentDeploymentId("form1", "someDeploymentId");
+            assertEquals("form1", formInfo.getKey());
+            assertEquals(1, formInfo.getVersion());
+            
+            formEngineConfiguration.setAlwaysLookupLatestDefinitionVersion(true);
+            formInfo = repositoryService.getFormModelByKeyAndParentDeploymentId("form1", "someDeploymentId");
+            assertEquals("form1", formInfo.getKey());
+            assertEquals(2, formInfo.getVersion());
+        
+        } finally {
+            formEngineConfiguration.setAlwaysLookupLatestDefinitionVersion(false);
+            repositoryService.deleteDeployment(deployment.getId());
+            repositoryService.deleteDeployment(newDeployment.getId());
+        }
+    }
+}

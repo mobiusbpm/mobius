@@ -1,0 +1,10 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+  <bean id="testBean" class="mobius.osgi.blueprint.bean.SimpleBean" />
+  
+  <service ref="testBean" interface="mobius.engine.delegate.JavaDelegate" />
+
+  <bean id="activityBehaviourBean" class="mobius.osgi.blueprint.bean.ActivityBehaviourBean" />
+
+  <service ref="activityBehaviourBean" interface="mobius.engine.impl.delegate.ActivityBehavior" />
+</blueprint>

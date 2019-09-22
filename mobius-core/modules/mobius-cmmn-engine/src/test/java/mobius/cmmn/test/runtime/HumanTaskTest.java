@@ -1,0 +1,315 @@
+/* Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package mobius.cmmn.test.runtime;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.tuple;
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
+
+import mobius.cmmn.api.repository.CaseDefinition;
+import mobius.cmmn.api.runtime.CaseInstance;
+import mobius.cmmn.engine.test.CmmnDeployment;
+import mobius.cmmn.engine.test.FlowableCmmnTestCase;
+import mobius.common.engine.api.scope.ScopeTypes;
+import mobius.common.engine.impl.history.HistoryLevel;
+import mobius.common.engine.impl.identity.Authentication;
+import mobius.entitylink.api.EntityLink;
+import mobius.entitylink.api.EntityLinkType;
+import mobius.entitylink.api.HierarchyType;
+import mobius.entitylink.api.history.HistoricEntityLink;
+import mobius.identitylink.api.IdentityLink;
+import mobius.identitylink.api.IdentityLinkType;
+import mobius.identitylink.api.history.HistoricIdentityLink;
+import mobius.task.api.Task;
+import mobius.task.api.history.HistoricTaskInstance;
+import org.junit.Test;
+
+/**
+ * @author Tijs Rademakers
+ * @author Joram Barrez
+ */
+public class HumanTaskTest extends FlowableCmmnTestCase {
+
+    @Test
+    @CmmnDeployment
+    public void testHumanTask() {
+        Authentication.setAuthenticatedUserId("JohnDoe");
+
+        CaseInstance caseInstance = cmmnRuntimeService.createCaseInstanceBuilder()
+                        .caseDefinitionKey("myCase")
+                        .start();
+        assertNotNull(caseInstance);
+
+        Task task = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).singleResult();
+        assertEquals("Task 1", task.getName());
+        assertEquals("JohnDoe", task.getAssignee());
+        String task1Id = task.getId();
+        
+        List<EntityLink> entityLinks = cmmnRuntimeService.getEntityLinkChildrenForCaseInstance(caseInstance.getId());
+        assertEquals(1, entityLinks.size());
+        EntityLink entityLink = entityLinks.get(0);
+        assertEquals(EntityLinkType.CHILD, entityLink.getLinkType());
+        assertNotNull(entityLink.getCreateTime());
+        assertEquals(caseInstance.getId(), entityLink.getScopeId());
+        assertEquals(ScopeTypes.CMMN, entityLink.getScopeType());
+        assertNull(entityLink.getScopeDefinitionId());
+        assertEquals(task.getId(), entityLink.getReferenceScopeId());
+        assertEquals(ScopeTypes.TASK, entityLink.getReferenceScopeType());
+        assertNull(entityLink.getReferenceScopeDefinitionId());
+        assertEquals(HierarchyType.ROOT, entityLink.getHierarchyType());
+
+        assertThat(cmmnTaskService.getIdentityLinksForTask(task1Id))
+            .extracting(IdentityLink::getType, IdentityLink::getUserId, IdentityLink::getGroupId)
+            .containsExactlyInAnyOrder(
+                tuple("assignee", "JohnDoe", null)
+            );
+
+        cmmnTaskService.complete(task.getId());
+
+        task = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).singleResult();
+        assertEquals("Task 2", task.getName());
+        assertNull(task.getAssignee());
+        String task2Id = task.getId();
+
+        task = cmmnTaskService.createTaskQuery().taskCandidateGroup("test").caseInstanceId(caseInstance.getId()).singleResult();
+        assertEquals("Task 2", task.getName());
+
+        task = cmmnTaskService.createTaskQuery().taskCandidateUser("test2").caseInstanceId(caseInstance.getId()).singleResult();
+        assertEquals("Task 2", task.getName());
+
+        assertThat(cmmnTaskService.getIdentityLinksForTask(task2Id))
+            .extracting(IdentityLink::getType, IdentityLink::getUserId, IdentityLink::getGroupId)
+            .containsExactlyInAnyOrder(
+                tuple("candidate", "test", null),
+                tuple("candidate", "test2", null),
+                tuple("candidate", null, "test")
+            );
+
+        cmmnTaskService.complete(task.getId());
+
+        assertEquals(0, cmmnRuntimeService.createCaseInstanceQuery().count());
+
+        if (cmmnEngineConfiguration.getHistoryLevel().isAtLeast(HistoryLevel.ACTIVITY)) {
+            assertEquals("JohnDoe", cmmnHistoryService.createHistoricVariableInstanceQuery()
+                            .caseInstanceId(caseInstance.getId())
+                            .variableName("var1")
+                            .singleResult().getValue());
+            
+            List<HistoricEntityLink> historicEntityLinks = cmmnHistoryService.getHistoricEntityLinkChildrenForCaseInstance(caseInstance.getId());
+            assertEquals(2, historicEntityLinks.size());
+            boolean hasTask1 = false;
+            boolean hasTask2 = false;
+            for (HistoricEntityLink historicEntityLink : historicEntityLinks) {
+                assertEquals(EntityLinkType.CHILD, historicEntityLink.getLinkType());
+                assertNotNull(historicEntityLink.getCreateTime());
+                assertEquals(caseInstance.getId(), historicEntityLink.getScopeId());
+                assertEquals(ScopeTypes.CMMN, historicEntityLink.getScopeType());
+                assertNull(historicEntityLink.getScopeDefinitionId());
+                if (task1Id.equals(historicEntityLink.getReferenceScopeId())) {
+                    hasTask1 = true;
+                }
+                
+                if (task2Id.equals(historicEntityLink.getReferenceScopeId())) {
+                    hasTask2 = true;
+                }
+                
+                assertEquals(ScopeTypes.TASK, historicEntityLink.getReferenceScopeType());
+                assertNull(historicEntityLink.getReferenceScopeDefinitionId());
+                assertEquals(HierarchyType.ROOT, entityLink.getHierarchyType());
+            }
+            
+            assertTrue(hasTask1);
+            assertTrue(hasTask2);
+
+            assertThat(cmmnHistoryService.getHistoricIdentityLinksForTask(task1Id))
+                .extracting(HistoricIdentityLink::getType, HistoricIdentityLink::getUserId, HistoricIdentityLink::getGroupId)
+                .containsExactlyInAnyOrder(
+                    tuple("assignee", "JohnDoe", null)
+                );
+
+            assertThat(cmmnHistoryService.getHistoricIdentityLinksForTask(task2Id))
+                .extracting(HistoricIdentityLink::getType, HistoricIdentityLink::getUserId, HistoricIdentityLink::getGroupId)
+                .containsExactlyInAnyOrder(
+                    tuple("candidate", "test", null),
+                    tuple("candidate", "test2", null),
+                    tuple("candidate", null, "test")
+                );
+        }
+
+        Authentication.setAuthenticatedUserId(null);
+    }
+
+    @Test
+    public void testCreateHumanTaskUnderTenantByKey() {
+        Authentication.setAuthenticatedUserId("JohnDoe");
+        mobius.cmmn.api.repository.CmmnDeployment deployment = cmmnRepositoryService.createDeployment().tenantId("flowable").
+                addClasspathResource("mobius/cmmn/test/runtime/HumanTaskTest.testHumanTask.cmmn").deploy();
+        try {
+            assertThat(deployment.getTenantId(), is("flowable"));
+
+            CaseInstance caseInstance = cmmnRuntimeService.createCaseInstanceBuilder()
+                    .caseDefinitionKey("myCase")
+                    .tenantId("flowable")
+                    .start();
+            assertNotNull(caseInstance);
+            assertEquals("flowable", caseInstance.getTenantId());
+
+            Task task = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).singleResult();
+            assertEquals("Task 1", task.getName());
+            assertEquals("JohnDoe", task.getAssignee());
+            assertEquals("flowable", task.getTenantId());
+
+            cmmnTaskService.complete(task.getId());
+
+            task = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).singleResult();
+            assertEquals("Task 2", task.getName());
+            assertEquals("flowable", task.getTenantId());
+            cmmnTaskService.complete(task.getId());
+
+            assertEquals(0, cmmnRuntimeService.createCaseInstanceQuery().count());
+
+        } finally {
+            cmmnRepositoryService.deleteDeployment(deployment.getId(), true);
+            Authentication.setAuthenticatedUserId(null);
+        }
+
+    }
+
+    @Test
+    public void testCreateHumanTaskUnderTenantById() {
+        Authentication.setAuthenticatedUserId("JohnDoe");
+        mobius.cmmn.api.repository.CmmnDeployment deployment = cmmnRepositoryService.createDeployment().tenantId("flowable").
+                addClasspathResource("mobius/cmmn/test/runtime/HumanTaskTest.testHumanTask.cmmn").deploy();
+        try {
+            assertThat(deployment.getTenantId(), is("flowable"));
+            CaseDefinition caseDefinition = cmmnRepositoryService.createCaseDefinitionQuery().deploymentId(deployment.getId()).singleResult();
+            assertThat(caseDefinition.getTenantId(), is("flowable"));
+
+            CaseInstance caseInstance = cmmnRuntimeService.createCaseInstanceBuilder()
+                    .caseDefinitionId(caseDefinition.getId())
+                    .tenantId("flowable")
+                    .start();
+            assertNotNull(caseInstance);
+            assertEquals("flowable", caseInstance.getTenantId());
+
+            Task task = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).singleResult();
+            assertEquals("Task 1", task.getName());
+            assertEquals("JohnDoe", task.getAssignee());
+            assertEquals("flowable", task.getTenantId());
+
+            cmmnTaskService.complete(task.getId());
+
+            task = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).singleResult();
+            assertEquals("flowable", task.getTenantId());
+            cmmnTaskService.complete(task.getId());
+
+            assertEquals(0, cmmnRuntimeService.createCaseInstanceQuery().count());
+        } finally {
+            cmmnRepositoryService.deleteDeployment(deployment.getId(), true);
+            Authentication.setAuthenticatedUserId(null);
+        }
+
+    }
+
+    @Test
+    @CmmnDeployment
+    public void testTaskCompletionExitsStage() {
+        CaseInstance caseInstance = cmmnRuntimeService.createCaseInstanceBuilder()
+                .caseDefinitionKey("humanTaskCompletionExits")
+                .start();
+        assertNotNull(caseInstance);
+
+        List<Task> tasks = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).orderByTaskName().asc().list();
+        assertEquals("A", tasks.get(0).getName());
+        assertEquals("B", tasks.get(1).getName());
+        assertEquals("C", tasks.get(2).getName());
+
+        // Completing A should delete B and C
+        cmmnTaskService.complete(tasks.get(0).getId());
+        assertEquals(0, cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).count());
+        assertCaseInstanceEnded(caseInstance);
+
+        List<HistoricTaskInstance> historicTaskInstances = cmmnHistoryService.createHistoricTaskInstanceQuery().list();
+        assertEquals(3, historicTaskInstances.size());
+        for (HistoricTaskInstance historicTaskInstance : historicTaskInstances) {
+            assertNotNull(historicTaskInstance.getStartTime());
+            assertNotNull(historicTaskInstance.getEndTime());
+            if (!historicTaskInstance.getName().equals("A")) {
+                assertEquals("cmmn-state-transition-terminate-case", historicTaskInstance.getDeleteReason());
+            }
+        }
+
+        // Completing C should delete B
+        CaseInstance caseInstance2 = cmmnRuntimeService.createCaseInstanceBuilder()
+                .caseDefinitionKey("humanTaskCompletionExits")
+                .start();
+        assertNotNull(caseInstance2);
+        tasks = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance2.getId()).orderByTaskName().asc().list();
+        cmmnTaskService.complete(tasks.get(2).getId());
+
+        Task taskA = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance2.getId()).orderByTaskName().asc().singleResult();
+        assertNotNull(taskA);
+        cmmnTaskService.complete(taskA.getId());
+        assertCaseInstanceEnded(caseInstance2);
+
+        historicTaskInstances = cmmnHistoryService.createHistoricTaskInstanceQuery().caseInstanceId(caseInstance2.getId()).list();
+        assertEquals(3, historicTaskInstances.size());
+        for (HistoricTaskInstance historicTaskInstance : historicTaskInstances) {
+            assertNotNull(historicTaskInstance.getStartTime());
+            assertNotNull(historicTaskInstance.getEndTime());
+            if (historicTaskInstance.getName().equals("B")) {
+                assertEquals("cmmn-state-transition-exit", historicTaskInstance.getDeleteReason());
+            }
+        }
+    }
+
+    @Test
+    @CmmnDeployment(resources = "mobius/cmmn/test/runtime/HumanTaskTest.testHumanTask.cmmn")
+    public void addCompleteAuthenticatedUserAsParticipantToParentCase() {
+        CaseInstance caseInstance = cmmnRuntimeService.createCaseInstanceBuilder()
+            .caseDefinitionKey("myCase")
+            .start();
+        assertNotNull(caseInstance);
+
+
+        Task task = cmmnTaskService.createTaskQuery().caseInstanceId(caseInstance.getId()).singleResult();
+        assertEquals("Task 1", task.getName());
+        assertNull(task.getAssignee());
+
+        assertEquals(0, cmmnRuntimeService.getIdentityLinksForCaseInstance(caseInstance.getId()).size());
+
+        String prevUserId = Authentication.getAuthenticatedUserId();
+        Authentication.setAuthenticatedUserId("JohnDoe");
+        try {
+            cmmnTaskService.complete(task.getId());
+        } finally {
+            Authentication.setAuthenticatedUserId(prevUserId);
+        }
+
+        assertThat(cmmnRuntimeService.getIdentityLinksForCaseInstance(caseInstance.getId()))
+            .extracting(IdentityLink::getType, IdentityLink::getUserId, IdentityLink::getGroupId)
+            .containsExactlyInAnyOrder(
+                tuple(IdentityLinkType.PARTICIPANT, "JohnDoe", null),
+                tuple(IdentityLinkType.PARTICIPANT, "test", null),
+                tuple(IdentityLinkType.PARTICIPANT, "test2", null)
+            );
+    }
+
+}

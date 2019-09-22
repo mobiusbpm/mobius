@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+  <settings>
+    <setting name="lazyLoadingEnabled" value="false" />
+  </settings>
+   <typeAliases>
+    <typeAlias type="mobius.variable.service.impl.persistence.VariableByteArrayRefTypeHandler" alias="VariableByteArrayRefTypeHandler"/>
+     <typeAlias type="mobius.job.service.impl.persistence.JobByteArrayRefTypeHandler" alias="JobByteArrayRefTypeHandler"/>
+  </typeAliases>
+  <typeHandlers>
+    <typeHandler handler="VariableByteArrayRefTypeHandler" 
+                 javaType="mobius.variable.service.impl.persistence.entity.VariableByteArrayRef"
+                 jdbcType="VARCHAR"/>
+    <typeHandler handler="JobByteArrayRefTypeHandler" 
+                 javaType="mobius.job.service.impl.persistence.entity.JobByteArrayRef"
+                 jdbcType="VARCHAR"/>                 
+  </typeHandlers>
+  <mappers>
+    <mapper resource="mobius/cmmn/db/mapping/entity/TableData.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/CmmnDeployment.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/CmmnResource.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/CaseDefinition.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/CaseInstance.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/PlanItemInstance.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/SentryPartInstance.xml"/>
+    <mapper resource="mobius/cmmn/db/mapping/entity/MilestoneInstance.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/HistoricCaseInstance.xml"/>
+    <mapper resource="mobius/cmmn/db/mapping/entity/HistoricMilestoneInstance.xml" />
+    <mapper resource="mobius/cmmn/db/mapping/entity/HistoricPlanItemInstance.xml" />
+    
+    <!-- Variable support -->
+    <mapper resource="mobius/variable/service/db/mapping/common.xml" />
+    <mapper resource="mobius/variable/service/db/mapping/entity/ByteArray.xml" />
+    <mapper resource="mobius/variable/service/db/mapping/entity/VariableInstance.xml" />
+    <mapper resource="mobius/variable/service/db/mapping/entity/HistoricVariableInstance.xml" />
+    
+    <!-- Identity link support -->
+    <mapper resource="mobius/identitylink/service/db/mapping/entity/IdentityLink.xml" />
+    <mapper resource="mobius/identitylink/service/db/mapping/entity/HistoricIdentityLink.xml" />
+    
+    <!-- Entity link support -->
+    <mapper resource="mobius/entitylink/service/db/mapping/entity/EntityLink.xml" />
+    <mapper resource="mobius/entitylink/service/db/mapping/entity/HistoricEntityLink.xml" />
+    
+    <!-- Event subscription support -->
+    <mapper resource="mobius/eventsubscription/service/db/mapping/entity/EventSubscription.xml" />
+    
+    <!-- Task support -->
+    <mapper resource="mobius/task/service/db/mapping/common.xml" />
+    <mapper resource="mobius/task/service/db/mapping/entity/Task.xml" />
+    <mapper resource="mobius/task/service/db/mapping/entity/HistoricTaskLogEntry.xml" />
+    <mapper resource="mobius/task/service/db/mapping/entity/HistoricTaskInstance.xml" />
+    
+    <!-- Job Support -->
+    <mapper resource="mobius/job/service/db/mapping/entity/ByteArray.xml" />
+    <mapper resource="mobius/job/service/db/mapping/entity/DeadLetterJob.xml" />
+    <mapper resource="mobius/job/service/db/mapping/entity/HistoryJob.xml" />
+    <mapper resource="mobius/job/service/db/mapping/entity/Job.xml" />
+    <mapper resource="mobius/job/service/db/mapping/entity/SuspendedJob.xml" />
+    <mapper resource="mobius/job/service/db/mapping/entity/TimerJob.xml" />
+    
+  </mappers>
+</configuration>

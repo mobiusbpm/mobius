@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="processEngineConfiguration" class="mobius.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
+
+    <property name="jdbcUrl" value="jdbc:h2:mem:flowable;DB_CLOSE_DELAY=1000"/>
+    <property name="jdbcDriver" value="org.h2.Driver"/>
+    <property name="jdbcUsername" value="sa"/>
+    <property name="jdbcPassword" value=""/>
+
+    <!-- Database configurations -->
+    <property name="databaseSchemaUpdate" value="drop-create"/>
+
+    <property name="defaultCommandConfig">
+      <bean class="CommandConfig">
+        <constructor-arg name="contextReusePossible" value="false"/>
+      </bean>
+    </property>
+
+    <property name="schemaCommandConfig">
+      <bean class="CommandConfig">
+        <constructor-arg name="contextReusePossible" value="false"/>
+      </bean>
+    </property>
+
+
+  </bean>
+
+  <bean id="simulationRun" class="mobius.crystalball.simulator.SimpleSimulationRunFactory">
+    <property name="processEngine" ref="&amp;defaultProcessEngineFactory"/>
+    <property name="eventCalendar" ref="&amp;eventCalendar"/>
+  </bean>
+
+
+  <bean id="defaultProcessEngineFactory" class="mobius.crystalball.simulator.impl.SimulationProcessEngineFactory">
+    <constructor-arg name="processEngineConfiguration">
+      <bean id="simulatedProcessEngineConfiguration"
+            class="mobius.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
+
+        <property name="jdbcUrl" value="jdbc:h2:mem:flowable-virtual;DB_CLOSE_DELAY=1000"/>
+        <property name="jdbcDriver" value="org.h2.Driver"/>
+        <property name="jdbcUsername" value="sa"/>
+        <property name="jdbcPassword" value=""/>
+
+        <!-- Database configurations -->
+        <property name="databaseSchemaUpdate" value="true"/>
+
+        <property name="clock" ref="clock"/>
+        <property name="disableIdmEngine" value="true"/>
+
+        <property name="defaultCommandConfig">
+          <bean class="CommandConfig">
+            <constructor-arg name="contextReusePossible" value="false"/>
+          </bean>
+        </property>
+
+        <property name="schemaCommandConfig">
+          <bean class="CommandConfig">
+            <constructor-arg name="contextReusePossible" value="false"/>
+          </bean>
+        </property>
+
+
+      </bean>
+    </constructor-arg>
+  </bean>
+
+  <bean id="clock" class="DefaultClockImpl"/>
+
+  <bean id="eventCalendar" class="mobius.crystalball.simulator.SimpleEventCalendarFactory">
+    <constructor-arg name="clockReader" ref="clock"/>
+    <constructor-arg name="eventComparator"><bean class="mobius.crystalball.simulator.SimulationEventComparator"/></constructor-arg>
+    <constructor-arg name="simulationEvents">
+      <list>
+      </list>
+    </constructor-arg>
+  </bean>
+
+</beans>

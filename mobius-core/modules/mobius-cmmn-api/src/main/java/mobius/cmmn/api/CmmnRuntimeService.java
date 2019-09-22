@@ -1,0 +1,216 @@
+/* Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package mobius.cmmn.api;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+
+import mobius.cmmn.api.runtime.CaseInstanceBuilder;
+import mobius.cmmn.api.runtime.CaseInstanceQuery;
+import mobius.cmmn.api.runtime.ChangePlanItemStateBuilder;
+import mobius.cmmn.api.runtime.GenericEventListenerInstanceQuery;
+import mobius.cmmn.api.runtime.MilestoneInstanceQuery;
+import mobius.cmmn.api.runtime.PlanItemInstanceQuery;
+import mobius.cmmn.api.runtime.PlanItemInstanceTransitionBuilder;
+import mobius.cmmn.api.runtime.SignalEventListenerInstanceQuery;
+import mobius.cmmn.api.runtime.UserEventListenerInstanceQuery;
+import mobius.common.engine.api.FlowableObjectNotFoundException;
+import mobius.entitylink.api.EntityLink;
+import mobius.eventsubscription.api.EventSubscriptionQuery;
+import mobius.form.api.FormInfo;
+import mobius.identitylink.api.IdentityLink;
+
+/**
+ * @author Joram Barrez
+ */
+public interface CmmnRuntimeService {
+
+    CaseInstanceBuilder createCaseInstanceBuilder();
+
+    PlanItemInstanceTransitionBuilder createPlanItemInstanceTransitionBuilder(String planItemInstanceId);
+    
+    void triggerPlanItemInstance(String planItemInstanceId);
+    
+    void enablePlanItemInstance(String planItemInstanceId);
+    
+    void startPlanItemInstance(String planItemInstanceId);
+    
+    void disablePlanItemInstance(String planItemInstanceId);
+
+    void completeStagePlanItemInstance(String planItemInstanceId);
+
+    void completeStagePlanItemInstance(String planItemInstanceId, boolean force);
+    
+    void completeCaseInstance(String caseInstanceId);
+    
+    void terminateCaseInstance(String caseInstanceId);
+
+    void terminatePlanItemInstance(String planItemInstanceId);
+
+    void evaluateCriteria(String caseInstanceId);
+    
+    void completeGenericEventListenerInstance(String genericEventListenerInstanceId);
+
+    void completeUserEventListenerInstance(String userEventListenerInstanceId);
+    
+    Map<String, Object> getVariables(String caseInstanceId);
+    
+    Map<String, Object> getLocalVariables(String planItemInstanceId);
+    
+    Object getVariable(String caseInstanceId, String variableName);
+    
+    Object getLocalVariable(String planItemInstanceId, String variableName);
+    
+    /**
+     * Check whether or not this case instance has variable set with the given name, Searching for the variable is done in all scopes that are visible to the given case instance.
+     */
+    boolean hasVariable(String caseInstanceId, String variableName);
+    
+    void setVariables(String caseInstanceId, Map<String, Object> variables);
+    
+    void setVariable(String caseInstanceId, String variableName, Object variableValue);
+    
+    void setLocalVariables(String planItemInstanceId, Map<String, Object> variables);
+    
+    void setLocalVariable(String planItemInstanceId, String variableName, Object variableValue);
+    
+    void removeVariable(String caseInstanceId, String variableName);
+    
+    void removeVariables(String caseInstanceId, Collection<String> variableNames);
+    
+    void removeLocalVariable(String planItemInstanceId, String variableName);
+    
+    void removeLocalVariables(String planItemInstanceId, Collection<String> variableNames);
+
+    /**
+     * Set or change the name of the case instance.
+     *
+     * @param caseInstanceId the id of the case to set the name
+     * @param caseName the name to be set on the case
+     */
+    void setCaseInstanceName(String caseInstanceId, String caseName);
+
+    CaseInstanceQuery createCaseInstanceQuery();
+    
+    PlanItemInstanceQuery createPlanItemInstanceQuery();
+    
+    MilestoneInstanceQuery createMilestoneInstanceQuery();
+    
+    GenericEventListenerInstanceQuery createGenericEventListenerInstanceQuery();
+    
+    SignalEventListenerInstanceQuery createSignalEventListenerInstanceQuery();
+
+    UserEventListenerInstanceQuery createUserEventListenerInstanceQuery();
+    
+    /**
+     * Creates a new {@link EventSubscriptionQuery} instance, that can be used to query the event subscriptions.
+     */
+    EventSubscriptionQuery createEventSubscriptionQuery();
+    
+    /**
+     * Involves a user with a case instance. The type of identity link is defined by the given identityLinkType.
+     * 
+     * @param caseInstanceId
+     *            id of the case instance, cannot be null.
+     * @param userId
+     *            id of the user involve, cannot be null.
+     * @param identityLinkType
+     *            type of identityLink, cannot be null.
+     * @throws FlowableObjectNotFoundException
+     *             when the process instance doesn't exist.
+     */
+    void addUserIdentityLink(String caseInstanceId, String userId, String identityLinkType);
+
+    /**
+     * Involves a group with a case instance. The type of identityLink is defined by the given identityLink.
+     * 
+     * @param caseInstanceId
+     *            id of the case instance, cannot be null.
+     * @param groupId
+     *            id of the group to involve, cannot be null.
+     * @param identityLinkType
+     *            type of identity, cannot be null.
+     * @throws FlowableObjectNotFoundException
+     *             when the process instance or group doesn't exist.
+     */
+    void addGroupIdentityLink(String caseInstanceId, String groupId, String identityLinkType);
+
+    /**
+     * Removes the association between a user and a process instance for the given identityLinkType.
+     * 
+     * @param caseInstanceId
+     *            id of the case instance, cannot be null.
+     * @param userId
+     *            id of the user involve, cannot be null.
+     * @param identityLinkType
+     *            type of identityLink, cannot be null.
+     * @throws FlowableObjectNotFoundException
+     *             when the task or user doesn't exist.
+     */
+    void deleteUserIdentityLink(String caseInstanceId, String userId, String identityLinkType);
+
+    /**
+     * Removes the association between a group and a process instance for the given identityLinkType.
+     * 
+     * @param caseInstanceId
+     *            id of the case instance, cannot be null.
+     * @param groupId
+     *            id of the group to involve, cannot be null.
+     * @param identityLinkType
+     *            type of identity, cannot be null.
+     * @throws FlowableObjectNotFoundException
+     *             when the task or group doesn't exist.
+     */
+    void deleteGroupIdentityLink(String caseInstanceId, String groupId, String identityLinkType);
+
+    /**
+     * Retrieves the {@link IdentityLink}s associated with the given case instance. Such an identity link informs how a certain user is involved with a case instance.
+     */
+    List<IdentityLink> getIdentityLinksForCaseInstance(String instanceId);
+    
+    /**
+     * Retrieves the {@link EntityLink}s associated with the given case instance.
+     */
+    List<EntityLink> getEntityLinkChildrenForCaseInstance(String instanceId);
+
+    /**
+     * Retrieves the {@link EntityLink}s where the given case instance is referenced.
+     */
+    List<EntityLink> getEntityLinkParentsForCaseInstance(String instanceId);
+
+    /**
+     * Gets a Form model instance of the start form of a specific case definition or case instance
+     *
+     * @param caseDefinitionId
+     *            id of case definition for which the start form should be retrieved.
+     * @param caseInstanceId
+     *            id of case instance for which the start form should be retrieved.
+     */
+    FormInfo getStartFormModel(String caseDefinitionId, String caseInstanceId);
+    
+    /**
+     * Create a {@link ChangePlanItemStateBuilder}, that allows to set various options for changing the state of a process instance.
+     */
+    ChangePlanItemStateBuilder createChangePlanItemStateBuilder();
+
+    /**
+     * Updates the business key for the provided case instance
+     *
+     * @param caseInstanceId
+     *     id of the case instance to set the business key, cannot be null
+     * @param businessKey
+     *     new businessKey value
+     */
+    void updateBusinessKey(String caseInstanceId, String businessKey);
+}

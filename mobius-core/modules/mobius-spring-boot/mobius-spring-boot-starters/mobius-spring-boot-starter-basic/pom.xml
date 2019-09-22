@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<name>Mobius - Spring Boot Starter Basic</name>
+
+	<parent>
+		<groupId>mobius.core</groupId>
+		<artifactId>mobius-spring-boot-starters</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>mobius-spring-boot-starter-basic</artifactId>
+	<!-- <properties> <spring.framework.version>4.1.4.RELEASE</spring.framework.version> 
+		</properties> -->
+
+	<dependencies>
+		<dependency>
+			<groupId>mobius.core</groupId>
+			<artifactId>mobius-spring-boot-autoconfigure</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mobius.core</groupId>
+			<artifactId>mobius-engine</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mobius.core</groupId>
+			<artifactId>mobius-spring</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- embedded DB for testing -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<profiles>
+		<profile>
+			<id>distro</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-source-plugin</artifactId>
+						<version>2.1.1</version>
+						<executions>
+							<execution>
+								<id>attach-sources</id>
+								<phase>package</phase>
+								<goals>
+									<goal>jar-no-fork</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<distributionManagement>
+		<relocation>
+			<artifactId>mobius-spring-boot-starter-process</artifactId>
+			<message>The starter for the Process engine has been moved. If you want to use the starter with all engines use flowable-spring-boot-starter</message>
+		</relocation>
+	</distributionManagement>
+</project>

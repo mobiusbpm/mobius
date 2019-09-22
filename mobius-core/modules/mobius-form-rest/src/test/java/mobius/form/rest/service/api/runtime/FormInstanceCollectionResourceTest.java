@@ -1,0 +1,108 @@
+/* Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package mobius.form.rest.service.api.runtime;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.http.HttpStatus;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import mobius.form.api.FormInfo;
+import mobius.form.api.FormInstance;
+import mobius.form.engine.test.FormDeploymentAnnotation;
+import mobius.form.rest.service.BaseSpringRestTestCase;
+import mobius.form.rest.service.api.form.FormRequest;
+import org.junit.Test;
+
+import com.fasterxml.jackson.databind.JsonNode;
+
+public class FormInstanceCollectionResourceTest extends BaseSpringRestTestCase {
+
+    @Test
+    @FormDeploymentAnnotation(resources = "mobius/form/rest/service/api/form/simple.form")
+    public void testGetFormInstances() throws IOException {
+        FormInfo formInfo = repositoryService.getFormModelByKey("form1");
+        Map<String, Object> valuesMap = new HashMap<>();
+        valuesMap.put("user", "test");
+        valuesMap.put("number", "1234");
+
+        Map<String, Object> formValues = formService.getVariablesFromFormSubmission(formInfo, valuesMap, "default");
+        assertEquals("test", formValues.get("user"));
+        assertEquals("default", formValues.get("form_form1_outcome"));
+
+        FormRequest formRequest = new FormRequest();
+        formRequest.setFormDefinitionKey(formInfo.getKey());
+        formRequest.setVariables(formValues);
+
+        String json = objectMapper.writeValueAsString(formRequest);
+
+        String url = "form/form-instances";
+        storeFormInstance(url, json);
+        assertResultsPresentInDataResponse(url, USER);
+        
+        List<FormInstance> formInstances = formService.createFormInstanceQuery().list();
+        for (FormInstance formInstance : formInstances) {
+            formService.deleteFormInstance(formInstance.getId());
+        }
+    }
+
+    @Test
+    @FormDeploymentAnnotation(resources = "mobius/form/rest/service/api/form/simple.form")
+    public void testGetFormInstanceById() throws IOException {
+        FormInfo formInfo = repositoryService.getFormModelByKey("form1");
+        Map<String, Object> valuesMap = new HashMap<>();
+        valuesMap.put("user", "test");
+        valuesMap.put("number", "1234");
+
+        FormRequest formRequest = new FormRequest();
+        formRequest.setFormDefinitionKey(formInfo.getKey());
+        formRequest.setVariables(valuesMap);
+
+        String json = objectMapper.writeValueAsString(formRequest);
+
+        String url = "form/form-instances";
+        storeFormInstance(url, json);
+        
+        // create another form instance
+        valuesMap.put("user", "test2");
+        valuesMap.put("number", "5678");
+        json = objectMapper.writeValueAsString(formRequest);
+        storeFormInstance(url, json);
+        
+        CloseableHttpResponse response = executeRequest(new HttpGet(SERVER_URL_PREFIX + url), HttpStatus.SC_OK);
+
+        // Check status and size
+        JsonNode dataNode = objectMapper.readTree(response.getEntity().getContent()).get("data");
+        closeResponse(response);
+        
+        assertEquals(2, dataNode.size());
+        
+        String formInstanceId = dataNode.get(0).get("id").asText();
+        response = executeRequest(new HttpGet(SERVER_URL_PREFIX + url + "?id=" + formInstanceId), HttpStatus.SC_OK);
+
+        // Check status and size
+        dataNode = objectMapper.readTree(response.getEntity().getContent()).get("data");
+        closeResponse(response);
+        
+        assertEquals(1, dataNode.size());
+        assertEquals(formInstanceId, dataNode.get(0).get("id").asText());
+        
+        List<FormInstance> formInstances = formService.createFormInstanceQuery().list();
+        for (FormInstance formInstance : formInstances) {
+            formService.deleteFormInstance(formInstance.getId());
+        }
+    }
+}

@@ -1,0 +1,28 @@
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  mobius.spring.boot.environment.FlowableDefaultPropertiesEnvironmentPostProcessor,\
+  mobius.spring.boot.environment.FlowableLiquibaseEnvironmentPostProcessor
+
+# Flowable auto-configurations
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    mobius.spring.boot.actuate.info.FlowableInfoAutoConfiguration,\
+    mobius.spring.boot.EndpointAutoConfiguration,\
+    mobius.spring.boot.RestApiAutoConfiguration,\
+    mobius.spring.boot.app.AppEngineServicesAutoConfiguration,\
+    mobius.spring.boot.app.AppEngineAutoConfiguration,\
+    mobius.spring.boot.ProcessEngineServicesAutoConfiguration,\
+    mobius.spring.boot.ProcessEngineAutoConfiguration,\
+    mobius.spring.boot.FlowableJpaAutoConfiguration,\
+    mobius.spring.boot.form.FormEngineAutoConfiguration,\
+    mobius.spring.boot.form.FormEngineServicesAutoConfiguration,\
+    mobius.spring.boot.content.ContentEngineAutoConfiguration,\
+    mobius.spring.boot.content.ContentEngineServicesAutoConfiguration,\
+    mobius.spring.boot.dmn.DmnEngineAutoConfiguration,\
+    mobius.spring.boot.dmn.DmnEngineServicesAutoConfiguration,\
+    mobius.spring.boot.idm.IdmEngineAutoConfiguration,\
+    mobius.spring.boot.idm.IdmEngineServicesAutoConfiguration,\
+    mobius.spring.boot.cmmn.CmmnEngineAutoConfiguration,\
+    mobius.spring.boot.cmmn.CmmnEngineServicesAutoConfiguration,\
+    mobius.spring.boot.ldap.FlowableLdapAutoConfiguration,\
+    mobius.spring.boot.FlowableSecurityAutoConfiguration

@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<name>Mobius - Spring Boot Starter Actuator</name>
+	<parent>
+		<groupId>mobius.core</groupId>
+		<artifactId>mobius-spring-boot-starters</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+	<artifactId>mobius-spring-boot-starter-actuator</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>mobius.core</groupId>
+			<artifactId>mobius-spring-boot-starter-process</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>mobius.core</groupId>
+			<artifactId>mobius-image-generator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mobius.core</groupId>
+			<artifactId>mobius-bpmn-model</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mobius.core</groupId>
+			<artifactId>mobius-bpmn-layout</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+
+</project>

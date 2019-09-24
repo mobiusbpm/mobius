@@ -35,7 +35,7 @@ target/
 .history/*
 
 # dependencies
-/node_modules
+mobius-app-client/node_modules/*
 
 # misc
 /.sass-cache

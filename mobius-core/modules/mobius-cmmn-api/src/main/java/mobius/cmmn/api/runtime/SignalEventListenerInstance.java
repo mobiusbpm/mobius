@@ -13,7 +13,7 @@
 package mobius.cmmn.api.runtime;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface SignalEventListenerInstance {
 

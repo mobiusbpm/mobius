@@ -28,7 +28,7 @@ import mobius.job.service.impl.persistence.entity.SuspendedJobEntity;
 /**
  * Service which provides access to jobs.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface JobService {
     

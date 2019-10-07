@@ -20,7 +20,7 @@ import mobius.common.engine.api.FlowableException;
 import mobius.common.engine.impl.interceptor.Session;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public interface EntityManagerSession extends Session {
     /**

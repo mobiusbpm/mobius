@@ -26,7 +26,7 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface TaskEntity extends VariableScope, Task, DelegateTask, Entity, HasRevision {
 

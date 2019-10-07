@@ -32,7 +32,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * Shared logic for resources related to Content items.
  * 
- * @author Frederik Heremans
+ *
  */
 public class ContentItemBaseResource {
 

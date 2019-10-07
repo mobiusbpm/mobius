@@ -16,7 +16,7 @@ package mobius.common.rest.resolver;
 /**
  * Default implementation of a {@link ContentTypeResolver}, resolving a limited set of well-known content types used in the engine.
  * 
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class DefaultContentTypeResolver implements ContentTypeResolver {

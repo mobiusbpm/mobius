@@ -19,7 +19,7 @@ import mobius.app.api.repository.AppModel;
 import mobius.app.engine.impl.persistence.entity.deploy.AppDefinitionCacheEntry;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppDefinitionUtil {
     

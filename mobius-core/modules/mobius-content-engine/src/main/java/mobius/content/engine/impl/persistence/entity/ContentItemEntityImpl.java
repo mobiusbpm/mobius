@@ -21,7 +21,7 @@ import mobius.content.engine.ContentEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class ContentItemEntityImpl extends AbstractContentEngineNoRevisionEntity implements ContentItemEntity, Serializable {
 

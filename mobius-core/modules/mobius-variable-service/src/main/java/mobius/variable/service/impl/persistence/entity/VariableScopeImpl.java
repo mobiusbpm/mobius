@@ -39,7 +39,7 @@ import mobius.variable.service.impl.util.CommandContextUtil;
 /**
  *
  *
- * @author Tijs Rademakers
+ *
  * @author Saeid Mirzaei
  */
 public abstract class VariableScopeImpl extends AbstractEntity implements Serializable, VariableScope {

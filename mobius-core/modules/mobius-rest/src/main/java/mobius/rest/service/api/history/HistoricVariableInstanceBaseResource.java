@@ -31,7 +31,7 @@ import mobius.variable.service.impl.HistoricVariableInstanceQueryProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricVariableInstanceBaseResource {
 

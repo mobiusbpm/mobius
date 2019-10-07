@@ -19,7 +19,7 @@ import java.util.List;
  *
  *
  * @author Falko Menge
- * @author Tijs Rademakers
+ *
  */
 public interface TaskQuery extends TaskInfoQuery<TaskQuery, Task> {
 

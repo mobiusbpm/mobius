@@ -36,10 +36,10 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  *
  *
  * @author Christian Stettler
- * @author Frederik Heremans
+ *
  * @author Slawomir Wojtasiak (Patch for ACT-1159)
  * @author Falko Menge
- * @author Filip Hrisafov
+ *
  */
 public class ServiceTaskExpressionActivityBehavior extends TaskActivityBehavior {
 

@@ -26,7 +26,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  * @author Marcus Klimstra
  */
 public abstract class AbstractAsyncExecutor implements AsyncExecutor {

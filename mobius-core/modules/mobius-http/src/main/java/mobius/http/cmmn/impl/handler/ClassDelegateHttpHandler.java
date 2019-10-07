@@ -30,7 +30,7 @@ import java.util.List;
  *
  * This class will lazily instantiate the referenced classes when needed at runtime.
  *
- * @author Tijs Rademakers
+ *
  */
 public class ClassDelegateHttpHandler extends CmmnClassDelegate implements HttpRequestHandler, HttpResponseHandler {
 

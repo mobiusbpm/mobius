@@ -30,7 +30,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
  * Additionally the property {@code flowable.app.enabled} is checked, if it is {@code true} or missing
  * the app engine would be enabled.
  *
- * @author Tijs Rademakers
+ *
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE, ElementType.METHOD })

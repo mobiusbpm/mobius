@@ -23,7 +23,7 @@ import mobius.common.engine.api.delegate.event.FlowableEventListener;
  * 
  * Override the <code>onXX(..)</code> methods to respond to entity changes accordingly.
  * 
- * @author Frederik Heremans
+ *
  * 
  */
 public class BaseEntityEventListener extends AbstractFlowableEventListener {

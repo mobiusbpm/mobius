@@ -39,9 +39,9 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Frederik Heremans
  *
- * @author Tijs Rademakers
+ *
+ *
  */
 @RestController
 @Api(tags = { "Jobs" }, description = "Manage Jobs", authorizations = { @Authorization(value = "basicAuth") })

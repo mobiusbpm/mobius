@@ -17,7 +17,7 @@ import io.swagger.annotations.ApiModelProperty;
 import mobius.rest.service.api.RestActionRequest;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ProcessInstanceActionRequest extends RestActionRequest {
 

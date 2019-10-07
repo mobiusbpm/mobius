@@ -41,7 +41,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  * Test for REST-operation related to the historic activity instance query resource.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class HistoricActivityInstanceQueryResourceTest extends BaseSpringRestTestCase {
 

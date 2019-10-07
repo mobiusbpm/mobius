@@ -31,7 +31,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Tim Stephenson
  */
 public class JsonTest extends PluggableFlowableTestCase {

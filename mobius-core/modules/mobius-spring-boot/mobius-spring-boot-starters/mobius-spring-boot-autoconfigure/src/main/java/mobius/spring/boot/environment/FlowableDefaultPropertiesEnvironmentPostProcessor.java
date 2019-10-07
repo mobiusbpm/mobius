@@ -27,7 +27,7 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.SpringFactoriesLoader;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class FlowableDefaultPropertiesEnvironmentPostProcessor implements EnvironmentPostProcessor, Ordered {
 

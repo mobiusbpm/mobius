@@ -13,7 +13,7 @@
 package mobius.idm.api;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public interface IdmEngineConfigurationApi {
 

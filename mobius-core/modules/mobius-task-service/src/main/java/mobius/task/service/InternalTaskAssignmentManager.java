@@ -19,7 +19,7 @@ import mobius.identitylink.api.IdentityLink;
 import mobius.task.api.Task;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface InternalTaskAssignmentManager {
     

@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ItemDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ItemDefinitionParser implements BpmnXMLConstants {
 

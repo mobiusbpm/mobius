@@ -77,7 +77,7 @@ import static org.assertj.core.api.Assertions.entry;
 import static org.junit.Assert.assertEquals;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class AllEnginesAutoConfigurationTest {
 

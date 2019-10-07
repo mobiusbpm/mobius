@@ -23,7 +23,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 import mobius.engine.impl.bpmn.parser.handler.SequenceFlowParseHandler;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CustomSequenceFlowBpmnParseHandler extends SequenceFlowParseHandler {
 

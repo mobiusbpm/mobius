@@ -18,7 +18,7 @@ import mobius.engine.delegate.DelegateExecution;
 import mobius.engine.delegate.ExecutionListener;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class VariableUpdateExecutionListener implements ExecutionListener {
 

@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ParallelGateway;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ParallelGatewayXMLConverter extends BaseBpmnXMLConverter {
 

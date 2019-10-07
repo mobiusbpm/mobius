@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * Test for all REST-operations related to the Deployment collection.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class DeploymentCollectionResourceTest extends BaseSpringRestTestCase {
 

@@ -23,7 +23,7 @@ import mobius.bpmn.model.BaseElement;
 import mobius.bpmn.model.BpmnModel;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AssociationXMLConverter extends BaseBpmnXMLConverter {
 

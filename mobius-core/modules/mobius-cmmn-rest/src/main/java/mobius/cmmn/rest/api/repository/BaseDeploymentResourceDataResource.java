@@ -30,7 +30,7 @@ import mobius.common.rest.resolver.ContentTypeResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BaseDeploymentResourceDataResource {
 

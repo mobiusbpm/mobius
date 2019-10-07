@@ -15,7 +15,7 @@ package mobius.app.rest.service.api.repository;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppDeploymentResourceResponse {
     

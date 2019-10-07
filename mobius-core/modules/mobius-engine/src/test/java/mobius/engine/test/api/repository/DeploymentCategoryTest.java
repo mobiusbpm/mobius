@@ -24,7 +24,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class DeploymentCategoryTest extends PluggableFlowableTestCase {
 

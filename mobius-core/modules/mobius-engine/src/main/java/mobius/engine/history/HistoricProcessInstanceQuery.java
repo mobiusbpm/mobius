@@ -27,7 +27,7 @@ import mobius.engine.runtime.ProcessInstanceQuery;
  * 
  *
  *
- * @author Tijs Rademakers
+ *
  * @author Falko Menge
  */
 public interface HistoricProcessInstanceQuery extends Query<HistoricProcessInstanceQuery, HistoricProcessInstance> {

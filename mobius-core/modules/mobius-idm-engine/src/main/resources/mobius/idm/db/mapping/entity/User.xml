@@ -7,37 +7,33 @@
   <!-- USER INSERT -->
 
   <insert id="insertUser" parameterType="mobius.idm.engine.impl.persistence.entity.UserEntityImpl">
-    insert into ${prefix}MBS_USER_ACCOUNT (ID_, USER_LOGIN_NAME, USER_EMAIL, USER_PASSWORD, USER_STATUS_CODE_ID,USER_AUTH_TYPE_CODE_ID,
+    insert into ${prefix}MBS_USER_ACCOUNT (USER_LOGIN_NAME, USER_PASSWORD, USER_STATUS_CODE_ID,USER_AUTH_TYPE_CODE_ID,
     USER_CREATED_BY, USER_CREATED_TIME, USER_UPDATED_BY, USER_UPDATED_TIME)
     values (
-      #{id ,jdbcType=VARCHAR},
-      #{loginName ,jdbcType=VARCHAR},
-      #{email ,jdbcType=VARCHAR},
-      #{password ,jdbcType=VARCHAR},
-      #{statusCodeId ,jdbcType=VARCHAR},
-      #{authTypeCodeId ,jdbcType=VARCHAR},
-      #{createdBy ,jdbcType=VARCHAR},
-      #{createdTime, jdbcType=TIMESTAMP},
-      #{updatedBy ,jdbcType=VARCHAR},
-      #{updatedTime, jdbcType=TIMESTAMP}
+      #{userLoginName ,jdbcType=VARCHAR},
+      #{userPassword ,jdbcType=VARCHAR},
+      #{userStatusCodeId ,jdbcType=VARCHAR},
+      #{userAuthTypeCodeId ,jdbcType=VARCHAR},
+      #{userCreatedBy ,jdbcType=INTEGER},
+      #{userCreatedTime, jdbcType=TIMESTAMP},
+      #{userUpdatedBy ,jdbcType=INTEGER},
+      #{userUpdatedTime, jdbcType=TIMESTAMP}
     )
   </insert>
 
   <insert id="bulkInsertUser" parameterType="java.util.List">
-    INSERT INTO ${prefix}MBS_USER_ACCOUNT (ID_, USER_LOGIN_NAME, USER_EMAIL, USER_PASSWORD, USER_STATUS_CODE_ID,USER_AUTH_TYPE_CODE_ID,
+    INSERT INTO ${prefix}MBS_USER_ACCOUNT (USER_LOGIN_NAME, USER_PASSWORD, USER_STATUS_CODE_ID,USER_AUTH_TYPE_CODE_ID,
     USER_CREATED_BY, USER_CREATED_TIME, USER_UPDATED_BY, USER_UPDATED_TIME) VALUES
       <foreach collection="list" item="user" index="index" separator=",">
         (
-        #{id ,jdbcType=VARCHAR},
-        #{loginName ,jdbcType=VARCHAR},
-        #{email ,jdbcType=VARCHAR},
-        #{password ,jdbcType=VARCHAR},
-        #{statusCodeId ,jdbcType=VARCHAR},
-        #{authTypeCodeId ,jdbcType=VARCHAR},
-        #{createdBy ,jdbcType=VARCHAR},
-        #{createdTime, jdbcType=TIMESTAMP},
-        #{updatedBy ,jdbcType=VARCHAR},
-        #{updatedTime, jdbcType=TIMESTAMP}
+        #{userLoginName ,jdbcType=VARCHAR},
+        #{userPassword ,jdbcType=VARCHAR},
+        #{userStatusCodeId ,jdbcType=VARCHAR},
+        #{userAuthTypeCodeId ,jdbcType=VARCHAR},
+        #{userCreatedBy ,jdbcType=INTEGER},
+        #{userCreatedTime, jdbcType=TIMESTAMP},
+        #{userUpdatedBy ,jdbcType=INTEGER},
+        #{userUpdatedTime, jdbcType=TIMESTAMP}
         )
       </foreach>
   </insert>
@@ -45,19 +41,18 @@
   <insert id="bulkInsertUser" databaseId="oracle" parameterType="java.util.List">
     INSERT ALL
       <foreach collection="list" item="user" index="index">
-        INTO ${prefix}MBS_USER_ACCOUNT (ID_, USER_LOGIN_NAME, USER_EMAIL, USER_PASSWORD, USER_STATUS_CODE_ID,USER_AUTH_TYPE_CODE_ID,
+        INTO ${prefix}MBS_USER_ACCOUNT (USER_ID, USER_LOGIN_NAME, USER_PASSWORD, USER_STATUS_CODE_ID,USER_AUTH_TYPE_CODE_ID,
         USER_CREATED_BY, USER_CREATED_TIME, USER_UPDATED_BY, USER_UPDATED_TIME) VALUES
         (
-        #{id ,jdbcType=VARCHAR},
-        #{loginName ,jdbcType=VARCHAR},
-        #{email ,jdbcType=VARCHAR},
-        #{password ,jdbcType=VARCHAR},
-        #{statusCodeId ,jdbcType=VARCHAR},
-        #{authTypeCodeId ,jdbcType=VARCHAR},
-        #{createdBy ,jdbcType=VARCHAR},
-        #{createdTime, jdbcType=TIMESTAMP},
-        #{updatedBy ,jdbcType=VARCHAR},
-        #{updatedTime, jdbcType=TIMESTAMP}
+        #{userId ,jdbcType=INTEGER},
+        #{userLoginName ,jdbcType=VARCHAR},
+        #{userPassword ,jdbcType=VARCHAR},
+        #{userStatusCodeId ,jdbcType=VARCHAR},
+        #{userAuthTypeCodeId ,jdbcType=VARCHAR},
+        #{userCreatedBy ,jdbcType=INTEGER},
+        #{userCreatedTime, jdbcType=TIMESTAMP},
+        #{userUpdatedBy ,jdbcType=INTEGER},
+        #{userUpdatedTime, jdbcType=TIMESTAMP}
         )
       </foreach>
     SELECT * FROM dual
@@ -67,42 +62,37 @@
 
   <update id="updateUser" parameterType="mobius.idm.engine.impl.persistence.entity.UserEntityImpl">
     update ${prefix}MBS_USER_ACCOUNT set
-      <if test="originalPersistentState.loginName != loginName">
-        USER_LOGIN_NAME = #{loginName, jdbcType=VARCHAR},
+      <if test="originalPersistentState.userLoginName != userLoginName">
+        USER_LOGIN_NAME = #{userLoginName, jdbcType=VARCHAR},
       </if>
-      <if test="originalPersistentState.email != email">
-        USER_EMAIL = #{email ,jdbcType=VARCHAR},
+      <if test="originalPersistentState.userPassword != userPassword">
+        USER_PASSWORD = #{userPassword ,jdbcType=VARCHAR}
       </if>
-      <if test="originalPersistentState.password != password">
-        USER_PASSWORD = #{password ,jdbcType=VARCHAR}
-      </if>
-    ID_=ID_
-    where ID_ = #{id}
+    where USER_ID = #{userId}
   </update>
 
   <!-- USER DELETE -->
 
   <delete id="deleteUser" parameterType="mobius.idm.engine.impl.persistence.entity.UserEntityImpl">
-    delete from ${prefix}MBS_USER_ACCOUNT where ID_ = #{id}
+    delete from ${prefix}MBS_USER_ACCOUNT where USER_ID = #{userId}
   </delete>
 
   <!-- USER RESULTMAP -->
   <resultMap id="userResultMap" type="mobius.idm.engine.impl.persistence.entity.UserEntityImpl">
-    <id property="id" column="ID_" jdbcType="VARCHAR" />
-    <result property="loginName" column="USER_LOGIN_NAME" jdbcType="VARCHAR" />
-    <result property="email" column="USER_EMAIL" jdbcType="VARCHAR" />
-    <result property="password" column="USER_PASSWORD" jdbcType="VARCHAR" />
-    <result property="statusCodeId" column="USER_STATUS_CODE_ID" jdbcType="INTEGER" />
-    <result property="authTypeCodeId" column="USER_AUTH_TYPE_CODE_ID" jdbcType="INTEGER" />
-    <result property="createdBy" column="USER_CREATED_BY" jdbcType="VARCHAR" />
-    <result property="createdTime" column="USER_CREATED_TIME" jdbcType="TIMESTAMP" />
-    <result property="updatedBy" column="USER_UPDATED_BY"  jdbcType="VARCHAR" />
-    <result property="updatedTime" column="USER_UPDATED_TIME" jdbcType="TIMESTAMP" />
+    <id property="id" column="USER_ID" jdbcType="INTEGER" />
+    <result property="userLoginName" column="USER_LOGIN_NAME" jdbcType="VARCHAR" />
+    <result property="userPassword" column="USER_PASSWORD" jdbcType="VARCHAR" />
+    <result property="userStatusCodeId" column="USER_STATUS_CODE_ID" jdbcType="INTEGER" />
+    <result property="userAuthTypeCodeId" column="USER_AUTH_TYPE_CODE_ID" jdbcType="INTEGER" />
+    <result property="userCreatedBy" column="USER_CREATED_BY" jdbcType="INTEGER" />
+    <result property="userCreatedTime" column="USER_CREATED_TIME" jdbcType="TIMESTAMP" />
+    <result property="userUpdatedBy" column="USER_UPDATED_BY"  jdbcType="INTEGER" />
+    <result property="userUpdatedTime" column="USER_UPDATED_TIME" jdbcType="TIMESTAMP" />
   </resultMap>
   <!-- USER SELECT -->
 
   <select id="selectUser" parameterType="string" resultMap="userResultMap">
-    select * from ${prefix}MBS_USER_ACCOUNT where ID_ = #{id,jdbcType=VARCHAR}
+    select * from ${prefix}MBS_USER_ACCOUNT where USER_ID = #{id, jdbcType=INTEGER}
   </select>
 
   <select id="selectUserByQueryCriteria" parameterType="mobius.idm.engine.impl.UserQueryImpl" resultMap="userResultMap">
@@ -114,37 +104,31 @@
   </select>
 
   <select id="selectUserCountByQueryCriteria" parameterType="mobius.idm.engine.impl.UserQueryImpl" resultType="long">
-    select count(RES.ID_)
+    select count(RES.USER_ID)
     <include refid="selectUserByQueryCriteriaSql" />
   </select>
 
   <sql id="selectUserByQueryCriteriaSql">
     from ${prefix}MBS_USER_ACCOUNT RES
     <where>
-      <if test="id != null">
-        RES.ID_ = #{id}
+      <if test="userId != null">
+        RES.USER_ID = #{userId}
       </if>
-      <if test="ids != null &amp;&amp; ids.size() &gt; 0">
-        and RES.ID_ IN
-        <foreach item="id" index="index" collection="ids"
+      <if test="userIds != null &amp;&amp; userIds.size() &gt; 0">
+        and RES.USER_ID IN
+        <foreach item="userId" index="index" collection="userIds"
                  open="(" separator="," close=")">
-          #{id}
+          #{userId}
         </foreach>
       </if>
-      <if test="idIgnoreCase != null">
-        and lower(RES.ID_) = #{idIgnoreCase}
-      </if>
-      <if test="loginName != null">
-        and RES.USER_LOGIN_NAME = #{loginName}
+ <!--     <if test="idIgnoreCase != null">
+        and lower(RES.USER_ID) = #{idIgnoreCase}
+      </if>-->
+      <if test="userLoginName != null">
+        and RES.USER_LOGIN_NAME = #{userLoginName}
       </if>
       <if test="loginNameLike != null">
         and RES.USER_LOGIN_NAME like #{loginNameLike}${wildcardEscapeClause}
-      </if>
-      <if test="email != null">
-        and RES.USER_EMAIL = #{email}
-      </if>
-      <if test="emailLike != null">
-        and RES.USER_EMAIL like #{emailLike}${wildcardEscapeClause}
       </if>
     </where>
   </sql>
@@ -159,10 +143,10 @@
 
   <select id="selectUsersWithPrivilegeId" parameterType="string" resultMap="userResultMap">
     select RES.* from ${prefix}MBS_USER_ACCOUNT RES
-    inner join ${prefix}ACT_ID_PRIV_MAPPING MAPPING on MAPPING.ID_ = RES.ID_
-    inner join ${prefix}ACT_ID_PRIV PRIV on PRIV.ID_ = MAPPING.PRIV_ID_
-    where PRIV.ID_ = #{parameter}
-    order by RES.LAST_
+    inner join ${prefix}ACT_ID_PRIV_MAPPING MAPPING on MAPPING.USER_ID = RES.USER_ID
+    inner join ${prefix}ACT_ID_PRIV PRIV on PRIV.USER_ID = MAPPING.PRIV_ID_
+    where PRIV.USER_ID = #{parameter}
+    order by RES.USER_UPDATED_TIME
   </select>
 
 </mapper>

@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 import mobius.common.engine.impl.AbstractEngineConfiguration;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class EngineDatabaseConfiguration implements LiquibaseDatabaseConfiguration {
 

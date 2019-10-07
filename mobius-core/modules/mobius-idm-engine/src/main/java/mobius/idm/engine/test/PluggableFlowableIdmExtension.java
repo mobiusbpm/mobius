@@ -22,7 +22,7 @@ import org.junit.jupiter.api.extension.ExtensionContext;
  * (i.e. it would be reused by all users of the extension).
  * <p>
  *
- * @author Filip Hrisafov
+ *
  */
 public class PluggableFlowableIdmExtension extends InternalFlowableIdmExtension {
 

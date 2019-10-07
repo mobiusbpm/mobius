@@ -25,7 +25,7 @@ import mobius.dmn.engine.impl.ExecuteDecisionBuilderImpl;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 import mobius.dmn.model.Decision;
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class ExecuteDecisionCmd extends AbstractExecuteDecisionCmd implements Command<List<Map<String, Object>>> {

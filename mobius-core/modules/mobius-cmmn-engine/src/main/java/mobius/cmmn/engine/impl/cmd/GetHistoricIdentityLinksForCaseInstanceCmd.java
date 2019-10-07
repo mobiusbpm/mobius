@@ -23,7 +23,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.identitylink.api.history.HistoricIdentityLink;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetHistoricIdentityLinksForCaseInstanceCmd implements Command<List<HistoricIdentityLink>>, Serializable {
 

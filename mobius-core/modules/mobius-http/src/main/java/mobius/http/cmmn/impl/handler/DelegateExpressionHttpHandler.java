@@ -29,7 +29,7 @@ import mobius.http.delegate.HttpResponseHandler;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DelegateExpressionHttpHandler implements HttpRequestHandler, HttpResponseHandler {
 

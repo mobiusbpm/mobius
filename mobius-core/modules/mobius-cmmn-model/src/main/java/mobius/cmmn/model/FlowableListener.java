@@ -19,7 +19,7 @@ import java.util.UUID;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class FlowableListener extends CmmnElement {

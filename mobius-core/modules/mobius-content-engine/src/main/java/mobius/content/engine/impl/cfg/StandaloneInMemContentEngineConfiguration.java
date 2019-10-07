@@ -13,7 +13,7 @@
 package mobius.content.engine.impl.cfg;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneInMemContentEngineConfiguration extends StandaloneContentEngineConfiguration {
 

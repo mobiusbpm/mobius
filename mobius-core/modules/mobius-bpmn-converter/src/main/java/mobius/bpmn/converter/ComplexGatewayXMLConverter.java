@@ -22,7 +22,7 @@ import mobius.bpmn.model.ComplexGateway;
 import mobius.bpmn.model.ExclusiveGateway;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ComplexGatewayXMLConverter extends BaseBpmnXMLConverter {
 

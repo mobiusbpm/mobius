@@ -29,7 +29,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class DecisionTaskJsonConverter extends BaseCmmnJsonConverter implements DecisionTableKeyAwareConverter {

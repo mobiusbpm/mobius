@@ -32,7 +32,7 @@ import java.util.Map;
 import static org.junit.Assert.*;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ProcessTest extends FlowableAppTestCase {
     

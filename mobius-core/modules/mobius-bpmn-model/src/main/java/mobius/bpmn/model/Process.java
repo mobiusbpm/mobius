@@ -21,7 +21,7 @@ import java.util.Map;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class Process extends BaseElement implements FlowElementsContainer, HasExecutionListeners {

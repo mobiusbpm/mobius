@@ -23,7 +23,7 @@ import mobius.cmmn.api.CmmnRepositoryService;
  * Multiple resources can be added to one deployment before calling the {@link #deploy()} operation.
  * After deploying, no more changes can be made to the returned deployment and the builder instance can be disposed.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface CmmnDeploymentBuilder {

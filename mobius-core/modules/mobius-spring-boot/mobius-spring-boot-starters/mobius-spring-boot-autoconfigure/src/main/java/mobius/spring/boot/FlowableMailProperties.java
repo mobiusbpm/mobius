@@ -17,7 +17,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * Flowable Mail Properties.
  *
- * @author Filip Hrisafov
+ *
  */
 @ConfigurationProperties(prefix = "flowable.mail.server")
 public class FlowableMailProperties {

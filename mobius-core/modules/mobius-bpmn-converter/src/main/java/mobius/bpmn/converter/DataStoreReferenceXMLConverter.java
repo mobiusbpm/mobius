@@ -22,7 +22,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.DataStoreReference;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DataStoreReferenceXMLConverter extends BaseBpmnXMLConverter {
 

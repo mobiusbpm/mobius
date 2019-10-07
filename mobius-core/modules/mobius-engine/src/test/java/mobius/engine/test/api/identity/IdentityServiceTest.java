@@ -13,9 +13,6 @@
 
 package mobius.engine.test.api.identity;
 
-import java.util.Arrays;
-import java.util.List;
-
 import mobius.common.engine.api.FlowableException;
 import mobius.common.engine.api.FlowableIllegalArgumentException;
 import mobius.common.engine.api.FlowableOptimisticLockingException;
@@ -25,8 +22,11 @@ import mobius.idm.api.Picture;
 import mobius.idm.api.User;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
- * @author Frederik Heremans
+ *
  */
 public class IdentityServiceTest extends PluggableFlowableTestCase {
 

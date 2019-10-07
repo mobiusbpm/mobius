@@ -21,7 +21,7 @@ import mobius.common.engine.api.FlowableObjectNotFoundException;
 /**
  * Service for executing DMN decisions (decision tables)
  *
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public interface DmnRuleService {

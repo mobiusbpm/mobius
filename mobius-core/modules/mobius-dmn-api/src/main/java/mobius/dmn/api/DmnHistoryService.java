@@ -15,7 +15,7 @@ package mobius.dmn.api;
 /**
  * Service providing access to the history of decision executions.
  *
- * @author Tijs Rademakers
+ *
  */
 public interface DmnHistoryService {
 

@@ -67,7 +67,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * {@link MultiInstanceActivityBehavior} if needed.
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class MultiInstanceActivityBehavior extends FlowNodeActivityBehavior implements SubProcessActivityBehavior {
 

@@ -15,7 +15,7 @@ package mobius.entitylink.api;
 /**
  * Contains constants for all predefined types of entity links.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkType {
 

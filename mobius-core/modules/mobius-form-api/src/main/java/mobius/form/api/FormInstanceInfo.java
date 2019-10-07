@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @JsonInclude(Include.NON_NULL)
 public class FormInstanceInfo extends FormInfo {

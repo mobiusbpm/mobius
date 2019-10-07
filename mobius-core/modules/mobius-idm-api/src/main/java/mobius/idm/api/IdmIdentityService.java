@@ -19,9 +19,6 @@ import java.util.List;
 
 /**
  * Service to manage {@link User}s and {@link Group}s.
- * 
- *
- * @author Tijs Rademakers
  *
  */
 public interface IdmIdentityService {
@@ -257,13 +254,4 @@ public interface IdmIdentityService {
      */
     PrivilegeQuery createPrivilegeQuery();
 
-    /**
-     * Creates a new user. The user is transient and must be saved using {@link #saveUser(User)}.
-     *
-     * @param loginName user login name
-     * @param email email
-     *
-     *  The two parameters cannot be null at the same time
-     */
-    User newUser(String loginName, String email);
 }

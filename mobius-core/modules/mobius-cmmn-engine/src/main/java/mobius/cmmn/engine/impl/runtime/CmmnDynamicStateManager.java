@@ -16,7 +16,7 @@ package mobius.cmmn.engine.impl.runtime;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface CmmnDynamicStateManager {
 

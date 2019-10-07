@@ -34,7 +34,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class FlowableSecurityAutoConfigurationTest {
 

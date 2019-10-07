@@ -19,7 +19,7 @@ import mobius.content.api.ContentItem;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface ContentItemEntity extends ContentItem, Entity {
 

@@ -22,7 +22,7 @@ import mobius.engine.repository.ProcessDefinition;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppResourceDeploymentTest extends PluggableFlowableTestCase {
 

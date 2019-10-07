@@ -25,7 +25,7 @@ import mobius.form.engine.impl.persistence.entity.FormDeploymentEntity;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class SetDeploymentTenantIdCmd implements Command<Void>, Serializable {

@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author Saeid Mirzaei
- * @author Tijs Rademakers
+ *
  */
 
 public class StartAuthorizationTest extends PluggableFlowableTestCase {

@@ -21,7 +21,7 @@ import mobius.eventsubscription.service.impl.util.CommandContextUtil;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class EventSubscriptionEntityImpl extends AbstractEventSubscriptionEntity implements EventSubscriptionEntity, Serializable {
 

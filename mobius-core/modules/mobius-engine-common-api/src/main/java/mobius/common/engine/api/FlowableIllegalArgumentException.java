@@ -17,7 +17,7 @@ package mobius.common.engine.api;
  * An exception indicating that an illegal argument has been supplied in an Flowable API-call, an illegal value was configured in the engine's configuration or an illegal value has been supplied or an
  * illegal value is used in a process-definition.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableIllegalArgumentException extends FlowableException {
 

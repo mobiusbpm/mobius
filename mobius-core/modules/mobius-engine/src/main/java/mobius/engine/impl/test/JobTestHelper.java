@@ -26,7 +26,7 @@ import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  * @author Saeid Mirzaei
  */
 

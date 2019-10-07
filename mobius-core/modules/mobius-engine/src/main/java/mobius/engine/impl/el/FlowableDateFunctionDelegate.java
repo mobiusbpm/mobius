@@ -20,7 +20,7 @@ import mobius.common.engine.impl.el.AbstractFlowableFunctionDelegate;
 /**
  * A date function mapper that can be used in EL expressions
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FlowableDateFunctionDelegate extends AbstractFlowableFunctionDelegate {
 

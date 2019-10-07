@@ -22,7 +22,7 @@ import mobius.bpmn.model.ManualTask;
 import mobius.bpmn.model.Task;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TaskXMLConverter extends BaseBpmnXMLConverter {
 

@@ -41,7 +41,7 @@ import mobius.validation.ValidationError;
  * 
  *
  * @author Falko Menge
- * @author Tijs Rademakers
+ *
  *
  * @author Henry Yan
  * @author Yvo Swillens

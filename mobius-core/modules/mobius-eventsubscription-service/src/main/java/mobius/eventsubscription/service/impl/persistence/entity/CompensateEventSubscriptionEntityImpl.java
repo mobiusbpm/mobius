@@ -15,7 +15,7 @@ package mobius.eventsubscription.service.impl.persistence.entity;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class CompensateEventSubscriptionEntityImpl extends EventSubscriptionEntityImpl implements CompensateEventSubscriptionEntity {
 

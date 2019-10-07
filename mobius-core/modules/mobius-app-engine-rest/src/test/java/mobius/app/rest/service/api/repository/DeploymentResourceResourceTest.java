@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * Test for all REST-operations related to a resources that is part of a deployment.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class DeploymentResourceResourceTest extends BaseSpringRestTestCase {
 

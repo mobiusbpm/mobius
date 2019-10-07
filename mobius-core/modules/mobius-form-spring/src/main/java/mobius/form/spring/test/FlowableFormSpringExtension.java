@@ -25,7 +25,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
  * <b>NB:</b> The {@link FormConfigurationResource} is ignored
  * as the {@link FormEngine} is taken from the Spring application context
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableFormSpringExtension extends FlowableFormExtension {
 

@@ -22,7 +22,7 @@ import org.junit.Test;
 
 /**
  * @author Esteban Robles Luna
- * @author Tijs Rademakers
+ *
  */
 public class MuleHttpTest extends AbstractMuleTest {
 

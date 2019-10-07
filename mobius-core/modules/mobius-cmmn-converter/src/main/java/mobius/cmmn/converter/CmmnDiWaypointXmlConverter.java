@@ -18,7 +18,7 @@ import mobius.cmmn.model.BaseElement;
 import mobius.cmmn.model.GraphicInfo;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CmmnDiWaypointXmlConverter extends BaseCmmnXmlConverter {
     

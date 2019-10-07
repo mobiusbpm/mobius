@@ -17,7 +17,7 @@ import java.util.Map;
 import mobius.cmmn.editor.json.model.CmmnModelInfo;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface FormKeyAwareConverter {
 

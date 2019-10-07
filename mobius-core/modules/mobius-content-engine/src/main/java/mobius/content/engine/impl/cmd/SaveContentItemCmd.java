@@ -30,7 +30,7 @@ import mobius.content.engine.impl.persistence.entity.ContentItemEntity;
 import mobius.content.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SaveContentItemCmd implements Command<Void>, Serializable {
 

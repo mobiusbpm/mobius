@@ -30,7 +30,7 @@ import mobius.editor.json.converter.util.CollectionUtils;
 import mobius.editor.json.model.ModelInfo;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class UserTaskJsonConverter extends BaseBpmnJsonConverter implements FormAwareConverter, FormKeyAwareConverter {
 

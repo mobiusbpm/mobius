@@ -13,20 +13,10 @@
 
 package mobius.idm.engine.impl.cmd;
 
-import java.io.Serializable;
-
-import mobius.common.engine.api.FlowableIllegalArgumentException;
-import mobius.common.engine.api.FlowableObjectNotFoundException;
-import mobius.common.engine.impl.interceptor.Command;
-import mobius.common.engine.impl.interceptor.CommandContext;
-import mobius.idm.api.Picture;
-import mobius.idm.api.User;
-import mobius.idm.engine.impl.util.CommandContextUtil;
-
 /**
  *
  */
-public class GetUserPictureCmd implements Command<Picture>, Serializable {
+/*public class GetUserPictureCmd implements Command<Picture>, Serializable {
 
     private static final long serialVersionUID = 1L;
     protected String userId;
@@ -52,4 +42,4 @@ public class GetUserPictureCmd implements Command<Picture>, Serializable {
         return CommandContextUtil.getUserEntityManager(commandContext).getUserPicture(user);
     }
 
-}
+}*/

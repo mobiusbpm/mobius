@@ -54,7 +54,7 @@ import java.util.List;
  * Provides sane definitions for the various beans required to be productive with Flowable in Spring.
  *
  * @author Josh Long
- * @author Filip Hrisafov
+ *
  * @author Javier Casal
  *
  */

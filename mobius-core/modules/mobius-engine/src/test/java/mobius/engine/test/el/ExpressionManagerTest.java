@@ -29,7 +29,7 @@ import org.hamcrest.core.Is;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ExpressionManagerTest extends PluggableFlowableTestCase {
 

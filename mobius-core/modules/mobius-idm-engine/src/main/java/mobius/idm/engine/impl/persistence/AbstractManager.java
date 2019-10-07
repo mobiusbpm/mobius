@@ -23,7 +23,7 @@ import mobius.idm.engine.impl.persistence.entity.MembershipEntityManager;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public abstract class AbstractManager {

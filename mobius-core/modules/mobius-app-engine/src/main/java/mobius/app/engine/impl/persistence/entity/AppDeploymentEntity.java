@@ -22,7 +22,7 @@ import mobius.common.engine.api.repository.EngineResource;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface AppDeploymentEntity extends AppDeployment, Entity {

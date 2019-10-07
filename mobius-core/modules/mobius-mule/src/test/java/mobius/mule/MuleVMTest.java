@@ -23,7 +23,7 @@ import org.junit.Test;
 
 /**
  * @author Esteban Robles Luna
- * @author Tijs Rademakers
+ *
  */
 public class MuleVMTest extends AbstractMuleTest {
 

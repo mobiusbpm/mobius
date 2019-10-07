@@ -33,7 +33,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to tasks.
  * 
- * @author Frederik Heremans
+ *
  */
 public class TaskEventsTest extends PluggableFlowableTestCase {
 

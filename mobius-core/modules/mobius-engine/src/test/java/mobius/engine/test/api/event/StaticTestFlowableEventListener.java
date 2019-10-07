@@ -21,7 +21,7 @@ import mobius.engine.delegate.event.AbstractFlowableEngineEventListener;
 /**
  * Event listener that keeps a static list of all events received.
  * 
- * @author Frederik Heremans
+ *
  */
 public class StaticTestFlowableEventListener extends AbstractFlowableEngineEventListener {
 

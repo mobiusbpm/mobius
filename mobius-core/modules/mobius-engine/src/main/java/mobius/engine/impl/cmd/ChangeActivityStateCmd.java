@@ -21,7 +21,7 @@ import mobius.engine.impl.runtime.ChangeActivityStateBuilderImpl;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ChangeActivityStateCmd implements Command<Void> {
 

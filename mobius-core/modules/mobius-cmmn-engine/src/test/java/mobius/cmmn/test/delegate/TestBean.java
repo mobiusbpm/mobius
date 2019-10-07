@@ -15,7 +15,7 @@ package mobius.cmmn.test.delegate;
 import mobius.cmmn.api.delegate.DelegatePlanItemInstance;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TestBean {
 

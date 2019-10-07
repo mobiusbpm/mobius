@@ -24,7 +24,7 @@ import java.util.List;
 /**
  * A flowable implementation of {@link org.springframework.security.core.userdetails.UserDetails}.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableUser extends org.springframework.security.core.userdetails.User implements FlowableUserDetails {
 
@@ -42,7 +42,7 @@ public class FlowableUser extends org.springframework.security.core.userdetails.
     @Deprecated
     public FlowableUser(User user, boolean active, List<? extends Group> groups, List<? extends Privilege> privileges,
         Collection<? extends GrantedAuthority> authorities) {
-        super(user.getId(), user.getPassword() == null ? "" : user.getPassword(), active, active, active, active, authorities);
+        super(user.getId(), user.getUserPassword() == null ? "" : user.getUserPassword(), active, active, active, active, authorities);
         this.user = user;
         this.groups = Collections.unmodifiableList(groups);
         this.privileges = Collections.unmodifiableList(privileges);
@@ -54,7 +54,7 @@ public class FlowableUser extends org.springframework.security.core.userdetails.
 
     public FlowableUser(User user, String username, boolean enabled,
         List<? extends Group> groups, Collection<? extends GrantedAuthority> authorities) {
-        super(username, user.getPassword() == null ? "" : user.getPassword(), enabled, true, true, true, authorities);
+        super(username, user.getUserPassword() == null ? "" : user.getUserPassword(), enabled, true, true, true, authorities);
         this.user = user;
         this.groups = Collections.unmodifiableList(groups);
         this.privileges = Collections.emptyList();
@@ -83,6 +83,6 @@ public class FlowableUser extends org.springframework.security.core.userdetails.
     @Override
     public void eraseCredentials() {
         super.eraseCredentials();
-        user.setPassword(null);
+        user.setUserPassword(null);
     }
 }

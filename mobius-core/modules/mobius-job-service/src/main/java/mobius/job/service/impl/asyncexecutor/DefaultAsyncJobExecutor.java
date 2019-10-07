@@ -30,7 +30,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class DefaultAsyncJobExecutor extends AbstractAsyncExecutor {
 

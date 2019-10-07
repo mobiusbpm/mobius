@@ -31,7 +31,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class RedeployV5ProcessDefinitionsCmd implements Command<Void> {
 

@@ -35,7 +35,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class HumanTaskJsonConverter extends BaseCmmnJsonConverter implements FormAwareConverter, FormKeyAwareConverter {

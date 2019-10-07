@@ -21,7 +21,7 @@ import mobius.content.api.ContentStorageException;
  * Converts between a unique content index and a relative {@link File} path. Uses a nested tree of folders (depth based on iterationDepth) with a maximum number of children (based on blockSize). The
  * leaves of the trees will be the actual content files. This way, no folder will have more children than the 'blockSize' set, keeping the folders balanced.
  * 
- * @author Frederik Heremans
+ *
  */
 public class PathConverter {
 

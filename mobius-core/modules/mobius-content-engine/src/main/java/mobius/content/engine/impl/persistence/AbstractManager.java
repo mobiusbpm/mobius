@@ -18,7 +18,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.content.engine.ContentEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public abstract class AbstractManager {

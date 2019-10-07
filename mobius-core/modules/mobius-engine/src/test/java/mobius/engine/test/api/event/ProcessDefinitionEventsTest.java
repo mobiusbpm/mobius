@@ -28,7 +28,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to process definitions.
  *
- * @author Frederik Heremans
+ *
  */
 public class ProcessDefinitionEventsTest extends PluggableFlowableTestCase {
 

@@ -13,7 +13,7 @@
 package mobius.cmmn.model;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class Association extends BaseElement {
 

@@ -19,7 +19,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.TextAnnotation;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TextAnnotationTextParser extends BaseChildElementParser {
 

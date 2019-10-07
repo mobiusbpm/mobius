@@ -21,7 +21,7 @@ import mobius.cmmn.model.Stage;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class NestedStagesCmmnXmlConverterTest extends AbstractConverterTest {
     

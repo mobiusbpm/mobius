@@ -26,7 +26,7 @@ import mobius.bpmn.model.SubProcess;
 import mobius.bpmn.model.Transaction;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SubProcessParser implements BpmnXMLConstants {
 

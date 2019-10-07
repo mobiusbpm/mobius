@@ -26,7 +26,7 @@ import mobius.job.service.impl.persistence.entity.data.SuspendedJobDataManager;
 import mobius.job.service.impl.persistence.entity.data.impl.cachematcher.SuspendedJobsByExecutionIdMatcher;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisSuspendedJobDataManager extends AbstractDataManager<SuspendedJobEntity> implements SuspendedJobDataManager {
 

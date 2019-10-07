@@ -22,7 +22,7 @@ import mobius.idm.engine.impl.persistence.entity.IdentityInfoEntity;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class IdmIdentityServiceImpl extends CommonEngineServiceImpl<IdmEngineConfiguration> implements IdmIdentityService {
 
@@ -127,16 +127,6 @@ public class IdmIdentityServiceImpl extends CommonEngineServiceImpl<IdmEngineCon
     }
 
     @Override
-    public void setUserPicture(String userId, Picture picture) {
-        commandExecutor.execute(new SetUserPictureCmd(userId, picture));
-    }
-
-    @Override
-    public Picture getUserPicture(String userId) {
-        return commandExecutor.execute(new GetUserPictureCmd(userId));
-    }
-
-    @Override
     public String getUserInfo(String userId, String key) {
         return commandExecutor.execute(new GetUserInfoCmd(userId, key));
     }
@@ -205,9 +195,12 @@ public class IdmIdentityServiceImpl extends CommonEngineServiceImpl<IdmEngineCon
     public List<User> getUsersWithPrivilege(String name) {
         return commandExecutor.execute(new GetUsersWithPrivilegeCmd(name));
     }
-
     @Override
-    public User newUser(String loginName, String email) {
-        return commandExecutor.execute(new CreateUserByLoginAndEmailCmd(loginName, email));
+    public void setUserPicture(String userId, Picture picture) {
+
+    }
+    @Override
+    public Picture getUserPicture(String userId) {
+        return null;
     }
 }

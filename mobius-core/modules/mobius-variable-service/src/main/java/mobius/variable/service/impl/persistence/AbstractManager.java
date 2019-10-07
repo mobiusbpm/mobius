@@ -22,7 +22,7 @@ import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceE
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractManager {
     

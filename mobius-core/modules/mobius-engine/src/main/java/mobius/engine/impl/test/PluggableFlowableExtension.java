@@ -30,7 +30,7 @@ import org.junit.platform.commons.support.AnnotationSupport;
  * <p>
  * This extension also activates {@link EnableVerboseExecutionTreeLogging} if a class is annotated with it.
  *
- * @author Filip Hrisafov
+ *
  */
 public class PluggableFlowableExtension extends InternalFlowableExtension {
 

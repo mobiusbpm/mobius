@@ -25,7 +25,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.runtime.Execution;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetActiveAdhocSubProcessesCmd implements Command<List<Execution>>, Serializable {
 

@@ -70,7 +70,7 @@ import org.slf4j.LoggerFactory;
  *         {@link Deployment} into test methods and lifecycle methods within tests.
  *     </li>
  * </ul>
- * @author Filip Hrisafov
+ *
  */
 public abstract class InternalFlowableExtension implements AfterEachCallback, BeforeEachCallback, AfterAllCallback, ParameterResolver {
 

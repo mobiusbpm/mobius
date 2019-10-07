@@ -18,7 +18,7 @@ import mobius.common.engine.impl.db.HasRevision;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface AbstractJobEntity extends Entity, HasRevision {

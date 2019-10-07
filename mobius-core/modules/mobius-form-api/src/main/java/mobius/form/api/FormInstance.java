@@ -17,7 +17,7 @@ import java.util.Date;
 /**
  * An object structure representing a submitted form.
  * 
- * @author Tijs Rademakers
+ *
  * @author Joram Barez
  */
 public interface FormInstance {

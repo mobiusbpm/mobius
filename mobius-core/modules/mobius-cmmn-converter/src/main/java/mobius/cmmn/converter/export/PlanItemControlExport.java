@@ -24,7 +24,7 @@ import mobius.cmmn.model.RepetitionRule;
 import mobius.cmmn.model.RequiredRule;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class PlanItemControlExport implements CmmnXmlConstants {

@@ -20,7 +20,7 @@ import mobius.idm.api.event.FlowableIdmMembershipEvent;
 /**
  * Builder class used to create {@link FlowableEvent} implementations.
  *
- * @author Tijs Rademakers
+ *
  */
 public class FlowableIdmEventBuilder {
 

@@ -28,7 +28,7 @@ import mobius.engine.impl.HistoricActivityInstanceQueryProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricActivityInstanceBaseResource {
 

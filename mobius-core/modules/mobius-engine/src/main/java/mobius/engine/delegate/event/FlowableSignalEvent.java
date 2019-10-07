@@ -17,7 +17,7 @@ import mobius.common.engine.api.delegate.event.FlowableEvent;
 /**
  * An {@link FlowableEvent} related to a signal being sent to an activity.
  * 
- * @author Frederik Heremans
+ *
  */
 public interface FlowableSignalEvent extends FlowableActivityEvent {
 

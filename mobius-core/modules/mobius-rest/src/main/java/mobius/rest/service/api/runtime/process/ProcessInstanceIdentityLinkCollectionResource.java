@@ -35,7 +35,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Process Instance Identity Links" }, description = "Manage Process Instances Identity Links", authorizations = { @Authorization(value = "basicAuth") })

@@ -39,7 +39,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * Shared logic for resources related to Tasks.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class TaskBaseResource {
 

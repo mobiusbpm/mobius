@@ -16,7 +16,7 @@ package mobius.rest.service.api.identity;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class GroupResponse {
 

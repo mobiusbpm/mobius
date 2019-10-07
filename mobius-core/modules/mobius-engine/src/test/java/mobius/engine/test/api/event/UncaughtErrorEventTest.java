@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for {@link FlowableEvent} thrown when a BPMNError is not caught in the process.
  * 
- * @author Frederik Heremans
+ *
  */
 public class UncaughtErrorEventTest extends PluggableFlowableTestCase {
 

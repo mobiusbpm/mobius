@@ -21,7 +21,7 @@ import mobius.dmn.engine.impl.el.util.DateUtil;
 /**
  * A date function mapper that can be used in EL expressions
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FlowableSubtractDateFunctionDelegate extends AbstractFlowableFunctionDelegate {
 

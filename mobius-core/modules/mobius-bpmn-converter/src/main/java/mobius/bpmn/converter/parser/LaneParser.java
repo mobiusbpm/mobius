@@ -21,7 +21,7 @@ import mobius.bpmn.model.Lane;
 import mobius.bpmn.model.Process;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class LaneParser implements BpmnXMLConstants {
 

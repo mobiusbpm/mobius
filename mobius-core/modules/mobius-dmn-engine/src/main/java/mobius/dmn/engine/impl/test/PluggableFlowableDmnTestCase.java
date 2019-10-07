@@ -23,7 +23,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Base class for the flowable DMN test cases.
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class PluggableFlowableDmnTestCase extends AbstractFlowableDmnTestCase {
 

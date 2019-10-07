@@ -38,7 +38,7 @@ import static org.junit.Assert.*;
 /**
  * Test for all REST-operations related to a single Deployment resource.
  * 
- * @author Frederik Heremans
+ *
  */
 public class DeploymentResourceTest extends BaseSpringRestTestCase {
 

@@ -38,7 +38,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Start a CMMN case with the case service task
  *
- * @author Tijs Rademakers
+ *
  */
 public class CaseTaskActivityBehavior extends AbstractBpmnActivityBehavior implements SubProcessActivityBehavior {
 

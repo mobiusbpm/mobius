@@ -45,7 +45,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DefaultInternalJobManager implements InternalJobManager {
     

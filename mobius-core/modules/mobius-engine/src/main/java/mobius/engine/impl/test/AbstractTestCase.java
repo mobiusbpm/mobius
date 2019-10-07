@@ -19,7 +19,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 /**
  *
- * @author Filip Hrisafov
+ *
  */
 @ExtendWith(LoggingExtension.class)
 public abstract class AbstractTestCase {

@@ -56,7 +56,7 @@ import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  * @author Bassam Al-Sarori
  * @author Zheng Ji

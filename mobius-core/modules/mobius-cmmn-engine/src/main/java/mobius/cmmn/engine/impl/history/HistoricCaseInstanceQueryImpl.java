@@ -28,7 +28,7 @@ import mobius.variable.service.impl.AbstractVariableQueryImpl;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class HistoricCaseInstanceQueryImpl extends AbstractVariableQueryImpl<HistoricCaseInstanceQuery, HistoricCaseInstance> implements HistoricCaseInstanceQuery {
 

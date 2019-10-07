@@ -17,7 +17,7 @@ import mobius.common.engine.api.FlowableException;
 import mobius.engine.delegate.DelegateExecution;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ThrowCustomExceptionBean {
 

@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ThrowEvent;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ThrowEventXMLConverter extends BaseBpmnXMLConverter {
 

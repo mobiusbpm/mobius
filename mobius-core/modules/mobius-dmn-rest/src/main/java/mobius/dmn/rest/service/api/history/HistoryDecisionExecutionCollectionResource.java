@@ -41,7 +41,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Historic Decision Executions" }, description = "Query Historic Decision Executions", authorizations = { @Authorization(value = "basicAuth") })

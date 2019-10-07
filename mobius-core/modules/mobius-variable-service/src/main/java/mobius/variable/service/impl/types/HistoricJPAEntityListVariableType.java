@@ -16,7 +16,7 @@ package mobius.variable.service.impl.types;
 /**
  * Subclass of {@link JPAEntityListVariableType} which is cacheable, unlike the super-class. This is used when fetching historic variables
  * 
- * @author Frederik Heremans
+ *
  */
 public class HistoricJPAEntityListVariableType extends JPAEntityListVariableType {
 

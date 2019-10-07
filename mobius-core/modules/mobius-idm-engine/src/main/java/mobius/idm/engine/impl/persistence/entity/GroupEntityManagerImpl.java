@@ -26,7 +26,7 @@ import mobius.idm.engine.impl.GroupQueryImpl;
 import mobius.idm.engine.impl.persistence.entity.data.GroupDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class GroupEntityManagerImpl extends AbstractEntityManager<GroupEntity> implements GroupEntityManager {

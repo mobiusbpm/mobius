@@ -13,7 +13,7 @@
 package mobius.dmn.engine.impl.cfg;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneInMemDmnEngineConfiguration extends StandaloneDmnEngineConfiguration {
 

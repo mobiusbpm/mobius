@@ -50,7 +50,7 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Frederik Heremans
+ *
  * @author Falko Menge
  */
 public class HistoryServiceTest extends PluggableFlowableTestCase {

@@ -16,7 +16,7 @@ import mobius.bpmn.model.BaseElement;
 import mobius.bpmn.model.HttpServiceTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HttpServiceTaskXMLConverter extends ServiceTaskXMLConverter {
 

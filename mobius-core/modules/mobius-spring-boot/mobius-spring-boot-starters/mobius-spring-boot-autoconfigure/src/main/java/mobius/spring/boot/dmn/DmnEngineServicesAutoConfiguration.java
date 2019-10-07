@@ -37,7 +37,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration} for the DMN Engine
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnDmnEngine

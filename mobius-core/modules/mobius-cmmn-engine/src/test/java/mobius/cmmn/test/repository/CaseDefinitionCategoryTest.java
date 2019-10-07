@@ -25,7 +25,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CaseDefinitionCategoryTest extends FlowableCmmnTestCase {
 

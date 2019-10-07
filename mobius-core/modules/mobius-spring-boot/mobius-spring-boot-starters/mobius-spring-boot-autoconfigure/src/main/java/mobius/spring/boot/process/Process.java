@@ -29,7 +29,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
  * <b>IMPORTANT:</b> When using this for the {@code TaskExecutor} or the {@code RejectedJobsHandler}, one needs to define a {@code @Primary} bean as well,
  * otherwise the CMMN Engine would use the one from the Process as well.
  *
- * @author Filip Hrisafov
+ *
  */
 @Target({ ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.TYPE,
     ElementType.ANNOTATION_TYPE })

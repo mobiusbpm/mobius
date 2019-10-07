@@ -32,7 +32,7 @@ import java.util.List;
 /**
  * Provides sane definitions for the various beans required to be productive with Flowable in Spring.
  *
- * @author Tijs Rademakers
+ *
  */
 @Configuration
 @ConditionalOnAppEngine

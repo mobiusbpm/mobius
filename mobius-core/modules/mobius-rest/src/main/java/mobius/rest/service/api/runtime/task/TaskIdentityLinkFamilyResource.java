@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Task Identity Links" }, description = "Manage Tasks", authorizations = { @Authorization(value = "basicAuth") })

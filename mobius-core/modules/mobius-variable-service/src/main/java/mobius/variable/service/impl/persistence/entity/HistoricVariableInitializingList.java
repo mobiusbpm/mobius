@@ -24,7 +24,7 @@ import mobius.variable.service.impl.types.JPAEntityVariableType;
 /**
  * List that initialises binary variable values if command-context is active.
  * 
- * @author Frederik Heremans
+ *
  */
 public class HistoricVariableInitializingList extends ArrayList<HistoricVariableInstanceEntity> {
 

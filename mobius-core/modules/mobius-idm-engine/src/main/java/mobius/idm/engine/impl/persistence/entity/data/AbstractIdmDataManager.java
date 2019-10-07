@@ -18,7 +18,7 @@ import mobius.idm.engine.IdmEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractIdmDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {
 

@@ -43,7 +43,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Test for all REST-operations related to a Form data resource.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FormDataResourceTest extends BaseSpringRestTestCase {
 

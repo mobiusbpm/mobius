@@ -45,7 +45,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to process instances.
  *
- * @author Tijs Rademakers
+ *
  */
 public class ProcessInstanceEventsTest extends PluggableFlowableTestCase {
 

@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.idm.api.Token;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface TokenEntity extends Token, Entity, HasRevision {
 

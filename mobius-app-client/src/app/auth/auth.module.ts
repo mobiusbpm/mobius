@@ -45,7 +45,7 @@ const formSetting: any = {
 
           baseEndpoint: '/api',
            login: {
-             endpoint: '/user/loginwithemail',
+             endpoint: '/user/loginwithname',
             //  method: 'post'
            },
            register: {

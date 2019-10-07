@@ -25,7 +25,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @FlowableTest
 @MockServiceTask(originalClassName = "com.yourcompany.delegate", mockedClass = ServiceTaskTestMock.class)

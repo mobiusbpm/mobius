@@ -14,7 +14,7 @@
 package mobius.rest.service.api.management;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ProcessEngineInfoResponse {
 

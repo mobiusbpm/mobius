@@ -34,7 +34,7 @@ import mobius.engine.runtime.ExecutionQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ExecutionBaseResource {
 

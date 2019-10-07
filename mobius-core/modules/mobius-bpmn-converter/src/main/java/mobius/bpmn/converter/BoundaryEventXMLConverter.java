@@ -24,7 +24,7 @@ import mobius.bpmn.model.ErrorEventDefinition;
 import mobius.bpmn.model.EventDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BoundaryEventXMLConverter extends BaseBpmnXMLConverter {
 

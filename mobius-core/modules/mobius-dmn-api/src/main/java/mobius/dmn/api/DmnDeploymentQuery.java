@@ -23,7 +23,7 @@ import mobius.common.engine.api.query.Query;
  * To retrieve the actual bytes of a deployment resource use the operations on the {@link DmnRepositoryService#getDeploymentResourceNames(String)} and
  * {@link DmnRepositoryService#getResourceAsStream(String, String)}
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface DmnDeploymentQuery extends Query<DmnDeploymentQuery, DmnDeployment> {

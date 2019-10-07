@@ -29,7 +29,7 @@ import mobius.dmn.engine.impl.persistence.entity.DmnResourceEntity;
 import mobius.dmn.model.DmnDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class DeploymentManager {

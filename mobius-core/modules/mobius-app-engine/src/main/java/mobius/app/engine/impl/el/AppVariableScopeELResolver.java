@@ -17,7 +17,7 @@ import mobius.common.engine.impl.el.VariableContainerELResolver;
 import mobius.common.engine.impl.javax.el.ELContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppVariableScopeELResolver extends VariableContainerELResolver {
 

@@ -25,7 +25,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class CompositeCmmnHistoryManager implements CmmnHistoryManager {
 

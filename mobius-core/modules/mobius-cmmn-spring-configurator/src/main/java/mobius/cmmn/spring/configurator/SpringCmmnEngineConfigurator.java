@@ -23,7 +23,7 @@ import mobius.common.spring.SpringEngineConfiguration;
 import mobius.spring.SpringProcessEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class SpringCmmnEngineConfigurator extends CmmnEngineConfigurator {

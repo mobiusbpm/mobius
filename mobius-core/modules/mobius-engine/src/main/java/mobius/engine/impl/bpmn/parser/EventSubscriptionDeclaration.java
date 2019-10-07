@@ -17,7 +17,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class EventSubscriptionDeclaration implements Serializable {
 

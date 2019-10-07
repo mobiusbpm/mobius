@@ -23,7 +23,7 @@ import mobius.idm.engine.impl.persistence.entity.TokenEntity;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SaveTokenCmd implements Command<Void>, Serializable {
 

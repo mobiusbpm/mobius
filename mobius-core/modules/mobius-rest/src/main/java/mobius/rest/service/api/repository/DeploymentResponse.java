@@ -23,8 +23,8 @@ import io.swagger.annotations.ApiModelProperty;
  */
 
 /**
- * @author Tijs Rademakers
- * @author Frederik Heremans
+ *
+ *
  */
 public class DeploymentResponse {
 

@@ -24,7 +24,7 @@ import mobius.bpmn.model.UserTask;
 import javax.xml.stream.XMLStreamReader;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FormPropertyParser extends BaseChildElementParser {
 

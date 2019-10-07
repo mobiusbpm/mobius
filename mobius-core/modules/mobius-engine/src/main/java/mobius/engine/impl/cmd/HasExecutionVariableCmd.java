@@ -23,7 +23,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.runtime.Execution;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class HasExecutionVariableCmd implements Command<Boolean>, Serializable {
 

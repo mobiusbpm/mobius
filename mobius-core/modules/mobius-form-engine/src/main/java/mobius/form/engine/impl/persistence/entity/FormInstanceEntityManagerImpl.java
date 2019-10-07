@@ -22,7 +22,7 @@ import mobius.form.engine.impl.FormInstanceQueryImpl;
 import mobius.form.engine.impl.persistence.entity.data.FormInstanceDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class FormInstanceEntityManagerImpl extends AbstractEntityManager<FormInstanceEntity> implements FormInstanceEntityManager {

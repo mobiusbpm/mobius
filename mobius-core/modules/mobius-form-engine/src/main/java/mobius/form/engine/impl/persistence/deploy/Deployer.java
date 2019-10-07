@@ -15,7 +15,7 @@ package mobius.form.engine.impl.persistence.deploy;
 import mobius.form.engine.impl.persistence.entity.FormDeploymentEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface Deployer {

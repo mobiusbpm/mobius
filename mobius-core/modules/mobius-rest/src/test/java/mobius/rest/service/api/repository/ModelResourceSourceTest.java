@@ -30,7 +30,7 @@ import java.io.ByteArrayInputStream;
 import static org.junit.Assert.assertEquals;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ModelResourceSourceTest extends BaseSpringRestTestCase {
 

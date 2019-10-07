@@ -58,7 +58,7 @@ import org.slf4j.LoggerFactory;
  * Some of the icons used are licensed under a Creative Commons Attribution 2.5 License, see http://www.famfamfam.com/lab/icons/silk/
  *
  * @see DefaultCaseDiagramGenerator
- * @author Tijs Rademakers
+ *
  */
 public class DefaultCaseDiagramCanvas {
 

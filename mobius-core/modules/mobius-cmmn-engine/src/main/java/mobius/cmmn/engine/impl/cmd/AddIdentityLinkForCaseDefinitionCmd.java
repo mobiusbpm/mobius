@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AddIdentityLinkForCaseDefinitionCmd implements Command<Void>, Serializable {
 

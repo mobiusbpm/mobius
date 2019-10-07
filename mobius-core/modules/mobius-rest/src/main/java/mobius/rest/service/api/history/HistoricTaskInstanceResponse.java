@@ -23,7 +23,7 @@ import mobius.common.rest.util.DateToStringSerializer;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricTaskInstanceResponse {
 

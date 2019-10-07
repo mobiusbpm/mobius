@@ -23,7 +23,7 @@ import mobius.common.engine.api.FlowableObjectNotFoundException;
  *
  * An instance can be obtained through {@link mobius.engine.RuntimeService#createChangeActivityStateBuilder()}.
  *
- * @author Tijs Rademakers
+ *
  */
 public interface ChangeActivityStateBuilder {
 

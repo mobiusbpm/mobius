@@ -22,7 +22,7 @@ import org.springframework.boot.context.properties.NestedConfigurationProperty;
 /**
  * Properties for configuring the dmn engine.
  *
- * @author Filip Hrisafov
+ *
  */
 @ConfigurationProperties(prefix = "flowable.dmn")
 public class FlowableDmnProperties {

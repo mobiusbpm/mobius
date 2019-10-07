@@ -23,7 +23,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * {@link CmmnActivityBehavior} implementation for the CMMN Event Listener.
  *
- * @author Tijs Rademakers
+ *
  */
 public class GenericEventListenerActivityBehaviour extends CoreCmmnTriggerableActivityBehavior implements PlanItemActivityBehavior {
 

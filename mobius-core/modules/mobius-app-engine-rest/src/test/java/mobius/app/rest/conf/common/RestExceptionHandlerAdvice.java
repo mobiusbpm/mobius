@@ -16,7 +16,7 @@ import mobius.common.rest.exception.BaseExceptionHandlerAdvice;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @ControllerAdvice
 public class RestExceptionHandlerAdvice extends BaseExceptionHandlerAdvice {

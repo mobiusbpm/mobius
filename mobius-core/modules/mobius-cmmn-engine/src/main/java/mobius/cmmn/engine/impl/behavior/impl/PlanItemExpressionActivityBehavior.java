@@ -23,7 +23,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * ActivityBehavior that evaluates an expression when executed. Optionally, it sets the result of the expression as a variable on the execution.
  *
- * @author Tijs Rademakers
+ *
  */
 public class PlanItemExpressionActivityBehavior extends CoreCmmnActivityBehavior {
 

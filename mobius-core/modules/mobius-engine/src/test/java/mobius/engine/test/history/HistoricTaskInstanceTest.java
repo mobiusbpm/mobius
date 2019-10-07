@@ -36,7 +36,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  *
- * @author Frederik Heremans
+ *
  */
 public class HistoricTaskInstanceTest extends PluggableFlowableTestCase {
 

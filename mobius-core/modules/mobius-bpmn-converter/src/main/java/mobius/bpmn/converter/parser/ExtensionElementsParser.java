@@ -27,7 +27,7 @@ import mobius.bpmn.model.Process;
 import mobius.bpmn.model.SubProcess;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ExtensionElementsParser implements BpmnXMLConstants {
 

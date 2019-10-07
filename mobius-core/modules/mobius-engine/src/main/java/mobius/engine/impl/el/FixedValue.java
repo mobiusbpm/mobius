@@ -20,7 +20,7 @@ import mobius.common.engine.api.variable.VariableContainer;
 /**
  * Expression that always returns the same value when <code>getValue</code> is called. Setting of the value is not supported.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FixedValue implements Expression {
 

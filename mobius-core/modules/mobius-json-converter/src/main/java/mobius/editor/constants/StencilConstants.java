@@ -13,7 +13,7 @@
 package mobius.editor.constants;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Zheng Ji
  */
 public interface StencilConstants {

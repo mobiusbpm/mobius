@@ -55,7 +55,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Manager class that centralises recording of all history-related operations that are originated from inside the engine.
  * 
- * @author Frederik Heremans
+ *
  *
  */
 public class DefaultHistoryManager extends AbstractHistoryManager {

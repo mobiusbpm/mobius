@@ -35,7 +35,7 @@ import io.swagger.annotations.ApiModelProperty;
  */
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CmmnDeploymentResponse {
 

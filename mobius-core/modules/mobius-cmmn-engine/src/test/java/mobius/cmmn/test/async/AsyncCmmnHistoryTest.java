@@ -62,7 +62,7 @@ import org.junit.Test;
 
 /**
  *
- * @author Filip Hrisafov
+ *
  */
 public class AsyncCmmnHistoryTest extends CustomCmmnConfigurationFlowableTestCase {
     

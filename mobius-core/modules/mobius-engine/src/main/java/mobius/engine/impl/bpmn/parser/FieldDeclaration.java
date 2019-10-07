@@ -21,7 +21,7 @@ import java.io.Serializable;
  * &lt;field name='someField&gt; &lt;string ...
  * 
  *
- * @author Frederik Heremans
+ *
  */
 public class FieldDeclaration implements Serializable {
 

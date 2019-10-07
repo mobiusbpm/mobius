@@ -30,7 +30,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "History" }, description = "Manage History", authorizations = { @Authorization(value = "basicAuth") })

@@ -34,7 +34,7 @@ import mobius.validation.validator.Problems;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SignalEventTest extends PluggableFlowableTestCase {
 

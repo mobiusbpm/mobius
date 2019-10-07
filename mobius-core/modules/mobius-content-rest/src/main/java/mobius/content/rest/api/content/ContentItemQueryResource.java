@@ -30,7 +30,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Content item" }, description = "Query content items", authorizations = { @Authorization(value = "basicAuth") })

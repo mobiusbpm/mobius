@@ -37,7 +37,7 @@ import mobius.engine.test.Deployment;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Frederik Heremans
+ *
  *
  */
 public class RepositoryServiceTest extends PluggableFlowableTestCase {

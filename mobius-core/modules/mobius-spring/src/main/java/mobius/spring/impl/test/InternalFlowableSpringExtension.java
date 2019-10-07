@@ -22,7 +22,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
  * An extension that uses {@link SpringExtension} to get the {@link ProcessEngine} from the {@link org.springframework.context.ApplicationContext}
  * and make it available for the {@link InternalFlowableExtension}.
  *
- * @author Filip Hrisafov
+ *
  */
 public class InternalFlowableSpringExtension extends InternalFlowableExtension {
 

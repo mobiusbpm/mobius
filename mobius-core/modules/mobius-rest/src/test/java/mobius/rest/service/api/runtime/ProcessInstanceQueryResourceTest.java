@@ -35,7 +35,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Test for all REST-operations related to the process instance query resource.
  * 
- * @author Frederik Heremans
+ *
  */
 public class ProcessInstanceQueryResourceTest extends BaseSpringRestTestCase {
 

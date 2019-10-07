@@ -61,7 +61,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  *
  *
- * @author Filip Hrisafov
+ *
  */
 @EnsureCleanDb(excludeTables = {
     "ACT_GE_PROPERTY",

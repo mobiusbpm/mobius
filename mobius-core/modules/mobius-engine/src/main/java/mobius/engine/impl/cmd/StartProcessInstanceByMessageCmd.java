@@ -30,7 +30,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.MessageEventSubs
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class StartProcessInstanceByMessageCmd implements Command<ProcessInstance> {
 

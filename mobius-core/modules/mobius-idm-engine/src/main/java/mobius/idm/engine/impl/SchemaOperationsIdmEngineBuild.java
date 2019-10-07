@@ -18,7 +18,7 @@ import mobius.idm.engine.impl.db.IdmDbSchemaManager;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public final class SchemaOperationsIdmEngineBuild implements Command<Void> {

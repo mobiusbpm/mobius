@@ -21,7 +21,7 @@ import mobius.task.service.impl.TaskQueryImpl;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface TaskDataManager extends DataManager<TaskEntity> {
 

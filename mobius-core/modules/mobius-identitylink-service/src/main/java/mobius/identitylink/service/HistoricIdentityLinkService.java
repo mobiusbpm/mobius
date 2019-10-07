@@ -19,7 +19,7 @@ import mobius.identitylink.service.impl.persistence.entity.HistoricIdentityLinkE
 /**
  * Service which provides access to historic variables.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface HistoricIdentityLinkService {
     

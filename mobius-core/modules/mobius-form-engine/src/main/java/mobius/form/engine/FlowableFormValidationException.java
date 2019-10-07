@@ -18,7 +18,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 /**
  * An exception indicating that a validation of a form field value resulted in an error.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FlowableFormValidationException extends FlowableIllegalArgumentException {
 

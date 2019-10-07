@@ -27,7 +27,7 @@ import java.util.*;
 /**
  * Base auto configuration for the different engines.
  *
- * @author Filip Hrisafov
+ *
  * @author Javier Casal
  */
 public abstract class AbstractEngineAutoConfiguration {

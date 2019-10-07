@@ -19,7 +19,7 @@ import mobius.dmn.model.Decision;
 import mobius.dmn.model.DmnDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DecisionTableCacheEntry implements Serializable {
 

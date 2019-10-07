@@ -22,7 +22,7 @@ import mobius.idm.api.Token;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CreateTokenCmd implements Command<Token>, Serializable {
 

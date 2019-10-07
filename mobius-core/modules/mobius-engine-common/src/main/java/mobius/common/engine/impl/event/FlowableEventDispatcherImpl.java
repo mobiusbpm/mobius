@@ -23,7 +23,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * Class capable of dispatching events.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableEventDispatcherImpl implements FlowableEventDispatcher {
 

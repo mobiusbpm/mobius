@@ -20,7 +20,7 @@ import java.util.Map;
 import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricDecisionExecutionEntityImpl extends AbstractDmnEngineNoRevisionEntity implements HistoricDecisionExecutionEntity, Serializable {
 

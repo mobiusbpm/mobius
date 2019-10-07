@@ -27,7 +27,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.data.EventSubscr
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class EventSubscriptionEntityManagerImpl extends AbstractEntityManager<EventSubscriptionEntity> implements EventSubscriptionEntityManager {
 

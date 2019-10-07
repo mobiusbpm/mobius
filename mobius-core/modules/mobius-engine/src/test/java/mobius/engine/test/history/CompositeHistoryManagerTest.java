@@ -55,7 +55,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoSettings;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @MockitoSettings
 class CompositeHistoryManagerTest {

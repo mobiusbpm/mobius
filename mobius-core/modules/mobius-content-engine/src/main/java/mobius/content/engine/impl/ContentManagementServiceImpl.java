@@ -26,7 +26,7 @@ import mobius.content.engine.impl.cmd.GetTableMetaDataCmd;
 import mobius.content.engine.impl.cmd.GetTableNameCmd;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ContentManagementServiceImpl extends CommonEngineServiceImpl<ContentEngineConfiguration> implements ContentManagementService {
 

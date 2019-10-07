@@ -28,7 +28,7 @@ import mobius.bpmn.model.ImplementationType;
 import mobius.bpmn.model.ServiceTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ServiceTaskXMLConverter extends BaseBpmnXMLConverter {
 

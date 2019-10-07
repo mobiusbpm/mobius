@@ -18,7 +18,7 @@ import mobius.cmmn.model.BaseElement;
 import mobius.cmmn.model.CmmnDiEdge;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CmmnDiEdgeXmlConverter extends BaseCmmnXmlConverter {
     

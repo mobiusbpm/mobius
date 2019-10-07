@@ -35,7 +35,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration Auto-Configuration} for the Content Engine
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnContentEngine

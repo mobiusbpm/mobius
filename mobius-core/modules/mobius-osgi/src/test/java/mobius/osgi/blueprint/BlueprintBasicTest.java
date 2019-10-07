@@ -54,7 +54,7 @@ import org.osgi.framework.Constants;
 /**
  * Test class to do basic testing against an OSGi container using the Flowable blueprint functionality
  * 
- * @author Tijs Rademakers
+ *
  */
 
 @RunWith(PaxExam.class)

@@ -12,14 +12,14 @@
  */
 package mobius.idm.engine.impl.cmd;
 
-import java.io.Serializable;
-
 import mobius.common.engine.impl.interceptor.Command;
 import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.idm.api.PasswordEncoder;
 import mobius.idm.api.PasswordSalt;
 import mobius.idm.api.User;
 import mobius.idm.engine.impl.util.CommandContextUtil;
+
+import java.io.Serializable;
 
 /**
  * @author faizal-manan
@@ -40,7 +40,7 @@ public class UpdateUserPasswordCmd implements Command<User>, Serializable {
             PasswordEncoder passwordEncoder = CommandContextUtil.getIdmEngineConfiguration().getPasswordEncoder();
             PasswordSalt passwordSalt = CommandContextUtil.getIdmEngineConfiguration().getPasswordSalt();
             
-            user.setPassword(passwordEncoder.encode(user.getPassword(), passwordSalt));
+            user.setUserPassword(passwordEncoder.encode(user.getUserPassword(), passwordSalt));
             CommandContextUtil.getUserEntityManager(commandContext).updateUser(user);
         }
         return user;

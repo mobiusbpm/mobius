@@ -24,23 +24,21 @@ import java.io.Serializable;
 /**
  *
  */
-public class CreateUserByLoginAndEmailCmd implements Command<User>, Serializable {
+public class CreateUserByLoginNameCmd implements Command<User>, Serializable {
 
     private static final long serialVersionUID = 1L;
 
     protected String loginName;
-    protected String email;
 
-    public CreateUserByLoginAndEmailCmd(String loginName, String email) {
-        if (loginName == null && email == null) {
-            throw new FlowableIllegalArgumentException("loginName and email cannot be null at the same time");
+    public CreateUserByLoginNameCmd(String loginName) {
+        if (loginName == null ) {
+            throw new FlowableIllegalArgumentException("loginName cannot be null at the same time");
         }
         this.loginName = loginName;
-        this.email = email;
     }
 
     @Override
     public User execute(CommandContext commandContext) {
-        return CommandContextUtil.getUserEntityManager(commandContext).createNewUser(loginName,email);
+        return CommandContextUtil.getUserEntityManager(commandContext).createNewUser(loginName);
     }
 }

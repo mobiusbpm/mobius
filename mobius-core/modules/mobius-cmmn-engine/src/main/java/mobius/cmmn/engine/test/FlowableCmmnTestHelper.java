@@ -21,7 +21,7 @@ import mobius.cmmn.engine.CmmnEngine;
  * A Helper for the Flowable {@link FlowableCmmnExtension} that can be used within the JUnit Jupiter context store
  * and users can use it in the tests for easy modifying of the {@link CmmnEngine} time.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableCmmnTestHelper {
 

@@ -26,7 +26,7 @@ import mobius.engine.repository.ProcessDefinition;
 import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AddIdentityLinkForProcessDefinitionCmd implements Command<Void>, Serializable {
 

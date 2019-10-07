@@ -19,7 +19,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class ErrorEventDefinitionParseHandler extends AbstractBpmnParseHandler<ErrorEventDefinition> {
 

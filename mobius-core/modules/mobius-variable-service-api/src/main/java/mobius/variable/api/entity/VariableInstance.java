@@ -17,7 +17,7 @@ import mobius.variable.api.types.ValueFields;
 /**
  * Generic variable class that can be reused for V6 and V5 engine.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface VariableInstance extends ValueFields {
 

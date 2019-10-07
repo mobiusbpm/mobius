@@ -20,7 +20,7 @@ import mobius.ldap.LDAPConfiguration;
 import org.junit.Test;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class FlowableLdapPropertiesTest {
 

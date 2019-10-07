@@ -19,7 +19,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class LoggingExtension implements BeforeTestExecutionCallback, AfterTestExecutionCallback {
 

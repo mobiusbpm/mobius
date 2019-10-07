@@ -22,7 +22,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.BusinessRuleTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BusinessRuleTaskXMLConverter extends BaseBpmnXMLConverter {
 

@@ -37,7 +37,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to variables.
  *
- * @author Frederik Heremans
+ *
  */
 public class VariableEventsTest extends PluggableFlowableTestCase {
 

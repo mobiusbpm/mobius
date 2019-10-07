@@ -42,7 +42,7 @@ import mobius.form.engine.impl.cmd.SetFormDefinitionCategoryCmd;
 import mobius.form.engine.impl.repository.FormDeploymentBuilderImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FormRepositoryServiceImpl extends CommonEngineServiceImpl<FormEngineConfiguration> implements FormRepositoryService {
 

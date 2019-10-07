@@ -41,7 +41,7 @@ import mobius.engine.repository.ProcessDefinition;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DynamicSubProcessJoinInjectUtil extends BaseDynamicSubProcessInjectUtil {
     

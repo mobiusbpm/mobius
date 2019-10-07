@@ -19,7 +19,7 @@ import mobius.idm.api.event.FlowableIdmEventType;
 /**
  * Base class for all {@link FlowableIdmEntityEvent} implementations, related to entities.
  *
- * @author Tijs Rademakers
+ *
  */
 public class FlowableIdmEntityEventImpl extends FlowableIdmEventImpl implements FlowableEntityEvent {
 

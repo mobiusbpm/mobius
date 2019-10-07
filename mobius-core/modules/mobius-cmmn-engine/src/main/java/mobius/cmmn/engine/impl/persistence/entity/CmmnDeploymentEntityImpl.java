@@ -21,7 +21,7 @@ import java.io.Serializable;
 import java.util.*;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class CmmnDeploymentEntityImpl extends AbstractCmmnEngineNoRevisionEntity

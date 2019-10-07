@@ -13,7 +13,7 @@
 package mobius.dmn.engine.impl.parser;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class DmnParseFactory {

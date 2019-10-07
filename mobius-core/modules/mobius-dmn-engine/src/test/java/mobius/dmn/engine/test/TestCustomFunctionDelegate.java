@@ -18,7 +18,7 @@ import mobius.common.engine.impl.el.AbstractFlowableFunctionDelegate;
 import mobius.dmn.engine.impl.el.util.DateUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TestCustomFunctionDelegate extends AbstractFlowableFunctionDelegate {
 

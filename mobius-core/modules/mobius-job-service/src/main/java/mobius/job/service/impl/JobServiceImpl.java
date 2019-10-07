@@ -35,7 +35,7 @@ import mobius.job.service.impl.persistence.entity.SuspendedJobEntity;
 import mobius.job.service.impl.persistence.entity.SuspendedJobEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class JobServiceImpl extends ServiceImpl implements JobService {
 

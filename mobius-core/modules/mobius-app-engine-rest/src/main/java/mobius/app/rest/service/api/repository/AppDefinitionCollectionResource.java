@@ -32,7 +32,7 @@ import java.util.Map;
 import static mobius.common.rest.api.PaginateListUtil.paginateList;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "App Definitions" }, description = "Manage App Definitions", authorizations = { @Authorization(value = "basicAuth") })

@@ -22,7 +22,7 @@ import mobius.engine.impl.persistence.deploy.DeploymentManager;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetAppResourceModelCmd implements Command<AppModel>, Serializable {
 

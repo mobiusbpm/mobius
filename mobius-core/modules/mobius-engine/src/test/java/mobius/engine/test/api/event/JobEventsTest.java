@@ -38,7 +38,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to jobs.
  * 
- * @author Frederik Heremans
+ *
  */
 public class JobEventsTest extends PluggableFlowableTestCase {
 

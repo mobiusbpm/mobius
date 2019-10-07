@@ -26,7 +26,7 @@ import mobius.engine.impl.util.Flowable5Util;
 /**
  * An {@link FlowableEventListener} that throws a error event when an event is dispatched to it.
  * 
- * @author Frederik Heremans
+ *
  * 
  */
 public class ErrorThrowingEventListener extends BaseDelegateEventListener {

@@ -50,7 +50,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Frederik Heremans
+ *
  *
  */
 public class RuntimeServiceTest extends PluggableFlowableTestCase {

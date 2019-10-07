@@ -25,7 +25,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AcquireTimerJobsCmd implements Command<AcquiredTimerJobEntities> {
 

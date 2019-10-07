@@ -22,7 +22,7 @@ import mobius.common.rest.variable.EngineRestVariable;
 /**
  * Pojo representing a variable used in REST-service which defines it's name, variable, scope and type.
  * 
- * @author Frederik Heremans
+ *
  */
 public class RestVariable extends EngineRestVariable {
 

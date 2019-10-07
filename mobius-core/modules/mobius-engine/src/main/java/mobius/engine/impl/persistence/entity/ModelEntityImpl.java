@@ -21,7 +21,7 @@ import java.util.Map;
 import mobius.engine.ProcessEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ModelEntityImpl extends AbstractBpmnEngineEntity implements ModelEntity, Serializable {

@@ -17,7 +17,7 @@ import mobius.cmmn.api.runtime.PlanItemInstance;
 import mobius.cmmn.api.runtime.SignalEventListenerInstance;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SignalEventListenerInstanceImpl implements SignalEventListenerInstance {
 

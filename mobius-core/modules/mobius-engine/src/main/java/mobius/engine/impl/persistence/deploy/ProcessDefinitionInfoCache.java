@@ -34,7 +34,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  * Default cache: keep everything in memory, unless a limit is set.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class ProcessDefinitionInfoCache {
 

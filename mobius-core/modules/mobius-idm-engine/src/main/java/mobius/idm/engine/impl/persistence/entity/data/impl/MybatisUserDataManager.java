@@ -12,9 +12,6 @@
  */
 package mobius.idm.engine.impl.persistence.entity.data.impl;
 
-import java.util.List;
-import java.util.Map;
-
 import mobius.idm.api.User;
 import mobius.idm.engine.IdmEngineConfiguration;
 import mobius.idm.engine.impl.UserQueryImpl;
@@ -22,6 +19,9 @@ import mobius.idm.engine.impl.persistence.entity.UserEntity;
 import mobius.idm.engine.impl.persistence.entity.UserEntityImpl;
 import mobius.idm.engine.impl.persistence.entity.data.AbstractIdmDataManager;
 import mobius.idm.engine.impl.persistence.entity.data.UserDataManager;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  *

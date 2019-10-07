@@ -21,7 +21,7 @@ import mobius.form.engine.FormEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class FormInstanceEntityImpl extends AbstractFormEngineNoRevisionEntity implements FormInstanceEntity, Serializable {
 

@@ -17,7 +17,7 @@ import java.security.Principal;
 /**
  * A simple user id principal that has the user id as its name.
  *
- * @author Filip Hrisafov
+ *
  */
 public class UserIdPrincipal implements Principal {
 

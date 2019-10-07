@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.common.engine.impl.interceptor.CommandExecutor;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class AppDeploymentQueryImpl extends AbstractQuery<AppDeploymentQuery, AppDeployment> implements AppDeploymentQuery, Serializable {

@@ -34,7 +34,7 @@ import static org.junit.Assert.*;
 /**
  * Test for all REST-operations related to a single Process instance resource.
  * 
- * @author Frederik Heremans
+ *
  */
 public class ProcessInstanceResourceTest extends BaseSpringRestTestCase {
 

@@ -36,7 +36,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DynamicSubProcessParallelInjectUtil extends BaseDynamicSubProcessInjectUtil {
     

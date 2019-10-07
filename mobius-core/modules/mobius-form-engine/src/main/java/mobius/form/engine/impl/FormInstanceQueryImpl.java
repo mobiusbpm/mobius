@@ -27,7 +27,7 @@ import mobius.form.api.FormInstanceQuery;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class FormInstanceQueryImpl extends AbstractQuery<FormInstanceQuery, FormInstance> implements FormInstanceQuery, Serializable {

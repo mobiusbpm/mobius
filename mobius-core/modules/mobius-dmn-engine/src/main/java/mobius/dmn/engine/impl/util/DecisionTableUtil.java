@@ -25,7 +25,7 @@ import mobius.dmn.model.DmnDefinition;
  * directly.
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 public class DecisionTableUtil {
 

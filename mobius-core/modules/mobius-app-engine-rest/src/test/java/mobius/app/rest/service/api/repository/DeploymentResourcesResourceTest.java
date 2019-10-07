@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * Test for all REST-operations related to listing the resources that are part of a deployment.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class DeploymentResourcesResourceTest extends BaseSpringRestTestCase {
 

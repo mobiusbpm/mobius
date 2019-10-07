@@ -26,7 +26,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class ProcessDefinitionEntityImpl extends AbstractBpmnEngineEntity implements ProcessDefinitionEntity, Serializable {
 

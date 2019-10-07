@@ -32,7 +32,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
  * 
  *
  * @author Josh Long
- * @author Tijs Rademakers
+ *
  */
 public class PlanItemDelegateExpressionActivityBehavior extends CoreCmmnActivityBehavior {
 

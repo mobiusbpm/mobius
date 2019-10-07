@@ -35,7 +35,7 @@ import mobius.common.rest.api.DataResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class PlanItemInstanceBaseResource {
 

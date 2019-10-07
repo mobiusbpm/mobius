@@ -26,7 +26,7 @@ import mobius.common.engine.api.FlowableException;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DefaultCmmnDynamicStateManager extends AbstractCmmnDynamicStateManager implements CmmnDynamicStateManager {
 

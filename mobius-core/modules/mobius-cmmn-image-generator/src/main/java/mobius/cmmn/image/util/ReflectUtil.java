@@ -15,7 +15,7 @@ package mobius.cmmn.image.util;
 import java.net.URL;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class ReflectUtil {
 

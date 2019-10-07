@@ -18,7 +18,7 @@ import javax.sql.DataSource;
  * A configuration that is used by the {@link LiquibaseBasedSchemaManager}
  * to ease the access to certain database properties.
  *
- * @author Filip Hrisafov
+ *
  */
 public interface LiquibaseDatabaseConfiguration {
 

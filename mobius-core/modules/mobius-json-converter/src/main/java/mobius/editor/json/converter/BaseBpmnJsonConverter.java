@@ -65,7 +65,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Zheng Ji
  */
 public abstract class BaseBpmnJsonConverter implements EditorJsonConstants, StencilConstants {

@@ -19,7 +19,7 @@ import mobius.app.api.repository.AppDeploymentQuery;
 import mobius.common.engine.impl.persistence.entity.EntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface AppDeploymentEntityManager extends EntityManager<AppDeploymentEntity> {
 

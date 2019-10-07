@@ -29,7 +29,7 @@ import mobius.common.rest.api.DataResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Dennis Federico
  */
 public abstract class HistoricPlanItemInstanceBaseResource {

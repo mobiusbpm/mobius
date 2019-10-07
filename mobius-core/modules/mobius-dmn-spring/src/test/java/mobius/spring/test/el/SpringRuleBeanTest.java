@@ -23,7 +23,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SpringRuleBeanTest extends AbstractDmnTestCase {
 

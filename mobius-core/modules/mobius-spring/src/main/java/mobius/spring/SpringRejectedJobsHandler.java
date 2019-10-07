@@ -18,7 +18,7 @@ package mobius.spring;
  * Strategy for handling jobs that were acquired but cannot be executed at this point (queue-size exceeded).
  * </p>
  * 
- * @author Tijs Rademakers
+ *
  * @deprecated use {@link mobius.spring.job.service.SpringRejectedJobsHandler}
  */
 public interface SpringRejectedJobsHandler extends mobius.spring.job.service.SpringRejectedJobsHandler {

@@ -42,7 +42,7 @@ import mobius.dmn.engine.impl.repository.DmnDeploymentBuilderImpl;
 import mobius.dmn.model.DmnDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DmnRepositoryServiceImpl extends CommonEngineServiceImpl<DmnEngineConfiguration> implements DmnRepositoryService {
 

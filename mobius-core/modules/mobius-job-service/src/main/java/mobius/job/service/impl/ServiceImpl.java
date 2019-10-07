@@ -24,7 +24,7 @@ import mobius.job.service.impl.persistence.entity.SuspendedJobEntityManager;
 import mobius.job.service.impl.persistence.entity.TimerJobEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ServiceImpl extends CommonServiceImpl<JobServiceConfiguration> {
 

@@ -21,7 +21,7 @@ import mobius.form.engine.impl.persistence.entity.FormDefinitionEntity;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetFormDefinitionCmd implements Command<FormDefinitionEntity>, Serializable {
 

@@ -25,7 +25,7 @@ import mobius.common.engine.api.repository.EngineResource;
 import mobius.common.engine.impl.persistence.entity.data.DataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppDeploymentEntityManagerImpl extends AbstractAppEntityManager<AppDeploymentEntity> implements AppDeploymentEntityManager {
 

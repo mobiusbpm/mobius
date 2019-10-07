@@ -15,7 +15,7 @@ package mobius.job.service.impl.persistence.entity;
 /**
  * Represents an async job: a piece of logic that needs to be executed asynchronously.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface JobEntity extends JobInfoEntity, AbstractRuntimeJobEntity {

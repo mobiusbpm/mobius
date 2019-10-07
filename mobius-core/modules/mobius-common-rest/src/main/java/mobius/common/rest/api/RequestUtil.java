@@ -20,7 +20,7 @@ import org.apache.commons.lang3.time.FastDateFormat;
 import mobius.common.engine.api.FlowableIllegalArgumentException;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class RequestUtil {
 

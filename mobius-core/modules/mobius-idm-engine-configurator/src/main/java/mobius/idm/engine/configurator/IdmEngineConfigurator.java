@@ -24,7 +24,7 @@ import mobius.idm.engine.impl.cfg.StandaloneIdmEngineConfiguration;
 import mobius.idm.engine.impl.db.EntityDependencyOrder;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class IdmEngineConfigurator extends AbstractEngineConfigurator {

@@ -18,7 +18,7 @@ import mobius.common.engine.impl.interceptor.CommandExecutor;
 /**
  *
  *
- * @author Filip Hrisafov
+ *
  */
 public abstract class CommonEngineServiceImpl<C extends AbstractEngineConfiguration> extends CommonServiceImpl<C> {
 

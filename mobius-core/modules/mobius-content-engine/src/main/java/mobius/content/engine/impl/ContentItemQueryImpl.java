@@ -27,7 +27,7 @@ import mobius.content.api.ContentItemQuery;
 import mobius.content.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ContentItemQueryImpl extends AbstractQuery<ContentItemQuery, ContentItem> implements ContentItemQuery, Serializable {

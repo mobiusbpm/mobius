@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.EndEvent;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EndEventXMLConverter extends BaseBpmnXMLConverter {
 

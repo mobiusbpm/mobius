@@ -23,7 +23,7 @@ import mobius.cmmn.engine.test.FlowableCmmnTestCase;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ServiceTaskTest extends FlowableCmmnTestCase {
     

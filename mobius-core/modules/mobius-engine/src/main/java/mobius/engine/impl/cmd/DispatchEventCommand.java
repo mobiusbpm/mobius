@@ -23,7 +23,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 /**
  * Command that dispatches an event.
  * 
- * @author Frederik Heremans
+ *
  */
 public class DispatchEventCommand implements Command<Void> {
 

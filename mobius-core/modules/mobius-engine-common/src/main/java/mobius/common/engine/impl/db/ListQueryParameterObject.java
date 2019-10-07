@@ -22,7 +22,7 @@ import mobius.common.engine.impl.AbstractEngineConfiguration;
 import mobius.common.engine.impl.Direction;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ListQueryParameterObject {

@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * Service providing access to the repository of forms.
  *
- * @author Tijs Rademakers
+ *
  */
 public interface FormRepositoryService {
 

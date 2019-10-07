@@ -27,7 +27,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @ExtendWith(FlowableFormExtension.class)
 public class FlowableFormJupiterTest {

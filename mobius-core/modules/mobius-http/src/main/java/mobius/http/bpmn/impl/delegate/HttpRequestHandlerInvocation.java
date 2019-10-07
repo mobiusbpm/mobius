@@ -21,7 +21,7 @@ import mobius.http.delegate.HttpRequestHandler;
 /**
  * Class handling invocations of {@link HttpRequestHandler HttpRequestHandlers}
  *
- * @author Tijs Rademakers
+ *
  */
 public class HttpRequestHandlerInvocation extends DelegateInvocation {
 

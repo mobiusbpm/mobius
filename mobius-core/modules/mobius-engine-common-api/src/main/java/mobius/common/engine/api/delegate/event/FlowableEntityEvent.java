@@ -15,7 +15,7 @@ package mobius.common.engine.api.delegate.event;
 /**
  * An {@link FlowableEvent} related to a single entity.
  * 
- * @author Frederik Heremans
+ *
  */
 public interface FlowableEntityEvent extends FlowableEvent {
 

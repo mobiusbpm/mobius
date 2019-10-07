@@ -27,7 +27,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEventListener}s that throws a signal BPMN event when an {@link FlowableEvent} has been dispatched.
  * 
- * @author Frederik Heremans
+ *
  */
 public class SignalThrowingEventListenerTest extends PluggableFlowableTestCase {
 

@@ -25,7 +25,7 @@ import mobius.form.model.SimpleFormModel;
  * directly.
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 public class FormUtil {
 

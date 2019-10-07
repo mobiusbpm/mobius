@@ -34,7 +34,7 @@ import mobius.dmn.model.DmnExtensionElement;
 import mobius.dmn.xml.constants.DmnXMLConstants;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  * @author Bassam Al-Sarori
  */

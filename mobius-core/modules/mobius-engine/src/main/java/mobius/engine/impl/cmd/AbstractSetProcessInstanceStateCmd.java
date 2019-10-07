@@ -36,7 +36,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractSetProcessInstanceStateCmd implements Command<Void> {
 

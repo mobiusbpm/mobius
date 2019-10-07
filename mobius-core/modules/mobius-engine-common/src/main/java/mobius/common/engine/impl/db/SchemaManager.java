@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.db;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface SchemaManager {

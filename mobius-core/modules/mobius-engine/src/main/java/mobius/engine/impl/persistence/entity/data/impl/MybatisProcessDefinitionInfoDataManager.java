@@ -19,7 +19,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.ProcessDefinitionInfoDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisProcessDefinitionInfoDataManager extends AbstractProcessDataManager<ProcessDefinitionInfoEntity> implements ProcessDefinitionInfoDataManager {
 

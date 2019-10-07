@@ -21,7 +21,7 @@ import mobius.job.service.impl.HistoryJobQueryImpl;
 /**
  * {@link EntityManager} responsible for the {@link HistoryJobEntity} class.
  *
- * @author Tijs Rademakers
+ *
  */
 public interface HistoryJobEntityManager extends EntityManager<HistoryJobEntity>, JobInfoEntityManager<HistoryJobEntity> {
 

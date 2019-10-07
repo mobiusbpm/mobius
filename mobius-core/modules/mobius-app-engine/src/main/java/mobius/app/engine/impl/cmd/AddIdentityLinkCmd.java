@@ -19,7 +19,7 @@ import mobius.common.engine.api.scope.ScopeTypes;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AddIdentityLinkCmd extends NeedsAppDefinitionCmd<Void> {
 

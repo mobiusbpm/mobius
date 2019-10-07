@@ -26,7 +26,7 @@ import mobius.job.service.impl.persistence.entity.data.DeadLetterJobDataManager;
 import mobius.job.service.impl.persistence.entity.data.impl.cachematcher.DeadLetterJobsByExecutionIdMatcher;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisDeadLetterJobDataManager extends AbstractDataManager<DeadLetterJobEntity> implements DeadLetterJobDataManager {
 

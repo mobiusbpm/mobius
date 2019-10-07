@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnBean(type = "javax.persistence.EntityManagerFactory")

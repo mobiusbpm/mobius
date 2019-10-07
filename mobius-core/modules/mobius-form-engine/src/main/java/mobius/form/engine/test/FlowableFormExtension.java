@@ -79,7 +79,7 @@ import org.slf4j.LoggerFactory;
  * time rather then the time that was set during a test method.
  * </p>
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableFormExtension implements ParameterResolver, BeforeEachCallback, AfterEachCallback {
 

@@ -23,7 +23,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.common.engine.impl.persistence.deploy.DeploymentCache;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SetCaseDefinitionCategoryCmd implements Command<Void> {
 

@@ -17,7 +17,7 @@ import java.util.Date;
 import mobius.job.api.Job;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface AbstractRuntimeJobEntity extends Job, AbstractJobEntity {

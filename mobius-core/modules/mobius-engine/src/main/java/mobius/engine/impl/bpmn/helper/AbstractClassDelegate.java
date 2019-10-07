@@ -25,7 +25,7 @@ import mobius.engine.impl.bpmn.parser.FieldDeclaration;
  * 
  * This class will lazily instantiate the referenced classes when needed at runtime.
  * 
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractClassDelegate extends AbstractBpmnActivityBehavior {
 

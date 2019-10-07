@@ -18,7 +18,7 @@ import mobius.form.engine.FormEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractFormDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {
     

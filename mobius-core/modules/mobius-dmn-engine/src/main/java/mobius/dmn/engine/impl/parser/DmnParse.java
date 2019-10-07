@@ -39,7 +39,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Specific parsing of one BPMN 2.0 XML file, created by the {@link DmnParse}.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public class DmnParse implements DmnXMLConstants {

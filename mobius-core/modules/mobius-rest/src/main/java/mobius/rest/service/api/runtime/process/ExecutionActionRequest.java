@@ -22,7 +22,7 @@ import mobius.rest.service.api.engine.variable.RestVariable;
 import java.util.List;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ExecutionActionRequest extends RestActionRequest {
 

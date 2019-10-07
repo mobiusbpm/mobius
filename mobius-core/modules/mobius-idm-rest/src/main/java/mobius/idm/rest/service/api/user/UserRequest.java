@@ -16,8 +16,8 @@ package mobius.idm.rest.service.api.user;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
- * @author Frederik Heremans
- * @author Filip Hrisafov
+ *
+ *
  */
 public class UserRequest extends UserResponse {
 

@@ -17,7 +17,7 @@ import mobius.task.api.Task;
 import mobius.task.api.history.HistoricTaskInstance;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface InternalTaskLocalizationManager {
     

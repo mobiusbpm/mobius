@@ -24,7 +24,7 @@ import mobius.variable.api.delegate.VariableScope;
 import org.osgi.framework.InvalidSyntaxException;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class OsgiScriptingEngines extends ScriptingEngines {
 

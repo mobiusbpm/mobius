@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class UserEntityManagerImpl extends AbstractEntityManager<UserEntity> implements UserEntityManager {
@@ -58,19 +58,19 @@ public class UserEntityManagerImpl extends AbstractEntityManager<UserEntity> imp
         super.update((UserEntity) updatedUser);
     }
 
-    @Override
+/*    @Override
     public void delete(UserEntity userEntity) {
         super.delete(userEntity);
         deletePicture(userEntity);
-    }
+    }*/
 
-    @Override
+/*    @Override
     public void deletePicture(User user) {
         UserEntity userEntity = (UserEntity) user;
         if (userEntity.getPictureByteArrayRef() != null) {
             userEntity.getPictureByteArrayRef().delete();
         }
-    }
+    }*/
 
     @Override
     public void delete(String userId) {
@@ -108,7 +108,7 @@ public class UserEntityManagerImpl extends AbstractEntityManager<UserEntity> imp
             user = findById(userId);
         }
 
-        return (user != null) && (password != null) && passwordEncoder.isMatches(password, user.getPassword(), salt);
+        return (user != null) && (password != null) && passwordEncoder.isMatches(password, user.getUserPassword(), salt);
     }
 
     @Override
@@ -126,7 +126,7 @@ public class UserEntityManagerImpl extends AbstractEntityManager<UserEntity> imp
         return ((UserEntity) user).getRevision() == 0;
     }
 
-    @Override
+   /* @Override
     public Picture getUserPicture(User user) {
         UserEntity userEntity = (UserEntity) user;
         return userEntity.getPicture();
@@ -137,7 +137,7 @@ public class UserEntityManagerImpl extends AbstractEntityManager<UserEntity> imp
         UserEntity userEntity = (UserEntity) user;
         userEntity.setPicture(picture);
         userDataManager.update(userEntity);
-    }
+    }*/
 
     @Override
     public List<User> findUsersByPrivilegeId(String name) {
@@ -153,10 +153,9 @@ public class UserEntityManagerImpl extends AbstractEntityManager<UserEntity> imp
     }
 
     @Override
-    public User createNewUser(String loginName, String email) {
+    public User createUserWithLoginName(String userLoginName) {
         UserEntity userEntity = create();
-        userEntity.setLoginName(loginName);
-        userEntity.setEmail(email);
+        userEntity.setUserLoginName(userLoginName);
         userEntity.setRevision(0); // needed as users can be transient
         return userEntity;
     }

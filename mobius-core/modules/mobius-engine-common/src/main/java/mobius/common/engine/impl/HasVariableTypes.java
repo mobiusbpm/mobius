@@ -15,7 +15,7 @@ package mobius.common.engine.impl;
 import mobius.variable.api.types.VariableTypes;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public interface HasVariableTypes {
 

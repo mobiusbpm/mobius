@@ -33,7 +33,7 @@ import mobius.task.service.delegate.TaskListener;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CompleteTaskWithFormCmd extends NeedsActiveTaskCmd<Void> {
 

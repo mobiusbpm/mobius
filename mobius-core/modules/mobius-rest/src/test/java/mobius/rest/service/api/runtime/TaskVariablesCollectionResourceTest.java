@@ -48,7 +48,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  * Test for all REST-operations related to Task variables.
  * 
- * @author Frederik Heremans
+ *
  */
 public class TaskVariablesCollectionResourceTest extends BaseSpringRestTestCase {
 

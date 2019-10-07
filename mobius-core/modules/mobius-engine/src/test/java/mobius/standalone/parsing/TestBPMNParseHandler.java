@@ -19,7 +19,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 import mobius.engine.impl.bpmn.parser.handler.AbstractBpmnParseHandler;
 
 /**
- * @author Frederik Heremans
+ *
  *
  */
 public class TestBPMNParseHandler extends AbstractBpmnParseHandler<Process> {

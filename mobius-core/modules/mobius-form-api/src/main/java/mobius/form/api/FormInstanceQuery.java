@@ -21,7 +21,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link FormInstance}s.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface FormInstanceQuery extends Query<FormInstanceQuery, FormInstance> {
 

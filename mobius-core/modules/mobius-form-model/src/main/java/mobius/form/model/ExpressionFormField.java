@@ -13,7 +13,7 @@
 package mobius.form.model;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ExpressionFormField extends FormField {

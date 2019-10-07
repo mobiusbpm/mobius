@@ -29,7 +29,7 @@ import mobius.variable.api.history.HistoricVariableInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoryLevelServiceTest extends PluggableFlowableTestCase {
 

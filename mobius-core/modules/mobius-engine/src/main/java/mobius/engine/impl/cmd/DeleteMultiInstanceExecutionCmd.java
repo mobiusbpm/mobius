@@ -29,7 +29,7 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.engine.impl.util.ProcessDefinitionUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DeleteMultiInstanceExecutionCmd implements Command<Void>, Serializable {
 

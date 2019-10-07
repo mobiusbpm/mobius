@@ -30,7 +30,7 @@ import org.springframework.core.env.MapPropertySource;
  * this leads to issues, when the user doesn't actually use it. Therefore, we must disable it per default. In order
  * to activate it, users need to set {@code liquibase.enabled=true} explicitly.
  *
- * @author Filip Hrisafov
+ *
  */
 @Order(100)
 public class FlowableLiquibaseEnvironmentPostProcessor implements EnvironmentPostProcessor {

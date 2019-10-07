@@ -31,7 +31,7 @@ import mobius.job.service.impl.persistence.entity.data.impl.cachematcher.TimerJo
 import mobius.job.service.impl.persistence.entity.data.impl.cachematcher.TimerJobsByScopeIdAndSubScopeIdMatcher;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Vasile Dirla
  *
  */

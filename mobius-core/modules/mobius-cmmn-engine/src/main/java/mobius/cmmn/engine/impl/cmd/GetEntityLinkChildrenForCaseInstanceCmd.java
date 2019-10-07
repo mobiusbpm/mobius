@@ -26,7 +26,7 @@ import mobius.entitylink.api.EntityLink;
 import mobius.entitylink.api.EntityLinkType;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetEntityLinkChildrenForCaseInstanceCmd implements Command<List<EntityLink>>, Serializable {
 

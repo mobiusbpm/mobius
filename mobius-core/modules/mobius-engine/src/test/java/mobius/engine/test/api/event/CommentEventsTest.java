@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to comments.
  * 
- * @author Frederik Heremans
+ *
  */
 public class CommentEventsTest extends PluggableFlowableTestCase {
 

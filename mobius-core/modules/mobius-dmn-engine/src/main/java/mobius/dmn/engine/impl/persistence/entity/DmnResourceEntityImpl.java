@@ -16,7 +16,7 @@ package mobius.dmn.engine.impl.persistence.entity;
 import java.io.Serializable;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DmnResourceEntityImpl extends AbstractDmnEngineNoRevisionEntity implements DmnResourceEntity, Serializable {
 

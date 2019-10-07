@@ -28,7 +28,7 @@ import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class TimerJobQueryImpl extends AbstractQuery<TimerJobQuery, Job> implements TimerJobQuery, Serializable {
 

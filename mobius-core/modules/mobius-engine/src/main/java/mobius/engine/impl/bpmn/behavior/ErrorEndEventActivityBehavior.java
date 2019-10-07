@@ -17,7 +17,7 @@ import mobius.engine.impl.bpmn.helper.ErrorPropagation;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class ErrorEndEventActivityBehavior extends FlowNodeActivityBehavior {
 

@@ -23,7 +23,7 @@ import mobius.app.api.repository.AppDeployment;
 import mobius.app.engine.AppEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisAppDeploymentDataManager extends AbstractAppDataManager<AppDeploymentEntity>
 		implements AppDeploymentDataManager {

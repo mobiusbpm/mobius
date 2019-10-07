@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.engine.impl.persistence.entity.ProcessDefinitionInfoEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface ProcessDefinitionInfoDataManager extends DataManager<ProcessDefinitionInfoEntity> {
 

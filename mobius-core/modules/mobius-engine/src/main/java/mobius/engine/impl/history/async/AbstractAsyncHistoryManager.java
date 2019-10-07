@@ -30,7 +30,7 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public abstract class AbstractAsyncHistoryManager extends AbstractHistoryManager {
 

@@ -16,7 +16,7 @@ package mobius.cmmn.rest.api.engine;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class RestIdentityLink {
 

@@ -24,7 +24,7 @@ import mobius.entitylink.api.EntityLinkType;
 import mobius.entitylink.api.history.HistoricEntityLink;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetHistoricEntityLinkChildrenForProcessInstanceCmd implements Command<List<HistoricEntityLink>>, Serializable {
 

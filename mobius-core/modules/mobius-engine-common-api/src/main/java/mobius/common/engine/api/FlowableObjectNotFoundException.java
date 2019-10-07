@@ -16,7 +16,7 @@ package mobius.common.engine.api;
 /**
  * An exception indicating that the object that is required or actioned on does not exist.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableObjectNotFoundException extends FlowableException {
 

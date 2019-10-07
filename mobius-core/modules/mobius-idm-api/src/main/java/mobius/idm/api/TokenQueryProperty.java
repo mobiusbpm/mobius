@@ -21,7 +21,7 @@ import mobius.common.engine.api.query.QueryProperty;
 /**
  * Contains the possible properties that can be used by the {@link TokenQuery}.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class TokenQueryProperty implements QueryProperty {
 

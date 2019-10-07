@@ -20,25 +20,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
- *
+ * map to mbs_user_account table
  */
 public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntity, Serializable, HasRevision {
 
     private static final long serialVersionUID = 1L;
 
-    //    protected String tenantId;
     //mobius
-    protected Long userId;
+    protected String id;
     protected String userLoginName;
     protected String userPassword;
-    protected String userEmail;
     protected Integer userStatusCodeId;
     protected Integer userAuthTypeCodeId;
     protected Long userCreatedBy;
     protected Instant userCreatedTime;
-    protected Long userLastUpdatedBy;
-    protected Instant userLastUpdatedTime;
+    protected Long userUpdatedBy;
+    protected Instant userUpdatedTime;
 
     //    protected ByteArrayRef pictureByteArrayRef;
 
@@ -48,16 +45,14 @@ public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntit
     @Override
     public Object getPersistentState() {
         Map<String, Object> persistentState = new HashMap<>();
-        //        persistentState.put("tenantId", tenantId);
-        persistentState.put("loginName", userLoginName);
-        persistentState.put("userEmail", userEmail);
+        persistentState.put("userLoginName", userLoginName);
         persistentState.put("userPassword", userPassword);
         persistentState.put("userStatusCodeId", userStatusCodeId);
         persistentState.put("userAuthTypeCodeId", userAuthTypeCodeId);
         persistentState.put("userCreatedBy", userCreatedBy);
         persistentState.put("userCreatedTime", userCreatedTime);
-        persistentState.put("userLastUpdatedBy", userLastUpdatedBy);
-        persistentState.put("userLastUpdatedTime", userLastUpdatedTime);
+        persistentState.put("userUpdatedBy", userUpdatedBy);
+        persistentState.put("userUpdatedTime", userUpdatedTime);
 
     /*    if (pictureByteArrayRef != null) {
             persistentState.put("pictureByteArrayId", pictureByteArrayRef.getId());
@@ -97,13 +92,15 @@ public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntit
     }*/
 
     @Override
-    public Long getUserId() {
-        return this.userId;
+    public String getId() {
+        return this.id;
     }
+
     @Override
-    public void setUserId(Long userId) {
-        this.userId = userId;
+    public void setId(String id) {
+        this.id = id;
     }
+
     @Override
     public String getUserLoginName() {
         return this.userLoginName;
@@ -112,14 +109,7 @@ public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntit
     public void setUserLoginName(String userLoginName) {
         this.userLoginName = userLoginName;
     }
-    @Override
-    public String getUserEmail() {
-        return this.userEmail;
-    }
-    @Override
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
-    }
+
     @Override
     public String getUserPassword() {
         return this.userPassword;
@@ -161,19 +151,19 @@ public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntit
         this.userCreatedTime = userCreatedTime;
     }
     @Override
-    public Long getUserLastUpdatedBy() {
-        return this.userLastUpdatedBy;
+    public Long getUserUpdatedBy() {
+        return this.userUpdatedBy;
     }
     @Override
-    public void setUserLastUpdatedBy(Long userId) {
-        this.userLastUpdatedBy = userId;
+    public void setUserUpdatedBy(Long userUpdatedBy) {
+        this.userUpdatedBy = userUpdatedBy;
     }
     @Override
-    public Instant getUserLastUpdatedTime() {
-        return this.userLastUpdatedTime;
+    public Instant getUserUpdatedTime() {
+        return this.userUpdatedTime;
     }
     @Override
-    public void setUserLastUpdatedTime(Instant userLastUpdatedTime) {
-        this.userLastUpdatedTime = userLastUpdatedTime;
+    public void setUserUpdatedTime(Instant userUpdatedTime) {
+        this.userUpdatedTime = userUpdatedTime;
     }
 }

@@ -25,7 +25,7 @@ import mobius.common.engine.api.query.QueryProperty;
 import mobius.common.engine.impl.interceptor.CommandExecutor;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SignalEventListenerInstanceQueryImpl implements SignalEventListenerInstanceQuery {
 

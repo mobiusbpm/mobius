@@ -24,7 +24,7 @@ import mobius.entitylink.service.event.impl.FlowableEntityLinkEventBuilder;
 import mobius.entitylink.service.impl.persistence.entity.data.EntityLinkDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkEntityManagerImpl extends AbstractEntityManager<EntityLinkEntity> implements EntityLinkEntityManager {
 

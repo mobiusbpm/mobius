@@ -38,7 +38,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DynamicBpmnServiceImpl extends CommonEngineServiceImpl<ProcessEngineConfigurationImpl> implements DynamicBpmnService, DynamicBpmnConstants {
 

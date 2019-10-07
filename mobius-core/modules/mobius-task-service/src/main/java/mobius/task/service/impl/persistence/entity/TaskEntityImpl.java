@@ -46,7 +46,7 @@ import mobius.variable.service.impl.persistence.entity.VariableScopeImpl;
  *
  *
  * @author Falko Menge
- * @author Tijs Rademakers
+ *
  */
 public class TaskEntityImpl extends AbstractTaskServiceVariableScopeEntity implements TaskEntity, CountingTaskEntity, Serializable {
 

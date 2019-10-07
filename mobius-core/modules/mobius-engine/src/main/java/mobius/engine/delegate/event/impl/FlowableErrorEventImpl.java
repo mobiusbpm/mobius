@@ -18,7 +18,7 @@ import mobius.engine.delegate.event.FlowableErrorEvent;
 /**
  * Implementation of an {@link FlowableErrorEvent}.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableErrorEventImpl extends FlowableActivityEventImpl implements FlowableErrorEvent {
 

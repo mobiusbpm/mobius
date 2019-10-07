@@ -44,7 +44,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  * Test for REST-operation related to the historic process instance query resource.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class HistoricProcessInstanceCollectionResourceTest extends BaseSpringRestTestCase {
 

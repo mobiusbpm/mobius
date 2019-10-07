@@ -24,7 +24,7 @@ import mobius.bpmn.model.ImplementationType;
 import mobius.bpmn.model.SendTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SendTaskXMLConverter extends BaseBpmnXMLConverter {
 

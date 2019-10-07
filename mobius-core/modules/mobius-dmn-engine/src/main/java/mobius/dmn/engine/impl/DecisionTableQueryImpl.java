@@ -25,7 +25,7 @@ import mobius.dmn.api.DmnDecisionTableQuery;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class DecisionTableQueryImpl extends AbstractQuery<DmnDecisionTableQuery, DmnDecisionTable> implements DmnDecisionTableQuery {

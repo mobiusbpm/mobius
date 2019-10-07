@@ -15,7 +15,7 @@ package mobius.cmmn.image.exception;
 /**
  * Runtime exception for all image logic.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FlowableImageException extends RuntimeException {
 

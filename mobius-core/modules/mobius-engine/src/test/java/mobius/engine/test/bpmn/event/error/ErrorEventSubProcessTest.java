@@ -22,7 +22,7 @@ import mobius.task.api.Task;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ErrorEventSubProcessTest extends PluggableFlowableTestCase {
     

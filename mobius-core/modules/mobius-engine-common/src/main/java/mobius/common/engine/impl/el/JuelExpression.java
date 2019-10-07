@@ -24,7 +24,7 @@ import mobius.common.engine.impl.javax.el.ValueExpression;
 /**
  * Expression implementation backed by a JUEL {@link ValueExpression}.
  *
- * @author Frederik Heremans
+ *
  *
  */
 public class JuelExpression implements Expression {

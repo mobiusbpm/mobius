@@ -24,7 +24,7 @@ import org.junit.jupiter.api.Test;
  * <p>
  * So this test can be included in the regular test suite without problems.
  *
- * @author Filip Hrisafov
+ *
  */
 @FlowableDmnTest
 @DmnConfigurationResource("flowable.custom.dmn.cfg.xml")

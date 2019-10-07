@@ -20,7 +20,7 @@ import mobius.common.engine.impl.event.FlowableEntityEventImpl;
 /**
  * Builder class used to create {@link FlowableEvent} implementations.
  *
- * @author Tijs Rademakers
+ *
  */
 public class FlowableEntityLinkEventBuilder {
 

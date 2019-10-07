@@ -21,7 +21,7 @@ import mobius.form.engine.impl.persistence.entity.FormDeploymentEntityManager;
 import mobius.form.engine.impl.persistence.entity.FormResourceEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public abstract class AbstractManager {

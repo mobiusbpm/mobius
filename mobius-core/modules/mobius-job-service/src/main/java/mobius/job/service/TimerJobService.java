@@ -21,7 +21,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 /**
  * Service which provides access to timer jobs.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface TimerJobService {
     

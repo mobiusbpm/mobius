@@ -27,7 +27,7 @@ import com.unboundid.ldap.sdk.LDAPException;
 import com.unboundid.ldif.LDIFReader;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class InMemoryDirectoryServerFactoryBean implements FactoryBean<InMemoryDirectoryServer>, InitializingBean, SmartLifecycle {
 

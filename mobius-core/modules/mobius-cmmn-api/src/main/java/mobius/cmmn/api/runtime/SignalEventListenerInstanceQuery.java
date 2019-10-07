@@ -15,7 +15,7 @@ package mobius.cmmn.api.runtime;
 import mobius.common.engine.api.query.Query;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface SignalEventListenerInstanceQuery extends Query<SignalEventListenerInstanceQuery, SignalEventListenerInstance> {
 

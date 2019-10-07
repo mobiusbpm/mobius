@@ -21,7 +21,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 /**
  * Common configuration for engines that need the job executions setup.
  *
- * @author Filip Hrisafov
+ *
  *
  */
 @Configuration

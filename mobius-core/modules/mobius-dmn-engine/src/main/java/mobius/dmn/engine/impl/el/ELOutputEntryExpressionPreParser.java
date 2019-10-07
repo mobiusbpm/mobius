@@ -13,7 +13,7 @@
 package mobius.dmn.engine.impl.el;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class ELOutputEntryExpressionPreParser {

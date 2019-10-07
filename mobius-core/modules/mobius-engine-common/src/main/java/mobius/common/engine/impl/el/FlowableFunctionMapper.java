@@ -22,7 +22,7 @@ import mobius.common.engine.impl.javax.el.FunctionMapper;
 /**
  * A date function mapper that can be used in EL expressions
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FlowableFunctionMapper extends FunctionMapper {
 

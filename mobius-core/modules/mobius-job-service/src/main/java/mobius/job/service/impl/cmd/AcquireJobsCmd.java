@@ -26,7 +26,7 @@ import mobius.job.service.impl.persistence.entity.JobInfoEntityManager;
 import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AcquireJobsCmd implements Command<AcquiredJobEntities> {
 

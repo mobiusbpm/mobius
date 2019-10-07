@@ -26,7 +26,7 @@ import mobius.rest.service.api.RestUrls;
 import org.junit.Test;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ProcessInstanceDiagramResourceTest extends BaseSpringRestTestCase {
 

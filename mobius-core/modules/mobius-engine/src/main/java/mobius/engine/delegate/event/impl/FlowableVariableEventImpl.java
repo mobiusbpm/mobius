@@ -19,7 +19,7 @@ import mobius.variable.api.types.VariableType;
 /**
  * Implementation of {@link FlowableVariableEvent}.
  *
- * @author Frederik Heremans
+ *
  */
 public class FlowableVariableEventImpl extends FlowableProcessEventImpl implements FlowableVariableEvent {
 

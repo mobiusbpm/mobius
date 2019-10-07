@@ -22,7 +22,7 @@ import mobius.dmn.model.OutputClause;
 import mobius.dmn.model.RuleOutputClauseContainer;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class OutputEntryParser extends BaseChildElementParser {

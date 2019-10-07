@@ -56,7 +56,7 @@ import org.junit.Test;
 
 /**
  *
- * @author Filip Hrisafov
+ *
  */
 public class RuntimeServiceTest extends FlowableCmmnTestCase {
 

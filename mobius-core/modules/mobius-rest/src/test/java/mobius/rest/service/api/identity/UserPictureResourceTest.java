@@ -34,7 +34,7 @@ import org.junit.Test;
 import org.springframework.http.MediaType;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class UserPictureResourceTest extends BaseSpringRestTestCase {
 

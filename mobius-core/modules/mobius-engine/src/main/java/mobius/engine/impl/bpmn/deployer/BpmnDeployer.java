@@ -54,7 +54,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class BpmnDeployer implements EngineDeployer {
 

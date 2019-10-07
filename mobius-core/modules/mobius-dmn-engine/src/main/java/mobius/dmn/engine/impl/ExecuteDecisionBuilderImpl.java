@@ -20,7 +20,7 @@ import mobius.dmn.api.DecisionExecutionAuditContainer;
 import mobius.dmn.api.ExecuteDecisionBuilder;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ExecuteDecisionBuilderImpl implements ExecuteDecisionBuilder {
 

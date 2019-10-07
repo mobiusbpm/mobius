@@ -15,7 +15,7 @@ package mobius.cmmn.converter.exception;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class XMLException extends FlowableException {
 

@@ -12,11 +12,6 @@
  */
 package mobius.spring.security;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import java.security.Principal;
-
-import mobius.spring.security.SpringSecurityAuthenticationContext;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -26,8 +21,12 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 
+import java.security.Principal;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
 /**
- * @author Filip Hrisafov
+ *
  */
 public class SpringSecurityAuthenticationContextTest {
 

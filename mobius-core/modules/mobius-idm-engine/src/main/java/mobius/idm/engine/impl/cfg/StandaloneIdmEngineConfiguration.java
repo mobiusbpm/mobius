@@ -15,7 +15,7 @@ package mobius.idm.engine.impl.cfg;
 import mobius.idm.engine.IdmEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneIdmEngineConfiguration extends IdmEngineConfiguration {
 

@@ -30,7 +30,7 @@ import org.junit.Test;
 import org.junit.rules.TestName;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SignalEventListenerTest extends FlowableCmmnTestCase {
 

@@ -29,7 +29,7 @@ import mobius.bpmn.model.CaseServiceTask;
 import mobius.bpmn.model.ServiceTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CaseServiceTaskXMLConverter extends ServiceTaskXMLConverter {
     

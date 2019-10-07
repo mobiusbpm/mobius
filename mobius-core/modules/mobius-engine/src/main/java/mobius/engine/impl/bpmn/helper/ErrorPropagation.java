@@ -53,7 +53,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
  * 
  * Possible error handlers include Error Intermediate Events and Error Event Sub-Processes.
  * 
- * @author Tijs Rademakers
+ *
  * @author Saeid Mirzaei
  */
 public class ErrorPropagation {

@@ -32,7 +32,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "History" }, description = "Manage History", authorizations = { @Authorization(value = "basicAuth") })

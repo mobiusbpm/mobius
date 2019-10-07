@@ -20,7 +20,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @ConfigurationProperties(prefix = "flowable.app")
 public class FlowableAppProperties {

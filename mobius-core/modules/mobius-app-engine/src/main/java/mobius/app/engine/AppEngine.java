@@ -19,7 +19,7 @@ import mobius.common.engine.impl.FlowableVersions;
 /**
  * Provides access to all services that expose App management operations.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface AppEngine {
     

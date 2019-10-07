@@ -17,7 +17,7 @@ import mobius.form.api.FormDefinition;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface FormDefinitionEntity extends FormDefinition, Entity {
 

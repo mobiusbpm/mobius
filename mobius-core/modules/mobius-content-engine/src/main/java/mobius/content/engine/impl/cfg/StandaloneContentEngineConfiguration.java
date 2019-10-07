@@ -15,7 +15,7 @@ package mobius.content.engine.impl.cfg;
 import mobius.content.engine.ContentEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneContentEngineConfiguration extends ContentEngineConfiguration {
 

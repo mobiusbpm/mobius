@@ -17,7 +17,7 @@ import mobius.variable.api.types.VariableType;
 import org.joda.time.DateTime;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class JodaDateTimeType implements VariableType {
 

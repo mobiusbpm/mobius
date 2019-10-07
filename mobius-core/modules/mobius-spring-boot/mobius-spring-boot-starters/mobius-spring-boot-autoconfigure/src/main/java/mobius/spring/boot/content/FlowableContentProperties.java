@@ -19,7 +19,7 @@ import org.springframework.boot.context.properties.NestedConfigurationProperty;
 /**
  * Properties for configuring the content engine.
  *
- * @author Filip Hrisafov
+ *
  */
 @ConfigurationProperties(prefix = "flowable.content")
 public class FlowableContentProperties {

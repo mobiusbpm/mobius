@@ -25,7 +25,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEventListener}s that throw a message BPMN event when an {@link FlowableEvent} has been dispatched.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class MessageThrowingEventListenerTest extends PluggableFlowableTestCase {
 

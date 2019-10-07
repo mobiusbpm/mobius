@@ -23,7 +23,7 @@ import mobius.bpmn.model.HttpServiceTask;
 import mobius.bpmn.model.ImplementationType;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FlowableHttpRequestHandlerParser extends BaseChildElementParser {
 

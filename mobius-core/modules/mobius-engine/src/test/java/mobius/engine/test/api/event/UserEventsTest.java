@@ -24,7 +24,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to users.
  * 
- * @author Frederik Heremans
+ *
  */
 public class UserEventsTest extends PluggableFlowableTestCase {
 

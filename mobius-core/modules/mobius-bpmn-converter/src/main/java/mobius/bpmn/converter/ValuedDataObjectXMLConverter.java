@@ -35,7 +35,7 @@ import mobius.bpmn.model.ValuedDataObject;
 
 /**
  * @author Lori Small
- * @author Tijs Rademakers
+ *
  */
 public class ValuedDataObjectXMLConverter extends BaseBpmnXMLConverter {
 

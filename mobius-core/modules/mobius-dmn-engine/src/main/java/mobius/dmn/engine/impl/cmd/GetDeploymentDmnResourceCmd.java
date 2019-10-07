@@ -25,7 +25,7 @@ import mobius.dmn.engine.impl.util.CommandContextUtil;
 /**
  * Gives access to a deployed decision table model, e.g., a DMN XML file, through a stream of bytes.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class GetDeploymentDmnResourceCmd implements Command<InputStream>, Serializable {
 

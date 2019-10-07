@@ -20,7 +20,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @Entity(name = "SPRING_TEST_ORDER")
 public class LoanRequest {

@@ -39,7 +39,7 @@ import mobius.variable.service.impl.QueryVariableValue;
  *
  *
  * @author Falko Menge
- * @author Tijs Rademakers
+ *
  */
 public class TaskQueryImpl extends AbstractVariableQueryImpl<TaskQuery, Task> implements TaskQuery {
 

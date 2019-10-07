@@ -17,7 +17,7 @@ package mobius.common.rest.api;
  * 
  * @see AbstractPaginateList
  * 
- * @author Frederik Heremans
+ *
  */
 public class PaginateRequest {
 

@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.Message;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MessageParser implements BpmnXMLConstants {
 

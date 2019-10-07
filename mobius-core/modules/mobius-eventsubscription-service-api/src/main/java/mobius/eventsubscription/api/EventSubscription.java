@@ -17,7 +17,7 @@ import java.util.Date;
 /**
  * Represent an event subscription for a process definition or a process instance.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface EventSubscription {
 

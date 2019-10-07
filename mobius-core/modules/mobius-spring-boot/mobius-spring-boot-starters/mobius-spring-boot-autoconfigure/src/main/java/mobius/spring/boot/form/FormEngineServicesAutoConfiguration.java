@@ -36,7 +36,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Auto configuration for the form engine.
  *
- * @author Filip Hrisafov
+ *
  * @author Javier Casal
  */
 @Configuration

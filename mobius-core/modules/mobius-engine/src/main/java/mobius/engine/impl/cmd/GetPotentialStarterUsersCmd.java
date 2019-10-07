@@ -27,7 +27,7 @@ import mobius.identitylink.api.IdentityLink;
 import mobius.idm.api.User;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetPotentialStarterUsersCmd implements Command<List<User>>, Serializable {
 

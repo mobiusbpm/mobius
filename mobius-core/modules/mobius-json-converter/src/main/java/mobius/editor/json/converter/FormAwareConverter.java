@@ -15,7 +15,7 @@ package mobius.editor.json.converter;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface FormAwareConverter {
 

@@ -19,7 +19,7 @@ import mobius.common.engine.impl.interceptor.Session;
 import mobius.common.engine.impl.interceptor.SessionFactory;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class GenericManagerFactory implements SessionFactory {

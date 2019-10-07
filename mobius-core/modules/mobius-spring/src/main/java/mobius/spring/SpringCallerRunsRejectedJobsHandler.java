@@ -15,7 +15,7 @@ package mobius.spring;
 
 /**
  * 
- * @author Tijs Rademakers
+ *
  * @deprecated use {@link mobius.spring.job.service.SpringCallerRunsRejectedJobsHandler}
  */
 @Deprecated

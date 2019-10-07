@@ -23,7 +23,7 @@ import mobius.task.service.impl.util.CommandContextUtil;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 class TaskFindByProcessInstanceTest extends PluggableFlowableTestCase {
 

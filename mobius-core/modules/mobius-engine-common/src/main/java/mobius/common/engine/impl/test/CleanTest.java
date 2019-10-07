@@ -38,7 +38,7 @@ import java.lang.annotation.Target;
  *      </li>
  * </ul>
  *
- * @author Filip Hrisafov
+ *
  */
 @Target({
     ElementType.TYPE,

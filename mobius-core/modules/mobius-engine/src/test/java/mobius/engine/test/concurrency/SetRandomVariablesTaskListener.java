@@ -23,7 +23,7 @@ import mobius.task.service.delegate.DelegateTask;
 /**
  * Tasklistener that sets some random process and task-variables.
  * 
- * @author Frederik Heremans
+ *
  */
 public class SetRandomVariablesTaskListener implements TaskListener {
 

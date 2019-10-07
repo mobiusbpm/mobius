@@ -21,7 +21,7 @@ import mobius.common.engine.api.delegate.event.FlowableExceptionEvent;
 /**
  * Base class for all {@link FlowableEvent} implementations, represents an exception occurred, related to an entity.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableEntityExceptionEventImpl extends FlowableEngineEventImpl implements FlowableEngineEntityEvent, FlowableExceptionEvent {
 

@@ -28,7 +28,7 @@ import mobius.identitylink.service.impl.persistence.entity.data.impl.MybatisIden
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class IdentityLinkServiceConfiguration extends AbstractServiceConfiguration {
 

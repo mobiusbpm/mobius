@@ -28,7 +28,7 @@ import org.junit.jupiter.api.extension.ParameterResolver;
 /**
  * Extension is needed, as we need to have the we service run before we start deploying to the flowable engine.
  *
- * @author Filip Hrisafov
+ *
  */
 public class MockWebServiceExtension implements BeforeEachCallback, AfterEachCallback, ParameterResolver {
 

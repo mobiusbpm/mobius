@@ -26,7 +26,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.impl.util.Flowable5Util;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class DeleteHistoricProcessInstanceCmd implements Command<Object>, Serializable {
 

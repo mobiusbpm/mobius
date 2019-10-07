@@ -24,7 +24,7 @@ import mobius.entitylink.api.HierarchyType;
 import mobius.entitylink.service.impl.persistence.entity.EntityLinkEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkUtil {
 

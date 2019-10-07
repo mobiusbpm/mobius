@@ -34,7 +34,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubsc
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class BoundarySignalEventActivityBehavior extends BoundaryEventActivityBehavior {
 

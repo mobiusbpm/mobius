@@ -24,7 +24,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * Component scan for the CMMN Rest API Configuration.
  *
- * @author Filip Hrisafov
+ *
  */
 @Import(DispatcherServletConfiguration.class)
 @ComponentScan("mobius.cmmn.rest.api")

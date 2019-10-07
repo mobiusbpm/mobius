@@ -22,7 +22,7 @@ import mobius.engine.impl.RuntimeServiceImpl;
 import mobius.engine.runtime.ChangeActivityStateBuilder;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ChangeActivityStateBuilderImpl implements ChangeActivityStateBuilder {
 

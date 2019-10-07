@@ -24,7 +24,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppDefinitionEntityManagerImpl extends AbstractAppEntityManager<AppDefinitionEntity> implements AppDefinitionEntityManager {
 

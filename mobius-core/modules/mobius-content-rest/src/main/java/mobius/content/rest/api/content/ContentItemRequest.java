@@ -15,7 +15,7 @@ package mobius.content.rest.api.content;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ContentItemRequest {
 

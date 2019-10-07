@@ -26,7 +26,7 @@ import mobius.variable.api.entity.VariableInstance;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetTasksLocalVariablesCmd implements Command<List<VariableInstance>>, Serializable {
 

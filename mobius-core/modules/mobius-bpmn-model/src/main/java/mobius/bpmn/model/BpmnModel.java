@@ -23,7 +23,7 @@ import org.apache.commons.lang3.StringUtils;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class BpmnModel {

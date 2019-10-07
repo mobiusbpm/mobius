@@ -24,7 +24,7 @@ import mobius.variable.api.delegate.VariableScope;
 /**
  * {@link EntityManager} responsible for {@link TimerJobEntity} instances.
  *
- * @author Tijs Rademakers
+ *
  * @author Vasile Dirla
  */
 public interface TimerJobEntityManager extends EntityManager<TimerJobEntity> {

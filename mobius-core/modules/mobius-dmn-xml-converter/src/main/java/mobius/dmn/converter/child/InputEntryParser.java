@@ -24,7 +24,7 @@ import mobius.dmn.model.RuleInputClauseContainer;
 import mobius.dmn.model.UnaryTests;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class InputEntryParser extends BaseChildElementParser {

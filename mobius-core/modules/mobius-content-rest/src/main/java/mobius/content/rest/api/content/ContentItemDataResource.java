@@ -46,7 +46,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Content item" }, description = "Manage content item data", authorizations = { @Authorization(value = "basicAuth") })

@@ -23,7 +23,7 @@ import mobius.engine.repository.ProcessDefinition;
  *
  *
  * @author Daniel Meyer
- * @author Tijs Rademakers
+ *
  */
 public interface ProcessInstance extends Execution {
 

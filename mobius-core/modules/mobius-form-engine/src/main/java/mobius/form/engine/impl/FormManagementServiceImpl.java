@@ -26,7 +26,7 @@ import mobius.form.engine.impl.cmd.GetTableMetaDataCmd;
 import mobius.form.engine.impl.cmd.GetTableNameCmd;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FormManagementServiceImpl extends CommonEngineServiceImpl<FormEngineConfiguration> implements FormManagementService {
 

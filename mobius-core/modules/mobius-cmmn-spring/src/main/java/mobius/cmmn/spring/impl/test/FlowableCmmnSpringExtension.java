@@ -24,7 +24,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
  * <b>NB:</b> The {@link mobius.cmmn.engine.test.CmmnConfigurationResource} is ignored
  * as the {@link CmmnEngine} is taken from the Spring application context
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableCmmnSpringExtension extends FlowableCmmnExtension {
 

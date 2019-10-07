@@ -17,7 +17,7 @@ import java.util.Date;
 /**
  * An object structure representing a piece of content.
  *
- * @author Tijs Rademakers
+ *
  * @author Joram Barez
  */
 public interface ContentItem {

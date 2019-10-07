@@ -21,7 +21,7 @@ import mobius.form.spring.SpringFormEngineConfiguration;
 import mobius.form.spring.SpringFormExpressionManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class SpringFormEngineConfigurator extends FormEngineConfigurator {

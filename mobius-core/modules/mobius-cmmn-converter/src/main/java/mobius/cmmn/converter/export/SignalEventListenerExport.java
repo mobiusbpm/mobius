@@ -19,7 +19,7 @@ import mobius.cmmn.converter.CmmnXmlConstants;
 import mobius.cmmn.model.SignalEventListener;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class SignalEventListenerExport extends AbstractPlanItemDefinitionExport<SignalEventListener> {

@@ -25,7 +25,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubsc
 /**
  * Service which provides access to variables.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface EventSubscriptionService {
     

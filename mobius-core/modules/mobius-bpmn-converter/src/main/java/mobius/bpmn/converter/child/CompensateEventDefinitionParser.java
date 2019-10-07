@@ -22,7 +22,7 @@ import mobius.bpmn.model.CompensateEventDefinition;
 import mobius.bpmn.model.Event;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CompensateEventDefinitionParser extends BaseChildElementParser {
 

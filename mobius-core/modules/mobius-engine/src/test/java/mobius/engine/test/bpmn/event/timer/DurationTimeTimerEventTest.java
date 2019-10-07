@@ -33,7 +33,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class DurationTimeTimerEventTest extends PluggableFlowableTestCase {
 

@@ -20,7 +20,7 @@ import mobius.bpmn.model.DataStore;
 import mobius.bpmn.model.DataStoreReference;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DataStateParser extends BaseChildElementParser {
 

@@ -13,7 +13,7 @@
 package mobius.dmn.engine.impl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface DeploymentSettings {
 

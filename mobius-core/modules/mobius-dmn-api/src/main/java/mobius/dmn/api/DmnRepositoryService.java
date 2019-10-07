@@ -20,7 +20,7 @@ import mobius.dmn.model.DmnDefinition;
 /**
  * Service providing access to the repository of decision tables and deployments.
  *
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public interface DmnRepositoryService {

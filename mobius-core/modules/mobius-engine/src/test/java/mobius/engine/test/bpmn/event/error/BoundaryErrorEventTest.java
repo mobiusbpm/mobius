@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class BoundaryErrorEventTest extends PluggableFlowableTestCase {
 

@@ -25,7 +25,7 @@ import mobius.variable.service.VariableService;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SetVariablesCmd implements Command<Void> {
     

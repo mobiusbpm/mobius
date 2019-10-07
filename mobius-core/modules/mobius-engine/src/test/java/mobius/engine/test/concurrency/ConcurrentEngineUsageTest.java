@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Test that uses a number of threads to start processes and complete tasks concurrently.
  * 
- * @author Frederik Heremans
+ *
  */
 public class ConcurrentEngineUsageTest extends PluggableFlowableTestCase {
 

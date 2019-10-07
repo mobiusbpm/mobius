@@ -22,7 +22,7 @@ import mobius.variable.api.history.HistoricVariableInstanceQuery;
 /**
  * Contains the possible properties which can be used in a {@link HistoricVariableInstanceQuery}.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class HistoricVariableInstanceQueryProperty implements QueryProperty {
 

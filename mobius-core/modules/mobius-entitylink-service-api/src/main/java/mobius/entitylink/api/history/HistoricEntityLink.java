@@ -20,7 +20,7 @@ import mobius.entitylink.api.EntityLink;
 /**
  * Historic counterpart of {@link EntityLink} that represents the current state if any runtime link.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface HistoricEntityLink {
     

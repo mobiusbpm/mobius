@@ -27,7 +27,7 @@ import mobius.engine.impl.persistence.entity.ExecutionEntity;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TriggerCaseTaskCmd implements Command<Void>, Serializable {
 

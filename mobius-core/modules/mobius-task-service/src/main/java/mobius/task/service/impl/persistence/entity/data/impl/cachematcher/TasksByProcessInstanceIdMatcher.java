@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class TasksByProcessInstanceIdMatcher extends CachedEntityMatcherAdapter<TaskEntity> {
 

@@ -22,7 +22,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.SequenceFlow;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SequenceFlowXMLConverter extends BaseBpmnXMLConverter {
 

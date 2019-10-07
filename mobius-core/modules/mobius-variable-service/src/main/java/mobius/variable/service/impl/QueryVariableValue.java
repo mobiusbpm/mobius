@@ -27,7 +27,7 @@ import mobius.variable.service.impl.util.CommandContextUtil;
 /**
  * Represents a variable value used in queries.
  * 
- * @author Frederik Heremans
+ *
  */
 public class QueryVariableValue implements Serializable {
     private static final long serialVersionUID = 1L;

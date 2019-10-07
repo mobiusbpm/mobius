@@ -27,7 +27,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetProcessDefinitionHistoryLevelModelCmd implements Command<HistoryLevel>, Serializable {
 

@@ -37,7 +37,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  * @author Falko Menge
  * @author Bernd Ruecker
  *

@@ -27,7 +27,7 @@ import mobius.engine.repository.ProcessDefinition;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetProcessDefinitionInfoCmd implements Command<ObjectNode>, Serializable {
 

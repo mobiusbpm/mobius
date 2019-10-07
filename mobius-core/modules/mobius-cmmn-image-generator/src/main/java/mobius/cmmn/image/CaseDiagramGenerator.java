@@ -20,7 +20,7 @@ import java.io.InputStream;
 /**
  * This interface declares methods to generate case diagram
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface CaseDiagramGenerator {
 

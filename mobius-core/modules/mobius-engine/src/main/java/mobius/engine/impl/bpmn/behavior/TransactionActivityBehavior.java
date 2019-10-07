@@ -14,7 +14,7 @@
 package mobius.engine.impl.bpmn.behavior;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TransactionActivityBehavior extends SubProcessActivityBehavior {
 

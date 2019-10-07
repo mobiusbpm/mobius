@@ -21,7 +21,7 @@ import mobius.dmn.model.DmnDefinition;
 import mobius.dmn.model.DmnElement;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class DecisionRuleXMLConverter extends BaseDmnXMLConverter {

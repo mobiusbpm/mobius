@@ -18,7 +18,7 @@ import mobius.common.engine.api.delegate.event.FlowableEvent;
 /**
  * An {@link FlowableEvent} that indicates a certain sequence flow has been taken.
  * 
- * @author Frederik Heremans
+ *
  */
 public interface FlowableSequenceFlowTakenEvent extends FlowableEngineEvent {
 

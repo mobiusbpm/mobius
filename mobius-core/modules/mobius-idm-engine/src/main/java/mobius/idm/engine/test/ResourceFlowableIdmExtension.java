@@ -25,7 +25,7 @@ import org.junit.jupiter.api.extension.ExtensionContext;
  * customizing the {@link IdmEngineConfiguration}
  * A new {@link IdmEngine} will be created for each test.
  *
- * @author Filip Hrisafov
+ *
  */
 public class ResourceFlowableIdmExtension extends InternalFlowableIdmExtension {
 

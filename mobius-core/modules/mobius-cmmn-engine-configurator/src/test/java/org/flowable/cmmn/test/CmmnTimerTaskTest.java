@@ -33,7 +33,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CmmnTimerTaskTest extends mobius.cmmn.test.AbstractProcessEngineIntegrationTest {
     

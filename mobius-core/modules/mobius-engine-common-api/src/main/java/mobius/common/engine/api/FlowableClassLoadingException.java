@@ -16,7 +16,7 @@ package mobius.common.engine.api;
 /**
  * Runtime exception indicating the requested class was not found or an error occurred while loading the class.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableClassLoadingException extends FlowableException {
 

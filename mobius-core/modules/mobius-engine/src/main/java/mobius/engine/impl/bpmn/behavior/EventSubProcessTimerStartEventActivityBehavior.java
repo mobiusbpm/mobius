@@ -34,7 +34,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 /**
  * Implementation of the BPMN 2.0 event subprocess timer start event.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class EventSubProcessTimerStartEventActivityBehavior extends AbstractBpmnActivityBehavior {
 

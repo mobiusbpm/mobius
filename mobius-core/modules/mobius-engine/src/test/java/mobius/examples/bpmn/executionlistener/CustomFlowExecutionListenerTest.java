@@ -22,7 +22,7 @@ import mobius.variable.api.history.HistoricVariableInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CustomFlowExecutionListenerTest extends ResourceFlowableTestCase {
 

@@ -23,7 +23,7 @@ import mobius.task.api.Task;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BoundaryConditionalEventTest extends PluggableFlowableTestCase {
 

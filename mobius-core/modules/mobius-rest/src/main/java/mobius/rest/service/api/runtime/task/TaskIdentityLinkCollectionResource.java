@@ -35,7 +35,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Task Identity Links" }, description = "Manage Tasks Identity Links", authorizations = { @Authorization(value = "basicAuth") })

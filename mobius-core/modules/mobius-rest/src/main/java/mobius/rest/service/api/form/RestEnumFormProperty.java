@@ -15,7 +15,7 @@ package mobius.rest.service.api.form;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class RestEnumFormProperty {
 

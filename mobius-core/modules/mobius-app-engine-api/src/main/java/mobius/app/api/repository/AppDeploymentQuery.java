@@ -28,7 +28,7 @@ import mobius.common.engine.api.query.Query;
  * {@link AppRepositoryService#getDeploymentResourceNames(String)} and
  * {@link AppRepositoryService#getResourceAsStream(String, String)}
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface AppDeploymentQuery extends Query<AppDeploymentQuery, AppDeployment> {

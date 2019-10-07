@@ -20,7 +20,7 @@ import mobius.common.engine.api.query.Query;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface CaseInstanceQuery extends Query<CaseInstanceQuery, CaseInstance> {
 

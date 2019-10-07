@@ -20,7 +20,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.engine.repository.Model;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface ModelEntity extends Model, HasRevision, Entity {

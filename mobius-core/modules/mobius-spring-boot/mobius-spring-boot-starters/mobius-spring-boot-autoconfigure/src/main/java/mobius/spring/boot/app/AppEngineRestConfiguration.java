@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Import;
 /**
  * Component scan for the App engine REST API Configuration.
  *
- * @author Tijs Rademakers
+ *
  */
 @Import(DispatcherServletConfiguration.class)
 @ComponentScan("mobius.app.rest.service.api")

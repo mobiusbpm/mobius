@@ -27,7 +27,7 @@ import mobius.examples.bpmn.executionlistener.RecorderExecutionListener.Recorded
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ExecutionListenerTest extends PluggableFlowableTestCase {
 

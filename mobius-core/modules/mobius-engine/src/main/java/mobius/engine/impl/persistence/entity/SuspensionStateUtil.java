@@ -31,7 +31,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  * Helper class for suspension state
  * 
- * @author Tijs Rademakers
+ *
  */
 public class SuspensionStateUtil {
 

@@ -20,7 +20,7 @@ import mobius.common.rest.util.DateToStringSerializer;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class CommentResponse {
 

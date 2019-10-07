@@ -21,7 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Service bean that handles loan requests.
  * 
- * @author Frederik Heremans
+ *
  */
 public class LoanRequestBean {
 

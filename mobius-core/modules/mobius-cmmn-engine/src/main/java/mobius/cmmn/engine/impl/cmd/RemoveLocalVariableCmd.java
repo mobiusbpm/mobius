@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.Command;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class RemoveLocalVariableCmd implements Command<Void> {
     

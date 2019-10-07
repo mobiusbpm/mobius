@@ -34,7 +34,7 @@ import mobius.variable.service.VariableServiceConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class CommandContextUtil {
 

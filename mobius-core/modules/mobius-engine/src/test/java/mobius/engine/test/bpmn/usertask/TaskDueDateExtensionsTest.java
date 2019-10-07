@@ -29,7 +29,7 @@ import org.joda.time.Period;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class TaskDueDateExtensionsTest extends ResourceFlowableTestCase {
 

@@ -15,7 +15,7 @@ package mobius.form.model;
 import java.io.Serializable;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class LayoutDefinition implements Serializable {
 

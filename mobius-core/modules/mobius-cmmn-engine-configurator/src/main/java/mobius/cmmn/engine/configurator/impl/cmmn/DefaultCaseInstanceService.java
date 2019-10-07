@@ -27,7 +27,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DefaultCaseInstanceService implements CaseInstanceService {
     

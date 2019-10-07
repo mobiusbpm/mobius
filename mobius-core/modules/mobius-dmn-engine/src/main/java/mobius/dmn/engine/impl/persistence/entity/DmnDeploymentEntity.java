@@ -22,7 +22,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.dmn.api.DmnDeployment;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface DmnDeploymentEntity extends DmnDeployment, Entity {

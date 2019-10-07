@@ -15,7 +15,7 @@ package mobius.entitylink.service.impl.db;
 import mobius.common.engine.impl.db.ServiceSqlScriptBasedDbSchemaManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkDbSchemaManager extends ServiceSqlScriptBasedDbSchemaManager {
     

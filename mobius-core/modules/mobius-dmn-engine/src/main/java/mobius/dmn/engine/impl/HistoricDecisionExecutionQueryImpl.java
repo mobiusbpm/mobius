@@ -25,7 +25,7 @@ import mobius.dmn.api.DmnHistoricDecisionExecutionQuery;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricDecisionExecutionQueryImpl extends AbstractQuery<DmnHistoricDecisionExecutionQuery, DmnHistoricDecisionExecution> implements DmnHistoricDecisionExecutionQuery {
 

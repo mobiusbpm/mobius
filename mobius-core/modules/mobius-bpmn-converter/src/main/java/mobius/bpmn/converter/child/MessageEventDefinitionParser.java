@@ -22,7 +22,7 @@ import mobius.bpmn.model.Event;
 import mobius.bpmn.model.MessageEventDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MessageEventDefinitionParser extends BaseChildElementParser {
 

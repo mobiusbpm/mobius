@@ -24,7 +24,7 @@ import mobius.idm.engine.impl.TokenQueryImpl;
 import mobius.idm.engine.impl.persistence.entity.data.TokenDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TokenEntityManagerImpl extends AbstractEntityManager<TokenEntity> implements TokenEntityManager {
 

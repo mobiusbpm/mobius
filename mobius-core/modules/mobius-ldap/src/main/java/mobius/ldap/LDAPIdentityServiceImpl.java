@@ -12,15 +12,6 @@
  */
 package mobius.ldap;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.naming.NamingEnumeration;
-import javax.naming.NamingException;
-import javax.naming.directory.InitialDirContext;
-import javax.naming.directory.SearchControls;
-import javax.naming.directory.SearchResult;
-
 import mobius.common.engine.api.FlowableException;
 import mobius.idm.api.Group;
 import mobius.idm.api.GroupQuery;
@@ -36,6 +27,14 @@ import mobius.ldap.impl.LDAPGroupQueryImpl;
 import mobius.ldap.impl.LDAPUserQueryImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import javax.naming.NamingEnumeration;
+import javax.naming.NamingException;
+import javax.naming.directory.InitialDirContext;
+import javax.naming.directory.SearchControls;
+import javax.naming.directory.SearchResult;
+import java.util.ArrayList;
+import java.util.List;
 
 public class LDAPIdentityServiceImpl extends IdmIdentityServiceImpl {
 
@@ -88,7 +87,6 @@ public class LDAPIdentityServiceImpl extends IdmIdentityServiceImpl {
             if (privilegeMapping.getUserId() != null) {
                 User user = new UserEntityImpl();
                 user.setId(privilegeMapping.getUserId());
-                user.setLastName(privilegeMapping.getUserId());
                 users.add(user);
             }
         }

@@ -24,7 +24,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetIdentityLinksForTaskCmd implements Command<List<IdentityLink>>, Serializable {
 

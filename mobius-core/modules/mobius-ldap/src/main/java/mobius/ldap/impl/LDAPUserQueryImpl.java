@@ -153,23 +153,25 @@ public class LDAPUserQueryImpl extends UserQueryImpl {
         }
         if (ldapConfigurator.getUserFirstNameAttribute() != null) {
             try {
-                user.setFirstName(result.getAttributes().get(ldapConfigurator.getUserFirstNameAttribute()).get().toString());
+                //todo: set to individual profile
+//                user.setFirstName(result.getAttributes().get(ldapConfigurator.getUserFirstNameAttribute()).get().toString());
             } catch (NullPointerException e) {
-                user.setFirstName("");
+//                user.setFirstName("");
             }
         }
         if (ldapConfigurator.getUserLastNameAttribute() != null) {
             try {
-                user.setLastName(result.getAttributes().get(ldapConfigurator.getUserLastNameAttribute()).get().toString());
+                //todo: set to individual profile
+//                user.setLastName(result.getAttributes().get(ldapConfigurator.getUserLastNameAttribute()).get().toString());
             } catch (NullPointerException e) {
-                user.setLastName("");
+//                user.setLastName("");
             }
         }
         if (ldapConfigurator.getUserEmailAttribute() != null) {
             try {
-                user.setEmail(result.getAttributes().get(ldapConfigurator.getUserEmailAttribute()).get().toString());
+//                user.setEmail(result.getAttributes().get(ldapConfigurator.getUserEmailAttribute()).get().toString());
             } catch (NullPointerException e) {
-                user.setEmail("");
+//                user.setEmail("");
             }
         }
     }

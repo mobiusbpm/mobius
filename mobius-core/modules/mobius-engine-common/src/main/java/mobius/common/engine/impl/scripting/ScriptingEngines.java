@@ -29,7 +29,7 @@ import mobius.variable.api.delegate.VariableScope;
 /**
  *
  *
- * @author Frederik Heremans
+ *
  */
 public class ScriptingEngines {
 

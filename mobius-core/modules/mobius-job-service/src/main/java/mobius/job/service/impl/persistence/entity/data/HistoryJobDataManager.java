@@ -20,7 +20,7 @@ import mobius.job.service.impl.HistoryJobQueryImpl;
 import mobius.job.service.impl.persistence.entity.HistoryJobEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface HistoryJobDataManager extends DataManager<HistoryJobEntity>, JobInfoDataManager<HistoryJobEntity> {
 

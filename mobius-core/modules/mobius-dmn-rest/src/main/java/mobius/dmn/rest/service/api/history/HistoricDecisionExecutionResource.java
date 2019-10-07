@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Historic Decision Executions" }, description = "Historic Decision Execution", authorizations = { @Authorization(value = "basicAuth") })

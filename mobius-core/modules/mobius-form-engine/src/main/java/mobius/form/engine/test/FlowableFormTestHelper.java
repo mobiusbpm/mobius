@@ -21,7 +21,7 @@ import mobius.form.engine.FormEngine;
  * A Helper for the Flowable {@link FlowableFormExtension} that can be used within the JUnit Jupiter context store
  * and users can use it in the tests for easy modifying of the {@link FormEngine} time and easy access for waiting on the job executor.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableFormTestHelper {
 

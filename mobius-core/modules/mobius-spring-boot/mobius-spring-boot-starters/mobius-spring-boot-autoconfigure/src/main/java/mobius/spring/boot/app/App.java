@@ -23,7 +23,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 /**
  * Qualifier annotation for App beans that need to be injected for App Configurations.
  *
- * @author Tijs Rademakers
+ *
  */
 @Target({ ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.TYPE,
     ElementType.ANNOTATION_TYPE })

@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AddEditorSourceForModelCmd implements Command<Object>, Serializable {
 

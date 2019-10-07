@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MoveExecutionIdContainer {
 

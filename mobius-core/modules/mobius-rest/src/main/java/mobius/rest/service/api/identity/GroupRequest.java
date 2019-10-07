@@ -14,7 +14,7 @@
 package mobius.rest.service.api.identity;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class GroupRequest extends GroupResponse {
 

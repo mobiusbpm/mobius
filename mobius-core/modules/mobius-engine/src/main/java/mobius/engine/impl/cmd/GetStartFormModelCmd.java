@@ -33,7 +33,7 @@ import mobius.form.api.FormInfo;
 import mobius.form.api.FormService;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetStartFormModelCmd implements Command<FormInfo>, Serializable {
 

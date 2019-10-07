@@ -18,7 +18,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link Model}s.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface ModelQuery extends Query<ModelQuery, Model> {

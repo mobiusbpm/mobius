@@ -20,9 +20,9 @@ import mobius.job.api.Job;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Frederik Heremans
  *
- * @author Tijs Rademakers
+ *
+ *
  */
 public class JobBaseResource {
 

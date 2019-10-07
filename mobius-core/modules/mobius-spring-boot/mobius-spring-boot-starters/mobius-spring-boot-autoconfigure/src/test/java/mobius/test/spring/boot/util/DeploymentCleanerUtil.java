@@ -26,7 +26,7 @@ import mobius.form.engine.FormEngine;
 import java.util.List;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class DeploymentCleanerUtil {
 

@@ -15,7 +15,7 @@ package mobius.common.engine.api.delegate.event;
 /**
  * Describes an event that occurred in the Flowable Engine which is dispatched to external listeners, if any.
  * 
- * @author Frederik Heremans
+ *
  * 
  */
 public interface FlowableEvent {

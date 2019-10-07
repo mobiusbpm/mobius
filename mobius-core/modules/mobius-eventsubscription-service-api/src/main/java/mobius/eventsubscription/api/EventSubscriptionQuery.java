@@ -19,7 +19,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link EventSubscription}s.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface EventSubscriptionQuery extends Query<EventSubscriptionQuery, EventSubscription> {
 

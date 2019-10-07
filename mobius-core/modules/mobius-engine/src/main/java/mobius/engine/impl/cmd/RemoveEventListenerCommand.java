@@ -21,7 +21,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 /**
  * Command that removes an event-listener from the process engine.
  * 
- * @author Frederik Heremans
+ *
  */
 public class RemoveEventListenerCommand implements Command<Void> {
 

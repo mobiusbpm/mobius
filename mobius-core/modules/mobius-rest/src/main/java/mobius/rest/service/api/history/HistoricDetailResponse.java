@@ -22,7 +22,7 @@ import mobius.common.rest.util.DateToStringSerializer;
 import java.util.Date;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricDetailResponse {
 

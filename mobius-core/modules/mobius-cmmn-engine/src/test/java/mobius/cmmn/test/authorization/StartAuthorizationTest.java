@@ -34,7 +34,7 @@ import mobius.idm.engine.IdmEngineConfiguration;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 
 public class StartAuthorizationTest extends FlowableCmmnTestCase {

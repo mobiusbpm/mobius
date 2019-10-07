@@ -17,7 +17,7 @@ import java.util.Map;
 import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface CaseInstanceService {
     

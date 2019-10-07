@@ -14,7 +14,7 @@
 package mobius.rest.service.api.runtime.process;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class InjectActivityRequest {
 

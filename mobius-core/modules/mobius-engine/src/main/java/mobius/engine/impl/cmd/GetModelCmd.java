@@ -21,7 +21,7 @@ import mobius.engine.impl.persistence.entity.ModelEntity;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetModelCmd implements Command<ModelEntity>, Serializable {
 

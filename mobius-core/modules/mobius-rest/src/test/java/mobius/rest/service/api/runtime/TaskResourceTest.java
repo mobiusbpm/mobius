@@ -45,7 +45,7 @@ import static org.junit.Assert.*;
 /**
  * Test for all REST-operations related to a single Task resource.
  * 
- * @author Frederik Heremans
+ *
  */
 public class TaskResourceTest extends BaseSpringRestTestCase {
 

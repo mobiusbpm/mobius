@@ -22,7 +22,7 @@ import mobius.common.engine.impl.interceptor.Command;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class RemoveVariablesCmd implements Command<Void> {
     

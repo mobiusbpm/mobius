@@ -31,7 +31,7 @@ import java.util.List;
 
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "App Deployment" }, description = "Manage App Deployment", authorizations = { @Authorization(value = "basicAuth") })

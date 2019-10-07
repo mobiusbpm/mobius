@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * Base class for ExceptionHandlerAdvice controllers From http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc
  * 
- * @author Tijs Rademakers
+ *
  */
 @ControllerAdvice
 public class BaseExceptionHandlerAdvice {

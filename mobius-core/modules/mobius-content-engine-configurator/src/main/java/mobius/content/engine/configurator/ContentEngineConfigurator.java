@@ -26,7 +26,7 @@ import mobius.content.engine.impl.db.EntityDependencyOrder;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ContentEngineConfigurator extends AbstractEngineConfigurator {

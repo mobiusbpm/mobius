@@ -23,7 +23,7 @@ import mobius.dmn.engine.impl.HistoricDecisionExecutionQueryImpl;
 import mobius.dmn.engine.impl.persistence.entity.data.HistoricDecisionExecutionDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class HistoricDecisionExecutionEntityManagerImpl extends AbstractEntityManager<HistoricDecisionExecutionEntity> implements HistoricDecisionExecutionEntityManager {

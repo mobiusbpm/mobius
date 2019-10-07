@@ -17,7 +17,7 @@ import java.util.Date;
 import mobius.dmn.api.DmnHistoricDecisionExecution;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricDecisionExecutionResponse {
 

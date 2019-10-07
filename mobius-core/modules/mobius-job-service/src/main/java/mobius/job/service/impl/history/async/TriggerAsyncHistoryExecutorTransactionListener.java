@@ -25,7 +25,7 @@ import mobius.job.service.impl.util.CommandContextUtil;
  * A {@link TransactionListener} that will, typically on post-commit, trigger 
  * the async history executor to execute the provided list of {@link HistoryJobEntity} instances. 
  * 
- * @author Joram Barrez
+ *
  */
 public class TriggerAsyncHistoryExecutorTransactionListener implements TransactionListener {
     

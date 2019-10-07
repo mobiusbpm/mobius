@@ -22,7 +22,7 @@ import java.util.Map;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class EntityCacheImpl implements EntityCache {
 

@@ -30,8 +30,8 @@ import mobius.content.engine.impl.util.CommandContextUtil;
 import org.junit.Assert;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public abstract class AbstractFlowableTestCase extends AbstractContentTestCase {
 

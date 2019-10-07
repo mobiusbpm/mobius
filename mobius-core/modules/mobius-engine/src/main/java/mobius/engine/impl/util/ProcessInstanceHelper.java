@@ -55,7 +55,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class ProcessInstanceHelper {
 

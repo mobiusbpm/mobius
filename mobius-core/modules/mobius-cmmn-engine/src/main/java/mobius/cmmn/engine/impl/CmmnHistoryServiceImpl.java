@@ -42,7 +42,7 @@ import mobius.task.service.impl.HistoricTaskLogEntryBuilderImpl;
 import mobius.task.service.impl.HistoricTaskLogEntryQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnHistoryServiceImpl extends CommonEngineServiceImpl<CmmnEngineConfiguration> implements CmmnHistoryService {
 

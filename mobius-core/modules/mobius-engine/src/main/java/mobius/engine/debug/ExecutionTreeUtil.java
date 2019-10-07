@@ -24,7 +24,7 @@ import mobius.engine.delegate.DelegateExecution;
 import mobius.engine.impl.persistence.entity.ExecutionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExecutionTreeUtil {
 

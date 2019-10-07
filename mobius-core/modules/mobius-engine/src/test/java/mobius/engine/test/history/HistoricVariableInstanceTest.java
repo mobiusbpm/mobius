@@ -37,7 +37,7 @@ import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceE
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class HistoricVariableInstanceTest extends PluggableFlowableTestCase {
 

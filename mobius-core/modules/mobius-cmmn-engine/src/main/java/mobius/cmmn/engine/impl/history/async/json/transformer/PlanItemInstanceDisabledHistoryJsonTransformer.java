@@ -26,7 +26,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import static mobius.job.service.impl.history.async.util.AsyncHistoryJsonUtil.getDateFromJson;
 
 /**
- * @author Joram Barrez
+ *
  */
 @Deprecated
 public class PlanItemInstanceDisabledHistoryJsonTransformer extends AbstractNeedsHistoricPlanItemInstanceHistoryJsonTransformer {

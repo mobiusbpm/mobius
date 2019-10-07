@@ -24,7 +24,7 @@ import mobius.cmmn.model.EventListener;
 import mobius.cmmn.model.PlanItemDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IsStageCompletableExpressionFunction extends AbstractCmmnExpressionFunction {
 

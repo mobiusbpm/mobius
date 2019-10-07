@@ -20,7 +20,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 import mobius.variable.service.impl.persistence.entity.VariableScopeImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DefaultCmmnTaskVariableScopeResolver implements InternalTaskVariableScopeResolver {
     

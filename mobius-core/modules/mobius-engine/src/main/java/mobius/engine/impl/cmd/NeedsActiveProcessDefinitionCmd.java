@@ -22,7 +22,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class NeedsActiveProcessDefinitionCmd<T> implements Command<T>, Serializable {
 

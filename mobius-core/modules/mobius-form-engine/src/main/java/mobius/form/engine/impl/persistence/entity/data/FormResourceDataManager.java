@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.form.engine.impl.persistence.entity.FormResourceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface FormResourceDataManager extends DataManager<FormResourceEntity> {
 

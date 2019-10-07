@@ -52,7 +52,7 @@ import mobius.engine.parse.BpmnParseHandler;
  * {@link BpmnParseHandler} registering the {@link CdiExecutionListener} for distributing execution events using the cdi event infrastructure
  *
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public class CdiEventSupportBpmnParseHandler implements BpmnParseHandler {
 

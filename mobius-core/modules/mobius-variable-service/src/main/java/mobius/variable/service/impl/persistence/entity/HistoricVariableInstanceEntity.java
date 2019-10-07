@@ -23,7 +23,7 @@ import mobius.variable.api.types.VariableType;
 
 /**
  * @author Christian Lipphardt (camunda)
- * @author Joram Barrez
+ *
  */
 public interface HistoricVariableInstanceEntity extends ValueFields, HistoricVariableInstance, Entity, HasRevision {
 

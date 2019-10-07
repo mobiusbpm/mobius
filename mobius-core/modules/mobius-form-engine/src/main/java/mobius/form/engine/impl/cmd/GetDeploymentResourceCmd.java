@@ -24,7 +24,7 @@ import mobius.form.engine.impl.persistence.entity.FormResourceEntity;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetDeploymentResourceCmd implements Command<InputStream>, Serializable {
 

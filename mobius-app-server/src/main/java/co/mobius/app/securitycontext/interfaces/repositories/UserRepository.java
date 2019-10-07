@@ -11,7 +11,9 @@ public interface UserRepository {
 
 	List<UserModel> getUserByLoginNameLike(String loginName);
 
-	UserModel getUserById(int userId);
+	UserModel getUserById(Long userId);
 
 	UserModel getUserByEmailAndPassword(String email, String password);
+
+	UserModel getUserByLoginNameAndPassword(String loginName, String password);
 }

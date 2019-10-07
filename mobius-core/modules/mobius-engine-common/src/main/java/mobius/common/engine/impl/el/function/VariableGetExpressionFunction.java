@@ -18,7 +18,7 @@ import mobius.variable.api.delegate.VariableScope;
 /**
  * Returns the value of a variable. This avoids the {@link PropertyNotFoundException} that otherwise gets thrown when referencing a variable in JUEL.
  * 
- * @author Joram Barrez
+ *
  */
 public class VariableGetExpressionFunction extends AbstractFlowableVariableExpressionFunction {
     

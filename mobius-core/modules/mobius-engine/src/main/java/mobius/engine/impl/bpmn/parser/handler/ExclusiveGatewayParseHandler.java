@@ -17,7 +17,7 @@ import mobius.bpmn.model.ExclusiveGateway;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExclusiveGatewayParseHandler extends AbstractActivityBpmnParseHandler<ExclusiveGateway> {
 

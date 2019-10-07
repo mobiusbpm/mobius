@@ -13,7 +13,7 @@
 package mobius.engine.impl.persistence;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CountingExecutionEntity {
     

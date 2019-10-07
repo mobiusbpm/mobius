@@ -32,11 +32,11 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Daniel Meyer
  * @author Falko Menge
  * @author Saeid Mirzaei
- * @author Joram Barrez
+ *
  */
 
 public interface ExecutionEntity extends DelegateExecution, Execution, ProcessInstance, Entity, AlwaysUpdatedPersistentObject, HasRevision {

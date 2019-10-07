@@ -18,7 +18,7 @@ import java.util.Map;
 import mobius.cmmn.model.IOParameter;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface ProcessInstanceService {
 

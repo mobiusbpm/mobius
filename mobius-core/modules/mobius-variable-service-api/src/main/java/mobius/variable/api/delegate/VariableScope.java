@@ -27,8 +27,8 @@ import mobius.variable.api.entity.VariableInstance;
  * the variable will be stored on the process instance execution. Variables can be stored on the actual scope itself though, 
  * by calling the xxLocal methods.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface VariableScope extends VariableContainer {
 

@@ -21,7 +21,7 @@ import mobius.idm.api.UserQuery;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class CreateUserQueryCmd implements Command<UserQuery>, Serializable {
 

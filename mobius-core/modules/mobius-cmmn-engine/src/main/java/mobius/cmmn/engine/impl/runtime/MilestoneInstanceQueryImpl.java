@@ -24,7 +24,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.common.engine.impl.interceptor.CommandExecutor;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MilestoneInstanceQueryImpl extends AbstractQuery<MilestoneInstanceQuery, MilestoneInstance> implements MilestoneInstanceQuery {
     

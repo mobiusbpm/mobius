@@ -18,7 +18,7 @@ package mobius.cmmn.api.delegate;
  * 
  * Use the more generic CmmnActivityBehavior or CmmnTriggerableActivityBehavior when wait state behavior is wanted.  
  * 
- * @author Joram Barrez
+ *
  */
 public interface PlanItemJavaDelegate {
     

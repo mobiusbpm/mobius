@@ -29,7 +29,7 @@ import mobius.task.service.delegate.TaskListener;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CompleteTaskCmd implements Command<Void> {
     

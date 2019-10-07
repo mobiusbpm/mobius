@@ -24,7 +24,7 @@ import org.springframework.core.io.Resource;
  * This implementation is equivalent to the previously used implementation.
  * 
  * @author Tiese Barrell
- * @author Joram Barrez
+ *
  */
 public class DefaultAutoDeploymentStrategy extends AbstractAutoDeploymentStrategy {
 

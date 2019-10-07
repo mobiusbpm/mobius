@@ -21,7 +21,7 @@ import mobius.common.engine.impl.EngineConfigurator;
 import mobius.common.engine.impl.interceptor.CommandInterceptor;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FlowableProfiler implements EngineConfigurator {
 

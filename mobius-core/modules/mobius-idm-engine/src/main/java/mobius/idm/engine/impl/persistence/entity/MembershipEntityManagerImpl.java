@@ -20,8 +20,8 @@ import mobius.idm.engine.delegate.event.impl.FlowableIdmEventBuilder;
 import mobius.idm.engine.impl.persistence.entity.data.MembershipDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class MembershipEntityManagerImpl extends AbstractEntityManager<MembershipEntity> implements MembershipEntityManager {
 

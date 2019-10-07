@@ -17,7 +17,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DeleteEventLogEntry implements Command<Void> {
 

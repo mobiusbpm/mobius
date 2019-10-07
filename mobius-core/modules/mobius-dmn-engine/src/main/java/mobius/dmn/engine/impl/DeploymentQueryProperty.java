@@ -35,7 +35,7 @@ import mobius.dmn.api.DmnDeploymentQuery;
 /**
  * Contains the possible properties that can be used in a {@link DmnDeploymentQuery}.
  * 
- * @author Joram Barrez
+ *
  */
 public class DeploymentQueryProperty implements QueryProperty {
 

@@ -20,8 +20,8 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.engine.impl.persistence.entity.data.ResourceDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class ResourceEntityManagerImpl extends AbstractEntityManager<ResourceEntity> implements ResourceEntityManager {
 

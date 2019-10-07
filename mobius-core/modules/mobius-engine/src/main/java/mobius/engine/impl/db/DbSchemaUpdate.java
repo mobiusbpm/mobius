@@ -22,7 +22,7 @@ import mobius.engine.impl.ProcessEngineImpl;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DbSchemaUpdate {
 

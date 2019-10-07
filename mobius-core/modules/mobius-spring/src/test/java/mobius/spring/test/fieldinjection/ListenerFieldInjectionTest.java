@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.test.context.ContextConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  */
 @ContextConfiguration("classpath:mobius/spring/test/fieldinjection/fieldInjectionSpringTest-context.xml")
 public class ListenerFieldInjectionTest extends SpringFlowableTestCase {

@@ -20,7 +20,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * @author Tijs Rademakers
  * @author Marcus Klimstra (CGI)
- * @author Joram Barrez
+ *
  */
 public class IdmByteArrayEntityImpl extends AbstractIdmEngineEntity implements IdmByteArrayEntity, Serializable {
 

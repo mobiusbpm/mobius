@@ -15,7 +15,7 @@ package mobius.idm.api;
 import java.io.Serializable;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface Privilege extends Serializable {
 

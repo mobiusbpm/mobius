@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.engine.impl.persistence.entity.ExecutionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExecutionsByParentExecutionIdEntityMatcher extends CachedEntityMatcherAdapter<ExecutionEntity> {
 

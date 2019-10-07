@@ -15,7 +15,7 @@ package mobius.variable.service.impl.db;
 import mobius.common.engine.impl.db.ServiceSqlScriptBasedDbSchemaManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableDbSchemaManager extends ServiceSqlScriptBasedDbSchemaManager {
     

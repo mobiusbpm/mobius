@@ -50,8 +50,8 @@ import mobius.job.service.TimerJobService;
 import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DeploymentEntityManagerImpl extends AbstractEntityManager<DeploymentEntity> implements DeploymentEntityManager {
 

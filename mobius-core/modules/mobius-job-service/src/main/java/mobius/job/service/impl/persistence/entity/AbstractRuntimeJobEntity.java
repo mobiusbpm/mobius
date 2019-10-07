@@ -18,7 +18,7 @@ import mobius.job.api.Job;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface AbstractRuntimeJobEntity extends Job, AbstractJobEntity {
 

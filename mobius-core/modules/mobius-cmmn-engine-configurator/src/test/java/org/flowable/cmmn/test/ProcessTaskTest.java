@@ -50,7 +50,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessTaskTest extends mobius.cmmn.test.AbstractProcessEngineIntegrationTest {
     

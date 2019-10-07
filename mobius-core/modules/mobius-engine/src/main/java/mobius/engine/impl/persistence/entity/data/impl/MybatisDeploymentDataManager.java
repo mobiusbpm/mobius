@@ -24,7 +24,7 @@ import mobius.engine.impl.persistence.entity.data.DeploymentDataManager;
 import mobius.engine.repository.Deployment;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisDeploymentDataManager extends AbstractProcessDataManager<DeploymentEntity> implements DeploymentDataManager {
 

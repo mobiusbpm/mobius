@@ -37,7 +37,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.common.engine.impl.service.CommonEngineServiceImpl;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class AppRepositoryServiceImpl extends CommonEngineServiceImpl<AppEngineConfiguration> implements AppRepositoryService {

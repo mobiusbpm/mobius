@@ -22,7 +22,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractChangePlanItemInstanceStateOperation extends AbstractPlanItemInstanceOperation {
 

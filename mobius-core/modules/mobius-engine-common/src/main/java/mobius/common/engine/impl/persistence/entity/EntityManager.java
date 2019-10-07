@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.persistence.entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface EntityManager<EntityImpl extends Entity> {
 

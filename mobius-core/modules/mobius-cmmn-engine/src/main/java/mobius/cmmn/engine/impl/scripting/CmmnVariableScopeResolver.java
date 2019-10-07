@@ -24,7 +24,7 @@ import mobius.variable.api.delegate.VariableScope;
 /**
  *
  * @author Dennis Federico
- * @author Joram Barrez
+ *
  */
 public class CmmnVariableScopeResolver implements Resolver {
 

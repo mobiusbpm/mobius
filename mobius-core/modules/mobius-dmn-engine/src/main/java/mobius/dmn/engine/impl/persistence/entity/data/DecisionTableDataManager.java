@@ -21,7 +21,7 @@ import mobius.dmn.engine.impl.DecisionTableQueryImpl;
 import mobius.dmn.engine.impl.persistence.entity.DecisionTableEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DecisionTableDataManager extends DataManager<DecisionTableEntity> {
 

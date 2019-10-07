@@ -13,7 +13,7 @@
 package mobius.engine.impl.cfg;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PerformanceSettings {
 

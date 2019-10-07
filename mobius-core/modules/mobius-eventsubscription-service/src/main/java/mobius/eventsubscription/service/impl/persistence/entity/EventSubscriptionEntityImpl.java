@@ -20,7 +20,7 @@ import java.util.HashMap;
 import mobius.eventsubscription.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public abstract class EventSubscriptionEntityImpl extends AbstractEventSubscriptionEntity implements EventSubscriptionEntity, Serializable {

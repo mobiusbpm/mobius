@@ -17,7 +17,7 @@ import mobius.engine.delegate.DelegateExecution;
 import mobius.engine.delegate.ExecutionListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ActivityStartListener implements ExecutionListener {
 

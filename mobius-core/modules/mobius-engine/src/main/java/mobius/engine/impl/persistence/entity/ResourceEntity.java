@@ -17,7 +17,7 @@ import mobius.common.engine.api.repository.EngineResource;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface ResourceEntity extends Entity, EngineResource {
 

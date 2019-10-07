@@ -19,7 +19,7 @@ import java.util.Set;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class FormData implements Map<String, Object> {
 

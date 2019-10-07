@@ -25,8 +25,8 @@ import mobius.engine.ProcessEngineConfiguration;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DeploymentEntityImpl extends AbstractBpmnEngineNoRevisionEntity implements DeploymentEntity, Serializable {
 

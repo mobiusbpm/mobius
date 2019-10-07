@@ -40,7 +40,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author Joram Barrez
+ *
  */
 @ContextConfiguration(classes = SpringTransactionAndExceptionsTest.TestConfiguration.class)
 public class SpringTransactionAndExceptionsTest extends SpringFlowableTestCase {

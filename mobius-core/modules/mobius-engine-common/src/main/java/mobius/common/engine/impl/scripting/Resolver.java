@@ -14,7 +14,7 @@
 package mobius.common.engine.impl.scripting;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface Resolver {
 

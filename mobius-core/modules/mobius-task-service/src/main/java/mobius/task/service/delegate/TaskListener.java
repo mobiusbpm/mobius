@@ -14,7 +14,7 @@
 package mobius.task.service.delegate;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface TaskListener extends BaseTaskListener {
 

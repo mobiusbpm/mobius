@@ -30,7 +30,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  * Implementation of the BPMN 2.0 script task.
  *
- * @author Joram Barrez
+ *
  * @author Christian Stettler
  * @author Falko Menge
  */

@@ -24,7 +24,7 @@ import mobius.engine.impl.persistence.entity.ExecutionEntityManager;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class SequentialMultiInstanceBehavior extends MultiInstanceActivityBehavior {

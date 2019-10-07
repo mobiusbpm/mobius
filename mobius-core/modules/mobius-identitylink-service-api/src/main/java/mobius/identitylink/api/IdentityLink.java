@@ -18,7 +18,7 @@ package mobius.identitylink.api;
  * 
  * For example: - a user can be an assignee (= identity link type) for a task - a group can be a candidate-group (= identity link type) for a task
  * 
- * @author Joram Barrez
+ *
  */
 public interface IdentityLink extends IdentityLinkInfo {
 

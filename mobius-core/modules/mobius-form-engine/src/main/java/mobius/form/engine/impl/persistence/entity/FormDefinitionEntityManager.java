@@ -20,7 +20,7 @@ import mobius.form.api.FormDefinition;
 import mobius.form.engine.impl.FormDefinitionQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface FormDefinitionEntityManager extends EntityManager<FormDefinitionEntity> {
 

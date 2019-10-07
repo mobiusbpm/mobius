@@ -15,7 +15,7 @@ package mobius.cmmn.engine.impl.agenda;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnEngineAgendaFactory  {
 

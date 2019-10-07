@@ -33,7 +33,7 @@ import mobius.task.service.delegate.DelegateTask;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TransientVariablesTest extends PluggableFlowableTestCase {
 

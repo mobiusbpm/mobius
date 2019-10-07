@@ -23,7 +23,7 @@ import mobius.engine.impl.persistence.entity.ExecutionEntity;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface FormHandler extends Serializable {
 

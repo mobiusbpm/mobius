@@ -13,7 +13,7 @@
 package mobius.common.engine.api.delegate.event;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractFlowableEventListener implements FlowableEventListener {
 

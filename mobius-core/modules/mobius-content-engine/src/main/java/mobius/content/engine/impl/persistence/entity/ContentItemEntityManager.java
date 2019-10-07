@@ -19,7 +19,7 @@ import mobius.content.api.ContentItem;
 import mobius.content.engine.impl.ContentItemQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface ContentItemEntityManager extends EntityManager<ContentItemEntity> {
 

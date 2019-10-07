@@ -19,7 +19,7 @@ import mobius.bpmn.model.TimerEventDefinition;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerEventDefinitionParseHandler extends AbstractBpmnParseHandler<TimerEventDefinition> {
 

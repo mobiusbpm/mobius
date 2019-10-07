@@ -32,7 +32,7 @@ import mobius.task.service.impl.persistence.entity.data.impl.cachematcher.TasksB
 import mobius.task.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisTaskDataManager extends AbstractDataManager<TaskEntity> implements TaskDataManager {
 

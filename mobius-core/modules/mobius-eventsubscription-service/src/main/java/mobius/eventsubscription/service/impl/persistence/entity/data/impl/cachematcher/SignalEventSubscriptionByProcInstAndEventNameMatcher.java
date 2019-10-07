@@ -19,7 +19,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptio
 import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubscriptionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SignalEventSubscriptionByProcInstAndEventNameMatcher extends CachedEntityMatcherAdapter<EventSubscriptionEntity> {
 

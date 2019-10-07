@@ -26,7 +26,7 @@ import mobius.job.api.Job;
 import mobius.job.api.JobInfo;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class Flowable5Util {

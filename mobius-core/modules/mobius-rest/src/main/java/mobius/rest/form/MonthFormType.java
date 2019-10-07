@@ -16,7 +16,7 @@ package mobius.rest.form;
 import mobius.engine.form.AbstractFormType;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MonthFormType extends AbstractFormType {
 

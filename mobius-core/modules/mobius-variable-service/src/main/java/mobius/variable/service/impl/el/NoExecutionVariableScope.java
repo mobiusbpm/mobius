@@ -26,7 +26,7 @@ import mobius.variable.api.entity.VariableInstance;
  * variables are not available yet, expressions should be resolved anyway.
  * 
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class NoExecutionVariableScope implements VariableScope {
 

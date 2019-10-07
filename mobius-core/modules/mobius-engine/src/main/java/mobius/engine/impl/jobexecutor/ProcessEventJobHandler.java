@@ -24,7 +24,7 @@ import mobius.variable.api.delegate.VariableScope;
 
 /**
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public class ProcessEventJobHandler implements JobHandler {
 

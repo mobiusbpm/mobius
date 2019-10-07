@@ -22,7 +22,7 @@ import mobius.cmmn.model.Case;
 import mobius.cmmn.model.CmmnElement;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseXmlConverter extends BaseCmmnXmlConverter {
     

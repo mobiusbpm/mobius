@@ -18,7 +18,7 @@ import mobius.cmmn.engine.impl.persistence.entity.CaseInstanceEntity;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CaseInstanceHelper {
     

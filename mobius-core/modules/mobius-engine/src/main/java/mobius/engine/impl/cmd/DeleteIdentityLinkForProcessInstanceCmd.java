@@ -27,7 +27,7 @@ import mobius.engine.impl.util.IdentityLinkUtil;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class DeleteIdentityLinkForProcessInstanceCmd implements Command<Object>, Serializable {
 

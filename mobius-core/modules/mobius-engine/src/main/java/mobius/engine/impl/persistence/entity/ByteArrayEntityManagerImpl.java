@@ -20,7 +20,7 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.engine.impl.persistence.entity.data.ByteArrayDataManager;
 
 /**
- * @author Joram Barrez
+ *
  * @author Marcus Klimstra (CGI)
  */
 public class ByteArrayEntityManagerImpl extends AbstractEntityManager<ByteArrayEntity> implements ByteArrayEntityManager {

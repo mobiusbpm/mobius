@@ -36,8 +36,8 @@ import mobius.variable.service.impl.AbstractVariableQueryImpl;
 import mobius.variable.service.impl.QueryVariableValue;
 
 /**
- * @author Joram Barrez
- * @author Tom Baeyens
+ *
+ *
  * @author Falko Menge
  * @author Tijs Rademakers
  */

@@ -25,7 +25,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
  * <p>
  * This can be used when one wants to provide a dedicated {@link mobius.spring.job.service.SpringAsyncExecutor} for the process engine.
  *
- * @author Joram Barrez
+ *
  */
 @Target({ ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.TYPE, ElementType.ANNOTATION_TYPE })
 @Retention(RetentionPolicy.RUNTIME)

@@ -24,7 +24,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisMilestoneInstanceDataManager extends AbstractCmmnDataManager<MilestoneInstanceEntity> implements
 		MilestoneInstanceDataManager {

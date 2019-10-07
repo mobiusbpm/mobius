@@ -20,7 +20,7 @@ import mobius.engine.impl.DeploymentQueryImpl;
 import mobius.engine.repository.Deployment;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DeploymentEntityManager extends EntityManager<DeploymentEntity> {
 

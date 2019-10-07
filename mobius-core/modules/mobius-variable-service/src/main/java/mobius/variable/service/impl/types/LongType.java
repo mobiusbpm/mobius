@@ -16,7 +16,7 @@ import mobius.variable.api.types.ValueFields;
 import mobius.variable.api.types.VariableType;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class LongType implements VariableType {
 

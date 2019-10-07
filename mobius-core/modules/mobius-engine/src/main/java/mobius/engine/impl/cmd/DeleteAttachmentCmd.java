@@ -28,8 +28,8 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DeleteAttachmentCmd implements Command<Object>, Serializable {
 

@@ -21,7 +21,7 @@ import mobius.engine.form.FormData;
 import mobius.engine.form.FormProperty;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public abstract class FormDataImpl implements FormData, Serializable {
 

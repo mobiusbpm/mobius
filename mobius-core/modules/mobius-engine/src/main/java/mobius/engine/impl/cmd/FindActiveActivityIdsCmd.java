@@ -27,8 +27,8 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.runtime.Execution;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class FindActiveActivityIdsCmd implements Command<List<String>>, Serializable {
 

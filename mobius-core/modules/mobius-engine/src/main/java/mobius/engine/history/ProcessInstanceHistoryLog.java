@@ -22,7 +22,7 @@ import mobius.engine.runtime.ProcessInstance;
 /**
  * A trail of data for a given process instance.
  * 
- * @author Joram Barrez
+ *
  */
 public interface ProcessInstanceHistoryLog {
 

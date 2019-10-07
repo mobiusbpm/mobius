@@ -13,7 +13,7 @@
 package mobius.cmmn.model;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class Task extends PlanItemDefinition {
     

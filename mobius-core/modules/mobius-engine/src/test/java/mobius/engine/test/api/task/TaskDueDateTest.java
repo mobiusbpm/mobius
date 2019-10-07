@@ -25,7 +25,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TaskDueDateTest extends PluggableFlowableTestCase {
 

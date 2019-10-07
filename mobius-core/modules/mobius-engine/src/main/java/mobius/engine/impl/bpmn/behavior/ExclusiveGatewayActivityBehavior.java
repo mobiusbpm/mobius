@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Implementation of the Exclusive Gateway/XOR gateway/exclusive data-based gateway as defined in the BPMN specification.
  * 
- * @author Joram Barrez
+ *
  */
 public class ExclusiveGatewayActivityBehavior extends GatewayActivityBehavior {
 

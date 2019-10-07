@@ -22,7 +22,7 @@ import mobius.cmmn.model.PlanFragment;
 import mobius.cmmn.model.PlanItem;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanFragmentParseHandler extends AbstractPlanItemParseHandler<PlanFragment> {
 

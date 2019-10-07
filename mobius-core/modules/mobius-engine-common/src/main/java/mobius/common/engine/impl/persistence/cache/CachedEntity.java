@@ -17,7 +17,7 @@ import java.util.HashMap;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CachedEntity {
 

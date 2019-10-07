@@ -16,7 +16,7 @@ package mobius.engine.impl.db.upgrade;
 import mobius.common.engine.impl.db.DbUpgradeStep;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DbUpgradeStep52To53InsertPropertyHistoryLevel implements DbUpgradeStep {
 

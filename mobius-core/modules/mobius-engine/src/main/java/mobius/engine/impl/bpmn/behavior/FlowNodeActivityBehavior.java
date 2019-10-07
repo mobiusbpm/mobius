@@ -23,7 +23,7 @@ import mobius.engine.impl.persistence.entity.ExecutionEntity;
  * 
  * Corresponds with the notion of the 'flownode' in BPMN 2.0.
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class FlowNodeActivityBehavior implements TriggerableActivityBehavior {
 

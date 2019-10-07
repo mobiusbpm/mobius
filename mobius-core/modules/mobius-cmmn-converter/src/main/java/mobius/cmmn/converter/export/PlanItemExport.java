@@ -23,7 +23,7 @@ import mobius.cmmn.model.PlanItemControl;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class PlanItemExport implements CmmnXmlConstants {
     

@@ -17,7 +17,7 @@ import mobius.cmmn.model.PlanItem;
 /**
  * Internal class used during criteria evaluation.
  *
- * @author Joram Barrez
+ *
  */
 public class PlanItemLifeCycleEvent {
     

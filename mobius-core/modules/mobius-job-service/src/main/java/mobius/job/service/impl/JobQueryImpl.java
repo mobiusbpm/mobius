@@ -27,8 +27,8 @@ import mobius.job.api.JobQuery;
 import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
- * @author Tom Baeyens
+ *
+ *
  * @author Falko Menge
  */
 public class JobQueryImpl extends AbstractQuery<JobQuery, Job> implements JobQuery, Serializable {

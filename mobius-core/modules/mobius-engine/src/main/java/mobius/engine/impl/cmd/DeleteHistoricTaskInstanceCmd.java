@@ -21,7 +21,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.util.TaskHelper;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DeleteHistoricTaskInstanceCmd implements Command<Object>, Serializable {
 

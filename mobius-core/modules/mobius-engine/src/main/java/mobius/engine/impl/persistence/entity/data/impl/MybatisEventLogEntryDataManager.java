@@ -24,7 +24,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.EventLogEntryDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisEventLogEntryDataManager extends AbstractProcessDataManager<EventLogEntryEntity> implements EventLogEntryDataManager {
 

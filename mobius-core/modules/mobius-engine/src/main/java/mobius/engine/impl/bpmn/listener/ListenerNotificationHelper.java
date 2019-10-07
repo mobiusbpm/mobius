@@ -42,7 +42,7 @@ import mobius.task.service.delegate.BaseTaskListener;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ListenerNotificationHelper {
 

@@ -76,7 +76,7 @@ import mobius.task.service.TaskPostProcessor;
  * </p>
  * 
  * @see ProcessEngines
- * @author Tom Baeyens
+ *
  */
 public abstract class ProcessEngineConfiguration extends AbstractEngineConfiguration {
 

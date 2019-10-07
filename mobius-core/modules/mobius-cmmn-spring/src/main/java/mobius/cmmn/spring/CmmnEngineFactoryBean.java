@@ -25,7 +25,7 @@ import org.springframework.context.ApplicationContextAware;
 /**
  * @author Dave Syer
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  * @author Josh Long
  */
 public class CmmnEngineFactoryBean implements FactoryBean<CmmnEngine>, DisposableBean, ApplicationContextAware {

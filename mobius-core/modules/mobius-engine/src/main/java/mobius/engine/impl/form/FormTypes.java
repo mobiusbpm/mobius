@@ -24,7 +24,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 import mobius.engine.form.AbstractFormType;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class FormTypes {
 

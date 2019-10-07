@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
  * instead of {@link #trigger(DelegatePlanItemInstance)} and thus avoid an extra lookup of the thread-local {@link CommandContext}.
  * Instead of passing a {@link DelegatePlanItemInstance}, a 'raw' {@link PlanItemInstanceEntity} is also passed.
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class CoreCmmnTriggerableActivityBehavior extends CoreCmmnActivityBehavior implements CmmnTriggerableActivityBehavior {
 

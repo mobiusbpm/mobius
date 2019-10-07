@@ -19,7 +19,7 @@ import mobius.content.engine.ContentEngineConfiguration;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractManager {
 

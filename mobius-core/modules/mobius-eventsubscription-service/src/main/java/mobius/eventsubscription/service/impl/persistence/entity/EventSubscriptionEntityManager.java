@@ -20,7 +20,7 @@ import mobius.eventsubscription.api.EventSubscriptionBuilder;
 import mobius.eventsubscription.service.impl.EventSubscriptionQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface EventSubscriptionEntityManager extends EntityManager<EventSubscriptionEntity> {
 

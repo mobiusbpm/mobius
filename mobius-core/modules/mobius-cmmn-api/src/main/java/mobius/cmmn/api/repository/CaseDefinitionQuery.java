@@ -18,7 +18,7 @@ import java.util.Set;
 import mobius.common.engine.api.query.Query;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CaseDefinitionQuery extends Query<CaseDefinitionQuery, CaseDefinition> {
 

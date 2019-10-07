@@ -21,7 +21,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.util.ProcessDefinitionUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetBpmnModelCmd implements Command<BpmnModel>, Serializable {
 

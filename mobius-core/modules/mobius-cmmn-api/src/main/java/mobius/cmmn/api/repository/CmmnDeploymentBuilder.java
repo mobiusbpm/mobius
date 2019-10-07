@@ -24,7 +24,7 @@ import mobius.cmmn.api.CmmnRepositoryService;
  * After deploying, no more changes can be made to the returned deployment and the builder instance can be disposed.
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface CmmnDeploymentBuilder {
 

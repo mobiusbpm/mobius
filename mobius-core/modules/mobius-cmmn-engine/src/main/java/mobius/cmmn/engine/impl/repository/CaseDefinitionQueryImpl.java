@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.common.engine.impl.interceptor.CommandExecutor;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseDefinitionQueryImpl extends AbstractQuery<CaseDefinitionQuery, CaseDefinition> implements CaseDefinitionQuery {
 

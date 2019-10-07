@@ -17,7 +17,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 import mobius.engine.impl.bpmn.parser.handler.UserTaskParseHandler;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CustomUserTaskBpmnParseHandler extends UserTaskParseHandler {
 

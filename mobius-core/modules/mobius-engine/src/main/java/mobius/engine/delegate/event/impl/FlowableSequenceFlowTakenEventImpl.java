@@ -16,7 +16,7 @@ import mobius.common.engine.api.delegate.event.FlowableEngineEventType;
 import mobius.engine.delegate.event.FlowableSequenceFlowTakenEvent;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FlowableSequenceFlowTakenEventImpl extends FlowableProcessEventImpl implements FlowableSequenceFlowTakenEvent {
 

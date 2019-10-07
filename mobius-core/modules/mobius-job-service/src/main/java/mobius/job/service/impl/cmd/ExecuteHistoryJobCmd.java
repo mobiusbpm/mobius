@@ -26,7 +26,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Executes a {@link HistoryJob} directly (not through the async history executor).
  * 
- * @author Joram Barrez
+ *
  */
 public class ExecuteHistoryJobCmd implements Command<Void> {
 

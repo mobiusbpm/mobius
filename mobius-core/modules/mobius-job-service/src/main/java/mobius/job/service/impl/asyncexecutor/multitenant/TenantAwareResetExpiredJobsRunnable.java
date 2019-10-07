@@ -17,7 +17,7 @@ import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
 import mobius.job.service.impl.asyncexecutor.ResetExpiredJobsRunnable;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TenantAwareResetExpiredJobsRunnable extends ResetExpiredJobsRunnable {
 

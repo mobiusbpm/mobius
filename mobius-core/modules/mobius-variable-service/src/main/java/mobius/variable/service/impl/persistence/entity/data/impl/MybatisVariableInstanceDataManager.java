@@ -35,7 +35,7 @@ import mobius.variable.service.impl.persistence.entity.data.impl.cachematcher.Va
 import mobius.variable.service.impl.persistence.entity.data.impl.cachematcher.VariableInstanceByTaskIdMatcher;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisVariableInstanceDataManager extends AbstractDataManager<VariableInstanceEntity> implements VariableInstanceDataManager {
 

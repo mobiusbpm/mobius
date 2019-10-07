@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public abstract class AbstractDmnDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {

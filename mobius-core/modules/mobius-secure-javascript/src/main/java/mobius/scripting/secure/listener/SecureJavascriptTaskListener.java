@@ -18,7 +18,7 @@ import mobius.scripting.secure.impl.SecureJavascriptUtil;
 import mobius.task.service.delegate.DelegateTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SecureJavascriptTaskListener extends ScriptTaskListener {
 

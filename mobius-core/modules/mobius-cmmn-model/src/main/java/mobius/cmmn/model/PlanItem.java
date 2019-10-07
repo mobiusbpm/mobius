@@ -19,7 +19,7 @@ import java.util.Optional;
 import java.util.Set;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItem extends CaseElement implements HasEntryCriteria, HasExitCriteria, HasAssociations {
     

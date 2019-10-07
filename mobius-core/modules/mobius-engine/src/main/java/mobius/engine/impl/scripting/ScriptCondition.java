@@ -19,7 +19,7 @@ import mobius.engine.impl.Condition;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class ScriptCondition implements Condition {
 

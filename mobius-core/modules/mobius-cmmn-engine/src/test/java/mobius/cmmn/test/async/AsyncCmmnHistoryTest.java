@@ -61,7 +61,7 @@ import mobius.variable.api.history.HistoricVariableInstance;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Filip Hrisafov
  */
 public class AsyncCmmnHistoryTest extends CustomCmmnConfigurationFlowableTestCase {

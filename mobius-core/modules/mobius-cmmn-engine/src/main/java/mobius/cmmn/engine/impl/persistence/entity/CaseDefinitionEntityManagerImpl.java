@@ -37,7 +37,7 @@ import mobius.task.service.impl.persistence.entity.HistoricTaskInstanceEntityMan
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseDefinitionEntityManagerImpl extends AbstractCmmnEntityManager<CaseDefinitionEntity> implements
 		CaseDefinitionEntityManager {

@@ -55,7 +55,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Implementation of the BPMN 2.0 call activity (limited currently to calling a subprocess and not (yet) a global task).
  *
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class CallActivityBehavior extends AbstractBpmnActivityBehavior implements SubProcessActivityBehavior {

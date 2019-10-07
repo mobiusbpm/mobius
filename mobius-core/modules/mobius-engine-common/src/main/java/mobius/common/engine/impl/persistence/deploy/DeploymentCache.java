@@ -15,7 +15,7 @@ package mobius.common.engine.impl.persistence.deploy;
 /**
  * Interface for cache implementations.
  * 
- * @author Joram Barrez
+ *
  */
 public interface DeploymentCache<T> {
 

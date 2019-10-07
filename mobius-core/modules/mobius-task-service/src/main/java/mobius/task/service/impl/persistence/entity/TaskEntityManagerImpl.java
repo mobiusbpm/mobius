@@ -38,8 +38,8 @@ import mobius.task.service.impl.util.CommandContextUtil;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class TaskEntityManagerImpl extends AbstractEntityManager<TaskEntity> implements TaskEntityManager {
 

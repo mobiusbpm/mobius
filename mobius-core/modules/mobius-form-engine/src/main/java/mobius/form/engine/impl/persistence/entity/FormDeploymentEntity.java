@@ -22,7 +22,7 @@ import mobius.form.api.FormDeployment;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface FormDeploymentEntity extends FormDeployment, Entity {
 

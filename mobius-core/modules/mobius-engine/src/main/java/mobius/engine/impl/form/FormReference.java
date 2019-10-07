@@ -13,7 +13,7 @@
 package mobius.engine.impl.form;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class FormReference {
 

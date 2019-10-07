@@ -19,7 +19,7 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractTaskEventHandler extends AbstractDatabaseEventLoggerEventHandler {
 

@@ -21,7 +21,7 @@ import mobius.common.engine.api.delegate.Expression;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MilestoneActivityBehavior extends CoreCmmnActivityBehavior {
     

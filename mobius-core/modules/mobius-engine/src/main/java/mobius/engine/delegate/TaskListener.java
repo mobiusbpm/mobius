@@ -16,8 +16,8 @@ package mobius.engine.delegate;
 /**
  * Here for backwards compatibility, prefer use the {@link mobius.task.service.delegate.TaskListener}.
  *
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface TaskListener extends mobius.task.service.delegate.TaskListener {
 

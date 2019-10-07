@@ -37,8 +37,8 @@ import mobius.engine.repository.Deployment;
 import mobius.engine.repository.DeploymentBuilder;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DeploymentBuilderImpl implements DeploymentBuilder, Serializable {
 

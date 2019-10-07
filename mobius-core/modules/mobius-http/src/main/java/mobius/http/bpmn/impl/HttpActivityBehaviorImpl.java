@@ -60,7 +60,7 @@ import org.slf4j.LoggerFactory;
  * Implementation of HttpActivityBehavior using Apache HTTP Client
  *
  * @author Harsha Teja Kanna.
- * @author Joram Barrez
+ *
  */
 public class HttpActivityBehaviorImpl extends AbstractBpmnActivityBehavior {
 

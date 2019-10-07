@@ -20,7 +20,7 @@ import mobius.job.service.impl.JobQueryImpl;
 import mobius.job.service.impl.persistence.entity.JobEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface JobDataManager extends DataManager<JobEntity>, JobInfoDataManager<JobEntity> {
 

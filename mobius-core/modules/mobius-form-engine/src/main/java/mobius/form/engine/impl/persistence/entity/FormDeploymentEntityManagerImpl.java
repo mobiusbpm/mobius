@@ -25,7 +25,7 @@ import mobius.form.engine.impl.persistence.entity.data.FormDeploymentDataManager
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class FormDeploymentEntityManagerImpl extends AbstractEntityManager<FormDeploymentEntity> implements FormDeploymentEntityManager {
 

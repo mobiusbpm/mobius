@@ -18,7 +18,7 @@ import java.util.Map;
 import mobius.common.engine.impl.persistence.entity.EntityManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface IdentityInfoEntityManager extends EntityManager<IdentityInfoEntity> {
 

@@ -24,7 +24,7 @@ import mobius.engine.impl.persistence.entity.HistoricDetailVariableInstanceUpdat
 import mobius.engine.impl.persistence.entity.HistoricFormPropertyEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricDetailDataManager extends DataManager<HistoricDetailEntity> {
 

@@ -26,7 +26,7 @@ import mobius.task.service.impl.persistence.entity.data.HistoricTaskInstanceData
 import mobius.task.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricTaskInstanceDataManager extends AbstractDataManager<HistoricTaskInstanceEntity> implements HistoricTaskInstanceDataManager {
 

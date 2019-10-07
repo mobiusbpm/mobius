@@ -13,7 +13,7 @@
 package mobius.cmmn.model;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessTask extends ChildTask {
 

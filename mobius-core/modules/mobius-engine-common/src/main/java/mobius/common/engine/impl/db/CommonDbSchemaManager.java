@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.db;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CommonDbSchemaManager extends ServiceSqlScriptBasedDbSchemaManager {
     

@@ -24,8 +24,8 @@ import mobius.task.service.impl.persistence.entity.TaskEntityManager;
 import java.util.List;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class TaskServiceImpl extends CommonServiceImpl<TaskServiceConfiguration> implements TaskService {
     public TaskServiceImpl(TaskServiceConfiguration taskServiceConfiguration) {

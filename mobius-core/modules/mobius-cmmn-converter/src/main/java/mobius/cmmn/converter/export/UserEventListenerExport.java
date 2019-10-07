@@ -20,7 +20,7 @@ import mobius.cmmn.model.UserEventListener;
 
 /**
  * @author Dennis Federico
- * @author Joram Barrez
+ *
  */
 public class UserEventListenerExport extends AbstractPlanItemDefinitionExport<UserEventListener> {
 

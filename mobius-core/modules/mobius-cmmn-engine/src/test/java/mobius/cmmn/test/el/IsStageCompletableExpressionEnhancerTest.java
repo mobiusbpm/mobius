@@ -18,7 +18,7 @@ import mobius.cmmn.engine.impl.function.IsStageCompletableExpressionFunction;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IsStageCompletableExpressionEnhancerTest {
     

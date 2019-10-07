@@ -36,7 +36,7 @@ import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceE
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableCreatedHistoryJsonTransformer extends AbstractHistoryJsonTransformer {
 

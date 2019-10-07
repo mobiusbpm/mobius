@@ -20,7 +20,7 @@ import mobius.engine.delegate.event.FlowableSignalEvent;
 import mobius.engine.impl.persistence.entity.EventLogEntryEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ActivitySignaledEventHandler extends AbstractDatabaseEventLoggerEventHandler {
 

@@ -18,8 +18,8 @@ import mobius.engine.form.TaskFormData;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface TaskFormHandler extends FormHandler {
 

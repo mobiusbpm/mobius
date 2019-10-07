@@ -25,7 +25,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.task.service.delegate.DelegateTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DelegateExpressionTaskListener implements TaskListener {
 

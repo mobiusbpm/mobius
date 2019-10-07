@@ -18,7 +18,7 @@ import java.util.Map;
  * A builder that allows to execute a transition for a plan item instance from one state to another,
  * optionally passing variables before the transition.
  *
- * @author Joram Barrez
+ *
  */
 public interface PlanItemInstanceTransitionBuilder {
 

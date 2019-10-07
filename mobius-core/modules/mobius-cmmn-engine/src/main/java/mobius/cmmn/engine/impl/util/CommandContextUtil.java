@@ -60,7 +60,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class CommandContextUtil {

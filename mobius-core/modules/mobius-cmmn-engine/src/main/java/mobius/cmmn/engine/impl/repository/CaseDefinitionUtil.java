@@ -22,7 +22,7 @@ import mobius.cmmn.model.Case;
 import mobius.cmmn.model.CmmnModel;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseDefinitionUtil {
     

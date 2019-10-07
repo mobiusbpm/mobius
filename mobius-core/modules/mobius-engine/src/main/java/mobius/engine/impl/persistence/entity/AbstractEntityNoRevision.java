@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 /**
  * Abstract superclass for the common properties of all {@link Entity} implementations.
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEntityNoRevision implements Entity {
 

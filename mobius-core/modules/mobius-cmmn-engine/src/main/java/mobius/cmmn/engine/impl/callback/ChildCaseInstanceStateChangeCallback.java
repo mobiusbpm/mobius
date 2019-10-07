@@ -22,7 +22,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * Callback implementation for a child case instance returning it's state change to its parent.
  *
- * @author Joram Barrez
+ *
  */
 public class ChildCaseInstanceStateChangeCallback implements RuntimeInstanceStateChangeCallback {
 

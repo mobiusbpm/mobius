@@ -22,7 +22,7 @@ import mobius.common.engine.impl.el.function.VariableLowerThanOrEqualsExpression
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableComparatorExpressionEnhancerTest {
     

@@ -16,7 +16,7 @@ package mobius.engine.history;
 /**
  * Update of a process variable. This is only available if history level is configured to FULL.
  * 
- * @author Tom Baeyens
+ *
  */
 public interface HistoricVariableUpdate extends HistoricDetail {
 

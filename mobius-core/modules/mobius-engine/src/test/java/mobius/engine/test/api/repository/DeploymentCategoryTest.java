@@ -23,7 +23,7 @@ import mobius.engine.repository.DeploymentQuery;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Tijs Rademakers
  */
 public class DeploymentCategoryTest extends PluggableFlowableTestCase {

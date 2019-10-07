@@ -15,7 +15,7 @@ package mobius.identitylink.service.impl.db;
 import mobius.common.engine.impl.db.ServiceSqlScriptBasedDbSchemaManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IdentityLinkDbSchemaManager extends ServiceSqlScriptBasedDbSchemaManager {
     

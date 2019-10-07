@@ -22,7 +22,7 @@ import java.util.*;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class CmmnDeploymentEntityImpl extends AbstractCmmnEngineNoRevisionEntity
 		implements CmmnDeploymentEntity, Serializable {

@@ -19,7 +19,7 @@ import mobius.common.engine.impl.db.HasRevision;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface IdentityInfoEntity extends Entity, HasRevision {
 

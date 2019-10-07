@@ -66,7 +66,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * Only subclasses of {@link AbstractBpmnActivityBehavior} can have multi-instance behavior. As such, special logic is contained in the {@link AbstractBpmnActivityBehavior} to delegate to the
  * {@link MultiInstanceActivityBehavior} if needed.
  * 
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public abstract class MultiInstanceActivityBehavior extends FlowNodeActivityBehavior implements SubProcessActivityBehavior {

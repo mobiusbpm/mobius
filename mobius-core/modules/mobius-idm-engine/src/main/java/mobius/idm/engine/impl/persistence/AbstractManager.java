@@ -24,7 +24,7 @@ import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractManager {
 

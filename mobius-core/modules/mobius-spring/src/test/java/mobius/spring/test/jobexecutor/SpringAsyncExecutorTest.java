@@ -29,7 +29,7 @@ import org.springframework.test.context.ContextConfiguration;
 
 /**
  * @author Pablo Ganga
- * @author Joram Barrez
+ *
  */
 @CleanTest
 // We need to use per class as the test uses auto deployments. If they are deleted then the other tests will fail

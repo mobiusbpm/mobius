@@ -29,7 +29,7 @@ import org.subethamail.wiser.Wiser;
 import org.subethamail.wiser.WiserMessage;
 
 /**
- * @author Joram Barrez
+ *
  * @author Simon Amport
  */
 public class EmailServiceTaskTest extends PluggableFlowableTestCase {

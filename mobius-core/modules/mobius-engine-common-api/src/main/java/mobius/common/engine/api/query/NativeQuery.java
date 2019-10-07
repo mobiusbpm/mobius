@@ -21,7 +21,7 @@ import mobius.common.engine.api.FlowableException;
  * Describes basic methods for doing native queries
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface NativeQuery<T extends NativeQuery<?, ?>, U extends Object> {
 

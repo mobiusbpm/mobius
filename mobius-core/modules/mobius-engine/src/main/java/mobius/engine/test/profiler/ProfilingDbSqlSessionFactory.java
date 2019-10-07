@@ -18,7 +18,7 @@ import mobius.common.engine.impl.interceptor.Session;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProfilingDbSqlSessionFactory extends DbSqlSessionFactory {
     

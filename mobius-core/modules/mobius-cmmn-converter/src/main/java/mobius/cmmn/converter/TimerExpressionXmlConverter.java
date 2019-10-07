@@ -19,7 +19,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.TimerEventListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerExpressionXmlConverter extends CaseElementXmlConverter {
     

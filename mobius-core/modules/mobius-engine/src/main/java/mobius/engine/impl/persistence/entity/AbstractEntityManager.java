@@ -22,7 +22,7 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.engine.impl.persistence.AbstractManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEntityManager<EntityImpl extends Entity> extends AbstractManager implements EntityManager<EntityImpl> {
 

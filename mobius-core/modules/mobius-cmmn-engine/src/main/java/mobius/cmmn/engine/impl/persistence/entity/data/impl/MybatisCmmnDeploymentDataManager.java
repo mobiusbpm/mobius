@@ -23,7 +23,7 @@ import mobius.cmmn.engine.impl.repository.CmmnDeploymentQueryImpl;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisCmmnDeploymentDataManager extends AbstractCmmnDataManager<CmmnDeploymentEntity> implements
 		CmmnDeploymentDataManager {

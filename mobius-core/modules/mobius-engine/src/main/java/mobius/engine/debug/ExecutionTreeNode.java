@@ -20,7 +20,7 @@ import mobius.bpmn.model.SequenceFlow;
 import mobius.engine.impl.persistence.entity.ExecutionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExecutionTreeNode implements Iterable<ExecutionTreeNode> {
 

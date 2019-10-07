@@ -19,7 +19,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DefaultTaskFormHandler extends DefaultFormHandler implements TaskFormHandler {
 

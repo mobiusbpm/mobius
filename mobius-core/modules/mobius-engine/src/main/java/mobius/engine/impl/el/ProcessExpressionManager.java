@@ -27,7 +27,7 @@ import mobius.engine.impl.interceptor.DelegateInterceptor;
 import mobius.variable.service.impl.el.VariableScopeExpressionManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessExpressionManager extends VariableScopeExpressionManager {
     

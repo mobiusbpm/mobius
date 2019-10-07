@@ -25,7 +25,7 @@ import mobius.engine.impl.delegate.invocation.JavaDelegateInvocation;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class ServiceTaskJavaDelegateActivityBehavior extends TaskActivityBehavior implements ActivityBehavior, ExecutionListener {
 

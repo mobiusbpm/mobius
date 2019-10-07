@@ -26,8 +26,8 @@ import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceE
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricVariableServiceImpl extends CommonServiceImpl<VariableServiceConfiguration> implements HistoricVariableService {
 

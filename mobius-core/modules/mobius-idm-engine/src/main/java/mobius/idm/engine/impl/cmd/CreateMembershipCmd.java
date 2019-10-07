@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class CreateMembershipCmd implements Command<Object>, Serializable {
 

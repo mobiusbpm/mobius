@@ -21,7 +21,7 @@ import mobius.task.api.TaskQuery;
 /**
  * Contains the possible properties that can be used in a {@link TaskQuery}.
  * 
- * @author Joram Barrez
+ *
  */
 public class TaskQueryProperty implements QueryProperty {
 

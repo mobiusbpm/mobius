@@ -60,7 +60,7 @@ import mobius.engine.impl.webservice.WSService;
  * An activity behavior that allows calling Web services
  * 
  * @author Esteban Robles Luna
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class WebServiceActivityBehavior extends AbstractBpmnActivityBehavior {

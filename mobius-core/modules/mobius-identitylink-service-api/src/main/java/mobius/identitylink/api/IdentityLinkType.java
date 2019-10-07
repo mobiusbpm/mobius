@@ -18,7 +18,7 @@ package mobius.identitylink.api;
  * see e.g. TaskService#addUserIdentityLink(String, String, String)
  * see e.g. TaskService#addGroupIdentityLink(String, String, String)}
  * 
- * @author Joram Barrez
+ *
  */
 public class IdentityLinkType {
 

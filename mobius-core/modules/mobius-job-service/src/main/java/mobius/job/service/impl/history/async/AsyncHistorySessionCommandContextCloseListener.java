@@ -36,7 +36,7 @@ import mobius.job.service.impl.util.CommandContextUtil;
  * The reason why this is done at the very end, is because that way the historical data 
  * can be optimized (some events cancel others, can be grouped, etc.)
  * 
- * @author Joram Barrez
+ *
  */
 public class AsyncHistorySessionCommandContextCloseListener implements CommandContextCloseListener {
     

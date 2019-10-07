@@ -18,9 +18,9 @@ import mobius.variable.api.entity.VariableInstance;
 import mobius.variable.api.types.VariableType;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Marcus Klimstra (CGI)
- * @author Joram Barrez
+ *
  */
 public interface VariableInstanceEntity extends VariableInstance, Entity, HasRevision {
 

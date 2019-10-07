@@ -20,7 +20,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.test.context.ContextConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  */
 @ContextConfiguration("classpath:mobius/spring/test/servicetask/servicetaskSpringTest-context.xml")
 public class ServiceTaskSpringDelegationTest extends SpringFlowableTestCase {

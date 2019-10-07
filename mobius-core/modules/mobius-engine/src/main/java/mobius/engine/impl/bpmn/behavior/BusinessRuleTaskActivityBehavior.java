@@ -32,7 +32,7 @@ import org.kie.api.runtime.KieSession;
  * Activity implementation of the BPMN 2.0 business rule task.
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class BusinessRuleTaskActivityBehavior extends TaskActivityBehavior implements BusinessRuleTaskDelegate {
 

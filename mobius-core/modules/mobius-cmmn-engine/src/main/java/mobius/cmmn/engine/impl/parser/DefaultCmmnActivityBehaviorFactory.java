@@ -50,7 +50,7 @@ import mobius.common.engine.api.delegate.Expression;
 import mobius.common.engine.impl.el.ExpressionManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DefaultCmmnActivityBehaviorFactory implements CmmnActivityBehaviorFactory {
 

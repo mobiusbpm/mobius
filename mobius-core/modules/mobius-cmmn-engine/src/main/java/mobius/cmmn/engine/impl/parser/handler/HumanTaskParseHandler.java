@@ -22,7 +22,7 @@ import mobius.cmmn.model.HumanTask;
 import mobius.cmmn.model.PlanItem;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class HumanTaskParseHandler extends AbstractPlanItemParseHandler<HumanTask> {
 

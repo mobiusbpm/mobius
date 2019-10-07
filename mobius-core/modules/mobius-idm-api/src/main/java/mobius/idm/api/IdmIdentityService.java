@@ -20,9 +20,9 @@ import java.util.List;
 /**
  * Service to manage {@link User}s and {@link Group}s.
  * 
- * @author Tom Baeyens
+ *
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface IdmIdentityService {
 

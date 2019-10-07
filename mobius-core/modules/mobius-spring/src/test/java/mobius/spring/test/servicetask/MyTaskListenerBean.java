@@ -19,7 +19,7 @@ import mobius.engine.impl.util.ExecutionHelper;
 import mobius.task.service.delegate.DelegateTask;
 
 /**
- * @author Joram Barrez
+ *
  * @author Bernd Ruecker (camunda)
  */
 public class MyTaskListenerBean implements TaskListener {

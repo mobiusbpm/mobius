@@ -18,7 +18,7 @@ import mobius.common.engine.impl.el.function.VariableGetExpressionFunction;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableGetExpressionEnhancerTest {
     

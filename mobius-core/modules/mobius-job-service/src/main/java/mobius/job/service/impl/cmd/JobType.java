@@ -17,7 +17,7 @@ import mobius.job.service.impl.persistence.entity.JobEntity;
 /**
  * The various types of {@link JobEntity} subtypes, as enum.
  * 
- * @author Joram Barrez
+ *
  */
 public enum JobType {
 

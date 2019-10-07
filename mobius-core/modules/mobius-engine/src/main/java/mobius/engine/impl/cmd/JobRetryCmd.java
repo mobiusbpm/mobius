@@ -39,7 +39,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author Saeid Mirzaei
- * @author Joram Barrez
+ *
  */
 
 public class JobRetryCmd implements Command<Object> {

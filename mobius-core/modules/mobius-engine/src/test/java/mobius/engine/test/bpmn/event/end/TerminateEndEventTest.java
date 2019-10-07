@@ -49,7 +49,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author Nico Rehwaldt
- * @author Joram Barrez
+ *
  */
 public class TerminateEndEventTest extends PluggableFlowableTestCase {
 

@@ -21,7 +21,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.AttachmentDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisAttachmentDataManager extends AbstractProcessDataManager<AttachmentEntity> implements AttachmentDataManager {
 

@@ -16,7 +16,7 @@ package mobius.bpmn.model;
  * Element for defining an event listener to hook in to the global event-mechanism.
  * 
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class EventListener extends BaseElement {
 

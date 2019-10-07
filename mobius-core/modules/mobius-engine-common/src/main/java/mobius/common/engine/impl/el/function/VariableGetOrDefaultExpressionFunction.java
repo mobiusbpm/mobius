@@ -19,7 +19,7 @@ import mobius.variable.api.delegate.VariableScope;
  * Returns the value of a variable, or a default if the value is null.
  * This avoids the {@link PropertyNotFoundException} that otherwise gets thrown when referencing a variable in JUEL.
  * 
- * @author Joram Barrez
+ *
  */
 public class VariableGetOrDefaultExpressionFunction extends AbstractFlowableVariableExpressionFunction {
     

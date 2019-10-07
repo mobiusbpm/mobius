@@ -26,7 +26,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
  * of the thread-local {@link CommandContext}.
  * Instead of passing a {@link DelegatePlanItemInstance}, a 'raw' {@link PlanItemInstanceEntity} is also passed.
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class CoreCmmnActivityBehavior implements CmmnActivityBehavior {
 

@@ -21,7 +21,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.PropertyDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisPropertyDataManager extends AbstractProcessDataManager<PropertyEntity> implements PropertyDataManager {
 

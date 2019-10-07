@@ -23,7 +23,7 @@ import mobius.idm.api.User;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetUsersWithPrivilegeCmd implements Command<List<User>>, Serializable {
 

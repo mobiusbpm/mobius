@@ -22,7 +22,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.task.api.Task;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetSubTasksCmd implements Command<List<Task>>, Serializable {
 

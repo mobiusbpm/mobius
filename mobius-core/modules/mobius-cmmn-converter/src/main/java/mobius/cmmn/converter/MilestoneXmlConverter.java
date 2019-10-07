@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.Milestone;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MilestoneXmlConverter extends PlanItemDefinitionXmlConverter {
     

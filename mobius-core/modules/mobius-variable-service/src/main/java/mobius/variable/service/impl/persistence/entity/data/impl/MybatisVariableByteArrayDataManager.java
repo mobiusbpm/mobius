@@ -20,7 +20,7 @@ import mobius.variable.service.impl.persistence.entity.VariableByteArrayEntityIm
 import mobius.variable.service.impl.persistence.entity.data.VariableByteArrayDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisVariableByteArrayDataManager extends AbstractDataManager<VariableByteArrayEntity> implements VariableByteArrayDataManager {
 

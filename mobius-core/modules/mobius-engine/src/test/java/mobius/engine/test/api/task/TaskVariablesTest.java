@@ -29,7 +29,7 @@ import mobius.variable.api.entity.VariableInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class TaskVariablesTest extends PluggableFlowableTestCase {
 

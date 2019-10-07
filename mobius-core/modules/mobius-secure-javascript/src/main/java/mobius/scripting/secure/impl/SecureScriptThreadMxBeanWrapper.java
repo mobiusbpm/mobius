@@ -19,7 +19,7 @@ import java.lang.management.ManagementFactory;
  *
  * This class should only be used if it is verified this class is on the classpath, for example by checking the class through reflection.
  *
- * @author Joram Barrez
+ *
  */
 public class SecureScriptThreadMxBeanWrapper {
 

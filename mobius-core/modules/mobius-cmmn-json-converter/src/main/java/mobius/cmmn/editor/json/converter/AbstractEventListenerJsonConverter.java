@@ -24,7 +24,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEventListenerJsonConverter extends BaseCmmnJsonConverter {
 

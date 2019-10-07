@@ -29,7 +29,7 @@ import mobius.common.engine.api.query.Query;
  * {@link AppRepositoryService#getResourceAsStream(String, String)}
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface AppDeploymentQuery extends Query<AppDeploymentQuery, AppDeployment> {
 

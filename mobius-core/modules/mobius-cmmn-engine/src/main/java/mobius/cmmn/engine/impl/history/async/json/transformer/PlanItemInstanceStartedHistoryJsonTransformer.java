@@ -25,7 +25,7 @@ import java.util.List;
 import static mobius.job.service.impl.history.async.util.AsyncHistoryJsonUtil.getDateFromJson;
 
 /**
- * @author Joram Barrez
+ *
  */
 @Deprecated
 public class PlanItemInstanceStartedHistoryJsonTransformer extends AbstractNeedsHistoricPlanItemInstanceHistoryJsonTransformer {

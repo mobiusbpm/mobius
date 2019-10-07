@@ -20,7 +20,7 @@ import mobius.variable.service.VariableServiceConfiguration;
 import mobius.variable.service.impl.persistence.entity.data.VariableByteArrayDataManager;
 
 /**
- * @author Joram Barrez
+ *
  * @author Marcus Klimstra (CGI)
  */
 public class VariableByteArrayEntityManagerImpl extends AbstractEntityManager<VariableByteArrayEntity> implements VariableByteArrayEntityManager {

@@ -38,7 +38,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DatabaseEventLoggerTest extends PluggableFlowableTestCase {
 

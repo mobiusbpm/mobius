@@ -21,7 +21,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.task.Attachment;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetAttachmentCmd implements Command<Attachment>, Serializable {
 

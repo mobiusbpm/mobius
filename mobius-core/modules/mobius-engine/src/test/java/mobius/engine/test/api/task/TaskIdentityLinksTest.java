@@ -29,7 +29,7 @@ import mobius.identitylink.api.history.HistoricIdentityLink;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Falko Menge
  */
 public class TaskIdentityLinksTest extends PluggableFlowableTestCase {

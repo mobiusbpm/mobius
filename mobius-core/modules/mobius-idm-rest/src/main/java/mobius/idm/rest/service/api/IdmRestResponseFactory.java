@@ -25,7 +25,7 @@ import mobius.idm.rest.service.api.privilege.PrivilegeResponse;
 import mobius.idm.rest.service.api.user.UserResponse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IdmRestResponseFactory {
     

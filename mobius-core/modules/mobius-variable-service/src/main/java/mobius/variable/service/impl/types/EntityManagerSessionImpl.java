@@ -27,7 +27,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class EntityManagerSessionImpl implements EntityManagerSession {
 

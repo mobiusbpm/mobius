@@ -16,7 +16,7 @@ package mobius.task.api;
 /**
  * Defines the different states of delegation that a task can be in.
  * 
- * @author Tom Baeyens
+ *
  */
 public enum DelegationState {
 

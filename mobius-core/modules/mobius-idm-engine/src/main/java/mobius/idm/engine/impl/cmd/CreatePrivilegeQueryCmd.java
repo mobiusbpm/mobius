@@ -21,7 +21,7 @@ import mobius.idm.api.PrivilegeQuery;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CreatePrivilegeQueryCmd implements Command<PrivilegeQuery>, Serializable {
 

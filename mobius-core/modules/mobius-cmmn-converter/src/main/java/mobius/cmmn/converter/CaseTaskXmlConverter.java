@@ -18,7 +18,7 @@ import mobius.cmmn.model.CaseTask;
 import mobius.cmmn.model.CmmnElement;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseTaskXmlConverter extends TaskXmlConverter {
     

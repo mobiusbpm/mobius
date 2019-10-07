@@ -24,7 +24,7 @@ import mobius.dmn.engine.impl.persistence.entity.DmnResourceEntity;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetDeploymentResourceCmd implements Command<InputStream>, Serializable {
 

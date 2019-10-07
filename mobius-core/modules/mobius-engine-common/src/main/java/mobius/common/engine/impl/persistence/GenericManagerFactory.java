@@ -19,8 +19,8 @@ import mobius.common.engine.api.FlowableException;
 import mobius.common.engine.impl.interceptor.Session;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class GenericManagerFactory implements SessionFactory {
 

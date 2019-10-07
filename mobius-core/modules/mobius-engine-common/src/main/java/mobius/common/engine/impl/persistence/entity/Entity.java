@@ -13,8 +13,8 @@
 package mobius.common.engine.impl.persistence.entity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Tijs Rademakers
  */
 public interface Entity {

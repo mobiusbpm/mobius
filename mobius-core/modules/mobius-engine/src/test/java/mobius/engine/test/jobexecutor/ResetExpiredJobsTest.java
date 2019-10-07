@@ -38,7 +38,7 @@ import mobius.job.service.impl.persistence.entity.JobInfoEntity;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ResetExpiredJobsTest extends PluggableFlowableTestCase {
 

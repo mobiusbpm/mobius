@@ -28,7 +28,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * 
- * @author Joram Barrez
+ *
  */
 public class BpmnParseTest extends PluggableFlowableTestCase {
 

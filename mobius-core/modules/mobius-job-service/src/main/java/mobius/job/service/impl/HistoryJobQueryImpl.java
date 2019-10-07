@@ -26,8 +26,8 @@ import mobius.job.api.HistoryJobQuery;
 import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
- * @author Tom Baeyens
+ *
+ *
  * @author Falko Menge
  */
 public class HistoryJobQueryImpl extends AbstractQuery<HistoryJobQuery, HistoryJob> implements HistoryJobQuery, Serializable {

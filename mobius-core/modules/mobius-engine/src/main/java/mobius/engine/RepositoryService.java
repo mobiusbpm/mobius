@@ -39,10 +39,10 @@ import mobius.validation.ValidationError;
 /**
  * Service providing access to the repository of process definitions and deployments.
  * 
- * @author Tom Baeyens
+ *
  * @author Falko Menge
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  * @author Henry Yan
  * @author Yvo Swillens
  */

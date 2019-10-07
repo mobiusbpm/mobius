@@ -16,8 +16,8 @@ package mobius.engine.impl.persistence.entity;
 import java.io.Serializable;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class ResourceEntityImpl extends AbstractBpmnEngineNoRevisionEntity implements ResourceEntity, Serializable {
 

@@ -22,7 +22,7 @@ import mobius.common.engine.impl.FlowableVersions;
 /**
  * Provides access to all services that expose CMMN and case management operations.
  * 
- * @author Joram Barrez
+ *
  */
 public interface CmmnEngine {
     

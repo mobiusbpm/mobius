@@ -34,7 +34,7 @@ import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
 import java.util.*;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnEngineConfigurator extends AbstractEngineConfigurator {
 

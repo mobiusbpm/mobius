@@ -17,8 +17,8 @@ import java.io.InputStream;
 import mobius.common.engine.api.io.InputStreamProvider;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface StreamSource extends InputStreamProvider {
 

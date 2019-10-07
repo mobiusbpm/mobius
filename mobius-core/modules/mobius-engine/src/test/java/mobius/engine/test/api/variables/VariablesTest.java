@@ -37,7 +37,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Testing various constructs with variables. Created to test the changes done in https://jira.codehaus.org/browse/ACT-1900.
  * 
- * @author Joram Barrez
+ *
  */
 public class VariablesTest extends PluggableFlowableTestCase {
 

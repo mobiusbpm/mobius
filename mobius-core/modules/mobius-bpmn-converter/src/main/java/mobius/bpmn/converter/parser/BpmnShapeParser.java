@@ -22,7 +22,7 @@ import mobius.bpmn.model.GraphicInfo;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class BpmnShapeParser implements BpmnXMLConstants {
 

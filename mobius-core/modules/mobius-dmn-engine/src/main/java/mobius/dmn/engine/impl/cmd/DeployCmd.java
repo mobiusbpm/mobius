@@ -33,7 +33,7 @@ import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class DeployCmd<T> implements Command<DmnDeployment>, Serializable {
 

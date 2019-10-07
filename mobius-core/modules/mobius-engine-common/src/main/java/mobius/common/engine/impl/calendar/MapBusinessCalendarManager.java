@@ -18,7 +18,7 @@ import java.util.Map;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class MapBusinessCalendarManager implements BusinessCalendarManager {
 

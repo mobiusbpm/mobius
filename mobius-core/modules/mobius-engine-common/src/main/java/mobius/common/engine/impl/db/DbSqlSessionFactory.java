@@ -32,8 +32,8 @@ import mobius.common.engine.impl.persistence.cache.EntityCache;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DbSqlSessionFactory implements SessionFactory {
 

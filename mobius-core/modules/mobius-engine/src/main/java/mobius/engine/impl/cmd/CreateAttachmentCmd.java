@@ -36,8 +36,8 @@ import mobius.task.api.Task;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 // Not Serializable
 public class CreateAttachmentCmd implements Command<Attachment> {

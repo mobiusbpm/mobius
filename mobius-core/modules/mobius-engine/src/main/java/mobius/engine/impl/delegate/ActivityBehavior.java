@@ -17,8 +17,8 @@ import java.io.Serializable;
 import mobius.engine.delegate.DelegateExecution;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface ActivityBehavior extends Serializable {
 

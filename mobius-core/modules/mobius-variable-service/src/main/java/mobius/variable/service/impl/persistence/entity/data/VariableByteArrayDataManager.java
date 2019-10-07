@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.variable.service.impl.persistence.entity.VariableByteArrayEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface VariableByteArrayDataManager extends DataManager<VariableByteArrayEntity> {
 

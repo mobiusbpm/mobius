@@ -25,7 +25,7 @@ import mobius.engine.repository.ModelQuery;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class ModelQueryImpl extends AbstractQuery<ModelQuery, Model> implements ModelQuery {
 

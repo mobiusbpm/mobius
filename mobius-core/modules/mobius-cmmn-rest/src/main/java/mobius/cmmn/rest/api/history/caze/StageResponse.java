@@ -15,7 +15,7 @@ package mobius.cmmn.rest.api.history.caze;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class StageResponse {
 

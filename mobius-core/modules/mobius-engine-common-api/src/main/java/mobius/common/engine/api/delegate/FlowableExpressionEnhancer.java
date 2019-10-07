@@ -18,7 +18,7 @@ package mobius.common.engine.api.delegate;
  * The instances will be called in the order as they are configured and can be used to change the text of the 
  * expression before the actual {@link Expression} is created from it.
  * 
- * @author Joram Barrez
+ *
  */
 public interface FlowableExpressionEnhancer {
 

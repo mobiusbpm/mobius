@@ -22,7 +22,7 @@ import mobius.engine.history.HistoricDetailQuery;
 /**
  * Contains the possible properties which can be used in a {@link HistoricDetailQuery}.
  * 
- * @author Tom Baeyens
+ *
  */
 public class HistoricDetailQueryProperty implements QueryProperty {
 

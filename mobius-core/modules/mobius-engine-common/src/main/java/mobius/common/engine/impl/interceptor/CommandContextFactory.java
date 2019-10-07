@@ -16,7 +16,7 @@ package mobius.common.engine.impl.interceptor;
 import java.util.Map;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Joram 
  */
 public class CommandContextFactory {

@@ -30,7 +30,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.HistoricDetailDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricDetailDataManager extends AbstractProcessDataManager<HistoricDetailEntity> implements HistoricDetailDataManager {
 

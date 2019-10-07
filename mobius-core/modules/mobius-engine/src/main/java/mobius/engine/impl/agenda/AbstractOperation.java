@@ -28,7 +28,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
  * 
  * An operations is a {@link Runnable} instance that is put on the {@link FlowableEngineAgenda} during the execution of a {@link Command}.
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractOperation implements Runnable {
 

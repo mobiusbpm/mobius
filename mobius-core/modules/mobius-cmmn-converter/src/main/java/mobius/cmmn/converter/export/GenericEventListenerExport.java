@@ -20,7 +20,7 @@ import mobius.cmmn.model.GenericEventListener;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class GenericEventListenerExport extends AbstractPlanItemDefinitionExport<GenericEventListener> {
 

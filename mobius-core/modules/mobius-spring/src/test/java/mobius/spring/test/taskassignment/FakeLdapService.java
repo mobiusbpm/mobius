@@ -18,7 +18,7 @@ import java.util.List;
 import mobius.engine.delegate.DelegateExecution;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FakeLdapService {
 

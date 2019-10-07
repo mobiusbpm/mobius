@@ -27,7 +27,7 @@ import org.springframework.test.context.support.DependencyInjectionTestExecution
 import junit.framework.TestCase;
 
 /**
- * @author Joram Barrez
+ *
  * @author Josh Long
  */
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)

@@ -20,7 +20,7 @@ import mobius.dmn.api.DmnDecisionTable;
 import mobius.dmn.engine.impl.DecisionTableQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DecisionTableEntityManager extends EntityManager<DecisionTableEntity> {
 

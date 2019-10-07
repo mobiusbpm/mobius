@@ -20,7 +20,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SentryPartInstanceEntityManagerImpl extends AbstractCmmnEntityManager<SentryPartInstanceEntity> implements SentryPartInstanceEntityManager {
 

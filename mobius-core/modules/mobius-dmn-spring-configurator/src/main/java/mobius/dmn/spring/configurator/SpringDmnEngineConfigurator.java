@@ -23,7 +23,7 @@ import mobius.dmn.spring.SpringDmnExpressionManager;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class SpringDmnEngineConfigurator extends DmnEngineConfigurator {
 

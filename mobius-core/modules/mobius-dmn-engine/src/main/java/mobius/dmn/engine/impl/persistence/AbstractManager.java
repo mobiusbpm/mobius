@@ -23,7 +23,7 @@ import mobius.dmn.engine.impl.persistence.entity.HistoricDecisionExecutionEntity
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractManager {
 

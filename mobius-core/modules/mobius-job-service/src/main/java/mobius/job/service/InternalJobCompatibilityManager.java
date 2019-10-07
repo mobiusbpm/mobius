@@ -18,7 +18,7 @@ import mobius.job.service.impl.persistence.entity.AbstractRuntimeJobEntity;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface InternalJobCompatibilityManager {
     

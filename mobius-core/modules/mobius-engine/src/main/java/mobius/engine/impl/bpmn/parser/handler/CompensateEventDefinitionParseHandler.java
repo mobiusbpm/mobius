@@ -19,7 +19,7 @@ import mobius.bpmn.model.ThrowEvent;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class CompensateEventDefinitionParseHandler extends AbstractBpmnParseHandler<CompensateEventDefinition> {

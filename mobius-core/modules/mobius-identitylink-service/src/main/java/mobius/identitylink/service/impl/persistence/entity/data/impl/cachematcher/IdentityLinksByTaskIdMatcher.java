@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IdentityLinksByTaskIdMatcher extends CachedEntityMatcherAdapter<IdentityLinkEntity> {
 

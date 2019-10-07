@@ -15,7 +15,7 @@ package mobius.engine.impl.delegate;
 import mobius.engine.delegate.DelegateExecution;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface TriggerableActivityBehavior extends ActivityBehavior {
 

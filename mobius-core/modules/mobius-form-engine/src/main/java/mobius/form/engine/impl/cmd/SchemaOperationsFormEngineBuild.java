@@ -19,7 +19,7 @@ import mobius.form.engine.impl.db.FormDbSchemaManager;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SchemaOperationsFormEngineBuild implements Command<Void> {
 

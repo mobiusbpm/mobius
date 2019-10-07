@@ -22,8 +22,8 @@ import mobius.common.engine.api.query.Query;
 /**
  * Programmatic querying for {@link HistoricActivityInstance}s.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Zheng Ji
  */
 public interface HistoricActivityInstanceQuery extends Query<HistoricActivityInstanceQuery, HistoricActivityInstance> {

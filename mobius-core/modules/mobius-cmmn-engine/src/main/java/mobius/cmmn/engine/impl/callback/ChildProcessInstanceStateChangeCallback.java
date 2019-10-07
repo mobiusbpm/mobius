@@ -20,7 +20,7 @@ import mobius.common.engine.impl.callback.RuntimeInstanceStateChangeCallback;
 /**
  * Callback implementation for a child case instance returning it's state change to its parent.
  *
- * @author Joram Barrez
+ *
  */
 public class ChildProcessInstanceStateChangeCallback implements RuntimeInstanceStateChangeCallback {
 

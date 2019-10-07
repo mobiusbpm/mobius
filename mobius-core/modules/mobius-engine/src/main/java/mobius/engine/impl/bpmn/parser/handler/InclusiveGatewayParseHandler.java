@@ -17,7 +17,7 @@ import mobius.bpmn.model.InclusiveGateway;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class InclusiveGatewayParseHandler extends AbstractActivityBpmnParseHandler<InclusiveGateway> {
 

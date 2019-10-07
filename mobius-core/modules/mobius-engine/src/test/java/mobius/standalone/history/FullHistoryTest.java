@@ -49,9 +49,9 @@ import mobius.variable.service.impl.types.EntityManagerSessionFactory;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  * @author Christian Lipphardt (camunda)
  */
 public class FullHistoryTest extends ResourceFlowableTestCase {

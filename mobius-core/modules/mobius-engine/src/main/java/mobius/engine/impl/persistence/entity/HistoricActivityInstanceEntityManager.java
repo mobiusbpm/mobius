@@ -20,7 +20,7 @@ import mobius.engine.history.HistoricActivityInstance;
 import mobius.engine.impl.HistoricActivityInstanceQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricActivityInstanceEntityManager extends EntityManager<HistoricActivityInstanceEntity> {
 

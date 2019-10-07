@@ -22,7 +22,7 @@ import mobius.dmn.api.DmnDecisionTableQuery;
 /**
  * Contains the possible properties that can be used in a {@link DmnDecisionTableQuery}.
  * 
- * @author Joram Barrez
+ *
  */
 public class DecisionTableQueryProperty implements QueryProperty {
 

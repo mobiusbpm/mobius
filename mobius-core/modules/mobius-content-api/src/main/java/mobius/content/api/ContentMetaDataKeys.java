@@ -15,7 +15,7 @@ package mobius.content.api;
 /**
  * The metadata keys that are common for each bit of content used with Flowable.
  *
- * @author Joram Barrez
+ *
  */
 public interface ContentMetaDataKeys {
 

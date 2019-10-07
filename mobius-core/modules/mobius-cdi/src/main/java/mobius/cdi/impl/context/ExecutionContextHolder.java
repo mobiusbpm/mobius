@@ -18,7 +18,7 @@ import mobius.engine.impl.context.ExecutionContext;
 import mobius.engine.impl.persistence.entity.ExecutionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExecutionContextHolder {
 

@@ -22,7 +22,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.cmmn.model.ProcessTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessTaskParseHandler extends AbstractPlanItemParseHandler<ProcessTask> {
 

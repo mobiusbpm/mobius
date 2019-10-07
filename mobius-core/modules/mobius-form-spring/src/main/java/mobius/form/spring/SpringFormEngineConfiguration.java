@@ -41,7 +41,7 @@ import java.util.List;
 /**
  * @author Tijs Rademakers
  * @author David Syer
- * @author Joram Barrez
+ *
  */
 public class SpringFormEngineConfiguration extends FormEngineConfiguration implements SpringEngineConfiguration {
 

@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.CommandInterceptor;
 import mobius.common.engine.impl.interceptor.JtaTransactionInterceptor;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class JtaProcessEngineConfiguration extends ProcessEngineConfigurationImpl {
 

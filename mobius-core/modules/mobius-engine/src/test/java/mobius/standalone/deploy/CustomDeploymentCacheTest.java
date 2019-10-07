@@ -20,7 +20,7 @@ import mobius.engine.repository.Deployment;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CustomDeploymentCacheTest extends ResourceFlowableTestCase {
 

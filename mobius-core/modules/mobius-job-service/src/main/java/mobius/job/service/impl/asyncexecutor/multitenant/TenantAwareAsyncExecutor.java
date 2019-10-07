@@ -20,7 +20,7 @@ import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
 /**
  * Interface for {@link AsyncExecutor} implementations used in conjunction with the MultiSchemaMultiTenantProcessEngineConfiguration. Allows to dynamically add tenant executors to the engine.
  * 
- * @author Joram Barrez
+ *
  */
 public interface TenantAwareAsyncExecutor extends AsyncExecutor {
 

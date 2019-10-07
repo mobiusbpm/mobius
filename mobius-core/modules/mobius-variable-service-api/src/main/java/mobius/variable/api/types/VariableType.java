@@ -13,7 +13,7 @@
 package mobius.variable.api.types;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface VariableType {
 

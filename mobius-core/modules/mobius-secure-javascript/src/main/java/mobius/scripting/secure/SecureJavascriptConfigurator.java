@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SecureJavascriptConfigurator extends AbstractProcessEngineConfigurator {
 

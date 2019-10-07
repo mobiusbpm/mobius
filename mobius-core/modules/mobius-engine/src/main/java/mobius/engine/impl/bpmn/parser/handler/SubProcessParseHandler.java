@@ -17,7 +17,7 @@ import mobius.bpmn.model.SubProcess;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SubProcessParseHandler extends AbstractActivityBpmnParseHandler<SubProcess> {
 

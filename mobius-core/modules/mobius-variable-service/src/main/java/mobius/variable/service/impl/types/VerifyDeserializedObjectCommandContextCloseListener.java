@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContextCloseListener;
  * It's important that this happens in the {@link #closing(CommandContext)}, as this happens before the {@link CommandContext#close()} is called and when all the sessions are flushed (including the
  * {@link DbSqlSession} in the relational DB case (the data needs to be ready then).
  * 
- * @author Joram Barrez
+ *
  */
 public class VerifyDeserializedObjectCommandContextCloseListener implements CommandContextCloseListener {
 

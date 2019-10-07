@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * Note: only possible for event listener plan items.
  *
- * @author Joram Barrez
+ *
  */
 public class InitiatePlanItemInstanceOperation extends AbstractChangePlanItemInstanceStateOperation {
 

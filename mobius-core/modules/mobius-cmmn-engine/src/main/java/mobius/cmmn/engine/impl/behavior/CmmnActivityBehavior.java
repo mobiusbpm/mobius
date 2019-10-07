@@ -33,7 +33,7 @@ import mobius.cmmn.model.PlanItem;
  * Implementations of this class are assumed by the engine to not have wait state behavior,
  * use the {@link CmmnTriggerableActivityBehavior} when this behavior is needed.
  * 
- * @author Joram Barrez
+ *
  */
 public interface CmmnActivityBehavior {
     

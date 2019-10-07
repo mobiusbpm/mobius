@@ -99,7 +99,7 @@ import org.xml.sax.SAXException;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class BpmnXMLConverter implements BpmnXMLConstants {
 

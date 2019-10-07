@@ -19,8 +19,8 @@ import mobius.common.engine.impl.scripting.ResolverFactory;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class CmmnVariableScopeResolverFactory implements ResolverFactory {
 

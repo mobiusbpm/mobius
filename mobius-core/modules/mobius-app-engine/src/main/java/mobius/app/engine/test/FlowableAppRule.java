@@ -64,7 +64,7 @@ import org.junit.runners.model.Statement;
  * time rather then the time that was set during a test method.
  * </p>
  * 
- * @author Tom Baeyens
+ *
  */
 public class FlowableAppRule implements TestRule {
 

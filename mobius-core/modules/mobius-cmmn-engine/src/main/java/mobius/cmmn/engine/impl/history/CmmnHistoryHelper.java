@@ -29,7 +29,7 @@ import static mobius.variable.service.impl.util.CommandContextUtil.getHistoricVa
 /**
  * Contains logic that is shared by multiple classes around history.
  * 
- * @author Joram Barrez
+ *
  */
 public class CmmnHistoryHelper {
     

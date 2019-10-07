@@ -25,7 +25,7 @@ import mobius.engine.runtime.ProcessInstance;
  * At deploy time, the engine will then parse the process definition files to an executable instance of this class, 
  * that can be used to start a {@link ProcessInstance}.
  * 
- * @author Tom Baeyens
+ *
  * @author Joram Barez
  * @author Daniel Meyer
  */

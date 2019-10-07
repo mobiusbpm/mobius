@@ -20,7 +20,7 @@ import mobius.bpmn.model.SignalEventDefinition;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class SignalEventDefinitionParseHandler extends AbstractBpmnParseHandler<SignalEventDefinition> {

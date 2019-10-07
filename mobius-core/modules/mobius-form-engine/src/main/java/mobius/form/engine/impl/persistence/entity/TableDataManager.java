@@ -20,7 +20,7 @@ import mobius.common.engine.api.management.TablePage;
 import mobius.form.engine.impl.TablePageQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface TableDataManager {
 

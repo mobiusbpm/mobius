@@ -24,7 +24,7 @@ import mobius.idm.api.User;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetUserPictureCmd implements Command<Picture>, Serializable {
 

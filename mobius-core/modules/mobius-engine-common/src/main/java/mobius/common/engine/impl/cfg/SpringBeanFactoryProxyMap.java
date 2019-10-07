@@ -21,7 +21,7 @@ import mobius.common.engine.api.FlowableException;
 import org.springframework.beans.factory.BeanFactory;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class SpringBeanFactoryProxyMap implements Map<Object, Object> {
 

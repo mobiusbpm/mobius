@@ -21,8 +21,8 @@ import mobius.identitylink.service.impl.persistence.entity.HistoricIdentityLinkE
 import mobius.identitylink.service.impl.persistence.entity.HistoricIdentityLinkEntityManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricIdentityLinkServiceImpl extends CommonServiceImpl<IdentityLinkServiceConfiguration> implements HistoricIdentityLinkService {
 

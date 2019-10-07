@@ -28,7 +28,7 @@ import mobius.identitylink.service.impl.persistence.entity.data.impl.cachematche
 import mobius.identitylink.service.impl.persistence.entity.data.impl.cachematcher.IdentityLinksByTaskIdMatcher;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisIdentityLinkDataManager extends AbstractDataManager<IdentityLinkEntity> implements IdentityLinkDataManager {
 

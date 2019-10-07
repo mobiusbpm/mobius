@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.content.api.ContentItem;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface ContentItemEntity extends ContentItem, Entity {

@@ -17,7 +17,7 @@ import mobius.job.service.JobServiceConfiguration;
 
 /**
  * @author Tijd Rademakers
- * @author Joram Barrez
+ *
  */
 public interface AsyncExecutor {
 

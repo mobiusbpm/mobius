@@ -61,7 +61,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Auto-configuration and starter for the Flowable REST APIs.
  *
- * @author Joram Barrez
+ *
  * @author Josh Long
  * @author Vedran Pavic
  * @author Filip Hrisafov

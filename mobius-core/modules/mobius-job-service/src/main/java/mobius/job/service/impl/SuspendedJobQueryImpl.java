@@ -27,7 +27,7 @@ import mobius.job.api.SuspendedJobQuery;
 import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class SuspendedJobQueryImpl extends AbstractQuery<SuspendedJobQuery, Job> implements SuspendedJobQuery, Serializable {

@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.idm.engine.IdmEngineConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public abstract class AbstractIdmDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {

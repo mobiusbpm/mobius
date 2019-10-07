@@ -19,7 +19,7 @@ import mobius.common.engine.api.FlowableException;
 import mobius.common.engine.impl.util.io.StreamSource;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ResourceStreamSource implements StreamSource {
 

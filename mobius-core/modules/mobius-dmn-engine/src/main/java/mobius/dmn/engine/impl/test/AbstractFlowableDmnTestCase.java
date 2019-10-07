@@ -27,8 +27,8 @@ import mobius.dmn.engine.test.DmnTestHelper;
 import org.junit.Assert;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public abstract class AbstractFlowableDmnTestCase extends AbstractDmnTestCase {
 

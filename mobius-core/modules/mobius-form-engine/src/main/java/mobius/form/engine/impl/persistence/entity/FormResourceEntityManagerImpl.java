@@ -20,8 +20,8 @@ import mobius.form.engine.FormEngineConfiguration;
 import mobius.form.engine.impl.persistence.entity.data.FormResourceDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class FormResourceEntityManagerImpl extends AbstractEntityManager<FormResourceEntity> implements FormResourceEntityManager {
 

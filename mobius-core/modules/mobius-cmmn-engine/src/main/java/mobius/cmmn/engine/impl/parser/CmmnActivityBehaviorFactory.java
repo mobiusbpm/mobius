@@ -44,7 +44,7 @@ import mobius.cmmn.model.TimerEventListener;
 import mobius.cmmn.model.UserEventListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnActivityBehaviorFactory {
 

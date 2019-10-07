@@ -17,7 +17,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CaseInstanceState {
     

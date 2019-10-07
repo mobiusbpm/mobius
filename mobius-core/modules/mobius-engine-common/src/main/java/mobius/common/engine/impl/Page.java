@@ -15,8 +15,8 @@ package mobius.common.engine.impl;
 /**
  * holds the parameters of a page (partial result) for a query.
  * 
- * @author Joram Barrez
- * @author Tom Baeyens
+ *
+ *
  */
 public class Page {
 

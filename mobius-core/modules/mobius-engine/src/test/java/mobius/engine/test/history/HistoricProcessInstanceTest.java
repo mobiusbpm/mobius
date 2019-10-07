@@ -36,8 +36,8 @@ import mobius.identitylink.api.history.HistoricIdentityLink;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricProcessInstanceTest extends PluggableFlowableTestCase {
 

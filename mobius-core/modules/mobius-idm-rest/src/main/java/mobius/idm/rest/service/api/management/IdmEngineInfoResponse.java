@@ -16,7 +16,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 /**
  * @author Yvo Swillens
- * @author Joram Barrez
+ *
  */
 public class IdmEngineInfoResponse {
 

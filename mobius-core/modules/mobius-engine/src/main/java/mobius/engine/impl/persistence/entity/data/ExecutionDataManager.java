@@ -25,7 +25,7 @@ import mobius.engine.runtime.Execution;
 import mobius.engine.runtime.ProcessInstance;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface ExecutionDataManager extends DataManager<ExecutionEntity> {
 

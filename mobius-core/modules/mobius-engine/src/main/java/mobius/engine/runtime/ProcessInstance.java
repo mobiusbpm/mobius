@@ -20,8 +20,8 @@ import mobius.engine.repository.ProcessDefinition;
 /**
  * Represents one execution of a {@link ProcessDefinition}.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Daniel Meyer
  * @author Tijs Rademakers
  */

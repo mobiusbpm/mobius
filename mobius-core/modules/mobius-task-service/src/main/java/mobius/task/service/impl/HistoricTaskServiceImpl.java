@@ -37,8 +37,8 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 import mobius.task.service.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricTaskServiceImpl extends CommonServiceImpl<TaskServiceConfiguration> implements HistoricTaskService {
 

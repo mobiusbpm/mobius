@@ -17,7 +17,7 @@ import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SecureJavascriptUtil {
 

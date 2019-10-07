@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Simple process test to validate the current implementation prototype.
  * 
- * @author Joram Barrez
+ *
  */
 public class TaskAssigneeTest extends PluggableFlowableTestCase {
 

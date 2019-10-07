@@ -17,7 +17,7 @@ import mobius.engine.form.TaskFormData;
 import mobius.task.api.Task;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class TaskFormDataImpl extends FormDataImpl implements TaskFormData {
 

@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.JsonNode;
  * An implementation of this interface needs to be injected into an {@link AsyncHistoryJobMessageReceiver} instance.
  * The helper will receive the information from a message and the implementation of this class should execute the actual logic.
  * 
- * @author Joram Barrez
+ *
  */
 public interface AsyncHistoryJobMessageHandler {
 

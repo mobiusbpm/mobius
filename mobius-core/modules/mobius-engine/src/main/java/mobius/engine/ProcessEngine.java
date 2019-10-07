@@ -33,8 +33,8 @@ import mobius.task.api.Task;
  * costly operation which should be avoided. For that purpose, it is advised to store it in a static field or JNDI location (or something similar). This is a thread-safe object, so no special
  * precautions need to be taken.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface ProcessEngine {
 

@@ -19,7 +19,7 @@ import java.util.Date;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricScopeInstanceEntity extends Entity {
 

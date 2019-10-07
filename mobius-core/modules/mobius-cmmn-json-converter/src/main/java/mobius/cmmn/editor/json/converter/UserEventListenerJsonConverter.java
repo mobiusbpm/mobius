@@ -24,7 +24,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  * @author Dennis Federico
- * @author Joram Barrez
+ *
  */
 public class UserEventListenerJsonConverter extends AbstractEventListenerJsonConverter {
 

@@ -31,7 +31,7 @@ import org.junit.jupiter.api.Test;
  * Test case for all {@link FlowableEvent}s related to activities.
  * 
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class HistoricActivityEventsTest extends PluggableFlowableTestCase {
 

@@ -22,7 +22,7 @@ import mobius.engine.impl.HistoricDetailQueryImpl;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricDetailEntityManager extends EntityManager<HistoricDetailEntity> {
 

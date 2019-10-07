@@ -20,7 +20,7 @@ import java.util.Map;
 import mobius.content.engine.ContentEngineConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class ContentItemEntityImpl extends AbstractContentEngineNoRevisionEntity implements ContentItemEntity, Serializable {

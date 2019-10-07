@@ -26,7 +26,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public class ProcessDefinitionSuspensionTest extends PluggableFlowableTestCase {
 

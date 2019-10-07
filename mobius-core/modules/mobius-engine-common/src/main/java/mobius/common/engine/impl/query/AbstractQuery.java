@@ -29,7 +29,7 @@ import mobius.common.engine.impl.interceptor.CommandExecutor;
 /**
  * Abstract superclass for all query types.
  *
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractQuery<T extends Query<?, ?>, U> extends ListQueryParameterObject
 		implements Command<Object>, Query<T, U>, Serializable {

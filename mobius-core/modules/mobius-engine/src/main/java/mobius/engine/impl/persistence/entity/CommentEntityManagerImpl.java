@@ -25,8 +25,8 @@ import mobius.engine.task.Comment;
 import mobius.engine.task.Event;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class CommentEntityManagerImpl extends AbstractEntityManager<CommentEntity> implements CommentEntityManager {
 

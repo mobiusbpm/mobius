@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class Stage extends PlanFragment implements HasExitCriteria {
 

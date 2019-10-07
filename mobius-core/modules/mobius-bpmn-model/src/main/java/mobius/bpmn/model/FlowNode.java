@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public abstract class FlowNode extends FlowElement {
 

@@ -24,7 +24,7 @@ import org.junit.jupiter.api.Tag;
 import org.subethamail.wiser.Wiser;
 
 /**
- * @author Joram Barrez
+ *
  */
 @Tag("email")
 public abstract class EmailTestCase extends PluggableFlowableTestCase {

@@ -18,7 +18,7 @@ import org.apache.commons.lang3.StringUtils;
 import mobius.cmmn.model.CmmnElement;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DocumentationXmlConverter extends BaseCmmnXmlConverter {
     

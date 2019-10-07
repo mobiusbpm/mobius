@@ -22,8 +22,8 @@ import mobius.task.api.history.HistoricTaskInstance;
 import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface HistoricTaskInstanceEntity extends Entity, HistoricTaskInstance, HasRevision {
 

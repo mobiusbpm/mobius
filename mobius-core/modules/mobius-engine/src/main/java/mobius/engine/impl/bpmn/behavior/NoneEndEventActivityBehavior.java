@@ -17,7 +17,7 @@ import mobius.engine.impl.persistence.entity.ExecutionEntity;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class NoneEndEventActivityBehavior extends FlowNodeActivityBehavior {
 

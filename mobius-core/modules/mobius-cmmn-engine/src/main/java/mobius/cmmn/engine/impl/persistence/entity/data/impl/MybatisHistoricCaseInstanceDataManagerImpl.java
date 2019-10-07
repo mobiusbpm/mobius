@@ -25,7 +25,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricCaseInstanceDataManagerImpl extends AbstractCmmnDataManager<HistoricCaseInstanceEntity> implements
 		HistoricCaseInstanceDataManager {

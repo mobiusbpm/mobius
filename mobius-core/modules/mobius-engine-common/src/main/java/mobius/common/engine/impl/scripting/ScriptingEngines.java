@@ -27,8 +27,8 @@ import mobius.common.engine.api.FlowableException;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Frederik Heremans
  */
 public class ScriptingEngines {

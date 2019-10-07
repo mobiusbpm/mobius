@@ -24,7 +24,7 @@ import mobius.engine.impl.util.TimerUtil;
 import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class BoundaryTimerEventActivityBehavior extends BoundaryEventActivityBehavior {
 

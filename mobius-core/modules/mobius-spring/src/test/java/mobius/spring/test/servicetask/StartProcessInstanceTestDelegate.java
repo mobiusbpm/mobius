@@ -18,7 +18,7 @@ import mobius.engine.delegate.JavaDelegate;
 import mobius.engine.impl.context.Context;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class StartProcessInstanceTestDelegate implements JavaDelegate {
 

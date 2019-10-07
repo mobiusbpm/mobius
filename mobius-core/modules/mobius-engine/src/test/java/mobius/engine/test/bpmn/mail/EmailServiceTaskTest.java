@@ -40,7 +40,7 @@ import org.junit.jupiter.api.Test;
 import org.subethamail.wiser.WiserMessage;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tim Stephenson
  */
 public class EmailServiceTaskTest extends EmailTestCase {

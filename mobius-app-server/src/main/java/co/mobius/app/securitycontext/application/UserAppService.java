@@ -26,4 +26,8 @@ public class UserAppService {
 	public UserModel loginWithEmailAndPassword(String email, String password) {
 		return userRepository.getUserByEmailAndPassword(email, password);
 	}
+
+	public UserModel loginWithLoginNameAndPassword(String loginName, String password){
+		return userRepository.getUserByLoginNameAndPassword(loginName, password);
+	}
 }

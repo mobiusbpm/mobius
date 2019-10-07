@@ -20,7 +20,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.engine.task.Attachment;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface AttachmentEntity extends Attachment, Entity, HasRevision {
 

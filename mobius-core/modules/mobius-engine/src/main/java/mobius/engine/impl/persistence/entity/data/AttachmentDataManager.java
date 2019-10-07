@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.engine.impl.persistence.entity.AttachmentEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface AttachmentDataManager extends DataManager<AttachmentEntity> {
 

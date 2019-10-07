@@ -21,7 +21,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricCaseInstanceEntity extends Entity, HasRevision, HistoricCaseInstance {
 

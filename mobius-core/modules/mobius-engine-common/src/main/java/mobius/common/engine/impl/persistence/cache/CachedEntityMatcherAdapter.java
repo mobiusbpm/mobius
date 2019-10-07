@@ -17,7 +17,7 @@ import java.util.Collection;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class CachedEntityMatcherAdapter<EntityImpl extends Entity> implements CachedEntityMatcher<EntityImpl> {
 

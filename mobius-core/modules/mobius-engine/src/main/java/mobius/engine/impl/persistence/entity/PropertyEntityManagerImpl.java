@@ -20,8 +20,8 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.engine.impl.persistence.entity.data.PropertyDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class PropertyEntityManagerImpl extends AbstractEntityManager<PropertyEntity> implements PropertyEntityManager {
 

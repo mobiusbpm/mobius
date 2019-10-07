@@ -38,7 +38,7 @@ import mobius.task.service.delegate.DelegateTask;
 /**
  * Class that provides helper operations for use in the {@link JavaDelegate}, {@link ActivityBehavior}, {@link ExecutionListener} and {@link TaskListener} interfaces.
  * 
- * @author Joram Barrez
+ *
  */
 public class DelegateHelper {
 

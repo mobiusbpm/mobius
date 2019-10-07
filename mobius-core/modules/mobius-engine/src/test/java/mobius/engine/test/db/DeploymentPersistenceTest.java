@@ -25,7 +25,7 @@ import mobius.engine.repository.Deployment;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DeploymentPersistenceTest extends PluggableFlowableTestCase {
 

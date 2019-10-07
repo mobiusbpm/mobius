@@ -21,7 +21,7 @@ import mobius.engine.impl.util.Flowable5Util;
 
 /**
  * @author roman.smirnov
- * @author Joram Barrez
+ *
  */
 public class RemoveExecutionVariablesCmd extends NeedsActiveExecutionCmd<Void> {
 

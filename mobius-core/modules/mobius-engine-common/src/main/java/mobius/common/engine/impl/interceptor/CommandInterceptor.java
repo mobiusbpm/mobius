@@ -14,7 +14,7 @@
 package mobius.common.engine.impl.interceptor;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface CommandInterceptor {
 

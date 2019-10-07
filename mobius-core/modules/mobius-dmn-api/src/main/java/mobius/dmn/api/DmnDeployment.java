@@ -28,7 +28,7 @@ import mobius.common.engine.api.repository.EngineDeployment;
  * (hence the builder that needs to be used).
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface DmnDeployment extends EngineDeployment {
 

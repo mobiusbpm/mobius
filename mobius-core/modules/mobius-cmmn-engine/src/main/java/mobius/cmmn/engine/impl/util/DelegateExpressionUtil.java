@@ -22,7 +22,7 @@ import mobius.common.engine.impl.el.ExpressionManager;
 import mobius.common.engine.impl.util.ReflectUtil;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class DelegateExpressionUtil {

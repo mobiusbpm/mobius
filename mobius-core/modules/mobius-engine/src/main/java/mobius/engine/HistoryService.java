@@ -47,8 +47,8 @@ import mobius.variable.api.history.NativeHistoricVariableInstanceQuery;
  * state at any given moment and it is optimized for runtime process execution performance. The history information is optimized for easy querying and remains permanent in the persistent storage.
  * 
  * @author Christian Stettler
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface HistoryService {
 

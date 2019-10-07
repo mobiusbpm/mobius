@@ -16,7 +16,7 @@ import org.apache.commons.lang3.StringUtils;
 import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IdentityTestUtil {
 

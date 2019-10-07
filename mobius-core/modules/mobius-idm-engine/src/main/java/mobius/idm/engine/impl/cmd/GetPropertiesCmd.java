@@ -24,7 +24,7 @@ import mobius.idm.engine.impl.persistence.entity.IdmPropertyEntity;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetPropertiesCmd implements Command<Map<String, String>>, Serializable {
 

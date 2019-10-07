@@ -17,7 +17,7 @@ import mobius.common.engine.impl.callback.RuntimeInstanceStateChangeCallback;
 /**
  * Used for passing the state to the {@link RuntimeInstanceStateChangeCallback} instances. 
  * 
- * @author Joram Barrez
+ *
  */
 public interface ProcessInstanceState {
     

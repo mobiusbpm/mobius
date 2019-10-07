@@ -31,7 +31,7 @@ import java.util.Date;
 import java.util.function.Consumer;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DefaultCmmnHistoryManager implements CmmnHistoryManager {
 

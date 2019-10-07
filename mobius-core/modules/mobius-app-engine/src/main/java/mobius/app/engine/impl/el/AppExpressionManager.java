@@ -19,7 +19,7 @@ import mobius.common.engine.impl.javax.el.ELResolver;
 import mobius.variable.service.impl.el.VariableScopeExpressionManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class AppExpressionManager extends VariableScopeExpressionManager {
 

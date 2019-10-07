@@ -34,7 +34,7 @@ import mobius.engine.impl.util.ProcessInstanceHelper;
 /**
  * Implementation of the BPMN 2.0 subprocess (formally known as 'embedded' subprocess): a subprocess defined within another process definition.
  * 
- * @author Joram Barrez
+ *
  */
 public class SubProcessActivityBehavior extends AbstractBpmnActivityBehavior {
 

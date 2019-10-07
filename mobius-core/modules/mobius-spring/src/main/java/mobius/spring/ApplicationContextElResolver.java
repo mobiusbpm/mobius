@@ -22,7 +22,7 @@ import java.beans.FeatureDescriptor;
 import java.util.Iterator;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Frederik Heremans
  */
 public class ApplicationContextElResolver extends ELResolver {

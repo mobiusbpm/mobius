@@ -35,7 +35,7 @@ import static mobius.job.service.impl.history.async.util.AsyncHistoryJsonUtil.ge
 import static mobius.job.service.impl.history.async.util.AsyncHistoryJsonUtil.putIfNotNull;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class AsyncCmmnHistoryManager extends AbstractAsyncCmmnHistoryManager {
     

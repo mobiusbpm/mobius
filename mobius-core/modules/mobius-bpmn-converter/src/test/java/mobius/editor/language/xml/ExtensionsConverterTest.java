@@ -24,7 +24,7 @@ import mobius.bpmn.model.FlowElement;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExtensionsConverterTest extends AbstractConverterTest {
 

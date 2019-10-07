@@ -33,7 +33,7 @@ import mobius.cmmn.model.Stage;
 
 /**
  * @author Dennis Federico
- * @author Joram Barrez
+ *
  */
 public class UserEventListenerConverterTest extends AbstractConverterTest {
 

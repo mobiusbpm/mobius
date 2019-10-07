@@ -23,7 +23,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 import mobius.common.engine.api.delegate.Expression;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DelegateExpressionPlanItemLifecycleListener implements PlanItemInstanceLifecycleListener {
 

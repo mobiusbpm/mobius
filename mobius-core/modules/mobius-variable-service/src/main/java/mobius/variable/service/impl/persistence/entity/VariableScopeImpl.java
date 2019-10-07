@@ -37,8 +37,8 @@ import mobius.variable.service.impl.FlowableVariableEventBuilder;
 import mobius.variable.service.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Tijs Rademakers
  * @author Saeid Mirzaei
  */

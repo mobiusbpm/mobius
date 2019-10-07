@@ -20,7 +20,7 @@ import mobius.engine.test.mock.NoOpServiceTasks;
 import mobius.standalone.testing.helpers.ServiceTaskTestMock;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MockSupportWithFlowableTestCaseTest extends FlowableTestCase {
 

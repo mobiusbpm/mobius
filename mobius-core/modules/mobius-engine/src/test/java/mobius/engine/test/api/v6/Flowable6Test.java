@@ -32,7 +32,7 @@ import org.junit.jupiter.api.Test;
 /**
  * These are the first tests ever written for Flowable 6. Keeping them here for nostalgic reasons.
  * 
- * @author Joram Barrez
+ *
  */
 public class Flowable6Test extends PluggableFlowableTestCase {
 

@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Daniel Meyer
  */
 public class AcquiredJobs {

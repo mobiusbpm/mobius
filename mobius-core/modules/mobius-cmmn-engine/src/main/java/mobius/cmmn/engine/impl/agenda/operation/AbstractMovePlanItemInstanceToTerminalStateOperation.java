@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * Operation that moves a given {@link mobius.cmmn.api.runtime.PlanItemInstance} to a terminal state (completed, terminated or failed).
  *
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractMovePlanItemInstanceToTerminalStateOperation extends AbstractChangePlanItemInstanceStateOperation {
 

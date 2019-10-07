@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Allows programmatic querying of {@link User}
  *
- * @author Joram Barrez
+ *
  * @author Filip Hrisafov
  */
 public interface UserBaseQuery<T extends UserBaseQuery<T, U>, U extends User> extends Query<T, U> {

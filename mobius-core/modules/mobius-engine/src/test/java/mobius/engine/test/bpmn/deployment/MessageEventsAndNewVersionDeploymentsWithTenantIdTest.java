@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
 /**
  * A test specifically written to test how events (start/boundary) are handled when deploying a new version of a process definition.
  * 
- * @author Joram Barrez
+ *
  */
 public class MessageEventsAndNewVersionDeploymentsWithTenantIdTest extends PluggableFlowableTestCase {
 

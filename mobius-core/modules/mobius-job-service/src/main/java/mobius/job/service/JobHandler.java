@@ -17,7 +17,7 @@ import mobius.job.service.impl.persistence.entity.JobEntity;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface JobHandler {
 

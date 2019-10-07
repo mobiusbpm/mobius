@@ -20,7 +20,7 @@ import mobius.engine.task.Comment;
 import mobius.engine.task.Event;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CommentDataManager extends DataManager<CommentEntity> {
 

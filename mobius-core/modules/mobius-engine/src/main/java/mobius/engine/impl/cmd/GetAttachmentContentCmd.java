@@ -24,7 +24,7 @@ import mobius.engine.impl.persistence.entity.ByteArrayEntity;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetAttachmentContentCmd implements Command<InputStream>, Serializable {
 

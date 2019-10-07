@@ -33,7 +33,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * 
  * Similar to the {@link AsyncJobMessageReceiver}, but specifically for async history jobs.
  * 
- * @author Joram Barrez
+ *
  */
 public class AsyncHistoryJobMessageReceiver {
 

@@ -19,7 +19,7 @@ import mobius.cmmn.api.runtime.CaseInstance;
 import mobius.cmmn.api.runtime.CaseInstanceBuilder;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseInstanceBuilderImpl implements CaseInstanceBuilder {
 

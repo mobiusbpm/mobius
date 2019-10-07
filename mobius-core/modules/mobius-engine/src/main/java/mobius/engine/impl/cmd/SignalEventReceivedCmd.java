@@ -33,7 +33,7 @@ import mobius.eventsubscription.service.EventSubscriptionService;
 import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubscriptionEntity;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class SignalEventReceivedCmd implements Command<Void> {

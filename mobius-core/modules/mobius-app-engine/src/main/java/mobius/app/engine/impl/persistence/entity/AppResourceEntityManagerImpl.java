@@ -20,7 +20,7 @@ import mobius.app.engine.impl.persistence.entity.data.AppResourceDataManager;
 import mobius.common.engine.impl.persistence.entity.data.DataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class AppResourceEntityManagerImpl extends AbstractAppEntityManager<AppResourceEntity> implements AppResourceEntityManager {
 

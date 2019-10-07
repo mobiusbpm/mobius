@@ -31,8 +31,8 @@ import org.slf4j.LoggerFactory;
 /**
  * Test case for the various operations of the {@link ManagementService}
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 @DisabledIfSystemProperty(named = "database", matches = "cockroachdb")
 public class ManagementServiceTest extends PluggableFlowableTestCase {

@@ -19,7 +19,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.ProcessTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessRefExpressionXmlConverter extends CaseElementXmlConverter {
     

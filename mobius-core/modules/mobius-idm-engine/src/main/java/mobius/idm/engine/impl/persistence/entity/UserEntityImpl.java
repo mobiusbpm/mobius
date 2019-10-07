@@ -13,7 +13,6 @@
 package mobius.idm.engine.impl.persistence.entity;
 
 import mobius.common.engine.impl.db.HasRevision;
-import mobius.idm.api.Picture;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -21,30 +20,27 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Tom Baeyens
- * @author Arkadiy Gornovoy
- * @author Joram Barrez
+ *
+ *
  */
 public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntity, Serializable, HasRevision {
 
     private static final long serialVersionUID = 1L;
 
-    protected String firstName;
-    protected String lastName;
-    protected String displayName;
-    protected String tenantId;
-    //mobius new
-    protected String loginName;
-    protected String password;
-    protected String email;
-    protected Integer statusCodeId;
-    protected Integer authTypeCodeId;
-    protected String createdBy;
-    protected Instant createdTime;
-    protected String updatedBy;
-    protected Instant updatedTime;
+    //    protected String tenantId;
+    //mobius
+    protected Long userId;
+    protected String userLoginName;
+    protected String userPassword;
+    protected String userEmail;
+    protected Integer userStatusCodeId;
+    protected Integer userAuthTypeCodeId;
+    protected Long userCreatedBy;
+    protected Instant userCreatedTime;
+    protected Long userLastUpdatedBy;
+    protected Instant userLastUpdatedTime;
 
-    protected ByteArrayRef pictureByteArrayRef;
+    //    protected ByteArrayRef pictureByteArrayRef;
 
     public UserEntityImpl() {
     }
@@ -52,45 +48,42 @@ public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntit
     @Override
     public Object getPersistentState() {
         Map<String, Object> persistentState = new HashMap<>();
-        persistentState.put("firstName", firstName);
-        persistentState.put("lastName", lastName);
-        persistentState.put("displayName", displayName);
-        persistentState.put("tenantId", tenantId);
-        persistentState.put("loginName", loginName);
-        persistentState.put("email", email);
-        persistentState.put("password", password);
-        persistentState.put("statusCodeId", statusCodeId);
-        persistentState.put("authTypeCodeId", authTypeCodeId);
-        persistentState.put("createdBy", createdBy);
-        persistentState.put("createdTime", createdTime);
-        persistentState.put("updatedBy", updatedBy);
-        persistentState.put("updatedTime", updatedTime);
+        //        persistentState.put("tenantId", tenantId);
+        persistentState.put("loginName", userLoginName);
+        persistentState.put("userEmail", userEmail);
+        persistentState.put("userPassword", userPassword);
+        persistentState.put("userStatusCodeId", userStatusCodeId);
+        persistentState.put("userAuthTypeCodeId", userAuthTypeCodeId);
+        persistentState.put("userCreatedBy", userCreatedBy);
+        persistentState.put("userCreatedTime", userCreatedTime);
+        persistentState.put("userLastUpdatedBy", userLastUpdatedBy);
+        persistentState.put("userLastUpdatedTime", userLastUpdatedTime);
 
-        if (pictureByteArrayRef != null) {
+    /*    if (pictureByteArrayRef != null) {
             persistentState.put("pictureByteArrayId", pictureByteArrayRef.getId());
-        }
+        }*/
 
         return persistentState;
     }
 
-    @Override
+   /* @Override
     public Picture getPicture() {
         if (pictureByteArrayRef != null && pictureByteArrayRef.getId() != null) {
             return new Picture(pictureByteArrayRef.getBytes(), pictureByteArrayRef.getName());
         }
         return null;
     }
-
-    @Override
+*/
+   /* @Override
     public void setPicture(Picture picture) {
         if (picture != null) {
             savePicture(picture);
         } else {
             deletePicture();
         }
-    }
+    }*/
 
-    protected void savePicture(Picture picture) {
+/*    protected void savePicture(Picture picture) {
         if (pictureByteArrayRef == null) {
             pictureByteArrayRef = new ByteArrayRef();
         }
@@ -101,107 +94,86 @@ public class UserEntityImpl extends AbstractIdmEngineEntity implements UserEntit
         if (pictureByteArrayRef != null) {
             pictureByteArrayRef.delete();
         }
-    }
+    }*/
 
     @Override
-    public String getFirstName() {
-        return firstName;
+    public Long getUserId() {
+        return this.userId;
     }
-
     @Override
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
-
     @Override
-    public String getLastName() {
-        return lastName;
+    public String getUserLoginName() {
+        return this.userLoginName;
     }
-
     @Override
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setUserLoginName(String userLoginName) {
+        this.userLoginName = userLoginName;
     }
-    
     @Override
-    public String getDisplayName() {
-        return displayName;
+    public String getUserEmail() {
+        return this.userEmail;
     }
-
     @Override
-    public void setDisplayName(String displayName) {
-        this.displayName = displayName;
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
     }
-
     @Override
-    public String getEmail() {
-        return email;
+    public String getUserPassword() {
+        return this.userPassword;
     }
-
     @Override
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
-
     @Override
-    public String getPassword() {
-        return password;
+    public Integer getUserStatusCodeId() {
+        return this.userStatusCodeId;
     }
-
     @Override
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUserStatusCodeId(Integer userStatusCodeId) {
+        this.userStatusCodeId = userStatusCodeId;
     }
-
     @Override
-    public boolean isPictureSet() {
-        return pictureByteArrayRef != null && pictureByteArrayRef.getId() != null;
+    public Integer getUserAuthTypeCodeId() {
+        return this.userAuthTypeCodeId;
     }
-
     @Override
-    public ByteArrayRef getPictureByteArrayRef() {
-        return pictureByteArrayRef;
+    public void setUserAuthTypeCodeId(Integer userAuthTypeCodeId) {
+        this.userAuthTypeCodeId = userAuthTypeCodeId;
     }
-
     @Override
-    public String getTenantId() {
-        return tenantId;
+    public Long getUserCreatedBy() {
+        return this.userCreatedBy;
     }
-
     @Override
-    public void setTenantId(String tenantId) {
-        this.tenantId = tenantId;
+    public void setUserCreatedBy(Long userId) {
+        this.userCreatedBy = userId;
     }
-
     @Override
-    public void setStatusCodeId(Integer statusCodeId) {
-        this.statusCodeId = statusCodeId;
+    public Instant getUserCreatedTime() {
+        return this.userCreatedTime;
     }
-
     @Override
-    public Integer getStatusCodeId() {
-        return this.statusCodeId;
+    public void setUserCreatedTime(Instant userCreatedTime) {
+        this.userCreatedTime = userCreatedTime;
     }
-
     @Override
-    public String getLoginName() {
-        return this.loginName;
+    public Long getUserLastUpdatedBy() {
+        return this.userLastUpdatedBy;
     }
-
     @Override
-    public void setLoginName(String loginName) {
-        this.loginName = loginName;
+    public void setUserLastUpdatedBy(Long userId) {
+        this.userLastUpdatedBy = userId;
     }
-
     @Override
-    public Integer getAuthTypeCodeId() {
-        return this.authTypeCodeId;
+    public Instant getUserLastUpdatedTime() {
+        return this.userLastUpdatedTime;
     }
-
     @Override
-    public void setAuthTypeCodeId(Integer authTypeCodeId) {
-        this.authTypeCodeId = authTypeCodeId;
+    public void setUserLastUpdatedTime(Instant userLastUpdatedTime) {
+        this.userLastUpdatedTime = userLastUpdatedTime;
     }
-
-
 }

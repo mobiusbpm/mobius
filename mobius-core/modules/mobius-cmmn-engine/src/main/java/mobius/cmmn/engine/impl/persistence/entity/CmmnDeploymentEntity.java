@@ -23,7 +23,7 @@ import java.util.Map;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface CmmnDeploymentEntity extends CmmnDeployment, Entity {
 

@@ -19,8 +19,8 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class SetTaskVariablesCmd extends NeedsActiveTaskCmd<Object> {
 

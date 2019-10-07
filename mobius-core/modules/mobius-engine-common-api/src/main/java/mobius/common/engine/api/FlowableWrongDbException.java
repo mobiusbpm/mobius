@@ -17,7 +17,7 @@ package mobius.common.engine.api;
  * 
  * The check is done when the engine is created in {@link ProcessEngineBuilder#buildProcessEngine()}.
  * 
- * @author Tom Baeyens
+ *
  */
 public class FlowableWrongDbException extends FlowableException {
 

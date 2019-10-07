@@ -28,7 +28,7 @@ import mobius.form.engine.impl.persistence.entity.FormResourceEntity;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class DeploymentManager {
 

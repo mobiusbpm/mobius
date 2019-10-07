@@ -34,7 +34,7 @@ import org.slf4j.LoggerFactory;
  * Abstract class that contains the main logic to send information about an async history data job to a message queue.
  * Subclasses are responsible for implementing the actual sending logic.   
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractMessageBasedJobManager extends DefaultJobManager {
     

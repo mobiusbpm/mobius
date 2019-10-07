@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.idm.engine.impl.persistence.entity.MembershipEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface MembershipDataManager extends DataManager<MembershipEntity> {
 

@@ -17,7 +17,7 @@ import mobius.common.engine.api.FlowableWrongDbException;
 import mobius.common.engine.impl.FlowableVersions;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class ServiceSqlScriptBasedDbSchemaManager extends AbstractSqlScriptBasedDbSchemaManager {
     

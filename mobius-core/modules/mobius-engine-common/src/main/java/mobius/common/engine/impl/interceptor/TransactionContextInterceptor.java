@@ -19,7 +19,7 @@ import mobius.common.engine.impl.cfg.TransactionPropagation;
 import mobius.common.engine.impl.context.Context;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TransactionContextInterceptor extends AbstractCommandInterceptor {
 

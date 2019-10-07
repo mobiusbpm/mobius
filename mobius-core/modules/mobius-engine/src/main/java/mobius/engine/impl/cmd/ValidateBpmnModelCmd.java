@@ -23,7 +23,7 @@ import mobius.validation.ProcessValidator;
 import mobius.validation.ValidationError;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ValidateBpmnModelCmd implements Command<List<ValidationError>> {
 

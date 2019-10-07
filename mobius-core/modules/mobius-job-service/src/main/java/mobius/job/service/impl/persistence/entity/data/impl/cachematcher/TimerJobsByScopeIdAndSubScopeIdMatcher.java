@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerJobsByScopeIdAndSubScopeIdMatcher extends CachedEntityMatcherAdapter<TimerJobEntity> {
 

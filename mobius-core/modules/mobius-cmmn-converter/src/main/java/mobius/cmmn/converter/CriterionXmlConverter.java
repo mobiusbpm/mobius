@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.Criterion;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class CriterionXmlConverter extends CaseElementXmlConverter {
     

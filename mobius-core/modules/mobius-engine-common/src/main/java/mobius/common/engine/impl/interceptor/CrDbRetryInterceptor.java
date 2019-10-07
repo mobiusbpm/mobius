@@ -22,7 +22,7 @@ import org.slf4j.LoggerFactory;
  *
  * This probably won't work in environments such as Spring if the transaction is externally managed
  *
- * @author Joram Barrez
+ *
  */
 public class CrDbRetryInterceptor extends AbstractCommandInterceptor {
 

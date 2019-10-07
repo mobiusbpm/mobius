@@ -26,7 +26,7 @@ import mobius.form.engine.impl.persistence.entity.data.AbstractFormDataManager;
 import mobius.form.engine.impl.persistence.entity.data.FormDefinitionDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisFormDefinitionDataManager extends AbstractFormDataManager<FormDefinitionEntity> implements FormDefinitionDataManager {
 

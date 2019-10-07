@@ -34,7 +34,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class SpringAutoDeployTest {
 

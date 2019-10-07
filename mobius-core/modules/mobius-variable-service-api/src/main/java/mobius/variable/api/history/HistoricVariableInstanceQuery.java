@@ -20,7 +20,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Programmatic querying for {@link HistoricVariableInstance}s.
  * 
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface HistoricVariableInstanceQuery extends Query<HistoricVariableInstanceQuery, HistoricVariableInstance> {

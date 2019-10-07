@@ -21,7 +21,7 @@ import mobius.engine.impl.persistence.entity.DeploymentEntity;
 import mobius.engine.repository.Deployment;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DeploymentDataManager extends DataManager<DeploymentEntity> {
 

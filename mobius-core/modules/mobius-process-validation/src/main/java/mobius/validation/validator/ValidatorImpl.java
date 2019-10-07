@@ -20,7 +20,7 @@ import mobius.bpmn.model.Process;
 import mobius.validation.ValidationError;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class ValidatorImpl implements Validator {
 

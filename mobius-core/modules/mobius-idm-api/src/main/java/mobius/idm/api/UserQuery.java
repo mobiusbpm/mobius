@@ -16,7 +16,7 @@ package mobius.idm.api;
 /**
  * Allows programmatic querying of {@link User}
  *
- * @author Joram Barrez
+ *
  */
 public interface UserQuery extends UserBaseQuery<UserQuery, User> {
     // Add new methods to the UserBaseQuery and not here

@@ -33,7 +33,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnParserImpl implements CmmnParser {
 

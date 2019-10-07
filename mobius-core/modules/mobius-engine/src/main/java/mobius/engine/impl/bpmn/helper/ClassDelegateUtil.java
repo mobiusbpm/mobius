@@ -23,7 +23,7 @@ import mobius.common.engine.impl.util.ReflectUtil;
 import mobius.engine.impl.bpmn.parser.FieldDeclaration;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ClassDelegateUtil {
 

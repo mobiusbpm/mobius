@@ -19,7 +19,7 @@ import mobius.engine.event.EventLogEntry;
 import mobius.engine.impl.persistence.entity.EventLogEntryEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface EventLogEntryDataManager extends DataManager<EventLogEntryEntity> {
 

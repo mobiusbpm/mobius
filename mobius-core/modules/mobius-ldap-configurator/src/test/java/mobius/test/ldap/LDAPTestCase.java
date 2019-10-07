@@ -20,7 +20,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.unboundid.ldap.listener.InMemoryDirectoryServer;
 
 /**
- * @author Joram Barrez
+ *
  */
 @Tag("ldap")
 public class LDAPTestCase extends SpringFlowableTestCase {

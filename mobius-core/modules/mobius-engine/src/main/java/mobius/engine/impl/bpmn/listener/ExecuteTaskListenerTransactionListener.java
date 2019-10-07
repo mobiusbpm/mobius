@@ -24,7 +24,7 @@ import mobius.engine.delegate.TransactionDependentTaskListener;
 /**
  * A {@link TransactionListener} that invokes an {@link ExecutionListener}.
  * 
- * @author Joram Barrez
+ *
  */
 public class ExecuteTaskListenerTransactionListener implements TransactionListener {
 

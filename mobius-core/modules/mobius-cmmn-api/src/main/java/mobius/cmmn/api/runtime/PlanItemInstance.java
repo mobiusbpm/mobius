@@ -15,7 +15,7 @@ package mobius.cmmn.api.runtime;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface PlanItemInstance {
     

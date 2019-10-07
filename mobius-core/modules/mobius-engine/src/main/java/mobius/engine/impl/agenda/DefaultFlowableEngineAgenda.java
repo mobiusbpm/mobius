@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
  *
  * During a {@link Command} execution, the agenda can always be fetched using {@link Context#getAgenda()}.
  *
- * @author Joram Barrez
+ *
  */
 public class DefaultFlowableEngineAgenda extends AbstractAgenda implements FlowableEngineAgenda {
     

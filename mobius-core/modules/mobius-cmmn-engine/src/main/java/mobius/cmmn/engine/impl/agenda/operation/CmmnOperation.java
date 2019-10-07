@@ -30,7 +30,7 @@ import mobius.common.engine.api.variable.VariableContainer;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class CmmnOperation implements Runnable {
     

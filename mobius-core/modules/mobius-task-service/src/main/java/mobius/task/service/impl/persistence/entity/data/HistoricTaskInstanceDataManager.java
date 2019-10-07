@@ -22,7 +22,7 @@ import mobius.task.service.impl.persistence.entity.HistoricTaskInstanceEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricTaskInstanceDataManager extends DataManager<HistoricTaskInstanceEntity> {
 

@@ -44,7 +44,7 @@ import org.junit.jupiter.api.Test;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Joram Barrez
+ *
  * @author Frederik Heremans
  * @author Falko Menge
  */

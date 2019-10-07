@@ -16,7 +16,7 @@ import mobius.common.engine.impl.db.HasRevision;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface PropertyEntity extends Entity, HasRevision {
 

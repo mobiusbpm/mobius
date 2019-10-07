@@ -20,7 +20,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import mobius.task.service.impl.HistoricTaskInstanceQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricTaskInstanceEntityManager extends EntityManager<HistoricTaskInstanceEntity> {
 

@@ -22,7 +22,7 @@ import mobius.idm.engine.impl.persistence.entity.data.AbstractIdmDataManager;
 import mobius.idm.engine.impl.persistence.entity.data.MembershipDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisMembershipDataManager extends AbstractIdmDataManager<MembershipEntity> implements MembershipDataManager {
 

@@ -18,7 +18,7 @@ import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
  * Factory used by the {@link ExecutorPerTenantAsyncExecutor} async executor. This factory will be called when a new {@link AsyncExecutor} for a tenant needs to be created and can be used to create
  * special implementations for specific tenants.
  * 
- * @author Joram Barrez
+ *
  */
 public interface TenantAwareAsyncExecutorFactory {
 

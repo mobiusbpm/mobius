@@ -17,7 +17,7 @@ import java.util.List;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractVariableComparatorExpressionFunction extends AbstractFlowableVariableExpressionFunction {
     

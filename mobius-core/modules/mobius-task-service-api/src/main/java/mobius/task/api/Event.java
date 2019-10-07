@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Exposes twitter-like feeds for tasks and process instances.
  *
- * @author Tom Baeyens
+ *
  */
 public interface Event extends Serializable {
 

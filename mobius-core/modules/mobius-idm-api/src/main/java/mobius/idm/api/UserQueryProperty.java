@@ -21,7 +21,7 @@ import java.util.Map;
 /**
  * Contains the possible properties that can be used by the {@link UserQuery}.
  * 
- * @author Joram Barrez
+ *
  */
 public class UserQueryProperty implements QueryProperty {
 

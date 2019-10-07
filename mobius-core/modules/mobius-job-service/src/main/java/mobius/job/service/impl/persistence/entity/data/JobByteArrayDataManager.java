@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.job.service.impl.persistence.entity.JobByteArrayEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface JobByteArrayDataManager extends DataManager<JobByteArrayEntity> {
 

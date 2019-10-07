@@ -38,7 +38,7 @@ import mobius.validation.validator.Problems;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Erik Winlof
  */
 public class BpmnDeploymentTest extends PluggableFlowableTestCase {

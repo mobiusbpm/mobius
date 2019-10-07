@@ -24,7 +24,7 @@ import mobius.cmmn.model.TimerEventListener;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerEventListenerCmmnXmlConverterTest extends AbstractConverterTest {
     

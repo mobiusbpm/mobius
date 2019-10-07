@@ -22,7 +22,7 @@ import mobius.cmmn.converter.CmmnXmlConstants;
 import mobius.cmmn.model.FieldExtension;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FieldExport {
 

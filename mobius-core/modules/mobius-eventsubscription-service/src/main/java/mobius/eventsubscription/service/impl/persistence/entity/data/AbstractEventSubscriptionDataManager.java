@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.eventsubscription.service.EventSubscriptionServiceConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEventSubscriptionDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {
     

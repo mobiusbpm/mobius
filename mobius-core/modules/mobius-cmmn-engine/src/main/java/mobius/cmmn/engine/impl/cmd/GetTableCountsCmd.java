@@ -19,7 +19,7 @@ import mobius.common.engine.impl.interceptor.Command;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetTableCountsCmd implements Command<Map<String, Long>> {
 

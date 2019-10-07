@@ -119,7 +119,7 @@ import mobius.engine.impl.delegate.ActivityBehavior;
  * 
  * An instance of this interface can be injected in the {@link ProcessEngineConfigurationImpl} and its subclasses.
  * 
- * @author Joram Barrez
+ *
  */
 public interface ActivityBehaviorFactory {
 

@@ -20,7 +20,7 @@ import mobius.cmmn.engine.impl.persistence.entity.PlanItemInstanceEntity;
 import mobius.common.engine.impl.agenda.Agenda;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnEngineAgenda extends Agenda {
 

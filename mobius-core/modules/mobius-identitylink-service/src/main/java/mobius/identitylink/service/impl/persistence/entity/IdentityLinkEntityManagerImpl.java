@@ -27,9 +27,9 @@ import mobius.identitylink.service.event.impl.FlowableIdentityLinkEventBuilder;
 import mobius.identitylink.service.impl.persistence.entity.data.IdentityLinkDataManager;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Saeid Mirzaei
- * @author Joram Barrez
+ *
  */
 public class IdentityLinkEntityManagerImpl extends AbstractEntityManager<IdentityLinkEntity> implements IdentityLinkEntityManager {
 

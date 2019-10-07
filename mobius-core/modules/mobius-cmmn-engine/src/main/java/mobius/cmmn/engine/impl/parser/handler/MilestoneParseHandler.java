@@ -22,7 +22,7 @@ import mobius.cmmn.model.Milestone;
 import mobius.cmmn.model.PlanItem;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MilestoneParseHandler extends AbstractPlanItemParseHandler<Milestone> {
 

@@ -27,8 +27,8 @@ import mobius.engine.repository.ProcessDefinition;
 import mobius.engine.repository.ProcessDefinitionQuery;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Daniel Meyer
  * @author Saeid Mirzaei
  */

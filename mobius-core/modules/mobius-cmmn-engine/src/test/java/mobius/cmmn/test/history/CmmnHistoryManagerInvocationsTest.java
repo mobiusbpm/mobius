@@ -25,7 +25,7 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnHistoryManagerInvocationsTest extends CustomCmmnConfigurationFlowableTestCase {
 

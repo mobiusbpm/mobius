@@ -23,7 +23,7 @@ import mobius.idm.api.PrivilegeQuery;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PrivilegeQueryImpl extends AbstractQuery<PrivilegeQuery, Privilege> implements PrivilegeQuery {
 

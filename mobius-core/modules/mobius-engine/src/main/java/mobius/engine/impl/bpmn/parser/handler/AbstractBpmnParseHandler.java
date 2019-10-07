@@ -31,7 +31,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 import mobius.engine.parse.BpmnParseHandler;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractBpmnParseHandler<T extends BaseElement> implements BpmnParseHandler {
 

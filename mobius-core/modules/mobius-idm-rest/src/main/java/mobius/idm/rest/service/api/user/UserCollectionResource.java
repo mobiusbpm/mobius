@@ -50,7 +50,7 @@ import io.swagger.annotations.Authorization;
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  * @author Filip Hrisafov
  */
 @RestController

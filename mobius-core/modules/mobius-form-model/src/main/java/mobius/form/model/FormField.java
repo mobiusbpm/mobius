@@ -25,7 +25,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo.As;
 import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
 
 /**
- * @author Joram Barrez
+ *
  */
 @JsonTypeInfo(use = Id.NAME, include = As.PROPERTY, property = "fieldType", defaultImpl = FormField.class)
 @JsonSubTypes({ @Type(FormContainer.class), @Type(OptionFormField.class), @Type(ExpressionFormField.class) })

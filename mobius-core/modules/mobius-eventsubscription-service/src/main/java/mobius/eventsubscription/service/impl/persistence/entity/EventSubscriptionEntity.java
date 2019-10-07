@@ -20,7 +20,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.eventsubscription.api.EventSubscription;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface EventSubscriptionEntity extends EventSubscription, Entity, HasRevision {

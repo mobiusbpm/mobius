@@ -15,7 +15,7 @@ package mobius.common.engine.impl.persistence.entity.data;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DataManager<EntityImpl extends Entity> {
 

@@ -24,9 +24,9 @@ import mobius.variable.service.impl.persistence.entity.HistoricVariableInitializ
 import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceEntity;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Christian Stettler
- * @author Joram Barrez
+ *
  */
 public class HistoricProcessInstanceEntityImpl extends HistoricScopeInstanceEntityImpl implements HistoricProcessInstanceEntity {
 

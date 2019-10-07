@@ -20,7 +20,7 @@ import mobius.job.service.impl.persistence.entity.JobEntity;
  * An implementation of this interface needs to be injected into an {@link AsyncJobMessageReceiver} instance.
  * The helper will receive the information from a message and the implementation of this class should execute the actual logic.
  * 
- * @author Joram Barrez
+ *
  */
 public interface AsyncJobMessageHandler {
 

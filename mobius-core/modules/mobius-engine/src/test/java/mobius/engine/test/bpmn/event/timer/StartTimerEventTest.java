@@ -32,7 +32,7 @@ import mobius.job.service.impl.cmd.CancelJobsCmd;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class StartTimerEventTest extends PluggableFlowableTestCase {
 

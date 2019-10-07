@@ -24,7 +24,7 @@ import mobius.engine.impl.persistence.entity.ExecutionEntity;
 import mobius.variable.service.impl.el.NoExecutionVariableScope;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class FormPropertyHandler implements Serializable {
 

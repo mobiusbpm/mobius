@@ -15,7 +15,7 @@ package mobius.common.engine.api.management;
 /**
  * Allows programmatic querying of {@link TablePage}s.
  * 
- * @author Joram Barrez
+ *
  */
 public interface TablePageQuery {
 

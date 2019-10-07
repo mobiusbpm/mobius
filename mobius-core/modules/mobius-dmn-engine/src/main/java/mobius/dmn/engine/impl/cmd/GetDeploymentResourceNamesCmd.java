@@ -21,7 +21,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetDeploymentResourceNamesCmd implements Command<List<String>>, Serializable {
 

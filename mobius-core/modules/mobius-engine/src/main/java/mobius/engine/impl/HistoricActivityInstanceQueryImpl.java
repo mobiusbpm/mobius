@@ -26,7 +26,7 @@ import mobius.engine.history.HistoricActivityInstanceQuery;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Zheng Ji
  */
 public class HistoricActivityInstanceQueryImpl extends AbstractQuery<HistoricActivityInstanceQuery, HistoricActivityInstance> implements HistoricActivityInstanceQuery {

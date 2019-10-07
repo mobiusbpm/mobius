@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DelegatePlanItemInstance extends PlanItemInstance, VariableScope {
 

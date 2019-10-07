@@ -14,7 +14,7 @@
 package mobius.engine.impl.persistence.entity;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class HistoricDetailAssignmentEntityImpl extends HistoricDetailEntityImpl implements HistoricDetailAssignmentEntity {
 

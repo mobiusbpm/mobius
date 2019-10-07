@@ -29,7 +29,7 @@ import mobius.job.service.impl.util.CommandContextUtil;
 /**
  * Send job cancelled event and delete job
  * 
- * @author Tom Baeyens
+ *
  */
 public class CancelJobsCmd implements Command<Void>, Serializable {
 

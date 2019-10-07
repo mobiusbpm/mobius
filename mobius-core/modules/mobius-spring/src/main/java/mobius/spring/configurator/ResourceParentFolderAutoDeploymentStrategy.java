@@ -32,7 +32,7 @@ import org.springframework.core.io.Resource;
  * The namehint is used to prefix the names of deployments. If the parent folder for a {@link Resource} cannot be determined, the resource's name is used.
  * 
  * @author Tiese Barrell
- * @author Joram Barrez
+ *
  */
 public class ResourceParentFolderAutoDeploymentStrategy extends AbstractAutoDeploymentStrategy {
 

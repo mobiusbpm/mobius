@@ -16,7 +16,7 @@ package mobius.job.service.impl.persistence.entity;
  * Suspended jobs are stored separately to increase the normal job query performance
  *
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface SuspendedJobEntity extends AbstractRuntimeJobEntity {
 

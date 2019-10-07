@@ -35,7 +35,7 @@ import mobius.job.service.impl.persistence.entity.JobEntityManager;
  * This class contains the boilerplate logic that is needed to fetch the job data 
  * and delete the job in case of a succesful processing.
  * 
- * @author Joram Barrez
+ *
  */
 public class AsyncJobMessageReceiver {
 

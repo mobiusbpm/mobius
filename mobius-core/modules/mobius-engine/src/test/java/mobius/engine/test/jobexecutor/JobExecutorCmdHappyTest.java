@@ -28,7 +28,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class JobExecutorCmdHappyTest extends JobExecutorTestCase {
 

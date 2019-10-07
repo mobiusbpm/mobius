@@ -43,8 +43,8 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 import mobius.variable.service.impl.persistence.entity.VariableScopeImpl;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Falko Menge
  * @author Tijs Rademakers
  */

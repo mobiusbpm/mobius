@@ -20,7 +20,7 @@ import mobius.engine.test.Deployment;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ReceiveTaskTest extends PluggableFlowableTestCase {
 

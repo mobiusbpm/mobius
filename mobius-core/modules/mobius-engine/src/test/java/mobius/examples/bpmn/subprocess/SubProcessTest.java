@@ -23,7 +23,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SubProcessTest extends PluggableFlowableTestCase {
 

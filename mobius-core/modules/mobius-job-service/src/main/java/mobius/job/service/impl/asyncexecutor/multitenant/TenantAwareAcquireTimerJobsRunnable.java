@@ -19,7 +19,7 @@ import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
 /**
  * Extends the default {@link AcquireTimerJobsRunnable} by setting the 'tenant' context before executing.
  * 
- * @author Joram Barrez
+ *
  */
 public class TenantAwareAcquireTimerJobsRunnable extends AcquireTimerJobsRunnable {
 

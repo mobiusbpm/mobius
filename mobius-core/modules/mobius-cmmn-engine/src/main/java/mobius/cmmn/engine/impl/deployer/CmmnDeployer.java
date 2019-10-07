@@ -42,7 +42,7 @@ import java.util.*;
 /**
  * TODO: many similarities with BpmnDeployer, see if it can be merged to the common module
  *
- * @author Joram Barrez
+ *
  */
 public class CmmnDeployer implements EngineDeployer {
 

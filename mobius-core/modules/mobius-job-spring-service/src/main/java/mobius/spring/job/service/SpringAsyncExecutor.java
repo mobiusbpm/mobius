@@ -30,7 +30,7 @@ import org.springframework.core.task.TaskExecutor;
  * </p>
  * 
  * @author Pablo Ganga
- * @author Joram Barrez
+ *
  */
 public class SpringAsyncExecutor extends DefaultAsyncJobExecutor {
 

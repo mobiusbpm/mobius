@@ -30,7 +30,7 @@ import mobius.dmn.model.DmnDefinition;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class DeploymentManager {
 

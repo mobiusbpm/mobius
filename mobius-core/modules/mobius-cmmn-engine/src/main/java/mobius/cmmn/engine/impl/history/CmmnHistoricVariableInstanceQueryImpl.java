@@ -26,7 +26,7 @@ import mobius.variable.service.impl.HistoricVariableInstanceQueryImpl;
  * Wrapper class around the {@link HistoricVariableInstanceQueryImpl} from the variable service,
  * specialized for usage in CMMN.
  * 
- * @author Joram Barrez
+ *
  */
 public class CmmnHistoricVariableInstanceQueryImpl implements HistoricVariableInstanceQuery {
     

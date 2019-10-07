@@ -16,7 +16,7 @@ import org.mozilla.javascript.Context;
 import org.mozilla.javascript.ContextFactory;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SecureScriptContext extends Context {
 

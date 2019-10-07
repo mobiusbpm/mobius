@@ -22,7 +22,7 @@ import mobius.form.engine.impl.persistence.entity.FormResourceEntityManager;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractManager {
 

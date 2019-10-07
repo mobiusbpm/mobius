@@ -22,8 +22,8 @@ import mobius.engine.TaskService;
  * User comments that form discussions around tasks.
  * 
  * @see TaskService#getTaskComments(String)
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface Comment extends HistoricData {
 

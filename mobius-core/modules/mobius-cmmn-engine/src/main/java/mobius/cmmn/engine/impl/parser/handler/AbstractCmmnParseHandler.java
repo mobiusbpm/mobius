@@ -21,7 +21,7 @@ import mobius.cmmn.model.PlanFragment;
 import mobius.cmmn.model.PlanItem;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractCmmnParseHandler<T extends BaseElement> implements CmmnParseHandler {
 

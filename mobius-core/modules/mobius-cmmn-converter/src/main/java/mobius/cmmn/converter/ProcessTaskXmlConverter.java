@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.ProcessTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessTaskXmlConverter extends TaskXmlConverter {
     

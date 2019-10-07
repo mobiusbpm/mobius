@@ -59,8 +59,8 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Filip Hrisafov
  */
 @EnsureCleanDb(excludeTables = {

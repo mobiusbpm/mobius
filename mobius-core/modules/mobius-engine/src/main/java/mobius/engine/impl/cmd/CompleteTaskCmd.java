@@ -21,7 +21,7 @@ import mobius.engine.impl.util.TaskHelper;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CompleteTaskCmd extends NeedsActiveTaskCmd<Void> {
 

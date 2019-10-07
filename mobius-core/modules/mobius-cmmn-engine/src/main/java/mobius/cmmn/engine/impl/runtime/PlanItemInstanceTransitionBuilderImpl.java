@@ -26,7 +26,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 import mobius.common.engine.impl.interceptor.CommandExecutor;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemInstanceTransitionBuilderImpl implements PlanItemInstanceTransitionBuilder {
 

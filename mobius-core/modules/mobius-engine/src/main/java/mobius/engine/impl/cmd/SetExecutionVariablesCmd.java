@@ -20,8 +20,8 @@ import mobius.engine.impl.persistence.entity.ExecutionEntity;
 import mobius.engine.impl.util.Flowable5Util;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class SetExecutionVariablesCmd extends NeedsActiveExecutionCmd<Object> {
 

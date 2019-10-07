@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItemTransition;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExitPlanItemInstanceOperation extends AbstractMovePlanItemInstanceToTerminalStateOperation {
 

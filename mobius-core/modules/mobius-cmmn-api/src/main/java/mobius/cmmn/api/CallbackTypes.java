@@ -13,7 +13,7 @@
 package mobius.cmmn.api;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CallbackTypes {
     

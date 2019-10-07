@@ -77,9 +77,9 @@ import mobius.identitylink.api.IdentityLink;
 import mobius.validation.ValidationError;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Falko Menge
- * @author Joram Barrez
+ *
  */
 public class RepositoryServiceImpl extends CommonEngineServiceImpl<ProcessEngineConfigurationImpl> implements RepositoryService {
 

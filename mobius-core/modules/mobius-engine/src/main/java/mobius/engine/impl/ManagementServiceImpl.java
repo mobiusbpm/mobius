@@ -67,8 +67,8 @@ import mobius.job.service.impl.cmd.SetJobRetriesCmd;
 import mobius.job.service.impl.cmd.SetTimerJobRetriesCmd;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Falko Menge
  * @author Saeid Mizaei
  */

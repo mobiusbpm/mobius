@@ -17,7 +17,7 @@ import java.util.Map;
 import mobius.common.engine.api.variable.VariableContainer;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableContainerWrapper implements VariableContainer {
     

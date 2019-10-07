@@ -40,7 +40,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntityManager;
 import java.util.*;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseInstanceEntityManagerImpl extends AbstractCmmnEntityManager<CaseInstanceEntity> implements
 		CaseInstanceEntityManager {

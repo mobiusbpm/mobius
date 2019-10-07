@@ -23,7 +23,7 @@ import mobius.form.engine.impl.persistence.entity.data.AbstractFormDataManager;
 import mobius.form.engine.impl.persistence.entity.data.FormResourceDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisFormResourceDataManager extends AbstractFormDataManager<FormResourceEntity> implements FormResourceDataManager {
 

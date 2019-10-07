@@ -25,7 +25,7 @@ import mobius.variable.api.history.HistoricVariableInstance;
  * This class is actually a convenience on top of the other specific queries such as {@link HistoricTaskInstanceQuery}, {@link HistoricActivityInstanceQuery}, ... It will execute separate queries for
  * each included type, order the data according to the date (ascending) and wrap the results in the {@link ProcessInstanceHistoryLog}.
  * 
- * @author Joram Barrez
+ *
  */
 public interface ProcessInstanceHistoryLogQuery {
 

@@ -30,7 +30,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
  * 
  * This class can be used by inheritance or aggregation.
  * 
- * @author Joram Barrez
+ *
  */
 public class BpmnActivityBehavior implements Serializable {
 

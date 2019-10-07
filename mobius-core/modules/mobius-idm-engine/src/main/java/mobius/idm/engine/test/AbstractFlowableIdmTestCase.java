@@ -22,7 +22,7 @@ import org.junit.jupiter.api.BeforeEach;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 @EnsureCleanDb(excludeTables = {
     "ACT_ID_PROPERTY"

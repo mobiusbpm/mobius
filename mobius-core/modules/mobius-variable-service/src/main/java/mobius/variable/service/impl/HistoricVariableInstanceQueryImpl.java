@@ -30,7 +30,7 @@ import mobius.variable.service.impl.types.JPAEntityVariableType;
 import mobius.variable.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class HistoricVariableInstanceQueryImpl extends AbstractQuery<HistoricVariableInstanceQuery, HistoricVariableInstance> implements HistoricVariableInstanceQuery {

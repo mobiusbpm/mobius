@@ -21,7 +21,7 @@ import mobius.common.engine.impl.javax.el.ELContext;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnVariableScopeELResolver extends VariableContainerELResolver {
 

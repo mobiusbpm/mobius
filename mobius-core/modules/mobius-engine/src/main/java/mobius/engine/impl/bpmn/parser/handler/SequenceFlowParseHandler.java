@@ -17,7 +17,7 @@ import mobius.bpmn.model.SequenceFlow;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SequenceFlowParseHandler extends AbstractBpmnParseHandler<SequenceFlow> {
 

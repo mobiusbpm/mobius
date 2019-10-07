@@ -17,7 +17,7 @@ import mobius.bpmn.model.ReceiveTask;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ReceiveTaskParseHandler extends AbstractActivityBpmnParseHandler<ReceiveTask> {
 

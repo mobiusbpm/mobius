@@ -29,7 +29,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class BasicAuthenticationProvider implements AuthenticationProvider {
 

@@ -20,7 +20,7 @@ import mobius.variable.api.delegate.VariableScope;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CaseInstanceEntity extends Entity, EntityWithSentryPartInstances, VariableScope, HasRevision, PlanItemInstanceContainer, CaseInstance {
 

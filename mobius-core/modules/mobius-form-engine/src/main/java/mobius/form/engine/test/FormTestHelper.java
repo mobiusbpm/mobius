@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public abstract class FormTestHelper {
 

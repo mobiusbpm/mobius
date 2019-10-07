@@ -25,7 +25,7 @@ import mobius.idm.api.*;
 import java.util.List;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class IdentityServiceImpl extends CommonEngineServiceImpl<ProcessEngineConfigurationImpl> implements IdentityService {
 

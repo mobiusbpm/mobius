@@ -20,7 +20,7 @@ import java.util.Date;
 
 /**
  * @author Dennis Federico
- * @author Joram Barrez
+ *
  */
 public interface HistoricPlanItemInstanceEntity extends Entity, HasRevision, HistoricPlanItemInstance {
 

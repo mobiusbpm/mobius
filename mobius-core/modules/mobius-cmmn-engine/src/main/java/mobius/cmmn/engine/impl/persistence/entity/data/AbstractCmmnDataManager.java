@@ -17,7 +17,7 @@ import mobius.common.engine.impl.db.AbstractDataManager;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractCmmnDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {
     

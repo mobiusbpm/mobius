@@ -19,7 +19,7 @@ import mobius.bpmn.model.StartEvent;
 import mobius.bpmn.model.UserTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TestProcessUtil {
 

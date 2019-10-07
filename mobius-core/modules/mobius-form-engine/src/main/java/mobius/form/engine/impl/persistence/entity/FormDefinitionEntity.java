@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.form.api.FormDefinition;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface FormDefinitionEntity extends FormDefinition, Entity {

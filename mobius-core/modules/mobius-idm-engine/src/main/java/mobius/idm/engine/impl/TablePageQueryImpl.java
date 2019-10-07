@@ -24,7 +24,7 @@ import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
  * 
- * @author Joram Barrez
+ *
  */
 public class TablePageQueryImpl implements TablePageQuery, Command<TablePage>, Serializable {
 

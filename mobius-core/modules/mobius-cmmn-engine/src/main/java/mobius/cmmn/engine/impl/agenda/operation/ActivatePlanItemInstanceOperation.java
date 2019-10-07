@@ -24,7 +24,7 @@ import mobius.cmmn.model.Task;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ActivatePlanItemInstanceOperation extends AbstractPlanItemInstanceOperation {
 

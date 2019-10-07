@@ -15,6 +15,7 @@ package mobius.spring.security;
 import mobius.idm.api.User;
 
 import java.io.Serializable;
+import java.time.Instant;
 
 /**
  * An immutable serializable implementation of {@link User}. This implementation allows mutation only for the password,
@@ -32,16 +33,20 @@ public class UserDto implements User, Serializable {
     protected final String displayName;
     protected final String email;
     protected final String tenantId;
-    protected String loginName;
-    protected Integer statusCodeId;
-    protected Integer authTypeCodeId;
-/*    protected String createdBy;
-    protected Instant createdTime;
-    protected String updatedBy;
-    protected Instant updatedTime;*/
 
-    protected UserDto(String id, String password, String firstName, String lastName, String displayName, String email
-            , String tenantId, String loginName, Integer statusCodeId, Integer authTypeCodeId) {
+    protected final Long userId;
+    protected final String userLoginName;
+    protected final Integer userStatusCodeId;
+    protected final Integer userAuthTypeCodeId;
+    protected final String userPassword;
+    protected final Long userCreatedBy;
+    protected final Instant userCreatedTime;
+    protected final Long userUpdatedBy;
+    protected final Instant userUpdatedTime;
+
+    public UserDto(String id, String password, String firstName, String lastName, String displayName, String email, String tenantId, Long userId,
+        String userLoginName, Integer userStatusCodeId, Integer userAuthTypeCodeId, String userPassword, Long userCreatedBy, Instant userCreatedTime,
+        Long userUpdatedBy, Instant userUpdatedTime) {
         this.id = id;
         this.password = password;
         this.firstName = firstName;
@@ -49,122 +54,163 @@ public class UserDto implements User, Serializable {
         this.displayName = displayName;
         this.email = email;
         this.tenantId = tenantId;
-        this.loginName = loginName;
-        this.statusCodeId = statusCodeId;
-        this.authTypeCodeId = authTypeCodeId;
-/*        this.createdBy = createdBy;
-        this.createdTime = createdTime;
-        this.updatedBy = updatedBy;
-        this.updatedTime = updatedTime;*/
+        this.userId = userId;
+        this.userLoginName = userLoginName;
+        this.userStatusCodeId = userStatusCodeId;
+        this.userAuthTypeCodeId = userAuthTypeCodeId;
+        this.userPassword = userPassword;
+        this.userCreatedBy = userCreatedBy;
+        this.userCreatedTime = userCreatedTime;
+        this.userUpdatedBy = userUpdatedBy;
+        this.userUpdatedTime = userUpdatedTime;
     }
 
     @Override
     public String getId() {
         return id;
     }
-
-    @Override
-    public void setId(String id) {
-        // Not supported
-    }
-
-    @Override
-    public String getFirstName() {
-        return firstName;
-    }
-
-    @Override
-    public void setFirstName(String firstName) {
-        // Not supported
-    }
-
-    @Override
-    public String getLastName() {
-        return lastName;
-    }
-
-    @Override
-    public void setLastName(String lastName) {
-        // Not supported
-    }
-
-    @Override
-    public String getDisplayName() {
-        return displayName;
-    }
-
-    @Override
-    public void setDisplayName(String displayName) {
-        // Not supported
-    }
-
-    @Override
-    public String getEmail() {
-        return email;
-    }
-
-    @Override
-    public void setEmail(String email) {
-        // Not supported
-    }
-
     @Override
     public String getPassword() {
         return password;
     }
-
     @Override
-    public void setPassword(String password) {
-        this.password = password;
+    public String getFirstName() {
+        return firstName;
     }
-
+    @Override
+    public String getLastName() {
+        return lastName;
+    }
+    @Override
+    public String getDisplayName() {
+        return displayName;
+    }
+    @Override
+    public String getEmail() {
+        return email;
+    }
     @Override
     public String getTenantId() {
         return tenantId;
     }
-
     @Override
-    public void setTenantId(String tenantId) {
-        // Not supported
+    public Long getUserId() {
+        return userId;
+    }
+    @Override
+    public String getUserLoginName() {
+        return userLoginName;
+    }
+    @Override
+    public Integer getUserStatusCodeId() {
+        return userStatusCodeId;
+    }
+    @Override
+    public Integer getUserAuthTypeCodeId() {
+        return userAuthTypeCodeId;
+    }
+    @Override
+    public String getUserPassword() {
+        return userPassword;
+    }
+    @Override
+    public Long getUserCreatedBy() {
+        return userCreatedBy;
+    }
+    @Override
+    public Instant getUserCreatedTime() {
+        return userCreatedTime;
+    }
+    public Long getUserUpdatedBy() {
+        return userUpdatedBy;
+    }
+    public Instant getUserUpdatedTime() {
+        return userUpdatedTime;
     }
 
+    public static UserDto create(User user) {
+        return new UserDto(
+            user.getId(),
+            user.getPassword(), user.getFirstName(), user.getLastName(), user.getDisplayName(), user.getEmail(), user.getTenantId(), user.getUserId(),
+            user.getUserLoginName(), user.getUserStatusCodeId(), user.getUserAuthTypeCodeId(), user.getUserPassword(), user.getUserCreatedBy(),
+            user.getUserCreatedTime(), user.getUserLastUpdatedBy(),
+            user.getUserLastUpdatedTime());
+    }
+
+    @Override
+    public void setId(String id) {
+
+    }
+    @Override
+    public void setFirstName(String firstName) {
+
+    }
+    @Override
+    public void setLastName(String lastName) {
+
+    }
+    @Override
+    public void setDisplayName(String displayName) {
+
+    }
+    @Override
+    public void setTenantId(String tenantId) {
+
+    }
     @Override
     public boolean isPictureSet() {
         return false;
     }
-
     @Override
-    public Integer getStatusCodeId() {
-        return statusCodeId;
-    }
-
-    @Override
-    public void setStatusCodeId(Integer statusCodeId) {
-        // Not supported
-    }
-
-    @Override
-    public String getLoginName() {
-        return this.loginName;
-    }
-
-    @Override
-    public void setLoginName(String loginName) {
+    public void setEmail(String email) {
 
     }
-
     @Override
-    public Integer getAuthTypeCodeId() {
-        return this.authTypeCodeId;
-    }
-
-    @Override
-    public void setAuthTypeCodeId(Integer authTypeCodeId) {
+    public void setPassword(String string) {
 
     }
+    @Override
+    public void setUserId(Long userId) {
 
-    public static UserDto create(User user) {
-        return new UserDto(user.getId(), user.getPassword(), user.getFirstName(), user.getLastName(), user.getDisplayName(), user.getEmail(),
-            user.getTenantId(), user.getLoginName(),user.getStatusCodeId(),user.getAuthTypeCodeId());
+    }
+    @Override
+    public void setUserLoginName(String userLoginName) {
+
+    }
+    @Override
+    public void setUserPassword(String userPassword) {
+
+    }
+    @Override
+    public void setUserStatusCodeId(Integer userStatusCodeId) {
+
+    }
+    @Override
+    public void setUserAuthTypeCodeId(Integer userAuthTypeCodeId) {
+
+    }
+    @Override
+    public void setUserCreatedBy(Long userId) {
+
+    }
+    @Override
+    public void setUserCreatedTime(Instant userCreatedTime) {
+
+    }
+    @Override
+    public Long getUserLastUpdatedBy() {
+        return null;
+    }
+    @Override
+    public void setUserLastUpdatedBy(Long userId) {
+
+    }
+    @Override
+    public Instant getUserLastUpdatedTime() {
+        return null;
+    }
+    @Override
+    public void setUserLastUpdatedTime(Instant userLastUpdatedTime) {
+
     }
 }

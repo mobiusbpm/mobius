@@ -24,7 +24,7 @@ import mobius.engine.history.HistoricProcessInstance;
 import mobius.engine.history.ProcessInstanceHistoryLog;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessInstanceHistoryLogImpl implements ProcessInstanceHistoryLog {
 

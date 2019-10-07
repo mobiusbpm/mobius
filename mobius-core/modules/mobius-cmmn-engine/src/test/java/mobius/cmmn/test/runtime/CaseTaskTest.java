@@ -48,7 +48,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseTaskTest extends FlowableCmmnTestCase {
 

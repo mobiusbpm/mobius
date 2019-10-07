@@ -28,8 +28,8 @@ import mobius.variable.service.impl.persistence.entity.HistoricVariableInitializ
 import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricTaskInstanceEntityImpl extends AbstractTaskServiceEntity implements HistoricTaskInstanceEntity {
 

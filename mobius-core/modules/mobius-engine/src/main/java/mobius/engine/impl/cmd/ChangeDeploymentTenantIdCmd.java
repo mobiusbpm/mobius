@@ -27,7 +27,7 @@ import mobius.engine.repository.Deployment;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ChangeDeploymentTenantIdCmd implements Command<Void>, Serializable {
 

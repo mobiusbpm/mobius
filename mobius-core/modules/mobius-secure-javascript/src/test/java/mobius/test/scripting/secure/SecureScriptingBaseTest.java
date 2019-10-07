@@ -27,7 +27,7 @@ import org.junit.After;
 import org.junit.Before;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class SecureScriptingBaseTest {
 

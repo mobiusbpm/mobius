@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
  * 
  * The transitions supported by the engine are found in the {@link PlanItemTransition} class.
  * 
- * @author Joram Barrez
+ *
  */
 public interface PlanItemActivityBehavior extends CmmnTriggerableActivityBehavior {
  

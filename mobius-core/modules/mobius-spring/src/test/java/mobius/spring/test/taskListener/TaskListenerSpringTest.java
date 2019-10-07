@@ -21,7 +21,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.test.context.ContextConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  */
 @ContextConfiguration("classpath:mobius/spring/test/taskListener/TaskListenerDelegateExpressionTest-context.xml")
 public class TaskListenerSpringTest extends SpringFlowableTestCase {

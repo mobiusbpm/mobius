@@ -24,7 +24,7 @@ import mobius.engine.impl.test.ResourceFlowableTestCase;
  * Note that a {@link ProcessEngine} is booted up and shut down for every test, 
  * so use with caution to avoid that total test times go up. 
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class CustomConfigurationFlowableTestCase extends ResourceFlowableTestCase {
 

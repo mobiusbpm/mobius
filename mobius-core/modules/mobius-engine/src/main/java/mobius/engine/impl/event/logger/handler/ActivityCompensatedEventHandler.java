@@ -20,7 +20,7 @@ import mobius.engine.delegate.event.FlowableActivityEvent;
 import mobius.engine.impl.persistence.entity.EventLogEntryEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ActivityCompensatedEventHandler extends AbstractDatabaseEventLoggerEventHandler {
 

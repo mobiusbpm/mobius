@@ -20,7 +20,7 @@ import mobius.cmmn.model.Sentry;
 import mobius.cmmn.model.SentryOnPart;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CriterionUtil {
 

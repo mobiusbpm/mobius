@@ -28,7 +28,7 @@ import mobius.common.engine.api.query.Query;
  * or {@link #includeEnded()} methods.
  *
  *
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface PlanItemInstanceQuery extends Query<PlanItemInstanceQuery, PlanItemInstance> {

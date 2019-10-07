@@ -28,7 +28,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class IdentityLinkUtil {
 

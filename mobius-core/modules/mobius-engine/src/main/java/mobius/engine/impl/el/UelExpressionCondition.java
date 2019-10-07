@@ -22,7 +22,7 @@ import mobius.engine.impl.Condition;
  * {@link Condition} that resolves an UEL expression at runtime.
  * 
  *
- * @author Frederik Heremans
+ *
  */
 public class UelExpressionCondition implements Condition {
 

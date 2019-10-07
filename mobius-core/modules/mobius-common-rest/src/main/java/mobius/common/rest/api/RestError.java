@@ -16,7 +16,7 @@ package mobius.common.rest.api;
 /**
  * Used for creating a response that represent an error that occurred.
  * 
- * @author Frederik Heremans
+ *
  */
 public class RestError {
 

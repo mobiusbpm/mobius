@@ -22,7 +22,7 @@ import mobius.task.service.impl.persistence.entity.HistoricTaskInstanceEntityMan
 import mobius.task.service.impl.persistence.entity.TaskEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractManager {
     

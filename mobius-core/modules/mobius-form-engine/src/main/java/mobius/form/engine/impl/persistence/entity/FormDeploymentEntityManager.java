@@ -20,7 +20,7 @@ import mobius.form.api.FormDeployment;
 import mobius.form.engine.impl.FormDeploymentQueryImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface FormDeploymentEntityManager extends EntityManager<FormDeploymentEntity> {
 

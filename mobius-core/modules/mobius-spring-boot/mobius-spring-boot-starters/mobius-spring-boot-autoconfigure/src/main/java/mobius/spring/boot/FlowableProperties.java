@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * @author Josh Long
  *
- * @author Filip Hrisafov
+ *
  */
 @ConfigurationProperties(prefix = "flowable")
 public class FlowableProperties {

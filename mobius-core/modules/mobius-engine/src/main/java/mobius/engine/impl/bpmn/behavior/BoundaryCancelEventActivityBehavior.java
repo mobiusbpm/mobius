@@ -30,7 +30,7 @@ import mobius.eventsubscription.service.EventSubscriptionService;
 import mobius.eventsubscription.service.impl.persistence.entity.CompensateEventSubscriptionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BoundaryCancelEventActivityBehavior extends BoundaryEventActivityBehavior {
 

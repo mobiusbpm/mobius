@@ -16,7 +16,7 @@ package mobius.standalone.rules;
 import java.io.Serializable;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class Order implements Serializable {
 

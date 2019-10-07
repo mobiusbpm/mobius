@@ -16,7 +16,7 @@ package mobius.rest.service.api.runtime.process;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ExecutionResponse {
 

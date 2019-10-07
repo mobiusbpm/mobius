@@ -22,7 +22,7 @@ import org.springframework.core.env.PropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

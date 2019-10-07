@@ -22,7 +22,7 @@ import mobius.bpmn.model.BpmnModel;
  * This interface declares methods to generate process diagram
  * 
  * @author martin.grofcik
- * @author Tijs Rademakers
+ *
  */
 public interface ProcessDiagramGenerator {
 

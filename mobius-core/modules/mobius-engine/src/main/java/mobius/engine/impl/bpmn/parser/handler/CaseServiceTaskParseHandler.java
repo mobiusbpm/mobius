@@ -17,7 +17,7 @@ import mobius.bpmn.model.CaseServiceTask;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CaseServiceTaskParseHandler extends AbstractActivityBpmnParseHandler<CaseServiceTask> {
 

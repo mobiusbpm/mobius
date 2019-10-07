@@ -25,7 +25,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 /**
  * A common base rest api configuration for registering custom servlets.
  *
- * @author Filip Hrisafov
+ *
  */
 public class BaseRestApiConfiguration implements ApplicationContextAware {
 

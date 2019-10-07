@@ -51,7 +51,7 @@ import mobius.variable.api.types.VariableType;
 /**
  * Builder class used to create {@link FlowableEvent} implementations.
  *
- * @author Frederik Heremans
+ *
  */
 public class FlowableEventBuilder {
 

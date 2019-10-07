@@ -14,7 +14,7 @@
 package mobius.idm.rest.service.api.group;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class GroupRequest extends GroupResponse {
 

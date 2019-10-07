@@ -24,7 +24,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ProcessInstanceAndVariablesQueryTest extends PluggableFlowableTestCase {
 

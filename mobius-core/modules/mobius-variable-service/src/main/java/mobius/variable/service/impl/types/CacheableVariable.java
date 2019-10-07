@@ -16,7 +16,7 @@ package mobius.variable.service.impl.types;
 /**
  * Interface to abstract the JPA cacheable setting
  * 
- * @author Tijs Rademakers
+ *
  * 
  */
 public interface CacheableVariable {

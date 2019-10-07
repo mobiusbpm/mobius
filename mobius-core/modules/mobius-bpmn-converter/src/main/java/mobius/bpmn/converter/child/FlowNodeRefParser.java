@@ -19,7 +19,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.Lane;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FlowNodeRefParser extends BaseChildElementParser {
 

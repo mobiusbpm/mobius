@@ -39,7 +39,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubsc
 /**
  * Implementation of the BPMN 2.0 event subprocess signal start event.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class EventSubProcessSignalStartEventActivityBehavior extends AbstractBpmnActivityBehavior {
 

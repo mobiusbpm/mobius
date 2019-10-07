@@ -18,7 +18,7 @@ import mobius.bpmn.model.ServiceTask;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HttpServiceTaskParseHandler extends AbstractActivityBpmnParseHandler<ServiceTask> {
 

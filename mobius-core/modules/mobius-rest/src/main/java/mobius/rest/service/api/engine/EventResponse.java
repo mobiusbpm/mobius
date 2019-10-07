@@ -22,7 +22,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class EventResponse {
 

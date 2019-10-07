@@ -25,7 +25,7 @@ import mobius.content.api.ContentStorage;
 import mobius.content.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetContentItemStreamCmd implements Command<InputStream>, Serializable {
 

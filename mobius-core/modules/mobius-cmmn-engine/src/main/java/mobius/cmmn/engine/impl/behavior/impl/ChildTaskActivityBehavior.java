@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public abstract class ChildTaskActivityBehavior extends CoreCmmnTriggerableActivityBehavior {

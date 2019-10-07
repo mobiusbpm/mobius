@@ -15,7 +15,7 @@ package mobius.common.engine.api.delegate.event;
 /**
  * Indicates the {@link FlowableEvent} also contains information about a {@link Throwable} that occurred, triggering the event.
  * 
- * @author Frederik heremans
+ *
  */
 public interface FlowableExceptionEvent {
 

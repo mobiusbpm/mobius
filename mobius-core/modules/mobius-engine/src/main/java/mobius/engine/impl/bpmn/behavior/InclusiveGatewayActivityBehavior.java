@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Implementation of the Inclusive Gateway/OR gateway/inclusive data-based gateway as defined in the BPMN specification.
  *
- * @author Tijs Rademakers
+ *
  * @author Tom Van Buskirk
  *
  */

@@ -20,7 +20,7 @@ import java.util.Map;
  * 
  * A deployment is a container for resources such as process definitions, case definitions, images, forms, etc.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface EngineDeployment {
 

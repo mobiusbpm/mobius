@@ -15,7 +15,7 @@ package mobius.engine.impl.persistence.entity;
 import mobius.common.engine.impl.persistence.entity.EntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface ProcessDefinitionInfoEntityManager extends EntityManager<ProcessDefinitionInfoEntity> {
 

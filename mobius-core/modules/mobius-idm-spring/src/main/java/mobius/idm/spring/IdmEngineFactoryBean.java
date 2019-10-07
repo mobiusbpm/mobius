@@ -24,7 +24,7 @@ import org.springframework.context.ApplicationContextAware;
 
 /**
  * @author Dave Syer
- * @author Tijs Rademakers
+ *
  *
  * @author Josh Long
  */

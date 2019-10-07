@@ -33,7 +33,7 @@ import org.junit.Test;
 /**
  * Test for all REST-operations related to the Job collection and a single job resource.
  * 
- * @author Frederik Heremans
+ *
  */
 public class JobCollectionResourceTest extends BaseSpringRestTestCase {
 

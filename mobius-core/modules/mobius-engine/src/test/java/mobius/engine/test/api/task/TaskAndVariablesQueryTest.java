@@ -37,7 +37,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TaskAndVariablesQueryTest extends PluggableFlowableTestCase {
 

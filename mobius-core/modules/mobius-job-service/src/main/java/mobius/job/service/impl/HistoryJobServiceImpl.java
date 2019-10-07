@@ -20,7 +20,7 @@ import mobius.job.service.JobServiceConfiguration;
 import mobius.job.service.impl.persistence.entity.HistoryJobEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoryJobServiceImpl extends ServiceImpl implements HistoryJobService {
 

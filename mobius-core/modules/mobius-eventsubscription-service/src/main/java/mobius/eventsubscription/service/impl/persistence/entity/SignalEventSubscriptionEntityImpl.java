@@ -19,7 +19,7 @@ import mobius.bpmn.model.Signal;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class SignalEventSubscriptionEntityImpl extends EventSubscriptionEntityImpl implements SignalEventSubscriptionEntity {
 

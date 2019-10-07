@@ -17,7 +17,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface Token extends Serializable {
 

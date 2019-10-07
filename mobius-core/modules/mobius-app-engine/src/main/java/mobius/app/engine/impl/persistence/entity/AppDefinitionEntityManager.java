@@ -19,7 +19,7 @@ import mobius.app.api.repository.AppDefinitionQuery;
 import mobius.common.engine.impl.persistence.entity.EntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface AppDefinitionEntityManager extends EntityManager<AppDefinitionEntity> {
 

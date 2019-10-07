@@ -32,7 +32,7 @@ import java.util.Set;
  * {@link UserDetails} provider that uses the {@link IdmIdentityService} to load users.
  *
  * @author Josh Long
- * @author Filip Hrisafov
+ *
  */
 public class FlowableUserDetailsService
         implements UserDetailsService {

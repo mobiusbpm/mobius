@@ -19,7 +19,7 @@ import mobius.engine.delegate.TaskListener;
 import mobius.task.service.delegate.DelegateTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 
 public class TaskSimpleCompleteListener implements TaskListener {

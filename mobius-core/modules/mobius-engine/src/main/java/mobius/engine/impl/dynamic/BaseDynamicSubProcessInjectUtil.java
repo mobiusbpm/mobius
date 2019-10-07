@@ -49,7 +49,7 @@ import mobius.form.api.FormDeployment;
 import mobius.form.api.FormRepositoryService;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BaseDynamicSubProcessInjectUtil {
     

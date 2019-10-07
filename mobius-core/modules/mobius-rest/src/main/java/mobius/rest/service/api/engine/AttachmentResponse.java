@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class AttachmentResponse {
 

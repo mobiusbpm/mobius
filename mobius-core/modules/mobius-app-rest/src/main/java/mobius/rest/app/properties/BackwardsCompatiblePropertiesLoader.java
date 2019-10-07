@@ -36,7 +36,7 @@ import org.springframework.core.io.support.PropertySourceFactory;
 /**
  * This is used for backwards compatibility pre 6.3.0.
  *
- * @author Filip Hrisafov
+ *
  */
 public class BackwardsCompatiblePropertiesLoader implements EnvironmentPostProcessor, Ordered {
 

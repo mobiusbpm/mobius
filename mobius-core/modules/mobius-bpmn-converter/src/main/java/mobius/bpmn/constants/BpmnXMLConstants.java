@@ -13,7 +13,7 @@
 package mobius.bpmn.constants;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface BpmnXMLConstants {
 

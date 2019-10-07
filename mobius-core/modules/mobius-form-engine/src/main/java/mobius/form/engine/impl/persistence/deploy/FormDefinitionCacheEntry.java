@@ -17,7 +17,7 @@ import java.io.Serializable;
 import mobius.form.engine.impl.persistence.entity.FormDefinitionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FormDefinitionCacheEntry implements Serializable {
 

@@ -18,7 +18,7 @@ import mobius.idm.engine.configurator.IdmEngineConfigurator;
 import mobius.idm.spring.SpringIdmEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SpringIdmEngineConfigurator extends IdmEngineConfigurator {
 

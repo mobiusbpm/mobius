@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.EventGateway;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EventGatewayXMLConverter extends BaseBpmnXMLConverter {
 

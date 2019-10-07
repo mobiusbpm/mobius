@@ -23,7 +23,7 @@ import mobius.engine.impl.persistence.entity.data.ModelDataManager;
 import mobius.engine.repository.Model;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ModelEntityManagerImpl extends AbstractEntityManager<ModelEntity> implements ModelEntityManager {

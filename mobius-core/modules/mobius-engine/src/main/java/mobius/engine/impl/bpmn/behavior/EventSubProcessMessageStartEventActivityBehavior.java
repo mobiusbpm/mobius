@@ -38,7 +38,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.MessageEventSubs
 /**
  * Implementation of the BPMN 2.0 event subprocess message start event.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class EventSubProcessMessageStartEventActivityBehavior extends AbstractBpmnActivityBehavior {
 

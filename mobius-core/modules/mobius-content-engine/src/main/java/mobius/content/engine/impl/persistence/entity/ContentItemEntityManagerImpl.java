@@ -22,7 +22,7 @@ import mobius.content.engine.impl.ContentItemQueryImpl;
 import mobius.content.engine.impl.persistence.entity.data.ContentItemDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ContentItemEntityManagerImpl extends AbstractEntityManager<ContentItemEntity> implements ContentItemEntityManager {

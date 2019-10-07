@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnDiShape;
 import javax.xml.stream.XMLStreamReader;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CmmnDiShapeXmlConverter extends BaseCmmnXmlConverter {
     

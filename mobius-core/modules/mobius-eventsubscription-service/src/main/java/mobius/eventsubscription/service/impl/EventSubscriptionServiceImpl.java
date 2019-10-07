@@ -26,7 +26,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.MessageEventSubs
 import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubscriptionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EventSubscriptionServiceImpl extends CommonServiceImpl<EventSubscriptionServiceConfiguration> implements EventSubscriptionService {
 

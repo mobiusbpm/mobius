@@ -14,7 +14,7 @@
 package mobius.cmmn.rest.api.management;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CmmnEngineInfoResponse {
 

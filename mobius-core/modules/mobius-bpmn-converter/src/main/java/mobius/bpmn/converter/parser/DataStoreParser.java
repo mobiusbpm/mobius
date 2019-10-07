@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.DataStore;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DataStoreParser implements BpmnXMLConstants {
 

@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.service;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public abstract class CommonServiceImpl<C> {
 

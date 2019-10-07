@@ -19,7 +19,7 @@ import mobius.cmmn.converter.CmmnXmlConstants;
 import mobius.cmmn.model.GenericEventListener;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class GenericEventListenerExport extends AbstractPlanItemDefinitionExport<GenericEventListener> {

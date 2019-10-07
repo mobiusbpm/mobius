@@ -21,7 +21,7 @@ import java.util.Date;
 import mobius.common.rest.util.DateToStringSerializer;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ModelResponse extends ModelRequest {
 

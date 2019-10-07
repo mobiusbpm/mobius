@@ -12,12 +12,6 @@
  */
 package mobius.common.engine.impl.db;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-
 import mobius.common.engine.impl.context.Context;
 import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.common.engine.impl.persistence.cache.CachedEntity;
@@ -26,9 +20,15 @@ import mobius.common.engine.impl.persistence.cache.EntityCache;
 import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.common.engine.impl.persistence.entity.data.DataManager;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractDataManager<EntityImpl extends Entity> implements DataManager<EntityImpl> {
 

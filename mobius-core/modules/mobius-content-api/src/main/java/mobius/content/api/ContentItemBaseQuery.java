@@ -21,7 +21,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link ContentItem}s.
  *
- * @author Tijs Rademakers
+ *
  */
 public interface ContentItemBaseQuery<T extends ContentItemBaseQuery<T, C>, C extends ContentItem> extends Query<T, C> {
 

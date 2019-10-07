@@ -22,7 +22,7 @@ import mobius.common.engine.impl.el.VariableContainerWrapper;
  * Resolves an EL expression value at runtime.
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 public class RuleExpressionOutput {
 

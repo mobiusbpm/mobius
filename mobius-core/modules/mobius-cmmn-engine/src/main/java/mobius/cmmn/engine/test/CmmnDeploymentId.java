@@ -23,7 +23,7 @@ import java.lang.annotation.Target;
  *
  * <b>NB:</b> This only works for tests with JUnit Jupiter.
  *
- * @author Filip Hrisafov
+ *
  */
 @Target({ ElementType.PARAMETER })
 @Retention(RetentionPolicy.RUNTIME)

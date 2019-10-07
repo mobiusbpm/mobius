@@ -24,7 +24,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to deployments.
  * 
- * @author Frederik Heremans
+ *
  */
 public class DeploymentEventsTest extends PluggableFlowableTestCase {
 

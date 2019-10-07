@@ -20,7 +20,7 @@ import org.springframework.web.multipart.support.StandardServletMultipartResolve
 /**
  * {@link org.springframework.web.multipart.MultipartResolver} that allows using PUT for multipart/form
  *
- * @author Filip Hrisafov
+ *
  */
 public class PutAwareStandardServletMultiPartResolver extends StandardServletMultipartResolver {
 

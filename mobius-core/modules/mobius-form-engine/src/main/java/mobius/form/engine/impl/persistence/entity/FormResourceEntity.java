@@ -16,7 +16,7 @@ package mobius.form.engine.impl.persistence.entity;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface FormResourceEntity extends Entity {
 

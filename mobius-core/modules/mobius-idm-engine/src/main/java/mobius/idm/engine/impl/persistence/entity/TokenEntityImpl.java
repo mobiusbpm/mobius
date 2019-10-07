@@ -20,7 +20,7 @@ import java.util.Map;
 import mobius.common.engine.impl.db.HasRevision;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TokenEntityImpl extends AbstractIdmEngineEntity implements TokenEntity, Serializable, HasRevision {
 

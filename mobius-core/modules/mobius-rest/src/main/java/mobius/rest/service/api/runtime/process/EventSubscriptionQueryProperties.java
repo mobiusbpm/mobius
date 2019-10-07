@@ -19,7 +19,7 @@ import mobius.common.engine.api.query.QueryProperty;
 import mobius.eventsubscription.service.impl.EventSubscriptionQueryProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EventSubscriptionQueryProperties {
 

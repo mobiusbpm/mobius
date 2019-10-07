@@ -39,7 +39,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author David Syer
  *
  */

@@ -15,7 +15,7 @@ package mobius.common.engine.api;
 /**
  * This exception is thrown when you try to claim a task that is already claimed by someone else.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FlowableTaskAlreadyClaimedException extends FlowableException {
 

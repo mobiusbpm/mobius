@@ -19,7 +19,7 @@ import mobius.dmn.model.DmnElement;
 import mobius.dmn.model.InputClause;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class InputClauseParser extends BaseChildElementParser {

@@ -28,7 +28,7 @@ import org.apache.http.entity.StringEntity;
 /**
  * Test for all REST-operations related to single a Process Definition resource.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class AppDefinitionResourceTest extends BaseSpringRestTestCase {
 

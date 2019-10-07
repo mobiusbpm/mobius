@@ -15,7 +15,7 @@ package mobius.form.engine.impl.cfg;
 import mobius.form.engine.FormEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneFormEngineConfiguration extends FormEngineConfiguration {
 

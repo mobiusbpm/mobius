@@ -24,7 +24,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.MultiInstanceLoopCharacteristics;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MultiInstanceParser extends BaseChildElementParser {
 

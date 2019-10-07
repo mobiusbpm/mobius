@@ -21,7 +21,7 @@ import mobius.cmmn.model.Criterion;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class BaseCmmnXmlConverter {
 

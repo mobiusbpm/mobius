@@ -19,7 +19,7 @@ import mobius.common.engine.api.delegate.event.FlowableEventType;
 /**
  * Base class for all {@link FlowableEvent} implementations.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableEventImpl implements FlowableEvent {
 

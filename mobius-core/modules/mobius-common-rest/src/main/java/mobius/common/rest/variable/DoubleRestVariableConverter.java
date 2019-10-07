@@ -16,7 +16,7 @@ package mobius.common.rest.variable;
 import mobius.common.engine.api.FlowableIllegalArgumentException;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class DoubleRestVariableConverter implements RestVariableConverter {
 

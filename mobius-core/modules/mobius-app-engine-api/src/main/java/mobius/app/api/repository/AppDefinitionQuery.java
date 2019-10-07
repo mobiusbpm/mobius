@@ -14,7 +14,7 @@
 package mobius.app.api.repository;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface AppDefinitionQuery extends AppDefinitionBaseQuery<AppDefinitionQuery, AppDefinition> {
     // Add new methods to the AppDefinitionBaseQuery and not here

@@ -21,7 +21,7 @@ import mobius.bpmn.model.ErrorEventDefinition;
 import mobius.bpmn.model.Event;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ErrorEventDefinitionParser extends BaseChildElementParser {
 

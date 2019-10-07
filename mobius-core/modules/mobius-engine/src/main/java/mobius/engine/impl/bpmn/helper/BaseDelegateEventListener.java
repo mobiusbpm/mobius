@@ -20,7 +20,7 @@ import mobius.common.engine.api.delegate.event.FlowableEventListener;
 /**
  * Base implementation of a {@link FlowableEventListener}, used when creating event-listeners that are part of a BPMN definition.
  * 
- * @author Frederik Heremans
+ *
  */
 public abstract class BaseDelegateEventListener extends AbstractFlowableEventListener {
 

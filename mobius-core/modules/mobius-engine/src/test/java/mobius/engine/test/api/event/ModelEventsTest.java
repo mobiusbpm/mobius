@@ -24,7 +24,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to models.
  * 
- * @author Frederik Heremans
+ *
  */
 public class ModelEventsTest extends PluggableFlowableTestCase {
 

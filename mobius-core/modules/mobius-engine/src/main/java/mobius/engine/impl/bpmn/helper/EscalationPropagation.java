@@ -48,7 +48,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
  * 
  * Possible escalation handlers include Escalation Intermediate Events and Escalation Event Sub-Processes.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class EscalationPropagation {
 

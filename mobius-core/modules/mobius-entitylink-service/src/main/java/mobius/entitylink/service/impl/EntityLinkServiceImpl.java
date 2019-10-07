@@ -22,7 +22,7 @@ import mobius.entitylink.service.impl.persistence.entity.EntityLinkEntity;
 import mobius.entitylink.service.impl.persistence.entity.EntityLinkEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkServiceImpl extends CommonServiceImpl<EntityLinkServiceConfiguration> implements EntityLinkService {
 

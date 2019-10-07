@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class FlowableInfoContributor implements InfoContributor {
 

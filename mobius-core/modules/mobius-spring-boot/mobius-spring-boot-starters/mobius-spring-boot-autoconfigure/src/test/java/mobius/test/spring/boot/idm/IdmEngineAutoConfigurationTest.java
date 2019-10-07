@@ -51,7 +51,7 @@ import static mobius.test.spring.boot.util.DeploymentCleanerUtil.deleteDeploymen
 import static org.assertj.core.api.Assertions.*;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class IdmEngineAutoConfigurationTest {
 

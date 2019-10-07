@@ -34,7 +34,7 @@ import mobius.variable.api.history.HistoricVariableInstance;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CaseTaskTest extends AbstractProcessEngineIntegrationTest {
     

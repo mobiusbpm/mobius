@@ -17,7 +17,7 @@ import mobius.cmmn.api.delegate.PlanItemJavaDelegate;
 import mobius.common.engine.api.delegate.Expression;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TestFieldsJavaDelegate implements PlanItemJavaDelegate {
     

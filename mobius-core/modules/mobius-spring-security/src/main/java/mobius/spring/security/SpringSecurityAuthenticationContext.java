@@ -25,7 +25,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
  * A default Spring Security {@link AuthenticationContext} implementation that uses {@link SecurityContextHolder} and
  * {@link org.springframework.security.core.context.SecurityContext} to provide the information.
  *
- * @author Filip Hrisafov
+ *
  */
 public class SpringSecurityAuthenticationContext implements AuthenticationContext {
 

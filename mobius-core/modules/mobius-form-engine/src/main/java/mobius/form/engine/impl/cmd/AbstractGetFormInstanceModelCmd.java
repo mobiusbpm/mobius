@@ -58,7 +58,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AbstractGetFormInstanceModelCmd implements Command<FormInstanceInfo>, Serializable {
 

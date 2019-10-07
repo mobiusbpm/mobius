@@ -15,7 +15,7 @@ package mobius.dmn.engine.impl.cfg;
 import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneDmnEngineConfiguration extends DmnEngineConfiguration {
 

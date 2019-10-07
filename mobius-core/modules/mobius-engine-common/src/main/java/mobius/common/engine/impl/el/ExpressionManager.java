@@ -24,7 +24,7 @@ import mobius.common.engine.impl.javax.el.ELContext;
 /**
  * Used as an entry point for runtime evaluation of the expressions.
  *
- * @author Tijs Rademakers
+ *
  *
  */
 public interface ExpressionManager {

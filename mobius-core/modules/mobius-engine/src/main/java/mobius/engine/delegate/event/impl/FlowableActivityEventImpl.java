@@ -18,7 +18,7 @@ import mobius.engine.delegate.event.FlowableActivityEvent;
 /**
  * Implementation of an {@link FlowableActivityEvent}.
  * 
- * @author Frederik Heremans
+ *
  *
  */
 public class FlowableActivityEventImpl extends FlowableProcessEventImpl implements FlowableActivityEvent {

@@ -20,7 +20,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.Import;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ImportParser implements BpmnXMLConstants {
 

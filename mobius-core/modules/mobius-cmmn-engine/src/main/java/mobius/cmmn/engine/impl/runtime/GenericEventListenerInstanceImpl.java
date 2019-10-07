@@ -17,7 +17,7 @@ import mobius.cmmn.api.runtime.GenericEventListenerInstance;
 import mobius.cmmn.api.runtime.PlanItemInstance;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GenericEventListenerInstanceImpl implements GenericEventListenerInstance {
 

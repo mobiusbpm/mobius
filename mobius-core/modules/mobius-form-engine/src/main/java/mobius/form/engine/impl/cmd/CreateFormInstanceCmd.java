@@ -20,7 +20,7 @@ import mobius.form.engine.FormEngineConfiguration;
 import mobius.form.engine.impl.persistence.entity.FormInstanceEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CreateFormInstanceCmd extends AbstractSaveFormInstanceCmd implements Serializable {
 

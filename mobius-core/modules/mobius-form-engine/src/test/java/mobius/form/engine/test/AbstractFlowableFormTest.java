@@ -29,7 +29,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
  * When using H2 and the default schema name, it will also boot the H2 webapp (reachable with browser on http://localhost:8082/)
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 @ExtendWith(FlowableFormExtension.class)
 @ExtendWith(LoggingExtension.class)

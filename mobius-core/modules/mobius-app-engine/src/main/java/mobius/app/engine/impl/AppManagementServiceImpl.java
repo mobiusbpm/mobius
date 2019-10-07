@@ -22,7 +22,7 @@ import mobius.app.engine.AppEngineConfiguration;
 import mobius.common.engine.impl.service.CommonEngineServiceImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppManagementServiceImpl extends CommonEngineServiceImpl<AppEngineConfiguration> implements AppManagementService {
     

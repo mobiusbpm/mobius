@@ -17,7 +17,7 @@ import mobius.variable.api.types.VariableType;
 import org.joda.time.LocalDate;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class JodaDateType implements VariableType {
 

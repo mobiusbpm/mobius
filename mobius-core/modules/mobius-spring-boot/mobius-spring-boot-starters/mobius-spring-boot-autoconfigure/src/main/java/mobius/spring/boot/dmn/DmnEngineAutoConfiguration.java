@@ -44,7 +44,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration} for the Dmn engine
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnDmnEngine

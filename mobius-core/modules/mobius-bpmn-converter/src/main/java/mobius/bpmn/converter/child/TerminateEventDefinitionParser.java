@@ -22,7 +22,7 @@ import mobius.bpmn.model.Event;
 import mobius.bpmn.model.TerminateEventDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class TerminateEventDefinitionParser extends BaseChildElementParser {

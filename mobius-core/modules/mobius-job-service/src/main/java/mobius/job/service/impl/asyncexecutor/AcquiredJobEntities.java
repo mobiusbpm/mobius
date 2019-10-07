@@ -19,7 +19,7 @@ import java.util.Map;
 import mobius.job.service.impl.persistence.entity.JobInfoEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AcquiredJobEntities {
 

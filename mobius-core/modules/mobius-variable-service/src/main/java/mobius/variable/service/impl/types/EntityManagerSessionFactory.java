@@ -21,7 +21,7 @@ import mobius.common.engine.impl.interceptor.Session;
 import mobius.common.engine.impl.interceptor.SessionFactory;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class EntityManagerSessionFactory implements SessionFactory {
 

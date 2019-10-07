@@ -15,7 +15,7 @@ package mobius.form.api;
 import java.io.Serializable;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface FormModel extends Serializable {
 

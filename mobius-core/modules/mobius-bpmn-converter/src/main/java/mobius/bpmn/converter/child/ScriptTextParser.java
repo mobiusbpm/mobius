@@ -19,7 +19,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ScriptTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ScriptTextParser extends BaseChildElementParser {
 

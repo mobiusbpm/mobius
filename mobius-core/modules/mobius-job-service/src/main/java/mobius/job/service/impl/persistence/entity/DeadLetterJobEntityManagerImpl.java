@@ -23,7 +23,7 @@ import mobius.job.service.impl.DeadLetterJobQueryImpl;
 import mobius.job.service.impl.persistence.entity.data.DeadLetterJobDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DeadLetterJobEntityManagerImpl extends AbstractEntityManager<DeadLetterJobEntity> implements DeadLetterJobEntityManager {
 

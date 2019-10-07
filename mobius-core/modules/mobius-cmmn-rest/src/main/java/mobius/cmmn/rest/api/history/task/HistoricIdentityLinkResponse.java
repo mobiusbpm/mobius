@@ -16,7 +16,7 @@ package mobius.cmmn.rest.api.history.task;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricIdentityLinkResponse {
 

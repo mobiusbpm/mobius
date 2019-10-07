@@ -20,7 +20,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 /**
  * Service which provides access to variables.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface IdentityLinkService {
     

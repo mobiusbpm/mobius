@@ -13,7 +13,7 @@
 package mobius.bpmn.model;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class EventDefinition extends BaseElement {
 

@@ -21,7 +21,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link Token}
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface TokenQuery extends Query<TokenQuery, Token> {
 

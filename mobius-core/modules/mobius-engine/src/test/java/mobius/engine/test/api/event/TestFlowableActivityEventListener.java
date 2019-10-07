@@ -23,7 +23,7 @@ import mobius.engine.delegate.event.FlowableActivityEvent;
 /**
  * Test event listener that only records events related to activities ( {@link FlowableActivityEvent}s).
  * 
- * @author Frederik Heremans
+ *
  */
 public class TestFlowableActivityEventListener extends AbstractFlowableEngineEventListener {
 

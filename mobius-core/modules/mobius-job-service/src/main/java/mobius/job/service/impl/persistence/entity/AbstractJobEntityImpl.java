@@ -24,7 +24,7 @@ import mobius.job.service.JobServiceConfiguration;
 /**
  * Abstract job entity class.
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractJobEntityImpl extends AbstractJobServiceEntity implements AbstractRuntimeJobEntity, Serializable {
 

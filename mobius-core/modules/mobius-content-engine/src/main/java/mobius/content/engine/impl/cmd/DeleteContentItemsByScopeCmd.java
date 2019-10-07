@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.content.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DeleteContentItemsByScopeCmd implements Command<Void>, Serializable {
 

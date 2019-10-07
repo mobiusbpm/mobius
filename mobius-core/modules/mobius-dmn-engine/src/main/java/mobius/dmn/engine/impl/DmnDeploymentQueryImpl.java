@@ -25,7 +25,7 @@ import mobius.dmn.api.DmnDeploymentQuery;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class DmnDeploymentQueryImpl extends AbstractQuery<DmnDeploymentQuery, DmnDeployment> implements DmnDeploymentQuery, Serializable {

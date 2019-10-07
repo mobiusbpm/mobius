@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ReceiveTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ReceiveTaskXMLConverter extends BaseBpmnXMLConverter {
 

@@ -21,7 +21,7 @@ import mobius.bpmn.model.EscalationEventDefinition;
 import mobius.bpmn.model.Event;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EscalationEventDefinitionParser extends BaseChildElementParser {
 

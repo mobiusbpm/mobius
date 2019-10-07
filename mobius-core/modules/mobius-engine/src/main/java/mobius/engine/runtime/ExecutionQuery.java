@@ -23,7 +23,7 @@ import mobius.engine.ProcessEngineConfiguration;
  * Allows programmatic querying of {@link Execution}s.
  * 
  *
- * @author Frederik Heremans
+ *
  */
 public interface ExecutionQuery extends Query<ExecutionQuery, Execution> {
 

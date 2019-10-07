@@ -9,7 +9,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ *//*
+
 
 package mobius.idm.engine.impl.cmd;
 
@@ -23,9 +24,11 @@ import mobius.idm.api.Picture;
 import mobius.idm.api.User;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
+*/
 /**
  *
- */
+ *//*
+
 public class SetUserPictureCmd implements Command<Object>, Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -56,3 +59,4 @@ public class SetUserPictureCmd implements Command<Object>, Serializable {
     }
 
 }
+*/

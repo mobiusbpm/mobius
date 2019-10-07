@@ -18,7 +18,7 @@ import java.util.Set;
 import mobius.common.engine.api.query.Query;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface AppDefinitionBaseQuery <T extends AppDefinitionBaseQuery<T, C>, C extends AppDefinition> extends Query<T, C> {
 

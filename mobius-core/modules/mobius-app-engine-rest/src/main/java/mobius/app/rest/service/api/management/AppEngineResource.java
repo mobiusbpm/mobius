@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Engine" }, description = "Manage App Engine", authorizations = { @Authorization(value = "basicAuth") })

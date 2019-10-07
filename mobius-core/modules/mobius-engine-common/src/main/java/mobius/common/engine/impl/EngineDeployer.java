@@ -17,7 +17,7 @@ import java.util.Map;
 import mobius.common.engine.api.repository.EngineDeployment;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface EngineDeployer {
 

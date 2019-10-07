@@ -38,7 +38,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  *
- * @author Frederik Heremans
+ *
  * @author Daniel Meyer
  */
 public class ExecutionQueryImpl extends AbstractVariableQueryImpl<ExecutionQuery, Execution> implements ExecutionQuery {

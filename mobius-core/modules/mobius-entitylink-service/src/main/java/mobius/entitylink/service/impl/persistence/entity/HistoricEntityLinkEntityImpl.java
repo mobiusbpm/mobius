@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricEntityLinkEntityImpl extends AbstractEntityLinkServiceNoRevisionEntity implements HistoricEntityLinkEntity, Serializable {
 

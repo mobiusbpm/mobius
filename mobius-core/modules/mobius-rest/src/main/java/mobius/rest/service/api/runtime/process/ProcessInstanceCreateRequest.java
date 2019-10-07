@@ -29,7 +29,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Modified to add a "returnVariables" flag, which determines whether the variables that exist within the process instance when the first wait state is encountered (or when the process instance
  * completes) should be returned or not.
  * 
- * @author Frederik Heremans
+ *
  * @author Ryan Johnston (@rjfsu)
  *
  */

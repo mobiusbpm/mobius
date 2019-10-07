@@ -12,6 +12,8 @@
  */
 package mobius.idm.api;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.Serializable;
 import java.time.Instant;
 
@@ -24,35 +26,9 @@ public interface User extends Serializable {
 
     void setId(String id);
 
-   /* String getTenantId();
-
-    void setTenantId(String tenantId);
-
-    boolean isPictureSet();*/
-
-    /*void setEmail(String email);
-
-    String getEmail();
-
-    String getPassword();
-
-    void setPassword(String string);*/
-
-    /**
-     * mobius
-     */
-
-    Long getUserId();
-
-    void setUserId(Long userId);
-
     String getUserLoginName();
 
     void setUserLoginName(String userLoginName);
-
-    String getUserEmail();
-
-    void setUserEmail(String userEmail);
 
     String getUserPassword();
 
@@ -74,12 +50,59 @@ public interface User extends Serializable {
 
     void setUserCreatedTime(Instant userCreatedTime);
 
-    Long getUserLastUpdatedBy();
+    Long getUserUpdatedBy();
 
-    void setUserLastUpdatedBy(Long userId);
+    void setUserUpdatedBy(Long userId);
 
-    Instant getUserLastUpdatedTime();
+    Instant getUserUpdatedTime();
 
-    void setUserLastUpdatedTime(Instant userLastUpdatedTime);
+    void setUserUpdatedTime(Instant userUpdatedTime);
 
+
+    default String getPassword(){
+        return getUserPassword();
+    }
+
+    default void setPassword(String password){
+        setUserPassword(password);
+    }
+
+    default String getFirstName(){
+        return StringUtils.EMPTY;
+    }
+
+    default void setFirstName(String firstName){
+    }
+
+    default String getLastName(){
+        return StringUtils.EMPTY;
+    }
+
+    default void setLastName(String lastName){
+
+    }
+
+    default String getDisplayName(){
+        return StringUtils.EMPTY;
+    }
+
+    default void setDisplayName(String displayName){
+
+    }
+
+    default String getEmail(){
+        return StringUtils.EMPTY;
+    }
+
+    default void setEmail(String email){
+
+    }
+
+    default String getTenantId(){
+        return StringUtils.EMPTY;
+    }
+
+    default void setTenantId(String tenantId){
+
+    }
 }

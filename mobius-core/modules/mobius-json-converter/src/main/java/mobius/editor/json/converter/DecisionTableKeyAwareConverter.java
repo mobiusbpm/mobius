@@ -17,7 +17,7 @@ import java.util.Map;
 import mobius.editor.json.model.ModelInfo;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface DecisionTableKeyAwareConverter {
 

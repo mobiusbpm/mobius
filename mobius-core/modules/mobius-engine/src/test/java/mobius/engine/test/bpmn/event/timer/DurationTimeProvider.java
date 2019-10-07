@@ -15,7 +15,7 @@ package mobius.engine.test.bpmn.event.timer;
 import java.time.Duration;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class DurationTimeProvider {
 

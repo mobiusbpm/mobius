@@ -19,7 +19,7 @@ import mobius.common.engine.impl.javax.el.ExpressionFactory;
 /**
  * Class used to get hold of a {@link ExpressionFactory}.
  *
- * @author Frederik Heremans
+ *
  */
 public abstract class ExpressionFactoryResolver {
 

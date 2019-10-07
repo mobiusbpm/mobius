@@ -18,7 +18,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class TransactionParseHandler extends AbstractActivityBpmnParseHandler<Transaction> {
 

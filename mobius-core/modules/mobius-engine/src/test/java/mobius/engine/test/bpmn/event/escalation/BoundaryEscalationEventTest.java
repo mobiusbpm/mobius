@@ -18,7 +18,7 @@ import mobius.task.api.Task;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BoundaryEscalationEventTest extends PluggableFlowableTestCase {
 

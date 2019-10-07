@@ -26,7 +26,7 @@ import java.lang.annotation.Target;
  * If the {@link org.junit.jupiter.api.TestInstance.Lifecycle TestInstance.Lifecycle} is set to
  * {@link org.junit.jupiter.api.TestInstance.Lifecycle#PER_CLASS TestInstance.Lifecycle#PER_CLASS} then the assertion will happen after all tests have run.
  *
- * @author Filip Hrisafov
+ *
  */
 @Target({ ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)

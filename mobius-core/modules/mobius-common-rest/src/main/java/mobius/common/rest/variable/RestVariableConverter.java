@@ -14,7 +14,7 @@
 package mobius.common.rest.variable;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public interface RestVariableConverter {
 

@@ -36,7 +36,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 /**
  * Operation that triggers conditional events for which the condition evaluate to true and continues the process, leaving that activity.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class EvaluateConditionalEventsOperation extends AbstractOperation {
 

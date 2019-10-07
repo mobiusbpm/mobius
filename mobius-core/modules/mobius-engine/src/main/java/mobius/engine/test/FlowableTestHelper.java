@@ -23,7 +23,7 @@ import mobius.engine.test.mock.FlowableMockSupport;
  * A Helper for the Flowable {@link FlowableExtension} that can be used within the JUnit Jupiter context store
  * and users can use it in the tests for easy modifying of the {@link ProcessEngine} time and easy access for waiting on the job executor.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableTestHelper {
 

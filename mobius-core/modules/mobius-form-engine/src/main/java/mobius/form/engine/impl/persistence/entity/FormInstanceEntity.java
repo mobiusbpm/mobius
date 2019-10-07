@@ -19,7 +19,7 @@ import mobius.form.api.FormInstance;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface FormInstanceEntity extends FormInstance, Entity {
 

@@ -19,7 +19,7 @@ import mobius.rest.service.api.RestActionRequest;
 import java.util.Date;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ProcessDefinitionActionRequest extends RestActionRequest {
 

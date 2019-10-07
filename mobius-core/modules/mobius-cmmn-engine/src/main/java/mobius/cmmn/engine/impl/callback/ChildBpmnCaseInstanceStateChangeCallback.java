@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Callback implementation for a child case instance (started from a process instance) returning it's state change to its parent.
  *
- * @author Tijs Rademakers
+ *
  *
  */
 public class ChildBpmnCaseInstanceStateChangeCallback implements RuntimeInstanceStateChangeCallback {

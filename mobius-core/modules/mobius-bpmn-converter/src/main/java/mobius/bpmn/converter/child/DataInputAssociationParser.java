@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.DataAssociation;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DataInputAssociationParser extends BaseChildElementParser {
 

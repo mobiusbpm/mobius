@@ -27,7 +27,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.MessageEventSubs
  * An {@link FlowableEventListener} that throws a message event when an event is dispatched to it. Sends the message to the execution the event was fired from. If the execution is not subscribed to a
  * message, the process-instance is checked.
  * 
- * @author Tijs Rademakers
+ *
  * 
  */
 public class MessageThrowingEventListener extends BaseDelegateEventListener {

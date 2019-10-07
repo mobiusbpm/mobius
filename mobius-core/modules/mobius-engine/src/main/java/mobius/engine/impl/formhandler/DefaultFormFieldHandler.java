@@ -30,7 +30,7 @@ import mobius.form.model.FormFieldTypes;
 import mobius.form.model.SimpleFormModel;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DefaultFormFieldHandler implements FormFieldHandler {
     

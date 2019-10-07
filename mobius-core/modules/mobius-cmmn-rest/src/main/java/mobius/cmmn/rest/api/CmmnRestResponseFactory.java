@@ -80,7 +80,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * encountered (or when the process instance completes). Also added the population of a "completed" flag - within both the original "createProcessInstanceResponse" method and the new one with the
  * different signature - to let the caller know whether the process instance has completed or not.
  *
- * @author Frederik Heremans
+ *
  * @author Ryan Johnston (@rjfsu)
  */
 public class CmmnRestResponseFactory {

@@ -25,7 +25,7 @@ import mobius.task.service.InternalTaskAssignmentManager;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DefaultTaskAssignmentManager implements InternalTaskAssignmentManager {
     

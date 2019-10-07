@@ -21,7 +21,7 @@ import mobius.common.engine.api.delegate.FlowableFunctionDelegate;
 /**
  * Abstract class that can be used as a base class for pluggable functions that can be used in the EL expressions
  * 
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractFlowableFunctionDelegate implements FlowableFunctionDelegate {
     

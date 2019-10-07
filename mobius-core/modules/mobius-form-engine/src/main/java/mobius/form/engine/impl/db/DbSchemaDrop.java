@@ -28,7 +28,7 @@ import liquibase.database.jvm.JdbcConnection;
 import liquibase.resource.ClassLoaderResourceAccessor;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DbSchemaDrop {
 

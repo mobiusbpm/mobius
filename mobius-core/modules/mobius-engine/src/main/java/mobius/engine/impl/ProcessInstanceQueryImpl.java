@@ -40,8 +40,8 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  *
  *
- * @author Tijs Rademakers
- * @author Frederik Heremans
+ *
+ *
  * @author Falko Menge
  * @author Daniel Meyer
  */

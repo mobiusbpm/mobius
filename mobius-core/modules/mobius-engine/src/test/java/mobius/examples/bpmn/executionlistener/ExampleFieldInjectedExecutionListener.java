@@ -20,7 +20,7 @@ import mobius.engine.delegate.ExecutionListener;
 /**
  * Example {@link ExecutionListener} which gets 2 fields injected.
  * 
- * @author Frederik Heremans
+ *
  */
 public class ExampleFieldInjectedExecutionListener implements ExecutionListener {
 

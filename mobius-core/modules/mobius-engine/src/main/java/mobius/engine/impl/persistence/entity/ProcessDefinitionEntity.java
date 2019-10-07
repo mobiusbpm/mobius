@@ -21,7 +21,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface ProcessDefinitionEntity extends ProcessDefinition, Entity, HasRevision {
 

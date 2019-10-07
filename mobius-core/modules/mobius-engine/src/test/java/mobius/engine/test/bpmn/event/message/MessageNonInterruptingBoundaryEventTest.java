@@ -21,7 +21,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * 
- * @author Tijs Rademakers
+ *
  */
 public class MessageNonInterruptingBoundaryEventTest extends PluggableFlowableTestCase {
 

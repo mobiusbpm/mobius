@@ -22,7 +22,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.transaction.PlatformTransactionManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface SpringEngineConfiguration extends ApplicationContextAware, SmartLifecycle {
 

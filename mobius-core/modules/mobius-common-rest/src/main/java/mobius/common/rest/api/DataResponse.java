@@ -16,7 +16,7 @@ package mobius.common.rest.api;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DataResponse<T> {
 

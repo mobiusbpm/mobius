@@ -22,7 +22,7 @@ import mobius.entitylink.service.impl.persistence.entity.HistoricEntityLinkEntit
 import mobius.entitylink.service.impl.persistence.entity.HistoricEntityLinkEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricEntityLinkServiceImpl extends CommonServiceImpl<EntityLinkServiceConfiguration> implements HistoricEntityLinkService {
 

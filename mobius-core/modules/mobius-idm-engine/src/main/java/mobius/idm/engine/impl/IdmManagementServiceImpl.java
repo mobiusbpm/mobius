@@ -32,7 +32,7 @@ import mobius.idm.engine.impl.cmd.GetTableNameCmd;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class IdmManagementServiceImpl extends CommonEngineServiceImpl<IdmEngineConfiguration> implements IdmManagementService {
 

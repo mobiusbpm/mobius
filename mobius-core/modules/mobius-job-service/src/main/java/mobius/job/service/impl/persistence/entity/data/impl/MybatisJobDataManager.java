@@ -31,7 +31,7 @@ import mobius.job.service.impl.persistence.entity.data.impl.cachematcher.JobsByE
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class MybatisJobDataManager extends AbstractDataManager<JobEntity> implements JobDataManager {
     

@@ -22,7 +22,7 @@ import org.springframework.boot.context.properties.NestedConfigurationProperty;
 /**
  * Properties for configuring the CMMN engine.
  *
- * @author Filip Hrisafov
+ *
  */
 @ConfigurationProperties(prefix = "flowable.cmmn")
 public class FlowableCmmnProperties {

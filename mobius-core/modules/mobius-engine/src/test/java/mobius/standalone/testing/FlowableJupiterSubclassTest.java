@@ -22,7 +22,7 @@ package mobius.standalone.testing;
  * <p>
  * Specifically, {@link mobius.engine.impl.test.TestHelper} needs to call getMethod() rather than getDeclaredMethod() since the method is declared in a parent of the actual test class.
  *
- * @author Filip Hrisafov
+ *
  */
 class FlowableJupiterSubclassTest extends FlowableJupiterTest {
 

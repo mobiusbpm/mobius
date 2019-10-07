@@ -18,7 +18,7 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.engine.impl.persistence.entity.data.ProcessDefinitionInfoDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ProcessDefinitionInfoEntityManagerImpl extends
         AbstractEntityManager<ProcessDefinitionInfoEntity> implements ProcessDefinitionInfoEntityManager {

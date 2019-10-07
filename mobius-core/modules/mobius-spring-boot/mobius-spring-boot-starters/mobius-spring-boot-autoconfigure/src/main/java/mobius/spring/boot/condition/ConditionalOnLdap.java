@@ -27,7 +27,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
  * By default the LDAP Configuration is activated when the IDM Engine is activate, the {@link mobius.ldap.LDAPConfiguration} is present
  * and {@code flowable.idm.ldap.enabled} is set to {@code true} (per default it is disabled)
  *
- * @author Filip Hrisafov
+ *
  * @see ConditionalOnIdmEngine
  */
 @Retention(RetentionPolicy.RUNTIME)

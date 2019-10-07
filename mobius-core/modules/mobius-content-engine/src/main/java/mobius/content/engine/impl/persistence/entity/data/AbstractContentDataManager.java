@@ -18,7 +18,7 @@ import mobius.content.engine.ContentEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractContentDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {
     

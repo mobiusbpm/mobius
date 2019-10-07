@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @ContextConfiguration("classpath:flowable-context.xml")
 public class FormWithSpringBeanTest extends SpringFormFlowableTestCase {

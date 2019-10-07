@@ -20,7 +20,7 @@ import java.util.function.Function;
  *
  * @param <REQ> The type of the elements that need to be processed
  * @param <RES> The type of the elements that will be created
- * @author Filip Hrisafov
+ *
  */
 @FunctionalInterface
 public interface ListProcessor<REQ, RES> extends Function<List<REQ>, List<RES>> {

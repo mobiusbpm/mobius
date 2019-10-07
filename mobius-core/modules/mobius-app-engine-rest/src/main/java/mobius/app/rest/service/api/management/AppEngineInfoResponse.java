@@ -15,7 +15,7 @@ package mobius.app.rest.service.api.management;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppEngineInfoResponse {
 

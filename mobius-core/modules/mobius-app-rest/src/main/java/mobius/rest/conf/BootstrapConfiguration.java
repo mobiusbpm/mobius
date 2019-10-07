@@ -33,7 +33,7 @@ import java.util.List;
 
 /**
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 public class BootstrapConfiguration {

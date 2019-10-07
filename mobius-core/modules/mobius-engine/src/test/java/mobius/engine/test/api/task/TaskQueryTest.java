@@ -45,7 +45,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  *
- * @author Frederik Heremans
+ *
  * @author Falko Menge
  */
 public class TaskQueryTest extends PluggableFlowableTestCase {

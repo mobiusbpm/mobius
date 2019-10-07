@@ -15,7 +15,7 @@ package mobius.engine.impl.util;
 import mobius.engine.impl.persistence.entity.ExecutionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ExecutionHelper {
 

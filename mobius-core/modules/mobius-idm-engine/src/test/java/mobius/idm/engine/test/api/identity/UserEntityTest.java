@@ -12,12 +12,12 @@
  */
 package mobius.idm.engine.test.api.identity;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
 import mobius.idm.api.Picture;
 import mobius.idm.engine.impl.persistence.entity.UserEntityImpl;
 import org.junit.Test;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 /**
  *
@@ -30,7 +30,6 @@ public class UserEntityTest {
         TestableUserEntity userEntity = new TestableUserEntity();
         Picture picture = new Picture(null, null);
         // even though parameters were null, picture object is not null
-        userEntity.setPicture(picture);
         assertTrue(userEntity.getHasSavePictureBeenCalled());
         assertFalse(userEntity.getHasDeletePictureBeenCalled());
     }
@@ -38,7 +37,6 @@ public class UserEntityTest {
     @Test
     public void testSetPicture_pictureShouldBeDeletedWhenNull() {
         TestableUserEntity userEntity = new TestableUserEntity();
-        userEntity.setPicture(null);
         assertTrue(userEntity.getHasDeletePictureBeenCalled());
     }
 
@@ -48,15 +46,6 @@ public class UserEntityTest {
         private boolean hasSavePictureBeenCalled;
         private boolean hasDeletePictureBeenCalled;
 
-        @Override
-        protected void savePicture(Picture picture) {
-            setHasSavePictureBeenCalled(true);
-        }
-
-        @Override
-        protected void deletePicture() {
-            setHasDeletePictureBeenCalled(true);
-        }
 
         public boolean getHasSavePictureBeenCalled() {
             return hasSavePictureBeenCalled;

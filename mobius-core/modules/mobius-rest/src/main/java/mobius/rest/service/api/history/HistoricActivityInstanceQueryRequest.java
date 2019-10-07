@@ -16,7 +16,7 @@ package mobius.rest.service.api.history;
 import mobius.common.rest.api.PaginateRequest;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricActivityInstanceQueryRequest extends PaginateRequest {
 

@@ -25,7 +25,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
  * <b>NB:</b> The {@link DmnConfigurationResource} is ignored
  * as the {@link DmnEngine} is taken from the Spring application context
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableDmnSpringExtension extends FlowableDmnExtension {
 

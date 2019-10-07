@@ -23,7 +23,7 @@ import mobius.engine.impl.persistence.entity.CommentEntityManager;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SaveCommentCmd implements Command<Void>, Serializable {
 

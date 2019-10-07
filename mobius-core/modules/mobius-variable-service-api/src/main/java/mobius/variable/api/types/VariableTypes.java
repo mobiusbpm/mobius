@@ -19,7 +19,7 @@ import mobius.common.engine.api.FlowableException;
  * Interface describing a container for all available {@link VariableType}s of variables.
  * 
  * @author dsyer
- * @author Frederik Heremans
+ *
  */
 public interface VariableTypes {
 

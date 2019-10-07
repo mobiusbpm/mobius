@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.InclusiveGateway;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class InclusiveGatewayXMLConverter extends BaseBpmnXMLConverter {
 

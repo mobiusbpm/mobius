@@ -21,7 +21,7 @@ import mobius.dmn.engine.DmnEngine;
  * A Helper for the Flowable {@link FlowableDmnExtension} that can be used within the JUnit Jupiter context store
  * and users can use it in the tests for easy modifying of the {@link DmnEngine} time.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableDmnTestHelper {
 

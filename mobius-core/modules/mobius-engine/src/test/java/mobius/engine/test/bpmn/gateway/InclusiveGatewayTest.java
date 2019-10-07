@@ -44,7 +44,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  *
  * @author Tom Van Buskirk
- * @author Tijs Rademakers
+ *
  * @author Saeid Mirzaei
  */
 public class InclusiveGatewayTest extends PluggableFlowableTestCase {

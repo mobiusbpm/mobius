@@ -28,7 +28,7 @@ import mobius.form.engine.impl.persistence.entity.FormResourceEntityManager;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FormDeploymentBuilderImpl implements FormDeploymentBuilder, Serializable {
 

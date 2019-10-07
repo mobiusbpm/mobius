@@ -16,7 +16,7 @@ import mobius.dmn.engine.impl.test.ResourceFlowableDmnTestCase;
 import mobius.dmn.engine.test.DmnDeployment;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoryNoneTest extends ResourceFlowableDmnTestCase {
     

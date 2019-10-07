@@ -23,7 +23,7 @@ import mobius.cmmn.model.HumanTask;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GenericEventListenerCmmnXmlConverterTest extends AbstractConverterTest {
 

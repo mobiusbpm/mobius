@@ -61,7 +61,7 @@ import mobius.engine.impl.webservice.WSService;
  * 
  * @author Esteban Robles Luna
  *
- * @author Tijs Rademakers
+ *
  */
 public class WebServiceActivityBehavior extends AbstractBpmnActivityBehavior {
 

@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.identitylink.api.IdentityLink;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetIdentityLinksForCaseInstanceCmd implements Command<List<IdentityLink>>, Serializable {
 

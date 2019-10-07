@@ -18,7 +18,7 @@ import java.util.List;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ExecutionChangeActivityStateRequest {
 

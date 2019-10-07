@@ -19,7 +19,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.TimerEventDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TimeDateParser extends BaseChildElementParser {
 

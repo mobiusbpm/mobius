@@ -23,7 +23,7 @@ import java.util.Map;
 import mobius.form.engine.FormEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class FormDeploymentEntityImpl extends AbstractFormEngineNoRevisionEntity implements FormDeploymentEntity, Serializable {

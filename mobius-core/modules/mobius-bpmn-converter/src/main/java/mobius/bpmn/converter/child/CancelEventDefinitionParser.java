@@ -21,7 +21,7 @@ import mobius.bpmn.model.CancelEventDefinition;
 import mobius.bpmn.model.Event;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CancelEventDefinitionParser extends BaseChildElementParser {
 

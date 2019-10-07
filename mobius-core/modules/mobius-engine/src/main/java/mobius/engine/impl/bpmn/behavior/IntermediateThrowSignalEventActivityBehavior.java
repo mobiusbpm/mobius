@@ -37,7 +37,7 @@ import mobius.eventsubscription.service.EventSubscriptionService;
 import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubscriptionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class IntermediateThrowSignalEventActivityBehavior extends AbstractBpmnActivityBehavior {
 

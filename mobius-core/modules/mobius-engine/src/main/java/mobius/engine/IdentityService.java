@@ -178,14 +178,4 @@ public interface IdentityService {
      */
     void deleteUserInfo(String userId, String key);
 
-    /**
-     * Creates a new user. The user is transient and must be saved using {@link #saveUser(User)}.
-     *
-     * @param loginName user login name
-     * @param email     email
-     *                  <p>
-     *                  The two parameters cannot be null at the same time
-     */
-    User newUser(String loginName, String email);
-
 }

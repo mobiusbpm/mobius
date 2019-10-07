@@ -31,7 +31,7 @@ import mobius.job.service.impl.cmd.AcquireTimerJobsCmd;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Frederik Heremans
+ *
  * @author Falko Menge
  * @author Saeid Mizaei
  *

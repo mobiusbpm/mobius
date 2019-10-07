@@ -21,7 +21,7 @@ import mobius.spring.SpringExpressionManager;
 import mobius.spring.SpringProcessEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class SpringProcessEngineConfigurator extends ProcessEngineConfigurator {

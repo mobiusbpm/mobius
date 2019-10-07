@@ -29,7 +29,7 @@ import mobius.form.model.SimpleFormModel;
 import org.joda.time.LocalDate;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetVariablesFromFormSubmissionCmd implements Command<Map<String, Object>>, Serializable {
 

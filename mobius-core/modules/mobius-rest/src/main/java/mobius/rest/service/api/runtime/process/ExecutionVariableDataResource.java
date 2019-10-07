@@ -38,7 +38,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Executions" }, description = "Manage Executions", authorizations = { @Authorization(value = "basicAuth") })

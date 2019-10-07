@@ -31,7 +31,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Case Instances" }, description = "Manage Case Instances", authorizations = { @Authorization(value = "basicAuth") })

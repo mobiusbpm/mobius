@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * Properties for configuring the form engine.
  *
- * @author Filip Hrisafov
+ *
  * @author Javier Casal
  */
 @ConfigurationProperties(prefix = "flowable.form")

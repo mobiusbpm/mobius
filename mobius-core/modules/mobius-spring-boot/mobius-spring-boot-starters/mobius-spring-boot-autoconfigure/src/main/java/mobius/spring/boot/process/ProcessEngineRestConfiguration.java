@@ -23,7 +23,7 @@ import org.springframework.context.annotation.Import;
 /**
  * Component scan for the Process engine REST API Configuration.
  *
- * @author Filip Hrisafov
+ *
  */
 @Import(DispatcherServletConfiguration.class)
 @ComponentScan("mobius.rest.rest.service.api")

@@ -22,7 +22,7 @@ import mobius.dmn.rest.service.api.BaseSpringDmnRestTestCase;
 import mobius.dmn.rest.service.api.DmnRestUrls;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricDecisionExecutionCollectionResourceTest extends BaseSpringDmnRestTestCase {
 

@@ -46,7 +46,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Process Instances" }, description = "Manage Process Instances", authorizations = { @Authorization(value = "basicAuth") })

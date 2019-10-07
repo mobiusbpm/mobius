@@ -21,7 +21,7 @@ import mobius.identitylink.api.IdentityLinkType;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DeleteIdentityLinkCmd extends NeedsActiveTaskCmd<Void> {
 

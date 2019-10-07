@@ -17,7 +17,7 @@ import mobius.dmn.api.DmnDecisionTable;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface DecisionTableEntity extends DmnDecisionTable, Entity {
 

@@ -26,7 +26,7 @@ import mobius.idm.api.TokenQueryProperty;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TokenQueryImpl extends AbstractQuery<TokenQuery, Token> implements TokenQuery {
 

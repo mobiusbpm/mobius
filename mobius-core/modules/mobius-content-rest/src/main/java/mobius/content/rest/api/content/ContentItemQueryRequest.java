@@ -19,7 +19,7 @@ import java.util.Set;
 import mobius.common.rest.api.PaginateRequest;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ContentItemQueryRequest extends PaginateRequest {
 

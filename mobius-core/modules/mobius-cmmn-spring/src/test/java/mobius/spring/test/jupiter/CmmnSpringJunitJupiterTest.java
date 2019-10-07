@@ -44,7 +44,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @ExtendWith(FlowableCmmnSpringExtension.class)
 @ExtendWith(SpringExtension.class)

@@ -21,7 +21,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.repository.Model;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CreateModelCmd implements Command<Model>, Serializable {
 

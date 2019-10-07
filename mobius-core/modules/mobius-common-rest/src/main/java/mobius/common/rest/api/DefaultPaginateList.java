@@ -16,7 +16,7 @@ package mobius.common.rest.api;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  * @deprecated use {@link PaginateListUtil} and the appropriate {@link ListProcessor} instead
  */
 @Deprecated

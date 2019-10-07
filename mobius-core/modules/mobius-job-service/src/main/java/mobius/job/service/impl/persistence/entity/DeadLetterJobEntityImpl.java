@@ -15,7 +15,7 @@ package mobius.job.service.impl.persistence.entity;
 /**
  * DeadLetterJob entity, necessary for persistence.
  *
- * @author Tijs Rademakers
+ *
  */
 public class DeadLetterJobEntityImpl extends AbstractJobEntityImpl implements DeadLetterJobEntity {
 

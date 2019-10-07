@@ -24,7 +24,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.GraphicInfo;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BpmnEdgeParser implements BpmnXMLConstants {
 

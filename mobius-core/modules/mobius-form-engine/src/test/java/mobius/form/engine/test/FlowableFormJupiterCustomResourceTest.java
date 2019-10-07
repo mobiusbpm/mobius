@@ -21,7 +21,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @ExtendWith(FlowableFormExtension.class)
 @FormConfigurationResource("flowable.custom.form.cfg.xml")

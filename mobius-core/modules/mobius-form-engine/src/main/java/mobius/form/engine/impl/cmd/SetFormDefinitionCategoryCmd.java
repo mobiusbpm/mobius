@@ -22,7 +22,7 @@ import mobius.form.engine.impl.persistence.entity.FormDefinitionEntity;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class SetFormDefinitionCategoryCmd implements Command<Void> {

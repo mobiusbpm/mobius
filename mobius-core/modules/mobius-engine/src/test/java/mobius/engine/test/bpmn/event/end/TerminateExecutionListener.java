@@ -16,7 +16,7 @@ import mobius.engine.delegate.DelegateExecution;
 import mobius.engine.delegate.ExecutionListener;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TerminateExecutionListener implements ExecutionListener {
 

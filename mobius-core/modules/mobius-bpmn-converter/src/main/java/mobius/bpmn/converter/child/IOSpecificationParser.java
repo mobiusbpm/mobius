@@ -24,7 +24,7 @@ import mobius.bpmn.model.IOSpecification;
 import mobius.bpmn.model.Process;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class IOSpecificationParser extends BaseChildElementParser {
 

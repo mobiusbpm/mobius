@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * Storage for reading and writing content.
  * 
- * @author Frederik Heremans
+ *
  *
  */
 public interface ContentStorage {

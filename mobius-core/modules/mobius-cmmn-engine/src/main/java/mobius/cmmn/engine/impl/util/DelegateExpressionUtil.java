@@ -23,7 +23,7 @@ import mobius.common.engine.impl.util.ReflectUtil;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class DelegateExpressionUtil {
 

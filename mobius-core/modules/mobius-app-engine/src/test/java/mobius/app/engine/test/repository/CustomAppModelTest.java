@@ -24,7 +24,7 @@ import mobius.app.api.repository.AppResourceConverter;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CustomAppModelTest extends FlowableAppTestCase {
     

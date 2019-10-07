@@ -20,7 +20,7 @@ import mobius.content.api.ContentItem;
 import mobius.content.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CreateContentItemCmd implements Command<ContentItem>, Serializable {
 

@@ -17,7 +17,7 @@ package mobius.form.api;
  * 
  * At deploy time, the engine will then parse the form definition files to an form instance of this class.
  * 
- * @author Tijs Rademakers
+ *
  * @author Joram Barez
  */
 public interface FormDefinition {

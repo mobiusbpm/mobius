@@ -22,7 +22,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class IdentityLinkServiceImpl extends CommonServiceImpl<IdentityLinkServiceConfiguration> implements IdentityLinkService {
 

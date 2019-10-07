@@ -30,7 +30,7 @@ import mobius.task.service.impl.FlowableTaskEventBuilder;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SaveTaskCmd implements Command<Void>, Serializable {
 

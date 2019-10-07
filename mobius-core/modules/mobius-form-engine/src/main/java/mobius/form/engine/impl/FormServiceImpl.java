@@ -34,7 +34,7 @@ import mobius.form.engine.impl.cmd.GetVariablesFromFormSubmissionCmd;
 import mobius.form.engine.impl.cmd.SaveFormInstanceCmd;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FormServiceImpl extends CommonEngineServiceImpl<FormEngineConfiguration> implements FormService {
 

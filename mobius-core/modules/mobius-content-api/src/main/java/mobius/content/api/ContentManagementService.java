@@ -23,7 +23,7 @@ import mobius.common.engine.api.management.TablePageQuery;
  * 
  * These operations will typically not be used in a workflow driven application, but are used in for example the operational console.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface ContentManagementService {
 

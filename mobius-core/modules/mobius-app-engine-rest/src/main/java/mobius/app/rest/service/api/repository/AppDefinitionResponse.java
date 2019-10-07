@@ -16,7 +16,7 @@ import io.swagger.annotations.ApiModelProperty;
 import mobius.app.api.repository.AppDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppDefinitionResponse {
 

@@ -20,7 +20,7 @@ import mobius.job.service.impl.JobQueryImpl;
 import mobius.job.service.impl.SuspendedJobQueryImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface SuspendedJobEntityManager extends EntityManager<SuspendedJobEntity> {
 

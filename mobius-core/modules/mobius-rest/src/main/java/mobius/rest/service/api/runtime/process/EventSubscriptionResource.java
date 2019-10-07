@@ -33,7 +33,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Event subscriptions" }, description = "Manage event subscriptions", authorizations = { @Authorization(value = "basicAuth") })

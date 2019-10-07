@@ -24,7 +24,7 @@ import mobius.cmmn.model.Stage;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SimpleDiCmmnXmlConverterTest extends AbstractConverterTest {
     

@@ -17,7 +17,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 import mobius.engine.form.AbstractFormType;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class BooleanFormType extends AbstractFormType {
 

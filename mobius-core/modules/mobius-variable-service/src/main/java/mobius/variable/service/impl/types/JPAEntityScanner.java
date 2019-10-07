@@ -24,7 +24,7 @@ import mobius.common.engine.api.FlowableException;
 /**
  * Scans class and creates {@link EntityMetaData} based on it.
  * 
- * @author Frederik Heremans
+ *
  */
 public class JPAEntityScanner {
 

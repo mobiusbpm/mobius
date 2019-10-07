@@ -35,7 +35,7 @@ import mobius.dmn.api.DmnDeployment;
 import mobius.dmn.api.DmnRepositoryService;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetDecisionTablesForCaseDefinitionCmd implements Command<List<DmnDecisionTable>>, Serializable {
 

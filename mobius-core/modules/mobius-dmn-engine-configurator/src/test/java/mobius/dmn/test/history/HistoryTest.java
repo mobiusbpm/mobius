@@ -33,7 +33,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoryTest extends AbstractFlowableDmnEngineConfiguratorTest {
 

@@ -23,7 +23,7 @@ import mobius.common.engine.impl.el.VariableContainerWrapper;
  * Resolves an boolean EL expression at runtime.
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 public class RuleExpressionCondition {
 

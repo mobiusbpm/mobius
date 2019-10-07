@@ -54,7 +54,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubsc
 import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class ProcessInstanceHelper {

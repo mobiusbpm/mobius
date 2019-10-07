@@ -19,7 +19,7 @@ import mobius.bpmn.model.EscalationEventDefinition;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EscalationEventDefinitionParseHandler extends AbstractBpmnParseHandler<EscalationEventDefinition> {
 

@@ -22,7 +22,7 @@ import mobius.bpmn.model.ServiceTask;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class DecisionTaskJsonConverter extends BaseBpmnJsonConverter implements DecisionTableAwareConverter {

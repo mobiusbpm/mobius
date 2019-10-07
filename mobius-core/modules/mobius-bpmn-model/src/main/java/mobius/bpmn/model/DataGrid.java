@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DataGrid implements ComplexDataType {
 

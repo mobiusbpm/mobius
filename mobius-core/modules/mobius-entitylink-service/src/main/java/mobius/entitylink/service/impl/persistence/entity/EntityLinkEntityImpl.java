@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkEntityImpl extends AbstractEntityLinkServiceNoRevisionEntity implements EntityLinkEntity, Serializable {
 

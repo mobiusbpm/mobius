@@ -29,7 +29,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Modified to add a "returnVariables" flag, which determines whether the variables that exist within the process instance when the first wait state is encountered (or when the case instance
  * completes) should be returned or not.
  * 
- * @author Tijs Rademakers
+ *
  */
 @ApiModel(description = "Only one of caseDefinitionId or caseDefinitionKey can be used in the request body")
 public class CaseInstanceCreateRequest {

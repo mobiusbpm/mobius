@@ -17,7 +17,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @ConfigurationProperties(prefix = "flowable.process")
 public class FlowableProcessProperties {

@@ -33,7 +33,7 @@ import mobius.cmmn.model.Task;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class JavaTaskCmmnXmlConverterTest extends AbstractConverterTest {
     

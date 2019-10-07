@@ -20,7 +20,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.Signal;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SignalParser implements BpmnXMLConstants {
 

@@ -22,7 +22,7 @@ import mobius.form.engine.impl.util.CommandContextUtil;
  * </p>
  * 
  * @author Marcus Klimstra (CGI)
- * @author Tijs Rademakers
+ *
  */
 public class ResourceRef implements Serializable {
 

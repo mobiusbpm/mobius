@@ -17,7 +17,7 @@ import mobius.common.engine.api.FlowableException;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class BaseModelSourceResource extends BaseModelResource {
 

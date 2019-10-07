@@ -55,7 +55,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration} for the CMMN engine
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnCmmnEngine

@@ -30,7 +30,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
  * Additionally the property {@code flowable.content.enabled} is checked, if it is {@code true} or missing
  * the content engine would be enabled.
  *
- * @author Filip Hrisafov
+ *
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE, ElementType.METHOD })

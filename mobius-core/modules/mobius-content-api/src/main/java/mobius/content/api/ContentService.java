@@ -15,7 +15,7 @@ package mobius.content.api;
 import java.io.InputStream;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface ContentService {
 

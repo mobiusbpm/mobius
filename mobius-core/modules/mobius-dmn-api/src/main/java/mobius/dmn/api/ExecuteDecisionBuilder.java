@@ -23,7 +23,7 @@ import java.util.Map;
  * decisionKey should be set before calling {@link #execute()} to execute a decision.
  * 
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface ExecuteDecisionBuilder {
 

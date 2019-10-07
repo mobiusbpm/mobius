@@ -20,7 +20,7 @@ import java.util.Set;
 /**
  * Allows programmatic querying of {@link DmnHistoricDecisionExecution}s.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface DmnHistoricDecisionExecutionQuery extends Query<DmnHistoricDecisionExecutionQuery, DmnHistoricDecisionExecution> {
 

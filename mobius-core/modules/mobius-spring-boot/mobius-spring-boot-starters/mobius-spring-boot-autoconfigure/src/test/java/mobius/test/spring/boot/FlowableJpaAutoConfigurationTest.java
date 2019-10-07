@@ -28,7 +28,7 @@ import org.springframework.boot.test.context.FilteredClassLoader;
 import org.springframework.boot.test.context.runner.ApplicationContextRunner;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class FlowableJpaAutoConfigurationTest {
 

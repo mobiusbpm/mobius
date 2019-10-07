@@ -31,7 +31,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test for event-listeners that are registered on a process-definition scope, rather than on the global engine-wide scope, declared in the BPMN XML.
  * 
- * @author Frederik Heremans
+ *
  */
 public class ProcessDefinitionScopedEventListenerDefinitionTest extends ResourceFlowableTestCase {
 

@@ -24,7 +24,7 @@ import mobius.task.api.Task;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class HasTaskVariableCmd implements Command<Boolean>, Serializable {
 

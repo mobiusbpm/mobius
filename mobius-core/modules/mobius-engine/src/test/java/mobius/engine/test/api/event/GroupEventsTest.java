@@ -26,7 +26,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to groups.
  * 
- * @author Frederik Heremans
+ *
  */
 public class GroupEventsTest extends PluggableFlowableTestCase {
 

@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DmnDeployer implements EngineDeployer {
 

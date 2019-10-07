@@ -17,7 +17,7 @@ import mobius.engine.delegate.DelegateExecution;
 import mobius.engine.delegate.JavaDelegate;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ToUpperCaseSetterInjected implements JavaDelegate {
 

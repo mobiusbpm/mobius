@@ -24,7 +24,7 @@ import mobius.bpmn.converter.XMLStreamReaderUtil;
 import mobius.bpmn.model.Process;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class PotentialStarterParser implements BpmnXMLConstants {
 

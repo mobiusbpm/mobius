@@ -17,7 +17,7 @@ import java.security.Principal;
 /**
  * Flowable Authentication context that can be implemented in different ways to hold and store the current authentication information.
  *
- * @author Filip Hrisafov
+ *
  */
 public interface AuthenticationContext {
 

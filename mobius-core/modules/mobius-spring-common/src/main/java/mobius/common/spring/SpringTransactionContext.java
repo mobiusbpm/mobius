@@ -23,7 +23,7 @@ import org.springframework.transaction.support.TransactionSynchronization;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 /**
- * @author Frederik Heremans
+ *
  *
  */
 public class SpringTransactionContext implements TransactionContext {

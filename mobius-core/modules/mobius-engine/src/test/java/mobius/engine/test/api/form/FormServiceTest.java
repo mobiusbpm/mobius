@@ -38,7 +38,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  *
- * @author Frederik Heremans
+ *
  *
  * @author Falko Menge (camunda)
  */

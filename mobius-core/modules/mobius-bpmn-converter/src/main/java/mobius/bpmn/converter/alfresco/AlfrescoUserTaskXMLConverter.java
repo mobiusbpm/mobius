@@ -17,7 +17,7 @@ import mobius.bpmn.model.BaseElement;
 import mobius.bpmn.model.alfresco.AlfrescoUserTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AlfrescoUserTaskXMLConverter extends UserTaskXMLConverter {
 

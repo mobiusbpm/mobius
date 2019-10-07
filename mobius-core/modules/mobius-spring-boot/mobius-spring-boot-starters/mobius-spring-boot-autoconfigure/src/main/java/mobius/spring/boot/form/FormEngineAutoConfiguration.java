@@ -44,7 +44,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 /**
  * Auto configuration for the form engine.
  *
- * @author Filip Hrisafov
+ *
  * @author Javier Casal
  */
 @Configuration

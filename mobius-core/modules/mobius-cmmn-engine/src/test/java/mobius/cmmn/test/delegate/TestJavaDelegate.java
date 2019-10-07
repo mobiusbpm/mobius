@@ -16,7 +16,7 @@ import mobius.cmmn.api.delegate.DelegatePlanItemInstance;
 import mobius.cmmn.api.delegate.PlanItemJavaDelegate;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TestJavaDelegate implements PlanItemJavaDelegate {
 

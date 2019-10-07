@@ -25,7 +25,7 @@ import mobius.variable.service.impl.persistence.entity.VariableByteArrayEntityIm
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntityImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityDependencyOrder {
 

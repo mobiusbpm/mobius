@@ -21,7 +21,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 /**
  * Enumeration containing all possible types of {@link FlowableEvent}s.
  * 
- * @author Frederik Heremans
+ *
  * 
  */
 public enum FlowableEngineEventType implements FlowableEventType {

@@ -13,7 +13,7 @@
 package mobius.editor.constants;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface EditorJsonConstants {
 

@@ -38,7 +38,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Task Comments" }, description = "Manage Tasks Comments", authorizations = { @Authorization(value = "basicAuth") })

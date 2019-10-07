@@ -17,7 +17,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.runtime.ChangeActivityStateBuilderImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface DynamicStateManager {
 

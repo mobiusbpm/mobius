@@ -20,7 +20,7 @@ import mobius.cmmn.model.GenericEventListener;
 import mobius.cmmn.model.SignalEventListener;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GenericEventListenerXmlConverter extends PlanItemDefinitionXmlConverter {
 

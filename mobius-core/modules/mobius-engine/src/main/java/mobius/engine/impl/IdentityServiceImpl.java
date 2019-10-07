@@ -156,8 +156,4 @@ public class IdentityServiceImpl extends CommonEngineServiceImpl<ProcessEngineCo
         return idmIdentityService;
     }
 
-    @Override
-    public User newUser(String loginName, String email) {
-        return getIdmIdentityService().newUser(loginName, email);
-    }
 }

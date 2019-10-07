@@ -21,7 +21,7 @@ import mobius.common.engine.api.query.QueryProperty;
 /**
  * Contains the possible properties that can be used in a {@link ContentInstanceQuery}.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class ContentItemQueryProperty implements QueryProperty {
 

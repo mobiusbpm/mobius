@@ -30,7 +30,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 import mobius.engine.runtime.Execution;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AddMultiInstanceExecutionCmd implements Command<Execution>, Serializable {
 

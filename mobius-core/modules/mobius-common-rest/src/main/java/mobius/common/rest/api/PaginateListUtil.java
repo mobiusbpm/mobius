@@ -22,7 +22,7 @@ import mobius.common.engine.api.query.QueryProperty;
 /**
  * A util class that can be used to perform easy pagination (with defaults provided by Flowable).
  *
- * @author Filip Hrisafov
+ *
  */
 public interface PaginateListUtil {
 

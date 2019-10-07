@@ -49,7 +49,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Task Variables" }, description = "Manage Tasks variables", authorizations = { @Authorization(value = "basicAuth") })

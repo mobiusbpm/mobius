@@ -24,7 +24,7 @@ import mobius.job.api.Job;
 /**
  * Builder class used to create {@link FlowableEvent} implementations.
  *
- * @author Frederik Heremans
+ *
  */
 public class FlowableJobEventBuilder {
 

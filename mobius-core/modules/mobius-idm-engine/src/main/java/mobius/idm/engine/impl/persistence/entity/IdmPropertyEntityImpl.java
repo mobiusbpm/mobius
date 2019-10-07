@@ -17,7 +17,7 @@ import java.io.Serializable;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class IdmPropertyEntityImpl extends AbstractIdmEngineEntity implements IdmPropertyEntity, Serializable {

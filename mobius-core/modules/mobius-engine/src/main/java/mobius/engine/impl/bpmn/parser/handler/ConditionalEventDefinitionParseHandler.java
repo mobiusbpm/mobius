@@ -19,7 +19,7 @@ import mobius.bpmn.model.IntermediateCatchEvent;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ConditionalEventDefinitionParseHandler extends AbstractBpmnParseHandler<ConditionalEventDefinition> {
 

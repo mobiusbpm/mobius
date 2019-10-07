@@ -21,7 +21,7 @@ import mobius.idm.api.TokenQuery;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CreateTokenQueryCmd implements Command<TokenQuery>, Serializable {
 

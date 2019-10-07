@@ -20,7 +20,7 @@ import mobius.engine.test.FlowableTest;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @FlowableTest
 @ConfigurationResource("flowable.custom-jupiter.cfg.xml")

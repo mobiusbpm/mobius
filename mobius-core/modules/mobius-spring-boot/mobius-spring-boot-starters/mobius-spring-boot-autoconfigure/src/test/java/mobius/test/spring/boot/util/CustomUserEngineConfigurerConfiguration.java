@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 public class CustomUserEngineConfigurerConfiguration {

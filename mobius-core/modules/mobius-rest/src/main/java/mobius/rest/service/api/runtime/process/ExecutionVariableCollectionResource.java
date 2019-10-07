@@ -37,7 +37,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Executions" }, description = "Manage Executions", authorizations = { @Authorization(value = "basicAuth") })

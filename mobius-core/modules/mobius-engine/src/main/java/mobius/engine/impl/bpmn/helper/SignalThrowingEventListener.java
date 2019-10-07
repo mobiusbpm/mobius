@@ -29,7 +29,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubsc
 /**
  * An {@link FlowableEventListener} that throws a signal event when an event is dispatched to it.
  * 
- * @author Frederik Heremans
+ *
  * 
  */
 public class SignalThrowingEventListener extends BaseDelegateEventListener {

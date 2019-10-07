@@ -20,7 +20,7 @@ import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class DecisionTableEntityImpl extends AbstractDmnEngineNoRevisionEntity implements DecisionTableEntity, Serializable {
 

@@ -19,7 +19,7 @@ import mobius.dmn.engine.test.DmnDeployment;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoryTest extends PluggableFlowableDmnTestCase {
 

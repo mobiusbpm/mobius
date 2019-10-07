@@ -21,7 +21,7 @@ import mobius.common.engine.impl.cfg.IdGenerator;
 /**
  * {@link IdGenerator} implementation based on the current time and the ethernet address of the machine it is running on.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public class StrongUuidGenerator implements IdGenerator {

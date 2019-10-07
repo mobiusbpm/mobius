@@ -16,7 +16,7 @@ package mobius.app.rest.service.api.repository;
 import mobius.app.rest.RestActionRequest;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AppDefinitionActionRequest extends RestActionRequest {
 

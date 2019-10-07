@@ -49,7 +49,7 @@ import org.slf4j.LoggerFactory;
  * </li>
  * </ul>
  *
- * @author Filip Hrisafov
+ *
  */
 public abstract class InternalFlowableIdmExtension implements AfterEachCallback, BeforeEachCallback, AfterAllCallback, ParameterResolver {
 

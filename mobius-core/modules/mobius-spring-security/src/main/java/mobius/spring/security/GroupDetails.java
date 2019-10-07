@@ -20,7 +20,7 @@ import mobius.idm.api.*;
 
 /**
  * An immutable serializable implementation of {@link Group}
- * @author Filip Hrisafov
+ *
  */
 public class GroupDetails implements Group, Serializable {
 

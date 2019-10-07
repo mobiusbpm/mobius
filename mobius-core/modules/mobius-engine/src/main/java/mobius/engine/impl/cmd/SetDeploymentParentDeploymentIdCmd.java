@@ -22,7 +22,7 @@ import mobius.engine.impl.persistence.entity.DeploymentEntity;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SetDeploymentParentDeploymentIdCmd implements Command<Void>, Serializable {
 

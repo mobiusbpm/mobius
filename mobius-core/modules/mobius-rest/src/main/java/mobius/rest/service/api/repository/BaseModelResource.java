@@ -22,7 +22,7 @@ import mobius.rest.service.api.RestResponseFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class BaseModelResource {
 

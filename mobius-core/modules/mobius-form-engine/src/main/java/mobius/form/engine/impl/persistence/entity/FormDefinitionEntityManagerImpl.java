@@ -23,7 +23,7 @@ import mobius.form.engine.impl.FormDefinitionQueryImpl;
 import mobius.form.engine.impl.persistence.entity.data.FormDefinitionDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class FormDefinitionEntityManagerImpl extends AbstractEntityManager<FormDefinitionEntity> implements FormDefinitionEntityManager {

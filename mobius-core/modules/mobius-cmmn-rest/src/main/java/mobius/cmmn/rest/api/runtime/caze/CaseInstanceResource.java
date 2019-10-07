@@ -50,7 +50,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 @RestController

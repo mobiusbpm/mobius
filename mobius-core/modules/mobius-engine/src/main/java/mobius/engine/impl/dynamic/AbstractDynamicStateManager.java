@@ -90,7 +90,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Dennis Federico
  */
 public abstract class AbstractDynamicStateManager {

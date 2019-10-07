@@ -13,7 +13,7 @@
 package mobius.idm.engine.impl.cfg;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneInMemIdmEngineConfiguration extends StandaloneIdmEngineConfiguration {
 

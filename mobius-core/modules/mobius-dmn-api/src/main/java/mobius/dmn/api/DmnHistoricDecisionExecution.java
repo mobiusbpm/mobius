@@ -17,7 +17,7 @@ import java.util.Date;
 /**
  * An object structure representing the execution of a decision
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface DmnHistoricDecisionExecution {
 

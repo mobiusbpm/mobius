@@ -37,7 +37,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import mobius.variable.api.history.HistoricVariableInstance;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetTaskFormModelCmd implements Command<FormInfo>, Serializable {
 

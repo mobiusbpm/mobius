@@ -17,7 +17,7 @@ import mobius.common.engine.api.query.NativeQuery;
 /**
  * Allows querying of {@link Token}s via native (SQL) queries
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface NativeTokenQuery extends NativeQuery<NativeTokenQuery, Token> {
 

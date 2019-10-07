@@ -19,7 +19,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ConditionalEventDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ConditionParser extends BaseChildElementParser {
 

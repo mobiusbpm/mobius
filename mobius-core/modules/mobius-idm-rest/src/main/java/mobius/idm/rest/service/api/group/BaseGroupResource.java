@@ -21,7 +21,7 @@ import mobius.idm.rest.service.api.IdmRestResponseFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Frederik Heremans
+ *
  *
  */
 public class BaseGroupResource {

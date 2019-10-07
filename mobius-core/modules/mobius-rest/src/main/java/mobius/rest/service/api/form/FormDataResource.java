@@ -43,7 +43,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Forms" }, description = "Manage Forms", authorizations = { @Authorization(value = "basicAuth") })

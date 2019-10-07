@@ -28,7 +28,7 @@ import mobius.variable.service.impl.AbstractVariableQueryImpl;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class CaseInstanceQueryImpl extends AbstractVariableQueryImpl<CaseInstanceQuery, CaseInstance> implements CaseInstanceQuery {
 

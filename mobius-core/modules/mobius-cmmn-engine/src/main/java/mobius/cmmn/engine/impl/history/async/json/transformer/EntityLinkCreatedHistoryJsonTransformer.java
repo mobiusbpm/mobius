@@ -28,7 +28,7 @@ import mobius.job.service.impl.persistence.entity.HistoryJobEntity;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkCreatedHistoryJsonTransformer extends AbstractHistoryJsonTransformer {
 

@@ -15,7 +15,7 @@ package mobius.form.model;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class OptionFormField extends FormField {
 

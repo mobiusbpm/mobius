@@ -25,7 +25,7 @@ import mobius.content.engine.impl.persistence.entity.data.AbstractContentDataMan
 import mobius.content.engine.impl.persistence.entity.data.ContentItemDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisContentItemDataManager extends AbstractContentDataManager<ContentItemEntity> implements ContentItemDataManager {
 

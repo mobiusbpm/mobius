@@ -20,7 +20,7 @@ import mobius.dmn.api.DmnDeployment;
 import mobius.dmn.engine.impl.DmnDeploymentQueryImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface DmnDeploymentEntityManager extends EntityManager<DmnDeploymentEntity> {
 

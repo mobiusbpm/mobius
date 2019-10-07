@@ -20,7 +20,7 @@ import mobius.common.engine.api.delegate.event.FlowableEventType;
 /**
  * Enumeration containing all possible types of {@link FlowableIdmEvent}s.
  * 
- * @author Frederik Heremans
+ *
  * 
  */
 public enum FlowableIdmEventType implements FlowableEventType {

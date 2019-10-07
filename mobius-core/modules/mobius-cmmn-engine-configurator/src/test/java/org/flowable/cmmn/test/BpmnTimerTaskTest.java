@@ -29,7 +29,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BpmnTimerTaskTest extends mobius.cmmn.test.AbstractProcessEngineIntegrationTest {
     

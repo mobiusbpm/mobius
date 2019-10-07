@@ -28,7 +28,7 @@ import java.util.Map.Entry;
  * 
  * Using {@link MultipartEntityBuilder} to do the heavy lifting.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class HttpMultipartHelper {
 

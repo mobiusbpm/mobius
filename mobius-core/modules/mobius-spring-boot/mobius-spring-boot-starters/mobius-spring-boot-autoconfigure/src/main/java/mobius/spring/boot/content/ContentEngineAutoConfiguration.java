@@ -41,7 +41,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration Auto-Configuration} for the Content Engine
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnContentEngine

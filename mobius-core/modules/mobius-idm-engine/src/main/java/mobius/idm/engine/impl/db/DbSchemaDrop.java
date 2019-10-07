@@ -22,7 +22,7 @@ import mobius.idm.engine.IdmEngines;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DbSchemaDrop {
 

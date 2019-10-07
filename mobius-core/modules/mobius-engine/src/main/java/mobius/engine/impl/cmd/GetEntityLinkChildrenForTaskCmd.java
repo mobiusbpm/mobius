@@ -24,7 +24,7 @@ import mobius.entitylink.api.EntityLinkType;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetEntityLinkChildrenForTaskCmd implements Command<List<EntityLink>>, Serializable {
 

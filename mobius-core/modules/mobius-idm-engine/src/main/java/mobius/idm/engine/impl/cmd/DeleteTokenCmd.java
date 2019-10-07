@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DeleteTokenCmd implements Command<Void>, Serializable {
 

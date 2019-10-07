@@ -27,7 +27,7 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.Authorization;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Cmmn Engine" }, description = "Manage Cmmn Engine", authorizations = { @Authorization(value = "basicAuth") })

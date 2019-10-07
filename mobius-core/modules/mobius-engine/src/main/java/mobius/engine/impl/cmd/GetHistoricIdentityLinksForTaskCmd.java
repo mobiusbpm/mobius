@@ -28,7 +28,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import mobius.task.service.impl.persistence.entity.HistoricTaskInstanceEntity;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class GetHistoricIdentityLinksForTaskCmd implements Command<List<HistoricIdentityLink>>, Serializable {
 

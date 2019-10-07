@@ -47,7 +47,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class MultiInstanceTest extends PluggableFlowableTestCase {
 

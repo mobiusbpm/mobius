@@ -25,7 +25,7 @@ import org.junit.jupiter.api.Test;
 /**
  *
  * @author Falko Menge <falko.menge@camunda.com>
- * @author Frederik Heremans
+ *
  */
 public class CustomTaskAssignmentTest extends PluggableFlowableTestCase {
 

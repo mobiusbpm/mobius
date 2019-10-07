@@ -21,7 +21,7 @@ import mobius.bpmn.model.FlowElement;
 import mobius.bpmn.model.Process;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DocumentationParser extends BaseChildElementParser {
 

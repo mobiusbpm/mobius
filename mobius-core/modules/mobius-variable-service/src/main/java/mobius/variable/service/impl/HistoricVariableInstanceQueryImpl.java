@@ -31,7 +31,7 @@ import mobius.variable.service.impl.util.CommandContextUtil;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class HistoricVariableInstanceQueryImpl extends AbstractQuery<HistoricVariableInstanceQuery, HistoricVariableInstance> implements HistoricVariableInstanceQuery {
 

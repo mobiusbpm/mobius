@@ -24,7 +24,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.Process;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ProcessParser implements BpmnXMLConstants {
 

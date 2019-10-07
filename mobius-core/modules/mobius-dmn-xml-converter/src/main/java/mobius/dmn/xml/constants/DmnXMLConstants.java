@@ -13,7 +13,7 @@
 package mobius.dmn.xml.constants;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface DmnXMLConstants {
 

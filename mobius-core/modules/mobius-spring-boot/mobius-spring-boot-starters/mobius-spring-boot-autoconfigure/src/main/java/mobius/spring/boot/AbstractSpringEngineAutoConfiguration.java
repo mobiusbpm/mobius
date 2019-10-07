@@ -19,7 +19,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 /**
  * Base auto configuration for the different engines.
  *
- * @author Filip Hrisafov
+ *
  * @author Javier Casal
  */
 public abstract class AbstractSpringEngineAutoConfiguration extends AbstractEngineAutoConfiguration {

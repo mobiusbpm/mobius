@@ -26,7 +26,7 @@ import mobius.entitylink.service.impl.persistence.entity.data.impl.cachematcher.
 import mobius.entitylink.service.impl.persistence.entity.data.impl.cachematcher.EntityLinksByScopeIdAndTypeMatcher;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisEntityLinkDataManager extends AbstractDataManager<EntityLinkEntity> implements EntityLinkDataManager {
 

@@ -20,7 +20,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class CompensateEventDefinitionParseHandler extends AbstractBpmnParseHandler<CompensateEventDefinition> {
 

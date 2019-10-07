@@ -19,7 +19,7 @@ import mobius.dmn.model.DmnElement;
 import mobius.dmn.model.OutputClause;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public class OutputClauseParser extends BaseChildElementParser {

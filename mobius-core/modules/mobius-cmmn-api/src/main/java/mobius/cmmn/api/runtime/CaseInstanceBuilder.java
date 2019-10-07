@@ -18,7 +18,7 @@ import java.util.Map;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface CaseInstanceBuilder {
 

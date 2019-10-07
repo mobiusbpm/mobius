@@ -31,7 +31,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author David Syer
  *
  */

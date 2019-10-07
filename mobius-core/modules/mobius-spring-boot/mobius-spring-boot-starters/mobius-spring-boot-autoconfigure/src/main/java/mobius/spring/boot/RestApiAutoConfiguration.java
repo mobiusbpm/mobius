@@ -64,7 +64,7 @@ import org.springframework.context.annotation.Configuration;
  *
  * @author Josh Long
  * @author Vedran Pavic
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnClass(ContentTypeResolver.class)

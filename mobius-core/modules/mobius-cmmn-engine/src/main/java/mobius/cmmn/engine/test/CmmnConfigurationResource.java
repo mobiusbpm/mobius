@@ -54,7 +54,7 @@ import java.lang.annotation.Target;
  *
  * <b>NB:</b> This only works for the tests with JUnit Jupiter.
  *
- * @author Filip Hrisafov
+ *
  */
 @Target({ ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)

@@ -20,7 +20,7 @@ import mobius.variable.service.impl.FlowableVariableEventBuilder;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CountingTaskUtil {
 

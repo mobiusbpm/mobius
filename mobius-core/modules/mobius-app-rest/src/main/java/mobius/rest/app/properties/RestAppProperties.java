@@ -18,7 +18,7 @@ import org.springframework.boot.context.properties.NestedConfigurationProperty;
 /**
  * Properties for the rest app.
  *
- * @author Filip Hrisafov
+ *
  */
 @ConfigurationProperties(prefix = "flowable.rest.app")
 public class RestAppProperties {

@@ -22,7 +22,7 @@ import mobius.bpmn.model.Event;
 import mobius.bpmn.model.TimerEventDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TimerEventDefinitionParser extends BaseChildElementParser {
 

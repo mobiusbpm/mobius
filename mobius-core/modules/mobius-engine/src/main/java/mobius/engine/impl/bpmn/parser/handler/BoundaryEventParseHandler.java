@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class BoundaryEventParseHandler extends AbstractFlowNodeBpmnParseHandler<BoundaryEvent> {
 

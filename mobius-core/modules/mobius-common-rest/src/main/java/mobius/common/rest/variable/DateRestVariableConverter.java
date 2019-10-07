@@ -21,7 +21,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 import com.fasterxml.jackson.databind.util.ISO8601DateFormat;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class DateRestVariableConverter implements RestVariableConverter {
 

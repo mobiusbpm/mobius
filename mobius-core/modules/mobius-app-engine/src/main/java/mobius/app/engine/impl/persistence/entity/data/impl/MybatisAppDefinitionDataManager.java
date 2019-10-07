@@ -26,7 +26,7 @@ import mobius.app.engine.AppEngineConfiguration;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisAppDefinitionDataManager extends AbstractAppDataManager<AppDefinitionEntity>
 		implements AppDefinitionDataManager {

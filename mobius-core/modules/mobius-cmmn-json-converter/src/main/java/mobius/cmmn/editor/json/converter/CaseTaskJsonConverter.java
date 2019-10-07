@@ -27,7 +27,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CaseTaskJsonConverter extends BaseChildTaskCmmnJsonConverter implements CaseModelAwareConverter {
     

@@ -36,7 +36,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration} for the Flowable LDAP Integration.
  *
- * @author Filip Hrisafov
+ *
  */
 @ConditionalOnLdap
 @AutoConfigureBefore({

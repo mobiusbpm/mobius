@@ -15,7 +15,7 @@ package mobius.form.engine.impl.cmd;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetFormInstanceByScopeModelCmd extends AbstractGetFormInstanceModelCmd {
 

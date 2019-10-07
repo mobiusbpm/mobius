@@ -22,7 +22,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 /**
  * Command that adds an event-listener to the process engine.
  * 
- * @author Frederik Heremans
+ *
  */
 public class AddEventListenerCommand implements Command<Void> {
 

@@ -21,7 +21,7 @@ import java.util.List;
  * Allows programmatic querying of {@link User}
  *
  *
- * @author Filip Hrisafov
+ *
  */
 public interface UserBaseQuery<T extends UserBaseQuery<T, U>, U extends User> extends Query<T, U> {
 
@@ -97,16 +97,6 @@ public interface UserBaseQuery<T extends UserBaseQuery<T, U>, U extends User> ex
     T userDisplayNameLikeIgnoreCase(String displayNameLikeIgnoreCase);
 
     /**
-     * Only those {@link User}s with the given email address.
-     */
-    T userEmail(String email);
-
-    /**
-     * Only select {@link User}s where the email matches the given parameter. The syntax is that of SQL, eg. %test%.
-     */
-    T userEmailLike(String emailLike);
-
-    /**
      * Only select {@link User}s that belong to the given group.
      */
     T memberOfGroup(String groupId);
@@ -139,11 +129,6 @@ public interface UserBaseQuery<T extends UserBaseQuery<T, U>, U extends User> ex
     T orderByUserLastName();
 
     /**
-     * Order by user email (needs to be followed by {@link #asc()} or {@link #desc()}).
-     */
-    T orderByUserEmail();
-
-    /**
      * Only select {@link User}s that belong to the given statusCodeId.
      */
     T statusCodeId(Integer statusCodeId);
@@ -151,11 +136,36 @@ public interface UserBaseQuery<T extends UserBaseQuery<T, U>, U extends User> ex
     /**
      * Only select {@link User}s with the given loginName/
      */
-    T userLoginName(String loginName);
+    T userLoginName(String userLoginName);
 
     /**
      * Only select {@link User}s where the login name matches the given parameter. The syntax is that of SQL, eg.
      * %loginName%.
      */
-    T userLoginNameLike(String loginNameLike);
+    T userLoginNameLike(String userLoginNameLike);
+
+    /**
+     * Order by user created time (needs to be followed by {@link #asc()} or {@link #desc()}).
+     */
+    T orderByUserCreatedTime();
+
+    /**
+     * Order by user last updated time (needs to be followed by {@link #asc()} or {@link #desc()}).
+     */
+    T orderByUserUpdatedTime();
+
+    /**
+     * Only those {@link User}s with the given email address.
+     */
+    T userEmail(String email);
+
+    /**
+     * Only select {@link User}s where the email matches the given parameter. The syntax is that of SQL, eg. %test%.
+     */
+    T userEmailLike(String emailLike);
+
+    /**
+     * Order by user email (needs to be followed by {@link #asc()} or {@link #desc()}).
+     */
+    T orderByUserEmail();
 }

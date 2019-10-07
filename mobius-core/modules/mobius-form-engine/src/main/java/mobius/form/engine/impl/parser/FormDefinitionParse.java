@@ -38,7 +38,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Specific parsing of one form json file.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public class FormDefinitionParse {

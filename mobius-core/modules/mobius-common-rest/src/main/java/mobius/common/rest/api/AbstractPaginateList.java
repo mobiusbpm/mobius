@@ -20,7 +20,7 @@ import mobius.common.engine.api.query.Query;
 import mobius.common.engine.api.query.QueryProperty;
 
 /**
- * @author Tijs Rademakers
+ *
  * @deprecated use {@link PaginateListUtil} and {@link ListProcessor} instead
  */
 @Deprecated

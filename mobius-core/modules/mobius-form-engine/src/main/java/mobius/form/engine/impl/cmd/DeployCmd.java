@@ -30,7 +30,7 @@ import mobius.form.engine.impl.repository.FormDeploymentBuilderImpl;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class DeployCmd<T> implements Command<FormDeployment>, Serializable {

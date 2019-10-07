@@ -15,7 +15,7 @@ package mobius.spring.boot;
 /**
  * Configuration properties for the Flowable REST Servlets.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableServlet {
 

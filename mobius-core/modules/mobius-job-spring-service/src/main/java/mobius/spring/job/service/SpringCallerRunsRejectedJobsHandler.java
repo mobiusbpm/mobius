@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 
- * @author Tijs Rademakers
+ *
  */
 public class SpringCallerRunsRejectedJobsHandler implements SpringRejectedJobsHandler {
 

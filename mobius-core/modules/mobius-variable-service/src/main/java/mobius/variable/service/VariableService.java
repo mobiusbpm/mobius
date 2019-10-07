@@ -22,7 +22,7 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 /**
  * Service which provides access to variables.
  *
- * @author Tijs Rademakers
+ *
  *
  */
 public interface VariableService {

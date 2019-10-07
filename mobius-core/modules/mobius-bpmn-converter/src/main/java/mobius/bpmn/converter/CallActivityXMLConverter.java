@@ -29,7 +29,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.CallActivity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CallActivityXMLConverter extends BaseBpmnXMLConverter {
 

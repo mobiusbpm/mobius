@@ -25,7 +25,7 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.engine.repository.Deployment;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SetDeploymentCategoryCmd implements Command<Void> {
 

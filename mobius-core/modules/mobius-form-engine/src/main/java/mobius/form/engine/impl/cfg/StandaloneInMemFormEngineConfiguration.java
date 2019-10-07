@@ -13,7 +13,7 @@
 package mobius.form.engine.impl.cfg;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StandaloneInMemFormEngineConfiguration extends StandaloneFormEngineConfiguration {
 

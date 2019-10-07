@@ -22,7 +22,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.task.Comment;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class GetCommentCmd implements Command<Comment>, Serializable {
 

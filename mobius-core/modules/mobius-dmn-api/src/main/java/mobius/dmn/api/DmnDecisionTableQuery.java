@@ -21,7 +21,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link DmnDecisionTable}s.
  *
- * @author Tijs Rademakers
+ *
  *
  */
 public interface DmnDecisionTableQuery extends Query<DmnDecisionTableQuery, DmnDecisionTable> {

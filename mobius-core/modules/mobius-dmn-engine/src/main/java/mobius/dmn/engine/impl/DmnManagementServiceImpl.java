@@ -26,7 +26,7 @@ import mobius.dmn.engine.impl.cmd.GetTableMetaDataCmd;
 import mobius.dmn.engine.impl.cmd.GetTableNameCmd;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DmnManagementServiceImpl extends CommonEngineServiceImpl<DmnEngineConfiguration> implements DmnManagementService {
 

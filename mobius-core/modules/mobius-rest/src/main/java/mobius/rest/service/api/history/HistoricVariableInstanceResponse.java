@@ -17,7 +17,7 @@ import io.swagger.annotations.ApiModelProperty;
 import mobius.rest.service.api.engine.variable.RestVariable;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricVariableInstanceResponse {
 

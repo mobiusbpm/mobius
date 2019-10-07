@@ -21,7 +21,7 @@ import mobius.eventsubscription.service.EventSubscriptionServiceConfiguration;
 import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptionEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractManager {
     

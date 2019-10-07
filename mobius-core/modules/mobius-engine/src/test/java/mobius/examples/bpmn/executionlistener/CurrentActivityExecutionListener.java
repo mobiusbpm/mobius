@@ -24,7 +24,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 /**
  * Simple {@link ExecutionListener} that sets the current activity id and name attributes on the execution.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class CurrentActivityExecutionListener implements ExecutionListener {
 

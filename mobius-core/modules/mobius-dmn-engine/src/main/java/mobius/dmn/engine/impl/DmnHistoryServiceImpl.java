@@ -19,7 +19,7 @@ import mobius.dmn.api.NativeHistoricDecisionExecutionQuery;
 import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DmnHistoryServiceImpl extends CommonEngineServiceImpl<DmnEngineConfiguration> implements DmnHistoryService {
 

@@ -34,7 +34,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableEventDispatcherTest extends PluggableFlowableTestCase {
 

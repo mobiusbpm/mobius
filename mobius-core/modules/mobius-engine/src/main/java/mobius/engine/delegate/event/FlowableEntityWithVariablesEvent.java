@@ -19,7 +19,7 @@ import mobius.common.engine.api.delegate.event.FlowableEntityEvent;
 /**
  * An {@link FlowableEntityEvent} related to a single entity.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface FlowableEntityWithVariablesEvent extends FlowableEntityEvent {
 

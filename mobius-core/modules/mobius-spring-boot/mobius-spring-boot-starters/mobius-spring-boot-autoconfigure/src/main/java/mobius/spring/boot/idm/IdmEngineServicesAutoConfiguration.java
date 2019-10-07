@@ -35,7 +35,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration} for the Idm Engine
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnIdmEngine

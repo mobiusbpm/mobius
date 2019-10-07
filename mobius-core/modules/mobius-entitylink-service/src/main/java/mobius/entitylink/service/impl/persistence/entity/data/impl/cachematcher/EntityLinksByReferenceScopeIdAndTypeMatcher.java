@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.entitylink.service.impl.persistence.entity.EntityLinkEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinksByReferenceScopeIdAndTypeMatcher extends CachedEntityMatcherAdapter<EntityLinkEntity> {
 

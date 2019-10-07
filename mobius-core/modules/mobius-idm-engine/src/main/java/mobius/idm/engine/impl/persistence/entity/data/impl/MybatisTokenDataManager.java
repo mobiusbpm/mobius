@@ -24,7 +24,7 @@ import mobius.idm.engine.impl.persistence.entity.data.AbstractIdmDataManager;
 import mobius.idm.engine.impl.persistence.entity.data.TokenDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisTokenDataManager extends AbstractIdmDataManager<TokenEntity> implements TokenDataManager {
 

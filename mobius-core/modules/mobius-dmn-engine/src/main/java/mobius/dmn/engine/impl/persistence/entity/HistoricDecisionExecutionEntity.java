@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.dmn.api.DmnHistoricDecisionExecution;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface HistoricDecisionExecutionEntity extends DmnHistoricDecisionExecution, Entity {
 

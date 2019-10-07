@@ -61,7 +61,7 @@ import java.util.Set;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class CommandContextUtil {
 

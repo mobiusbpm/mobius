@@ -17,7 +17,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 import mobius.variable.service.impl.persistence.entity.VariableScopeImpl;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface InternalTaskVariableScopeResolver {
 

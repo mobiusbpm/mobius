@@ -23,7 +23,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractEventHandler implements EventHandler {
 

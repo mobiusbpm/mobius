@@ -32,7 +32,7 @@ import mobius.form.engine.impl.util.CommandContextUtil;
 import mobius.form.model.SimpleFormModel;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetFormModelCmd implements Command<FormInfo>, Serializable {
 

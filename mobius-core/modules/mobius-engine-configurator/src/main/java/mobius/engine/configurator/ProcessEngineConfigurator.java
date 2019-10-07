@@ -33,7 +33,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ProcessEngineConfigurator extends AbstractEngineConfigurator {
 

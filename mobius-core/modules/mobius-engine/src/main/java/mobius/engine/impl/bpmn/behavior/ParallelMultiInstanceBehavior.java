@@ -35,7 +35,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class ParallelMultiInstanceBehavior extends MultiInstanceActivityBehavior {
 

@@ -32,7 +32,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptio
 import mobius.eventsubscription.service.impl.persistence.entity.MessageEventSubscriptionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BoundaryMessageEventActivityBehavior extends BoundaryEventActivityBehavior {
 

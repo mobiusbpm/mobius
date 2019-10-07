@@ -24,7 +24,7 @@ import mobius.dmn.engine.impl.persistence.entity.data.AbstractDmnDataManager;
 import mobius.dmn.engine.impl.persistence.entity.data.HistoricDecisionExecutionDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisHistoricDecisionExecutionDataManager extends AbstractDmnDataManager<HistoricDecisionExecutionEntity> implements HistoricDecisionExecutionDataManager {
 

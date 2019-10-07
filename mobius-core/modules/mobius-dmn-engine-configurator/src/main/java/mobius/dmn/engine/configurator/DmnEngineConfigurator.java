@@ -28,7 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class DmnEngineConfigurator extends AbstractEngineConfigurator {

@@ -23,7 +23,7 @@ import mobius.idm.api.PrivilegeMapping;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetPrivilegeMappingsByPrivilegeIdCmd implements Command<List<PrivilegeMapping>>, Serializable {
 

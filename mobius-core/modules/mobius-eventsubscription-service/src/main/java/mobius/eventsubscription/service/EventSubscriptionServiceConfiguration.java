@@ -22,7 +22,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.data.impl.Mybati
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EventSubscriptionServiceConfiguration extends AbstractServiceConfiguration {
 

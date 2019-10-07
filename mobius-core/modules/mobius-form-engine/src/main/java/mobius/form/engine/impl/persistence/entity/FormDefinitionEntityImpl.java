@@ -20,7 +20,7 @@ import mobius.form.engine.FormEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class FormDefinitionEntityImpl extends AbstractFormEngineNoRevisionEntity implements FormDefinitionEntity, Serializable {
 

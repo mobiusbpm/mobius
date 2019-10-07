@@ -22,7 +22,7 @@ import mobius.entitylink.service.impl.persistence.entity.EntityLinkEntityManager
 import mobius.entitylink.service.impl.persistence.entity.HistoricEntityLinkEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractManager {
     

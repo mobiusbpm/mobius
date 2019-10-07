@@ -22,7 +22,7 @@ import mobius.content.rest.api.content.ContentItemResponse;
  *
  * Default implementation of a {@link ContentRestResponseFactory}.
  *
- * @author Tijs Rademakers
+ *
  */
 public class ContentRestResponseFactory {
 

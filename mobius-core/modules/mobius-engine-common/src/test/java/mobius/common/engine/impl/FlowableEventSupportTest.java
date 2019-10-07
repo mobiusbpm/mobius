@@ -32,7 +32,7 @@ import mobius.common.engine.impl.event.FlowableEventSupport;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 class FlowableEventSupportTest {
 

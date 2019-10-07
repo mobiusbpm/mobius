@@ -22,7 +22,7 @@ import mobius.bpmn.model.Event;
 import mobius.bpmn.model.SignalEventDefinition;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SignalEventDefinitionParser extends BaseChildElementParser {
 

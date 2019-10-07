@@ -22,7 +22,7 @@ import mobius.dmn.api.DmnHistoricDecisionExecutionQuery;
 /**
  * Contains the possible properties that can be used in a {@link DmnHistoricDecisionExecutionQuery}.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class HistoricDecisionExecutionQueryProperty implements QueryProperty {
 

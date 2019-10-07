@@ -34,7 +34,7 @@ import java.util.Optional;
 import java.util.function.BiConsumer;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author DennisFederico
  */
 @RestController

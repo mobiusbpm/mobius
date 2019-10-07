@@ -15,7 +15,7 @@ package mobius.dmn.api;
 /**
  * An object structure representing an executable decision table
  * 
- * @author Tijs Rademakers
+ *
  * @author Joram Barez
  */
 public interface DmnDecisionTable {

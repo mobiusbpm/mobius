@@ -43,13 +43,14 @@ public interface UserEntityManager extends EntityManager<UserEntity> {
 
     boolean isNewUser(User user);
 
-    Picture getUserPicture(User user);
+//    Picture getUserPicture(User user);
 
-    void setUserPicture(User user, Picture picture);
+//    void setUserPicture(User user, Picture picture);
 
-    void deletePicture(User user);
+//    void deletePicture(User user);
 
     List<User> findUsersByPrivilegeId(String privilegeId);
 
-    User createNewUser(String loginName, String email);
+    User createUserWithLoginName(String userLoginName);
+
 }

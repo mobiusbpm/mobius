@@ -22,7 +22,7 @@ import mobius.dmn.engine.impl.persistence.entity.DmnResourceEntityManager;
 import mobius.dmn.engine.impl.persistence.entity.HistoricDecisionExecutionEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public abstract class AbstractManager {

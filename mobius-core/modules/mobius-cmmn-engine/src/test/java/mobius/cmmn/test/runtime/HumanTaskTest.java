@@ -42,7 +42,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class HumanTaskTest extends FlowableCmmnTestCase {

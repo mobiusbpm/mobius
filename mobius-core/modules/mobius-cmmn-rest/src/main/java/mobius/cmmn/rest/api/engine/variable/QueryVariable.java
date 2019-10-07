@@ -20,7 +20,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class QueryVariable {

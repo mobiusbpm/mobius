@@ -24,7 +24,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 /**
  * Expression implementation backed by a JUEL {@link ValueExpression}.
  *
- * @author Frederik Heremans
+ *
  *
  */
 public class JuelExpression extends mobius.common.engine.impl.el.JuelExpression {

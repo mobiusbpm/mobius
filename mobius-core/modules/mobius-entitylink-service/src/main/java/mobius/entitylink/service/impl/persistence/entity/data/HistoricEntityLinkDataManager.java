@@ -19,7 +19,7 @@ import mobius.entitylink.api.history.HistoricEntityLink;
 import mobius.entitylink.service.impl.persistence.entity.HistoricEntityLinkEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface HistoricEntityLinkDataManager extends DataManager<HistoricEntityLinkEntity> {
 

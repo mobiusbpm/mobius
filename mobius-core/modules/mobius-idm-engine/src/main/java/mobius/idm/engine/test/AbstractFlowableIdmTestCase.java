@@ -21,7 +21,7 @@ import mobius.idm.engine.IdmEngineConfiguration;
 import org.junit.jupiter.api.BeforeEach;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 @EnsureCleanDb(excludeTables = {

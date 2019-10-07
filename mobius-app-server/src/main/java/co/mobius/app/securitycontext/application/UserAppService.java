@@ -5,8 +5,6 @@ import co.mobius.app.securitycontext.interfaces.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 /**
  * User application service (Facade to ohs)
  */
@@ -17,14 +15,6 @@ public class UserAppService {
 
 	public UserModel getUserByLoginName(String loginName){
 		return	userRepository.getUserByLoginName(loginName);
-	}
-
-	public List<UserModel> getUserByLoginNameLike(String loginName){
-		return userRepository.getUserByLoginNameLike(loginName);
-	}
-
-	public UserModel loginWithEmailAndPassword(String email, String password) {
-		return userRepository.getUserByEmailAndPassword(email, password);
 	}
 
 	public UserModel loginWithLoginNameAndPassword(String loginName, String password){

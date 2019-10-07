@@ -46,7 +46,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Frederik Heremans
+ *
  */
 @RestController
 @Api(tags = { "Task Attachments"}, description = "Manage Tasks Attachments", authorizations = { @Authorization(value = "basicAuth") })

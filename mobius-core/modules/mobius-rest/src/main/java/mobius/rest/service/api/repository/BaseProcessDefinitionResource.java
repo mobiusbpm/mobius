@@ -21,7 +21,7 @@ import mobius.rest.service.api.RestResponseFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BaseProcessDefinitionResource {
 

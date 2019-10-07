@@ -32,7 +32,7 @@ import liquibase.exception.DatabaseException;
 import liquibase.resource.ClassLoaderResourceAccessor;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public abstract class LiquibaseBasedSchemaManager implements SchemaManager {
 

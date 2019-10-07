@@ -43,7 +43,7 @@ import java.lang.annotation.RetentionPolicy;
  *   }
  * </pre>
  * 
- * @author Tijs Rademakers
+ *
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface DmnDeploymentAnnotation {

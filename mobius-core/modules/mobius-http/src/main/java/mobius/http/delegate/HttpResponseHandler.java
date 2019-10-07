@@ -19,7 +19,7 @@ import mobius.common.engine.api.variable.VariableContainer;
 import mobius.http.HttpResponse;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface HttpResponseHandler extends Serializable {
 

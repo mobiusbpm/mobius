@@ -25,7 +25,7 @@ import org.junit.jupiter.api.extension.ExtensionContext;
  * customizing the {@link ProcessEngineConfiguration}
  * A new {@link ProcessEngine} will be created for each test.
  *
- * @author Filip Hrisafov
+ *
  */
 public class ResourceFlowableExtension extends InternalFlowableExtension {
 

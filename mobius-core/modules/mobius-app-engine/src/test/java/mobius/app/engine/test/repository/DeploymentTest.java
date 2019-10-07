@@ -33,7 +33,7 @@ import mobius.common.engine.impl.persistence.deploy.DeploymentCache;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DeploymentTest extends FlowableAppTestCase {
     

@@ -21,7 +21,7 @@ import mobius.engine.delegate.event.FlowableEntityWithVariablesEvent;
 /**
  * Base class for all {@link FlowableEngineEntityEvent} implementations, related to entities with variables.
  * 
- * @author Tijs Rademakers
+ *
  */
 @SuppressWarnings("rawtypes")
 public class FlowableEntityWithVariablesEventImpl extends FlowableEntityEventImpl implements FlowableEntityWithVariablesEvent {

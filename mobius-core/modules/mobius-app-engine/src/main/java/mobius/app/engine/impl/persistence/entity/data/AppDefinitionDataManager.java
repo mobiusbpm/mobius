@@ -20,7 +20,7 @@ import mobius.app.api.repository.AppDefinition;
 import mobius.common.engine.impl.persistence.entity.data.DataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface AppDefinitionDataManager extends DataManager<AppDefinitionEntity> {
 

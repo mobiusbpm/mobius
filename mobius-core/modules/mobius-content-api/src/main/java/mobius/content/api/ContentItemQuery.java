@@ -16,7 +16,7 @@ package mobius.content.api;
 /**
  * Allows programmatic querying of {@link ContentItem}s.
  *
- * @author Tijs Rademakers
+ *
  */
 public interface ContentItemQuery extends ContentItemBaseQuery<ContentItemQuery, ContentItem> {
     // Add new methods to the ContentItemBaseQuery and not here

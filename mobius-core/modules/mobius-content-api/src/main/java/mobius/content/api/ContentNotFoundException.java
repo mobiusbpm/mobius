@@ -15,7 +15,7 @@ package mobius.content.api;
 /**
  * Exception indicating an operation is requested on a {@link ContentObject} that does not exist.
  * 
- * @author Frederik Heremans
+ *
  *
  */
 public class ContentNotFoundException extends ContentStorageException {

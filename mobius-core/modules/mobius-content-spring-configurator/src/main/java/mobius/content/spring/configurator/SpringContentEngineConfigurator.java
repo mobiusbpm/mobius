@@ -20,7 +20,7 @@ import mobius.content.engine.configurator.ContentEngineConfigurator;
 import mobius.content.spring.SpringContentEngineConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class SpringContentEngineConfigurator extends ContentEngineConfigurator {

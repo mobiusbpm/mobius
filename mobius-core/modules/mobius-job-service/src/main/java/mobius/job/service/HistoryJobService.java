@@ -21,7 +21,7 @@ import mobius.job.service.impl.persistence.entity.HistoryJobEntity;
 /**
  * Service which provides access to jobs.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface HistoryJobService {
     

@@ -20,7 +20,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * A base class that can be used by any configuration that needs to inject specific {@link EngineConfigurationConfigurer}(s).
  *
- * @author Filip Hrisafov
+ *
  */
 public abstract class BaseEngineConfigurationWithConfigurers<T> {
 

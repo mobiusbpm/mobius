@@ -24,7 +24,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * An abstract superclass for {@link Command} implementations that want to verify the provided app is always active (ie. not suspended).
  * 
- * @author Tijs Rademakers
+ *
  */
 public abstract class NeedsAppDefinitionCmd<T> implements Command<T>, Serializable {
 

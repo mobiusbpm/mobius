@@ -24,7 +24,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class TaskActionRequest extends RestActionRequest {
 

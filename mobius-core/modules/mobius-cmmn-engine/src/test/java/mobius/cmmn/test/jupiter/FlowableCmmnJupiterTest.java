@@ -31,7 +31,7 @@ import org.junit.jupiter.api.Test;
  * <p>
  * So this test can be included in the regular test suite without problems.
  *
- * @author Filip Hrisafov
+ *
  */
 @FlowableCmmnTest
 class FlowableCmmnJupiterTest {

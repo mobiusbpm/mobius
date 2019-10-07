@@ -27,7 +27,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.PropertySource;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class FlowableDefaultPropertiesEnvironmentPostProcessorTest {
 

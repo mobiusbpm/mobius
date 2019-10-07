@@ -28,7 +28,7 @@ import mobius.job.service.impl.persistence.entity.HistoryJobEntityImpl;
 import mobius.job.service.impl.persistence.entity.data.HistoryJobDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class MybatisHistoryJobDataManager extends AbstractDataManager<HistoryJobEntity> implements HistoryJobDataManager {
 

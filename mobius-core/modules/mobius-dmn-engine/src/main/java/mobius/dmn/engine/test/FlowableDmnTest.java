@@ -72,7 +72,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
  * time rather then the time that was set during a test method.
  * </p>
  *
- * @author Filip Hrisafov
+ *
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

@@ -20,7 +20,7 @@ import mobius.cmmn.model.PlanItemTransition;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ChangePlanItemInstanceToAvailableOperation extends AbstractChangePlanItemInstanceStateOperation {
     

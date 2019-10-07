@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Import;
 /**
  * Component scan for the Form Rest API Configuration.
  *
- * @author Filip Hrisafov
+ *
  */
 @Import(DispatcherServletConfiguration.class)
 @ComponentScan("mobius.form.rest.service.api")

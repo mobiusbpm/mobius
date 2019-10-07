@@ -39,7 +39,7 @@ import static org.mockito.ArgumentMatchers.same;
 import static org.mockito.Mockito.verify;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @MockitoSettings
 class CompositeCmmnHistoryManagerTest {

@@ -19,7 +19,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.HumanTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HumanTaskXmlConverter extends TaskXmlConverter {
     

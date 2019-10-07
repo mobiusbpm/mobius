@@ -15,7 +15,7 @@ package mobius.cmmn.editor.json.converter;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface ProcessModelAwareConverter {
 

@@ -15,7 +15,7 @@ package mobius.cmmn.model;
 import java.util.List;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface HasAssociations {
     

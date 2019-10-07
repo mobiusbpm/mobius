@@ -29,11 +29,15 @@ public class UserQueryProperty implements QueryProperty {
 
     private static final Map<String, UserQueryProperty> properties = new HashMap<>();
 
-    public static final UserQueryProperty USER_ID = new UserQueryProperty("RES.ID_");
+    public static final UserQueryProperty USER_ID = new UserQueryProperty("RES.USER_ID");
     public static final UserQueryProperty FIRST_NAME = new UserQueryProperty("RES.FIRST_");
     public static final UserQueryProperty LAST_NAME = new UserQueryProperty("RES.LAST_");
     public static final UserQueryProperty DISPLAY_NAME = new UserQueryProperty("RES.DISPLAY_NAME_");
-    public static final UserQueryProperty EMAIL = new UserQueryProperty("RES.USER_EMAIL");
+    public static final UserQueryProperty EMAIL = new UserQueryProperty("RES.EMAIL_");
+    public static final UserQueryProperty USER_EMAIL = new UserQueryProperty("RES.USER_EMAIL");
+    public static final UserQueryProperty USER_LOGIN_NAME = new UserQueryProperty("RES.USER_LOGIN_NAME");
+    public static final UserQueryProperty USER_CREATED_TIME = new UserQueryProperty("RES.USER_CREATED_TIME");
+    public static final UserQueryProperty USER_UPDATED_TIME = new UserQueryProperty("RES.USER_UPDATED_TIME");
 
     private String name;
 

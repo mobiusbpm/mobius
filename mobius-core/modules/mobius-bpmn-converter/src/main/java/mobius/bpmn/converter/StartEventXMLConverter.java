@@ -24,7 +24,7 @@ import mobius.bpmn.model.StartEvent;
 import mobius.bpmn.model.alfresco.AlfrescoStartEvent;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class StartEventXMLConverter extends BaseBpmnXMLConverter {
 

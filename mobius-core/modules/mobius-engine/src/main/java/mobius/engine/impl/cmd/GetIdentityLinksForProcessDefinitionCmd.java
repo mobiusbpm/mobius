@@ -24,7 +24,7 @@ import mobius.engine.repository.ProcessDefinition;
 import mobius.identitylink.api.IdentityLink;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetIdentityLinksForProcessDefinitionCmd implements Command<List<IdentityLink>>, Serializable {
 

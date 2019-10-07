@@ -24,7 +24,7 @@ import org.springframework.test.context.ContextConfiguration;
 
 /**
  * 
- * @author Frederik Heremans
+ *
  */
 @ContextConfiguration(locations = "JPASpringTest-context.xml")
 public class JpaTest extends SpringFlowableTestCase {

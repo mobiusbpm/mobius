@@ -29,7 +29,7 @@ import mobius.common.engine.api.query.Query;
  *
  *
  *
- * @author Tijs Rademakers
+ *
  */
 public interface PlanItemInstanceQuery extends Query<PlanItemInstanceQuery, PlanItemInstance> {
 

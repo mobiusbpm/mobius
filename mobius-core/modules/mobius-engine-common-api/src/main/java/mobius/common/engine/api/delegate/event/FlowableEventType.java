@@ -15,7 +15,7 @@ package mobius.common.engine.api.delegate.event;
 /**
  * Enumeration containing all possible types of {@link FlowableEvent}s.
  * 
- * @author Frederik Heremans
+ *
  * 
  */
 public interface FlowableEventType {

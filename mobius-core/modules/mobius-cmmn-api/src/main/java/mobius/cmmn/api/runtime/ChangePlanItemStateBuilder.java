@@ -24,7 +24,7 @@ import mobius.common.engine.api.FlowableObjectNotFoundException;
  *
  * An instance can be obtained through {@link CmmnRuntimeService#createChangePlanItemStateBuilder()}.
  *
- * @author Tijs Rademakers
+ *
  */
 public interface ChangePlanItemStateBuilder {
 

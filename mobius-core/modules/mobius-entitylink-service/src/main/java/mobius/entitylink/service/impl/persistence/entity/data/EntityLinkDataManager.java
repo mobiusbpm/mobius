@@ -19,7 +19,7 @@ import mobius.entitylink.api.EntityLink;
 import mobius.entitylink.service.impl.persistence.entity.EntityLinkEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface EntityLinkDataManager extends DataManager<EntityLinkEntity> {
 

@@ -21,7 +21,7 @@ import mobius.common.engine.api.FlowableObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class BaseCaseDefinitionResource {
 

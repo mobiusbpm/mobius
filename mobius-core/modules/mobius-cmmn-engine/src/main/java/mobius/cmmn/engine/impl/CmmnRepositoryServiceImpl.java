@@ -47,7 +47,7 @@ import mobius.identitylink.api.IdentityLink;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class CmmnRepositoryServiceImpl extends CommonEngineServiceImpl<CmmnEngineConfiguration> implements CmmnRepositoryService {
 

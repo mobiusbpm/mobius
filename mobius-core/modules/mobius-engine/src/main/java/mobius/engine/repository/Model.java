@@ -19,7 +19,7 @@ import java.util.Date;
  * 
  * A model is a container for the meta data and sources of a process model that typically can be edited in a modeling environment.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface Model {

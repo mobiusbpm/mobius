@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Service which provides access to historic entity links.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface HistoricEntityLinkService {
     

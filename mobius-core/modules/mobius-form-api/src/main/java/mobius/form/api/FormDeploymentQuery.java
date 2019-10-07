@@ -23,7 +23,7 @@ import mobius.common.engine.api.query.Query;
  * To retrieve the actual bytes of a deployment resource use the operations on the {@link RepositoryService#getDeploymentResourceNames(String)} and
  * {@link RepositoryService#getResourceAsStream(String, String)}
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface FormDeploymentQuery extends Query<FormDeploymentQuery, FormDeployment> {

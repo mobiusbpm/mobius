@@ -18,7 +18,7 @@ import java.util.Date;
  * Represents one task for a human user.
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 public interface Task extends TaskInfo {
 

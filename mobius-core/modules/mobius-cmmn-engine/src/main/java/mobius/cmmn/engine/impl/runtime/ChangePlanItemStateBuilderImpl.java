@@ -21,7 +21,7 @@ import mobius.cmmn.api.runtime.ChangePlanItemStateBuilder;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ChangePlanItemStateBuilderImpl implements ChangePlanItemStateBuilder {
 

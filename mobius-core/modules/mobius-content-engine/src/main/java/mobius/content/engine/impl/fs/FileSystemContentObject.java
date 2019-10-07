@@ -24,7 +24,7 @@ import mobius.content.api.ContentStorageException;
  * 
  * {@link ContentObject}, backed by a file.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FileSystemContentObject implements ContentObject {
 

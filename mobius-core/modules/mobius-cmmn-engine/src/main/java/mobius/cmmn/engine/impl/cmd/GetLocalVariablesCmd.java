@@ -24,7 +24,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetLocalVariablesCmd implements Command<Map<String, Object>> {
     

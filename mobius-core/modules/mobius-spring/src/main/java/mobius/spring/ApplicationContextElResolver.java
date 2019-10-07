@@ -23,7 +23,7 @@ import java.util.Iterator;
 
 /**
  *
- * @author Frederik Heremans
+ *
  */
 public class ApplicationContextElResolver extends ELResolver {
 

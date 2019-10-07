@@ -35,7 +35,7 @@ import mobius.form.api.FormInstanceQuery;
 /**
  * Contains the possible properties that can be used in a {@link FormInstanceQuery}.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FormInstanceQueryProperty implements QueryProperty {
 

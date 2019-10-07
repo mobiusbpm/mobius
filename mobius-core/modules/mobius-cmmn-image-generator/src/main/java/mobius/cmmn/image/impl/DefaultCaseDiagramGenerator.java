@@ -46,7 +46,7 @@ import mobius.cmmn.model.UserEventListener;
 /**
  * Class to generate an image based the diagram interchange information in a CMMN 1.1 case.
  *
- * @author Tijs Rademakers
+ *
  */
 public class DefaultCaseDiagramGenerator implements CaseDiagramGenerator {
 

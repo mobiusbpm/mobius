@@ -50,7 +50,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 /**
  * {@link org.springframework.boot.autoconfigure.EnableAutoConfiguration} for the Idm engine
  *
- * @author Filip Hrisafov
+ *
  */
 @Configuration
 @ConditionalOnIdmEngine

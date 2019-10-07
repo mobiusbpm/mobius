@@ -16,7 +16,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.job.service.impl.persistence.entity.HistoryJobEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface HistoryJobHandler {
 

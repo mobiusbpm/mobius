@@ -17,7 +17,7 @@ import mobius.bpmn.model.BaseElement;
 import mobius.bpmn.model.UserTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TaskListenerParser extends FlowableListenerParser {
 

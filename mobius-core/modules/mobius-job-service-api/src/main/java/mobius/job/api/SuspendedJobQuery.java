@@ -21,7 +21,7 @@ import mobius.common.engine.api.query.Query;
  * Allows programmatic querying of {@link Job}s.
  *
  *
- * @author Tijs Rademakers
+ *
  */
 public interface SuspendedJobQuery extends Query<SuspendedJobQuery, Job> {
 

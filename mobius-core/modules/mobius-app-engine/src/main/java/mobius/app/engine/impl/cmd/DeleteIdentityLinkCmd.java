@@ -20,7 +20,7 @@ import mobius.common.engine.api.scope.ScopeTypes;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DeleteIdentityLinkCmd extends NeedsAppDefinitionCmd<Void> {
 

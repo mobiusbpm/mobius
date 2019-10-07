@@ -22,7 +22,7 @@ import mobius.cmmn.model.GenericEventListener;
 import mobius.cmmn.model.PlanItem;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GenericEventListenerParseHandler extends AbstractPlanItemParseHandler<GenericEventListener> {
 

@@ -36,7 +36,7 @@ import java.util.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -246,7 +246,7 @@ public class FlowableRestApplicationSecurityTest {
     }
 
     /**
-     * @author Filip Hrisafov
+     *
      */
     @TestConfiguration
     public static class TestBootstrapConfiguration {

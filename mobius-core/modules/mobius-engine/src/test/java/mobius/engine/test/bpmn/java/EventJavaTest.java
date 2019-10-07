@@ -31,7 +31,7 @@ import mobius.engine.repository.Deployment;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EventJavaTest extends PluggableFlowableTestCase {
 

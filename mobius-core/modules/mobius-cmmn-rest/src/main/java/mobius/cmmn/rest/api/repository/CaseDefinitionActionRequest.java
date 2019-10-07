@@ -16,7 +16,7 @@ package mobius.cmmn.rest.api.repository;
 import mobius.cmmn.rest.api.RestActionRequest;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CaseDefinitionActionRequest extends RestActionRequest {
 

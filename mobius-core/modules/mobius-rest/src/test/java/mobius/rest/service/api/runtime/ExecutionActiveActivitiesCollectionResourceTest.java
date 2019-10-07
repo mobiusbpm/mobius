@@ -32,7 +32,7 @@ import org.junit.Test;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ExecutionActiveActivitiesCollectionResourceTest extends BaseSpringRestTestCase {
 

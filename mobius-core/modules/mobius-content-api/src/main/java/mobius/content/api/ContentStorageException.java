@@ -15,7 +15,7 @@ package mobius.content.api;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class ContentStorageException extends FlowableException {
 

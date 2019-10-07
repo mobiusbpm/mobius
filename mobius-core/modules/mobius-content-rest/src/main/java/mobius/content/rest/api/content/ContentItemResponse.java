@@ -20,7 +20,7 @@ import mobius.content.api.ContentItem;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ContentItemResponse {
 

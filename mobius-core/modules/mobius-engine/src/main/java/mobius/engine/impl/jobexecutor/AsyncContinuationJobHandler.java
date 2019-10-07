@@ -21,7 +21,7 @@ import mobius.variable.api.delegate.VariableScope;
 
 /**
  * 
- * @author Tijs Rademakers
+ *
  */
 public class AsyncContinuationJobHandler implements JobHandler {
 

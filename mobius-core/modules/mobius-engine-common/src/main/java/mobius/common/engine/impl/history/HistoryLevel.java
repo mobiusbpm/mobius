@@ -19,7 +19,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 /**
  * Enum that contains all possible history-levels.
  * 
- * @author Frederik Heremans
+ *
  */
 public enum HistoryLevel {
 

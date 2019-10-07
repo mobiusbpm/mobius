@@ -21,7 +21,7 @@ import mobius.job.service.impl.TimerJobQueryImpl;
 import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Vasile Dirla
  */
 public interface TimerJobDataManager extends DataManager<TimerJobEntity> {

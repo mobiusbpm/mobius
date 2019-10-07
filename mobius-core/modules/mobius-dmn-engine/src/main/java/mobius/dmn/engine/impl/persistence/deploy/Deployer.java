@@ -17,7 +17,7 @@ import java.util.Map;
 import mobius.dmn.engine.impl.persistence.entity.DmnDeploymentEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface Deployer {

@@ -21,7 +21,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.form.api.FormDeployment;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public interface FormDeploymentEntity extends FormDeployment, Entity {

@@ -30,7 +30,7 @@ import mobius.entitylink.service.impl.persistence.entity.data.impl.MybatisHistor
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class EntityLinkServiceConfiguration extends AbstractServiceConfiguration {
 

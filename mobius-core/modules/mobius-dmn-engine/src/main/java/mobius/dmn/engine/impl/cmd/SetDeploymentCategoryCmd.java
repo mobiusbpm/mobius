@@ -20,7 +20,7 @@ import mobius.dmn.engine.impl.persistence.entity.DmnDeploymentEntity;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SetDeploymentCategoryCmd implements Command<Void> {
 

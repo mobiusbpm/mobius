@@ -46,7 +46,7 @@ import java.util.zip.ZipInputStream;
 import static mobius.common.rest.api.PaginateListUtil.paginateList;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "App Deployments" }, description = "Manage App Deployments", authorizations = { @Authorization(value = "basicAuth") })

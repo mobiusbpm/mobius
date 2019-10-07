@@ -31,7 +31,7 @@ import mobius.variable.service.impl.persistence.entity.data.impl.MybatisVariable
 import mobius.variable.service.impl.persistence.entity.data.impl.MybatisVariableInstanceDataManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class VariableServiceConfiguration extends AbstractServiceConfiguration {
 

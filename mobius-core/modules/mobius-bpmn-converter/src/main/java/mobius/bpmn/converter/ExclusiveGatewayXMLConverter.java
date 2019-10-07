@@ -21,7 +21,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ExclusiveGateway;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ExclusiveGatewayXMLConverter extends BaseBpmnXMLConverter {
 

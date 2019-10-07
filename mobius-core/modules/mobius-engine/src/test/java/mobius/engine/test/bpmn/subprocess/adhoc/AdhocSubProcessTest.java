@@ -31,7 +31,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class AdhocSubProcessTest extends PluggableFlowableTestCase {
 

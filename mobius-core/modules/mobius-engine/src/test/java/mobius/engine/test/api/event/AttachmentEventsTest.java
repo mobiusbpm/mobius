@@ -32,7 +32,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test case for all {@link FlowableEvent}s related to attachments.
  * 
- * @author Frederik Heremans
+ *
  */
 public class AttachmentEventsTest extends PluggableFlowableTestCase {
 

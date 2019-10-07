@@ -15,7 +15,7 @@ package mobius.cmmn.model;
 import java.util.ArrayList;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ServiceTask extends TaskWithFieldExtensions {
 

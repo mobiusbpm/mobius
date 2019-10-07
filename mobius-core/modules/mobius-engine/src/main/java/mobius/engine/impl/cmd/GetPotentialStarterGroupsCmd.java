@@ -27,7 +27,7 @@ import mobius.identitylink.api.IdentityLink;
 import mobius.idm.api.Group;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class GetPotentialStarterGroupsCmd implements Command<List<Group>>, Serializable {
 

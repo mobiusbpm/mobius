@@ -15,7 +15,7 @@ package mobius.common.engine.impl;
 /**
  * Represents information about the initialization of the engine.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class EngineInfo {
 

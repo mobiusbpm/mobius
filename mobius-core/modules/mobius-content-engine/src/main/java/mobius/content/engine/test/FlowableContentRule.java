@@ -60,7 +60,7 @@ import org.junit.runners.model.Statement;
  * system time rather then the time that was set during a test method.
  * </p>
  * 
- * @author Tijs Rademakers
+ *
  */
 public class FlowableContentRule implements TestRule {
 

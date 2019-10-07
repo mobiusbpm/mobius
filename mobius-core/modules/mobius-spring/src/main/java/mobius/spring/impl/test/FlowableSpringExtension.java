@@ -24,7 +24,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
  * <b>NB:</b> The {@link mobius.engine.test.ConfigurationResource} is ignored
  * as the {@link ProcessEngine} is taken from the Spring application context
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableSpringExtension extends FlowableExtension {
 

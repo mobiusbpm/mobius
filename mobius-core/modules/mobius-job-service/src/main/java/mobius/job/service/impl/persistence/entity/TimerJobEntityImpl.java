@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * TimerJob entity, necessary for persistence.
  *
- * @author Tijs Rademakers
+ *
  */
 public class TimerJobEntityImpl extends AbstractJobEntityImpl implements TimerJobEntity {
 

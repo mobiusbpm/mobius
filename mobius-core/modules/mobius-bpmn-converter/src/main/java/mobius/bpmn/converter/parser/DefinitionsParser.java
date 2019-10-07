@@ -24,7 +24,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ExtensionAttribute;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DefinitionsParser implements BpmnXMLConstants {
 

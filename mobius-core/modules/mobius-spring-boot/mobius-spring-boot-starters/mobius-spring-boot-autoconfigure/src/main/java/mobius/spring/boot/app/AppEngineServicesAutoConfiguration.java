@@ -29,7 +29,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Provides sane definitions for the various beans required to be productive with Flowable in Spring.
  *
- * @author Tijs Rademakers
+ *
  */
 @Configuration
 @ConditionalOnAppEngine

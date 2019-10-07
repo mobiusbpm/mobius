@@ -25,7 +25,7 @@ import mobius.form.engine.impl.util.CommandContextUtil;
 /**
  * Gives access to a deployed form model, e.g., a Form JSON file, through a stream of bytes.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class GetFormDefinitionResourceCmd implements Command<InputStream>, Serializable {
 

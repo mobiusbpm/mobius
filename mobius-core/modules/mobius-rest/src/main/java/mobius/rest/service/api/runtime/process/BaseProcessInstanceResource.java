@@ -37,7 +37,7 @@ import mobius.engine.runtime.ProcessInstanceQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class BaseProcessInstanceResource {
 

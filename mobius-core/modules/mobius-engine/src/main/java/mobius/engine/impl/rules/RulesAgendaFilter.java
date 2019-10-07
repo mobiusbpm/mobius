@@ -20,7 +20,7 @@ import org.kie.api.runtime.rule.AgendaFilter;
 import org.kie.api.runtime.rule.Match;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class RulesAgendaFilter implements AgendaFilter {
 

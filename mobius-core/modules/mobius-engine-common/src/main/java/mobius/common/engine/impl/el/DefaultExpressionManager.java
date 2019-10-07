@@ -38,7 +38,7 @@ import mobius.common.engine.impl.persistence.deploy.DeploymentCache;
  *
  *
  * @author Dave Syer
- * @author Frederik Heremans
+ *
  *
  */
 public class DefaultExpressionManager implements ExpressionManager {

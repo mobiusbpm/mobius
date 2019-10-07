@@ -31,7 +31,7 @@ import mobius.dmn.model.DmnDefinition;
 import mobius.dmn.xml.converter.DmnXMLConverter;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DmnDeploymentBuilderImpl implements DmnDeploymentBuilder, Serializable {
 

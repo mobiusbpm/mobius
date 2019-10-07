@@ -20,7 +20,7 @@ import mobius.http.delegate.HttpResponseHandler;
 /**
  * Class handling invocations of {@link HttpResponseHandler HttpResponseHandlers}
  *
- * @author Tijs Rademakers
+ *
  */
 public class HttpResponseHandlerInvocation extends DelegateInvocation {
 

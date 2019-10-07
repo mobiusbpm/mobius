@@ -18,7 +18,7 @@ import java.util.Date;
 /**
  * Represents one history job
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface HistoryJob extends JobInfo {
     

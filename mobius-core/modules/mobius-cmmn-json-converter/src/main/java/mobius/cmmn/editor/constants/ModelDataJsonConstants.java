@@ -13,7 +13,7 @@
 package mobius.cmmn.editor.constants;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public interface ModelDataJsonConstants {
 

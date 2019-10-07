@@ -41,7 +41,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.core.task.TaskExecutor;
 
 /**
- * @author Filip Hrisafov
+ *
  */
 public class ProcessAndCmmnEngineAsyncExecutorTest {
 

@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 @JsonInclude(Include.NON_NULL)
 public class FormInfo implements Serializable {

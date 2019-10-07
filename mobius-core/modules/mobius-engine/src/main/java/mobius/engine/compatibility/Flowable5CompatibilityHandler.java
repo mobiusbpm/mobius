@@ -43,7 +43,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface Flowable5CompatibilityHandler {
 

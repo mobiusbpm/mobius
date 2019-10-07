@@ -20,7 +20,7 @@ import mobius.common.engine.impl.runtime.Clock;
 import mobius.job.service.JobServiceConfiguration;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractManager {
     

@@ -27,7 +27,7 @@ import mobius.content.engine.impl.cmd.GetContentItemStreamCmd;
 import mobius.content.engine.impl.cmd.SaveContentItemCmd;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ContentServiceImpl extends CommonEngineServiceImpl<ContentEngineConfiguration> implements ContentService {
 

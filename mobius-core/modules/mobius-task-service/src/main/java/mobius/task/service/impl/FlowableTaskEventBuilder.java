@@ -22,7 +22,7 @@ import mobius.task.api.Task;
 /**
  * Builder class used to create {@link FlowableEvent} implementations.
  *
- * @author Frederik Heremans
+ *
  */
 public class FlowableTaskEventBuilder {
 

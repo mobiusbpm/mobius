@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SubProcess extends Activity implements FlowElementsContainer {
 

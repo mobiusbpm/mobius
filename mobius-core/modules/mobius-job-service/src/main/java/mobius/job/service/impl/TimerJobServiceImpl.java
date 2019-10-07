@@ -25,7 +25,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 import mobius.job.service.impl.persistence.entity.TimerJobEntityManager;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class TimerJobServiceImpl extends ServiceImpl implements TimerJobService {
 

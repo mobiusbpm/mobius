@@ -35,7 +35,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.CompensateEventS
 import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptionEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CompensationEventHandler implements EventHandler {
 

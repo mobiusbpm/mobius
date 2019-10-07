@@ -18,7 +18,7 @@ import mobius.common.engine.api.delegate.event.FlowableEngineEventType;
 /**
  * Base class for all {@link FlowableEngineEvent} implementations.
  *
- * @author Frederik Heremans
+ *
  */
 public class FlowableEngineEventImpl extends FlowableEventImpl implements FlowableEngineEvent {
 

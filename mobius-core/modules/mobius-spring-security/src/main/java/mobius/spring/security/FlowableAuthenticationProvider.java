@@ -24,7 +24,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
  * A flowable implementation of {@link org.springframework.security.authentication.AuthenticationProvider} that uses the {@link IdmIdentityService} and
  * {@link UserDetailsService} to check the user credentials and and load the user. It uses the {@link UsernamePasswordAuthenticationToken}.
  *
- * @author Filip Hrisafov
+ *
  */
 public class FlowableAuthenticationProvider extends AbstractUserDetailsAuthenticationProvider {
 

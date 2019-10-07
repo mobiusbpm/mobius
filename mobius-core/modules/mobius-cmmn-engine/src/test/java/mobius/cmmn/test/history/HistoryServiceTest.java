@@ -34,8 +34,8 @@ import mobius.cmmn.engine.test.FlowableCmmnTestCase;
 import org.junit.Test;
 
 /**
- * @author Tijs Rademakers
- * @author Filip Hrisafov
+ *
+ *
  */
 public class HistoryServiceTest extends FlowableCmmnTestCase {
 

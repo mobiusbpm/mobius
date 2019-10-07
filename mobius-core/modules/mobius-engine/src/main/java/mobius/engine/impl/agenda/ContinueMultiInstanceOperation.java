@@ -39,7 +39,7 @@ import org.slf4j.LoggerFactory;
  * Special operation when executing an instance of a multi-instance. It's similar to the {@link ContinueProcessOperation}, but simpler, as it doesn't need to cater for as many use cases.
  * 
  *
- * @author Tijs Rademakers
+ *
  */
 public class ContinueMultiInstanceOperation extends AbstractOperation {
 

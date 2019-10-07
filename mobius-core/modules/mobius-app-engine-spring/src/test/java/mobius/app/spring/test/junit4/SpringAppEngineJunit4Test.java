@@ -21,7 +21,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertNotNull;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class SpringAppEngineJunit4Test {
     

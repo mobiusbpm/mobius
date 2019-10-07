@@ -23,7 +23,7 @@ import mobius.engine.test.Deployment;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class RulesDeployerTest extends ResourceFlowableTestCase {
 

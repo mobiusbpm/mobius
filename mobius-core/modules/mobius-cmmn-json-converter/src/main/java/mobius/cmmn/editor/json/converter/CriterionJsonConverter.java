@@ -34,7 +34,7 @@ import mobius.cmmn.model.SentryIfPart;
 import mobius.cmmn.model.Stage;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class CriterionJsonConverter extends BaseCmmnJsonConverter {

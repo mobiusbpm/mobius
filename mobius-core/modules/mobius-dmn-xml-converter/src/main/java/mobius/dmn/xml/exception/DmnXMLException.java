@@ -13,7 +13,7 @@
 package mobius.dmn.xml.exception;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class DmnXMLException extends RuntimeException {
 

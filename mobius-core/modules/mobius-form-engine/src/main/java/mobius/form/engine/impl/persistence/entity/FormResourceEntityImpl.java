@@ -16,7 +16,7 @@ package mobius.form.engine.impl.persistence.entity;
 import java.io.Serializable;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FormResourceEntityImpl extends AbstractFormEngineNoRevisionEntity implements FormResourceEntity, Serializable {
 

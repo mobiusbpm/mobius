@@ -25,7 +25,7 @@ import mobius.bpmn.model.SendTask;
 import mobius.bpmn.model.ServiceTask;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class FieldExtensionParser extends BaseChildElementParser {
 

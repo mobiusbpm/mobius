@@ -44,9 +44,9 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author Frederik Heremans
+ *
  * @author Tim Stephenson
- * @author Filip Hrisafov
+ *
  */
 public class MailActivityBehavior extends AbstractBpmnActivityBehavior {
 

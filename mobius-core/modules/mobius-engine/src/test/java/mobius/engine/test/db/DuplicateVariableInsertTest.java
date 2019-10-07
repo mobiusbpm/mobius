@@ -144,7 +144,7 @@ public class DuplicateVariableInsertTest extends PluggableFlowableTestCase {
     /**
      * Command wrapping a SetExecutionVariablesCmd, waiting in to start and end on the barriers passed in.
      * 
-     * @author Frederik Heremans
+     *
      * 
      */
     private class SetVariableWithBarriersCommand implements Command<Void> {
@@ -185,7 +185,7 @@ public class DuplicateVariableInsertTest extends PluggableFlowableTestCase {
     /**
      * Command wrapping a SetTaskVariablesCmd, waiting in to start and end on the barriers passed in.
      * 
-     * @author Frederik Heremans
+     *
      * 
      */
     private class SetTaskVariableWithBarriersCommand implements Command<Void> {

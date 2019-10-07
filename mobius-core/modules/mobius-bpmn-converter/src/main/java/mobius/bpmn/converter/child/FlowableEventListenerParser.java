@@ -23,7 +23,7 @@ import mobius.bpmn.model.ImplementationType;
 import mobius.bpmn.model.Process;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class FlowableEventListenerParser extends BaseChildElementParser {
 

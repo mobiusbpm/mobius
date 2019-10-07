@@ -25,7 +25,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class SequentialMultiInstanceBehavior extends MultiInstanceActivityBehavior {
 

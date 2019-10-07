@@ -18,7 +18,7 @@ import mobius.engine.delegate.event.FlowableSignalEvent;
 /**
  * An {@link FlowableSignalEvent} implementation.
  * 
- * @author Frederik Heremans
+ *
  */
 public class FlowableSignalEventImpl extends FlowableActivityEventImpl implements FlowableSignalEvent {
 

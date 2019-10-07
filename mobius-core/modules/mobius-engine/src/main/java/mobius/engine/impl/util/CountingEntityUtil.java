@@ -24,7 +24,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class CountingEntityUtil {
 

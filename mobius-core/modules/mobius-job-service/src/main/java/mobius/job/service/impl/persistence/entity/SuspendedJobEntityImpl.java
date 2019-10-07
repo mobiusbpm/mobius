@@ -15,7 +15,7 @@ package mobius.job.service.impl.persistence.entity;
 /**
  * TimerJob entity, necessary for persistence.
  *
- * @author Tijs Rademakers
+ *
  */
 public class SuspendedJobEntityImpl extends AbstractJobEntityImpl implements SuspendedJobEntity {
 

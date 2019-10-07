@@ -17,7 +17,7 @@ import mobius.common.engine.api.delegate.event.FlowableEvent;
 /**
  * An event related to group memberships.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface FlowableIdmMembershipEvent extends FlowableEvent {
 

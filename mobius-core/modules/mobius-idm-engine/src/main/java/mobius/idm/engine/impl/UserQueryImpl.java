@@ -44,14 +44,12 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
     protected String displayName;
     protected String displayNameLike;
     protected String displayNameLikeIgnoreCase;
-    protected String email;
-    protected String emailLike;
     protected String groupId;
     protected List<String> groupIds;
     protected String tenantId;
-    protected Integer statusCodeId;
-    protected String loginName;
-    protected String loginNameLike;
+    protected Integer userStatusCodeId;
+    protected String userLoginNameLike;
+    protected String userLoginName;
 
     public UserQueryImpl() {
     }
@@ -63,7 +61,6 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
     public UserQueryImpl(CommandExecutor commandExecutor) {
         super(commandExecutor);
     }
-
     @Override
     public UserQuery userId(String id) {
         if (id == null) {
@@ -72,7 +69,6 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
         this.id = id;
         return this;
     }
-
     @Override
     public UserQuery userIds(List<String> ids) {
         if (ids == null) {
@@ -191,24 +187,6 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
     }
 
     @Override
-    public UserQuery userEmail(String email) {
-        if (email == null) {
-            throw new FlowableIllegalArgumentException("Provided email is null");
-        }
-        this.email = email;
-        return this;
-    }
-
-    @Override
-    public UserQuery userEmailLike(String emailLike) {
-        if (emailLike == null) {
-            throw new FlowableIllegalArgumentException("Provided emailLike is null");
-        }
-        this.emailLike = emailLike;
-        return this;
-    }
-
-    @Override
     public UserQuery memberOfGroup(String groupId) {
         if (groupId == null) {
             throw new FlowableIllegalArgumentException("Provided groupId is null");
@@ -236,29 +214,29 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
     }
 
     @Override
-    public UserQuery statusCodeId(Integer statusCodeId) {
-        if (statusCodeId == null) {
-            throw new FlowableIllegalArgumentException("Provided statusCodeId is null");
+    public UserQuery statusCodeId(Integer userStatusCodeId) {
+        if (userStatusCodeId == null) {
+            throw new FlowableIllegalArgumentException("Provided userStatusCodeId is null");
         }
-        this.statusCodeId = statusCodeId;
+        this.userStatusCodeId = userStatusCodeId;
         return this;
     }
 
     @Override
-    public UserQuery userLoginName(String loginName) {
-        if (loginName == null) {
-            throw new FlowableIllegalArgumentException("loginName is null");
+    public UserQuery userLoginName(String userLoginName) {
+        if (userLoginName == null) {
+            throw new FlowableIllegalArgumentException("userLoginName is null");
         }
-        this.loginName = loginName;
+        this.userLoginName = userLoginName;
         return this;
     }
 
     @Override
-    public UserQuery userLoginNameLike(String loginNameLike) {
-        if (loginNameLike == null) {
+    public UserQuery userLoginNameLike(String userLoginNameLike) {
+        if (userLoginNameLike == null) {
             throw new FlowableIllegalArgumentException("Provided login name is null");
         }
-        this.loginNameLike = loginNameLike;
+        this.userLoginNameLike = userLoginNameLike;
         return this;
     }
 
@@ -270,11 +248,6 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
     }
 
     @Override
-    public UserQuery orderByUserEmail() {
-        return orderBy(UserQueryProperty.EMAIL);
-    }
-
-    @Override
     public UserQuery orderByUserFirstName() {
         return orderBy(UserQueryProperty.FIRST_NAME);
     }
@@ -282,6 +255,15 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
     @Override
     public UserQuery orderByUserLastName() {
         return orderBy(UserQueryProperty.LAST_NAME);
+    }
+
+    @Override
+    public UserQuery orderByUserCreatedTime() {
+        return orderBy(UserQueryProperty.USER_CREATED_TIME);
+    }
+    @Override
+    public UserQuery orderByUserUpdatedTime() {
+        return orderBy(UserQueryProperty.USER_UPDATED_TIME);
     }
 
     // results //////////////////////////////////////////////////////////
@@ -301,68 +283,74 @@ public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements Use
     public String getId() {
         return id;
     }
-
     public List<String> getIds() {
         return ids;
     }
-
     public String getIdIgnoreCase() {
         return idIgnoreCase;
     }
-
     public String getFirstName() {
         return firstName;
     }
-
     public String getFirstNameLike() {
         return firstNameLike;
     }
-
     public String getFirstNameLikeIgnoreCase() {
         return firstNameLikeIgnoreCase;
     }
-
     public String getLastName() {
         return lastName;
     }
-
     public String getLastNameLike() {
         return lastNameLike;
     }
-
     public String getLastNameLikeIgnoreCase() {
         return lastNameLikeIgnoreCase;
     }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getEmailLike() {
-        return emailLike;
-    }
-
-    public String getGroupId() {
-        return groupId;
-    }
-
-    public List<String> getGroupIds() {
-        return groupIds;
-    }
-
     public String getFullNameLike() {
         return fullNameLike;
     }
-
     public String getFullNameLikeIgnoreCase() {
         return fullNameLikeIgnoreCase;
     }
-
+    public String getDisplayName() {
+        return displayName;
+    }
+    public String getDisplayNameLike() {
+        return displayNameLike;
+    }
+    public String getDisplayNameLikeIgnoreCase() {
+        return displayNameLikeIgnoreCase;
+    }
+    public String getGroupId() {
+        return groupId;
+    }
+    public List<String> getGroupIds() {
+        return groupIds;
+    }
     public String getTenantId() {
         return tenantId;
     }
+    public Integer getUserStatusCodeId() {
+        return userStatusCodeId;
+    }
+    public String getUserLoginNameLike() {
+        return userLoginNameLike;
+    }
+    public String getUserLoginName() {
+        return userLoginName;
+    }
 
-    public Integer getStatusCodeId() {
-        return statusCodeId;
+    @Override
+    public UserQuery userEmail(String email) {
+        return null;
+    }
+    @Override
+    public UserQuery userEmailLike(String emailLike) {
+        return null;
+    }
+    @Override
+    public UserQuery orderByUserEmail() {
+        return null;
     }
 }

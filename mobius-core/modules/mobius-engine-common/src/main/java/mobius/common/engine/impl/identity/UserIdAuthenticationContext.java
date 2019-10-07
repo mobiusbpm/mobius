@@ -19,7 +19,7 @@ import mobius.common.engine.api.identity.AuthenticationContext;
 /**
  * Default implementation of the {@link AuthenticationContext} that uses a {@link ThreadLocal} that stores the {@link Principal}
  *
- * @author Filip Hrisafov
+ *
  */
 public class UserIdAuthenticationContext implements AuthenticationContext {
 

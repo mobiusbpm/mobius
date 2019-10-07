@@ -26,7 +26,7 @@ import mobius.app.engine.AppEngineConfiguration;
 import mobius.common.engine.api.repository.EngineResource;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class AppDeploymentEntityImpl extends AbstractAppEngineNoRevisionEntity implements AppDeploymentEntity, Serializable {

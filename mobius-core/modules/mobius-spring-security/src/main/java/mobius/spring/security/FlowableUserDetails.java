@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * Provides core user information within a Flowable application.
  *
- * @author Filip Hrisafov
+ *
  * @see UserDetails
  */
 public interface FlowableUserDetails extends UserDetails {

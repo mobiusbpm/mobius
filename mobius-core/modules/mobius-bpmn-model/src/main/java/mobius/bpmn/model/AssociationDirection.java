@@ -13,7 +13,7 @@
 package mobius.bpmn.model;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public enum AssociationDirection {
     NONE("None"), ONE("One"), BOTH("Both");

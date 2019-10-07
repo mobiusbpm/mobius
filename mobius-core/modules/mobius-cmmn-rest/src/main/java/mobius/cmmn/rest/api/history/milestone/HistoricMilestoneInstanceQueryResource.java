@@ -29,7 +29,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Dennis Federico
  */
 @RestController

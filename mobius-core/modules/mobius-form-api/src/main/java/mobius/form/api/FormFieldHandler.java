@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * Defines a form field handler.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface FormFieldHandler {
 

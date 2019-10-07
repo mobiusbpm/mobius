@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.idm.api.User;
 
 /**
- * @author Regi
+ *
  */
 public interface UserEntity extends User, Entity, HasRevision {
 

@@ -27,7 +27,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Gives access to a deployed case diagram, e.g., a PNG image, through a stream of bytes.
  * 
- * @author Tijs Rademakers
+ *
  */
 public class GetDeploymentCaseDiagramCmd implements Command<InputStream>, Serializable {
 

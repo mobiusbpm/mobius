@@ -37,7 +37,7 @@ import mobius.engine.repository.ProcessDefinition;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class HistoricProcessInstanceBaseResource {
 

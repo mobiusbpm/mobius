@@ -13,7 +13,7 @@
 package mobius.form.engine.impl.parser;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class FormDefinitionParseFactory {

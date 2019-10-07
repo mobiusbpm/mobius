@@ -21,7 +21,7 @@ import mobius.eventsubscription.api.EventSubscription;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface EventSubscriptionEntity extends EventSubscription, Entity, HasRevision {
 

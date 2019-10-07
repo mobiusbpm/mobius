@@ -25,7 +25,7 @@ import mobius.dmn.engine.impl.persistence.entity.data.DmnDeploymentDataManager;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class MybatisDmnDeploymentDataManager extends AbstractDmnDataManager<DmnDeploymentEntity> implements DmnDeploymentDataManager {
 

@@ -18,7 +18,7 @@ import mobius.engine.delegate.DelegateExecution;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public interface Condition extends Serializable {
 

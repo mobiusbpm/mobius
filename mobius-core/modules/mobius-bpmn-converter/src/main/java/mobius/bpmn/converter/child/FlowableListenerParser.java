@@ -22,7 +22,7 @@ import mobius.bpmn.model.BpmnModel;
 import mobius.bpmn.model.ImplementationType;
 
 /**
- * @author Tijs Rademakers
+ *
  * @author Yvo Swillens
  */
 public abstract class FlowableListenerParser extends BaseChildElementParser {

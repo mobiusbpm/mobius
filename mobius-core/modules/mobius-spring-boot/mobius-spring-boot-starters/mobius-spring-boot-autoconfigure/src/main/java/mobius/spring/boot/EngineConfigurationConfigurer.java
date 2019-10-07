@@ -16,7 +16,7 @@ package mobius.spring.boot;
  * Interface to be implemented by a bean that does some extra configuration of a Flowable engines. If such a bean is defined, it will be called when the
  * specific engine configuration is created and the default values have been set.
  *
- * @author Filip Hrisafov
+ *
  */
 public interface EngineConfigurationConfigurer<T> {
 

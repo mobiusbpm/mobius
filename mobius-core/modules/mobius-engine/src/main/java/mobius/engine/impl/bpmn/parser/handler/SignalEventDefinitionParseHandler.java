@@ -21,7 +21,7 @@ import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public class SignalEventDefinitionParseHandler extends AbstractBpmnParseHandler<SignalEventDefinition> {
 

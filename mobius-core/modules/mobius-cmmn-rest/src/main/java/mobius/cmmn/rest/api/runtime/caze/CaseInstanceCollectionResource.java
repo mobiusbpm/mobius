@@ -49,7 +49,7 @@ import io.swagger.annotations.Authorization;
  * exist when the case instance either enters its first wait state or completes. In this case, the different method is always called with a flag of true, which means that it will always return
  * those variables. If variables are not to be returned, the original method is called, which doesn't return the variables.
  * 
- * @author Tijs Rademakers
+ *
  */
 @RestController
 @Api(tags = { "Case Instances" }, description = "Manage Case Instances", authorizations = { @Authorization(value = "basicAuth") })

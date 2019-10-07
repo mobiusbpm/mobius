@@ -53,7 +53,7 @@ import io.swagger.annotations.Authorization;
  * exist when the process instance either enters its first wait state or completes. In this case, the different method is always called with a flag of true, which means that it will always return
  * those variables. If variables are not to be returned, the original method is called, which does not return the variables.
  * 
- * @author Frederik Heremans
+ *
  * @author Ryan Johnston (@rjfsu)
  * @author Zheng Ji
  */

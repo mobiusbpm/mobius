@@ -25,7 +25,7 @@ import mobius.form.api.FormDefinitionQuery;
 import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tijs Rademakers
+ *
  *
  */
 public class FormDefinitionQueryImpl extends AbstractQuery<FormDefinitionQuery, FormDefinition> implements FormDefinitionQuery {

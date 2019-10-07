@@ -28,7 +28,7 @@ import mobius.common.engine.impl.context.Context;
 import mobius.common.engine.impl.util.ReflectUtil;
 
 /**
- * @author Frederik Heremans
+ *
  */
 public class JPAEntityMappings {
 

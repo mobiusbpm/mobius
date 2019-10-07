@@ -18,7 +18,7 @@ import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
  *
- * @author Tijs Rademakers
+ *
  */
 public abstract class AbstractDmnDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {
     

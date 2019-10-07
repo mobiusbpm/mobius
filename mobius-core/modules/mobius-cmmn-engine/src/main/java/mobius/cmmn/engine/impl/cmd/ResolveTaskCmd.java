@@ -22,7 +22,7 @@ import mobius.task.api.DelegationState;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tijs Rademakers
+ *
  */
 public class ResolveTaskCmd extends NeedsActiveTaskCmd<Void> {
 

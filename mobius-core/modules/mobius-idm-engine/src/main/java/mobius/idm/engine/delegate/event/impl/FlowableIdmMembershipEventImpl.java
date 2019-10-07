@@ -18,7 +18,7 @@ import mobius.idm.api.event.FlowableIdmMembershipEvent;
 /**
  * Implementation of {@link FlowableIdmMembershipEvent}.
  *
- * @author Frederik Heremans
+ *
  */
 public class FlowableIdmMembershipEventImpl extends FlowableIdmEventImpl implements FlowableIdmMembershipEvent {
 

@@ -18,7 +18,7 @@ import java.util.Date;
 /**
  * An entity link is used to associate an entity with another entity.
  * 
- * @author Tijs Rademakers
+ *
  */
 public interface EntityLink {
 

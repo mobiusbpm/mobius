@@ -28,7 +28,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 /**
  * Service which provides access to {@link HistoricTaskInstanceEntity}.
  * 
- * @author Tijs Rademakers
+ *
  *
  */
 public interface HistoricTaskService {

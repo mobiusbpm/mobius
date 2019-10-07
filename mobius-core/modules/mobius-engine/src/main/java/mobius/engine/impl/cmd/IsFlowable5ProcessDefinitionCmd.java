@@ -22,7 +22,7 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class IsFlowable5ProcessDefinitionCmd implements Command<Boolean>, Serializable {
 

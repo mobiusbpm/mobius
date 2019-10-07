@@ -21,7 +21,7 @@ import mobius.job.service.impl.persistence.entity.JobInfoEntityManager;
 import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ResetExpiredJobsCmd implements Command<Void> {
 

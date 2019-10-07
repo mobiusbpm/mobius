@@ -20,7 +20,7 @@ import mobius.variable.api.types.VariableType;
  * An {@link FlowableEvent} related to a single variable.
  *
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public interface FlowableVariableEvent extends FlowableEngineEvent {
 

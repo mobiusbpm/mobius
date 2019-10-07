@@ -26,7 +26,7 @@ import mobius.common.engine.impl.interceptor.CommandExecutor;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class CmmnDeploymentQueryImpl extends AbstractQuery<CmmnDeploymentQuery, CmmnDeployment> implements CmmnDeploymentQuery, Serializable {
 

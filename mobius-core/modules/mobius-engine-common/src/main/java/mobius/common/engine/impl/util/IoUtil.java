@@ -26,9 +26,9 @@ import java.net.URL;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class IoUtil {
 

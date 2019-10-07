@@ -32,7 +32,7 @@ import mobius.job.service.impl.persistence.entity.JobEntity;
  * The {@link ExecutionEntity} for this operations should be in a wait state (receive task for example) and have a {@link FlowElement} that has a behaviour that implements the
  * {@link TriggerableActivityBehavior}.
  * 
- * @author Joram Barrez
+ *
  */
 public class TriggerExecutionOperation extends AbstractOperation {
     

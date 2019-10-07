@@ -19,8 +19,8 @@ import mobius.task.api.DelegationState;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DelegateTaskCmd extends NeedsActiveTaskCmd<Object> {
 

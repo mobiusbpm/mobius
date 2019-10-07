@@ -23,7 +23,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.ResourceDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisResourceDataManager extends AbstractProcessDataManager<ResourceEntity> implements ResourceDataManager {
 

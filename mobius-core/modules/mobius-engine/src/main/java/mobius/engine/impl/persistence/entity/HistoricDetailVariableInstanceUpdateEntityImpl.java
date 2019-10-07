@@ -17,8 +17,8 @@ import org.apache.commons.lang3.StringUtils;
 import mobius.variable.api.types.VariableType;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricDetailVariableInstanceUpdateEntityImpl extends HistoricDetailEntityImpl implements HistoricDetailVariableInstanceUpdateEntity {
 

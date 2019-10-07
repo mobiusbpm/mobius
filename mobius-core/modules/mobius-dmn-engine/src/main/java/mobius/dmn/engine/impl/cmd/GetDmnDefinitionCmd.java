@@ -21,7 +21,7 @@ import mobius.dmn.engine.impl.util.DecisionTableUtil;
 import mobius.dmn.model.DmnDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetDmnDefinitionCmd implements Command<DmnDefinition>, Serializable {
 

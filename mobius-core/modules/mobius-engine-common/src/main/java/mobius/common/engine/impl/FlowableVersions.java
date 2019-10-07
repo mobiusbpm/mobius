@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FlowableVersions {
     // Note the extra .x at the end. To cater for snapshot releases with different database changes

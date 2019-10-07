@@ -23,7 +23,7 @@ import mobius.task.api.TaskQuery;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ParallelGatewayTest extends PluggableFlowableTestCase {
 

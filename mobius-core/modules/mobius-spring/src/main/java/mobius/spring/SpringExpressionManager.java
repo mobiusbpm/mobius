@@ -26,8 +26,8 @@ import java.util.Map;
 /**
  * {@link DefaultExpressionManager} that exposes the full application-context or a limited set of beans in expressions.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class SpringExpressionManager extends ProcessExpressionManager {
 

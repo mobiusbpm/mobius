@@ -28,7 +28,7 @@ import mobius.common.engine.impl.util.CollectionUtil;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class StartEventParseHandler extends AbstractActivityBpmnParseHandler<StartEvent> {

@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.dmn.engine.impl.persistence.entity.DmnResourceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DmnResourceDataManager extends DataManager<DmnResourceEntity> {
 

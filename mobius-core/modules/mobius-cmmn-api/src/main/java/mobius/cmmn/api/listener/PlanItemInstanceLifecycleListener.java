@@ -20,7 +20,7 @@ import mobius.cmmn.api.delegate.DelegatePlanItemInstance;
  * An interface for listener implementations that get notified when the state of a plan item instance changes.
  * The listener can be registered in the configuration of the engine.
  *
- * @author Joram Barrez
+ *
  */
 public interface PlanItemInstanceLifecycleListener {
 

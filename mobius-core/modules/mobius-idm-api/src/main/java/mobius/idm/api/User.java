@@ -13,11 +13,10 @@
 package mobius.idm.api;
 
 import java.io.Serializable;
+import java.time.Instant;
 
 /**
  * Represents a user, used in {@link IdmIdentityService}.
- *
- * @author Tom Baeyens
  */
 public interface User extends Serializable {
 
@@ -25,42 +24,62 @@ public interface User extends Serializable {
 
     void setId(String id);
 
-    String getFirstName();
-
-    void setFirstName(String firstName);
-
-    void setLastName(String lastName);
-
-    String getLastName();
-    
-    void setDisplayName(String displayName);
-
-    String getDisplayName();
-
-    String getTenantId();
+   /* String getTenantId();
 
     void setTenantId(String tenantId);
 
-    boolean isPictureSet();
+    boolean isPictureSet();*/
 
-    // mobius new
-
-    void setEmail(String email);
+    /*void setEmail(String email);
 
     String getEmail();
 
     String getPassword();
 
-    void setPassword(String string);
-    String getLoginName();
+    void setPassword(String string);*/
 
-    void setLoginName(String loginName);
+    /**
+     * mobius
+     */
 
-    Integer getStatusCodeId();
+    Long getUserId();
 
-    void setStatusCodeId(Integer statusCodeId);
+    void setUserId(Long userId);
 
-    Integer getAuthTypeCodeId();
+    String getUserLoginName();
 
-    void setAuthTypeCodeId(Integer authTypeCodeId);
+    void setUserLoginName(String userLoginName);
+
+    String getUserEmail();
+
+    void setUserEmail(String userEmail);
+
+    String getUserPassword();
+
+    void setUserPassword(String userPassword);
+
+    Integer getUserStatusCodeId();
+
+    void setUserStatusCodeId(Integer userStatusCodeId);
+
+    Integer getUserAuthTypeCodeId();
+
+    void setUserAuthTypeCodeId(Integer userAuthTypeCodeId);
+
+    Long getUserCreatedBy();
+
+    void setUserCreatedBy(Long userId);
+
+    Instant getUserCreatedTime();
+
+    void setUserCreatedTime(Instant userCreatedTime);
+
+    Long getUserLastUpdatedBy();
+
+    void setUserLastUpdatedBy(Long userId);
+
+    Instant getUserLastUpdatedTime();
+
+    void setUserLastUpdatedTime(Instant userLastUpdatedTime);
+
 }

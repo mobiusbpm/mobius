@@ -40,8 +40,8 @@ import mobius.variable.api.entity.VariableInstance;
 /**
  * Service which provides access to {@link Task} and form related operations.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface TaskService {
 

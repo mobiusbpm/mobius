@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItemControl;
 import mobius.cmmn.model.RepetitionRule;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class RepetitionRuleXmlConverter extends CaseElementXmlConverter {
     

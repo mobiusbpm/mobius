@@ -27,8 +27,8 @@ import mobius.task.api.Task;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
- * @Author Joram Barrez
+ *
+ *
  */
 public class TransactionRollbackTest extends PluggableFlowableTestCase {
 

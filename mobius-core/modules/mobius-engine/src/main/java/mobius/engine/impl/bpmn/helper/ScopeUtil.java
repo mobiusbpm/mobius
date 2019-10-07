@@ -33,7 +33,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptio
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class ScopeUtil {
 

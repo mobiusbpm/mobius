@@ -13,7 +13,7 @@
 package mobius.engine.compatibility;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface Flowable5CompatibilityHandlerFactory {
 

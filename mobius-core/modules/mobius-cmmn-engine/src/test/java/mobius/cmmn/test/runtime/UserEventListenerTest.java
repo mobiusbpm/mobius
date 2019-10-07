@@ -38,7 +38,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * @author Dennis Federico
- * @author Joram Barrez
+ *
  */
 public class UserEventListenerTest extends FlowableCmmnTestCase {
 

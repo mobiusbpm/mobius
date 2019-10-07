@@ -27,8 +27,8 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.engine.runtime.Execution;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class GetExecutionVariablesCmd implements Command<Map<String, Object>>, Serializable {
 

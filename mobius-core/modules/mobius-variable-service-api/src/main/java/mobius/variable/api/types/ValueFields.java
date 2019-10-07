@@ -16,7 +16,7 @@ package mobius.variable.api.types;
 /**
  * Common interface for regular and historic variable entities.
  * 
- * @author Tom Baeyens
+ *
  */
 public interface ValueFields {
 

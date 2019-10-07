@@ -24,7 +24,7 @@ import mobius.common.engine.impl.util.CollectionUtil;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemInstanceTransitionBuilderTest extends FlowableCmmnTestCase {
 

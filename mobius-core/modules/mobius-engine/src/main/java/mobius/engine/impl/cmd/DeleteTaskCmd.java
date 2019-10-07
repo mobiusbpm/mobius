@@ -21,7 +21,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.util.TaskHelper;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DeleteTaskCmd implements Command<Void>, Serializable {
 

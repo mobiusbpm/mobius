@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItemControl;
 import javax.xml.stream.XMLStreamReader;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ItemControlXmlConverter extends CaseElementXmlConverter {
     

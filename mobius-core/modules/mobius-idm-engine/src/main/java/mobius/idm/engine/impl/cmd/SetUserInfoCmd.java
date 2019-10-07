@@ -22,7 +22,7 @@ import mobius.idm.engine.impl.persistence.entity.IdentityInfoEntity;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class SetUserInfoCmd implements Command<Object>, Serializable {
 

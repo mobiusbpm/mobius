@@ -26,7 +26,7 @@ import mobius.form.engine.impl.util.CommandContextUtil;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class FormDeploymentQueryImpl extends AbstractQuery<FormDeploymentQuery, FormDeployment> implements FormDeploymentQuery, Serializable {
 

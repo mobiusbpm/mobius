@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.engine.impl.persistence.entity.PropertyEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface PropertyDataManager extends DataManager<PropertyEntity> {
 

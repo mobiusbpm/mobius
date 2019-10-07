@@ -41,7 +41,7 @@ import org.junit.jupiter.api.Test;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class VariablesTest extends PluggableFlowableTestCase {
 

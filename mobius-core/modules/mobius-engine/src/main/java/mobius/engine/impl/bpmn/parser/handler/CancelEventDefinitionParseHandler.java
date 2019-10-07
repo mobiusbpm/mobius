@@ -18,7 +18,7 @@ import mobius.bpmn.model.CancelEventDefinition;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class CancelEventDefinitionParseHandler extends AbstractBpmnParseHandler<CancelEventDefinition> {

@@ -20,7 +20,7 @@ import mobius.engine.impl.ModelQueryImpl;
 import mobius.engine.repository.Model;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface ModelEntityManager extends EntityManager<ModelEntity> {
 

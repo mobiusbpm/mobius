@@ -20,7 +20,7 @@ import mobius.engine.delegate.DelegateExecution;
  * Event interface for {@link FlowableEvent} implementations related to the process engine,
  * exposing process engine specific functions.
  * 
- * @author Joram Barrez
+ *
  */
 public interface FlowableProcessEngineEvent extends FlowableEngineEvent {
     

@@ -17,7 +17,7 @@ import mobius.bpmn.model.CallActivity;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CallActivityParseHandler extends AbstractActivityBpmnParseHandler<CallActivity> {
 

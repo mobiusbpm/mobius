@@ -46,7 +46,7 @@ import mobius.task.service.delegate.DelegateTask;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class MultiInstanceTest extends PluggableFlowableTestCase {

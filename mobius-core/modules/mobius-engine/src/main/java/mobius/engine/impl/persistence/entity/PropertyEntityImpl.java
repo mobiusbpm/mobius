@@ -17,8 +17,8 @@ import java.io.Serializable;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class PropertyEntityImpl extends AbstractBpmnEngineEntity implements PropertyEntity, Serializable {
 

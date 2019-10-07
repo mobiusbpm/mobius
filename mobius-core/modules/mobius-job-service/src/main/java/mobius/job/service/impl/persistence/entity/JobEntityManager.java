@@ -21,7 +21,7 @@ import mobius.job.service.impl.JobQueryImpl;
 /**
  * {@link EntityManager} responsible for the {@link JobEntity} class.
  *
- * @author Joram Barrez
+ *
  */
 public interface JobEntityManager extends EntityManager<JobEntity>, JobInfoEntityManager<JobEntity> {
 

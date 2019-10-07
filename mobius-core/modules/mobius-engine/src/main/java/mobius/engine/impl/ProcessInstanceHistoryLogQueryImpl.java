@@ -33,7 +33,7 @@ import mobius.variable.service.impl.types.JPAEntityListVariableType;
 import mobius.variable.service.impl.types.JPAEntityVariableType;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessInstanceHistoryLogQueryImpl implements ProcessInstanceHistoryLogQuery, Command<ProcessInstanceHistoryLog> {
 

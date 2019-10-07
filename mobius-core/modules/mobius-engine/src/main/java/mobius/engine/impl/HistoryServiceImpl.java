@@ -53,7 +53,7 @@ import mobius.variable.service.impl.HistoricVariableInstanceQueryImpl;
 import mobius.variable.service.impl.NativeHistoricVariableInstanceQueryImpl;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Bernd Ruecker (camunda)
  * @author Christian Stettler
  */

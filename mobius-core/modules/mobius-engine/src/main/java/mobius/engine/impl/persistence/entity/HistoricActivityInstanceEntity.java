@@ -19,7 +19,7 @@ import mobius.engine.history.HistoricActivityInstance;
 
 /**
  * @author Christian Stettler
- * @author Joram Barrez
+ *
  */
 public interface HistoricActivityInstanceEntity extends HistoricActivityInstance, HistoricScopeInstanceEntity, HasRevision {
 

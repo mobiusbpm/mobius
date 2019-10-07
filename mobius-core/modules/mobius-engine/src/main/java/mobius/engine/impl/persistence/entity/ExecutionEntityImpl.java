@@ -43,11 +43,11 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 import mobius.variable.service.impl.persistence.entity.VariableScopeImpl;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Daniel Meyer
  * @author Falko Menge
  * @author Saeid Mirzaei
- * @author Joram Barrez
+ *
  */
 
 public class ExecutionEntityImpl extends AbstractBpmnEngineVariableScopeEntity implements ExecutionEntity, CountingExecutionEntity {

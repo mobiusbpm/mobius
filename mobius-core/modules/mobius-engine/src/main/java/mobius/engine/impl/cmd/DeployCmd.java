@@ -38,8 +38,8 @@ import mobius.engine.repository.Deployment;
 import mobius.engine.repository.DeploymentProperties;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DeployCmd<T> implements Command<Deployment>, Serializable {
 

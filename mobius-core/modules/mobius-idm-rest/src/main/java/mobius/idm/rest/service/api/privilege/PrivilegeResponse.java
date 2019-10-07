@@ -19,7 +19,7 @@ import mobius.idm.rest.service.api.group.GroupResponse;
 import mobius.idm.rest.service.api.user.UserResponse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PrivilegeResponse {
 

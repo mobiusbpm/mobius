@@ -17,7 +17,7 @@ import mobius.engine.form.StartFormData;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface StartFormHandler extends FormHandler {
 

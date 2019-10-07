@@ -24,7 +24,7 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
  * Service which provides access to historic variables.
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface HistoricVariableService {
     

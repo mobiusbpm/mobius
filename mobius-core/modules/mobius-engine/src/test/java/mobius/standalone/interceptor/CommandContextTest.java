@@ -20,7 +20,7 @@ import mobius.engine.impl.test.PluggableFlowableTestCase;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class CommandContextTest extends PluggableFlowableTestCase {
 

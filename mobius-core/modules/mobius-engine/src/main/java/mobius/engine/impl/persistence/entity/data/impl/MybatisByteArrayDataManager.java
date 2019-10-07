@@ -21,7 +21,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.ByteArrayDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisByteArrayDataManager extends AbstractProcessDataManager<ByteArrayEntity> implements ByteArrayDataManager {
 

@@ -19,8 +19,8 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.engine.history.HistoricDetail;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface HistoricDetailEntity extends HistoricDetail, Entity {
 

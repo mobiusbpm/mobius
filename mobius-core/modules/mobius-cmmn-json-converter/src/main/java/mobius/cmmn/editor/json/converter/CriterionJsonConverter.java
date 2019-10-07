@@ -35,7 +35,7 @@ import mobius.cmmn.model.Stage;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class CriterionJsonConverter extends BaseCmmnJsonConverter {
 

@@ -43,7 +43,7 @@ import org.junit.Test;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class HumanTaskTest extends FlowableCmmnTestCase {
 

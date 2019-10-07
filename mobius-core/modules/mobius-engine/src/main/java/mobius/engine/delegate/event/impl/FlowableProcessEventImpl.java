@@ -20,7 +20,7 @@ import mobius.engine.delegate.event.FlowableProcessEngineEvent;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FlowableProcessEventImpl extends FlowableEngineEventImpl implements FlowableProcessEngineEvent {
 

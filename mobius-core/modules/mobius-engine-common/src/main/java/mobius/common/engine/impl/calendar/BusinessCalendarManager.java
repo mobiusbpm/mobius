@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.calendar;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface BusinessCalendarManager {
 

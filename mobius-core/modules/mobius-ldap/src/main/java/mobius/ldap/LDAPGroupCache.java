@@ -29,7 +29,7 @@ import java.util.function.Supplier;
  * 
  * Experimental: can have a listener for cache events, and instance of {@link LDAPGroupCacheListener}.
  * 
- * @author Joram Barrez
+ *
  */
 public class LDAPGroupCache {
 

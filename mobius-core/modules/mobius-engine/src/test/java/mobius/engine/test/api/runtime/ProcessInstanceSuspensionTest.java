@@ -34,7 +34,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public class ProcessInstanceSuspensionTest extends PluggableFlowableTestCase {
 

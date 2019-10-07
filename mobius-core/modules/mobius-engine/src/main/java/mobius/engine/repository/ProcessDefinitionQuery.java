@@ -21,8 +21,8 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link ProcessDefinition}s.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Daniel Meyer
  * @author Saeid Mirzaei
  */

@@ -17,7 +17,7 @@ import java.io.Serializable;
 /**
  * Represents a group, used in {@link IdmIdentityService}.
  * 
- * @author Tom Baeyens
+ *
  */
 public interface Group extends Serializable {
 

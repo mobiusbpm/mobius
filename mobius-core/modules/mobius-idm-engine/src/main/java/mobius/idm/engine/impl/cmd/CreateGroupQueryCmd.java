@@ -21,7 +21,7 @@ import mobius.idm.api.GroupQuery;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class CreateGroupQueryCmd implements Command<GroupQuery>, Serializable {
 

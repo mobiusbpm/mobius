@@ -25,7 +25,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class JobExecutorCmdExceptionTest extends PluggableFlowableTestCase {
 

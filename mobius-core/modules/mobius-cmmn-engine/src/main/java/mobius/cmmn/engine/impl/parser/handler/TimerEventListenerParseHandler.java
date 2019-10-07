@@ -22,7 +22,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.cmmn.model.TimerEventListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerEventListenerParseHandler extends AbstractPlanItemParseHandler<TimerEventListener> {
 

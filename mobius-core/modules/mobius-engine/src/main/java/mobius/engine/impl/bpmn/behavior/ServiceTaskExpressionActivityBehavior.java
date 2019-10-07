@@ -34,7 +34,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 /**
  * ActivityBehavior that evaluates an expression when executed. Optionally, it sets the result of the expression as a variable on the execution.
  *
- * @author Tom Baeyens
+ *
  * @author Christian Stettler
  * @author Frederik Heremans
  * @author Slawomir Wojtasiak (Patch for ACT-1159)

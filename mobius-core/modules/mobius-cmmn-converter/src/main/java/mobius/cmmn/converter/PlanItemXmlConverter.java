@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.PlanItem;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemXmlConverter extends CaseElementXmlConverter {
     

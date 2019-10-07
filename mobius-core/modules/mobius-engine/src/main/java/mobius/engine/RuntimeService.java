@@ -51,8 +51,8 @@ import mobius.variable.api.entity.VariableInstance;
 
 /**
  *
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Daniel Meyer
  */
 public interface RuntimeService {

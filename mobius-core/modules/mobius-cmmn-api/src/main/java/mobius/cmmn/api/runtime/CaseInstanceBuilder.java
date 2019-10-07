@@ -17,7 +17,7 @@ import mobius.form.api.FormInfo;
 import java.util.Map;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface CaseInstanceBuilder {

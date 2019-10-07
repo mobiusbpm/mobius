@@ -46,7 +46,7 @@ import org.joda.time.format.ISODateTimeFormat;
 /**
  * {@link CmmnActivityBehavior} implementation for the CMMN Timer Event Listener.
  * 
- * @author Joram Barrez
+ *
  */
 public class TimerEventListenerActivityBehaviour extends CoreCmmnActivityBehavior implements PlanItemActivityBehavior {
 

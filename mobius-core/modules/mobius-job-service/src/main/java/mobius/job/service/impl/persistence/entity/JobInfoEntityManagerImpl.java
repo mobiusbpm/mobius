@@ -21,9 +21,9 @@ import mobius.job.service.JobServiceConfiguration;
 import mobius.job.service.impl.persistence.entity.data.JobInfoDataManager;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public abstract class JobInfoEntityManagerImpl<T extends JobInfoEntity> extends AbstractEntityManager<T> implements JobInfoEntityManager<T> {
 

@@ -14,7 +14,6 @@ package mobius.idm.engine.impl.persistence.entity;
 
 import mobius.common.engine.impl.db.HasRevision;
 import mobius.common.engine.impl.persistence.entity.Entity;
-import mobius.idm.api.Picture;
 import mobius.idm.api.User;
 
 /**
@@ -22,72 +21,8 @@ import mobius.idm.api.User;
  */
 public interface UserEntity extends User, Entity, HasRevision {
 
-    Picture getPicture();
+   /* Picture getPicture();
 
-    void setPicture(Picture picture);
+    void setPicture(Picture picture);*/
 
-    @Override
-    String getId();
-
-    @Override
-    void setId(String id);
-
-    @Override
-    String getFirstName();
-
-    @Override
-    void setFirstName(String firstName);
-
-    @Override
-    String getLastName();
-
-    @Override
-    void setLastName(String lastName);
-    
-    @Override
-    String getDisplayName();
-
-    @Override
-    void setDisplayName(String displayName);
-
-    @Override
-    String getEmail();
-
-    @Override
-    void setEmail(String email);
-
-    @Override
-    String getPassword();
-
-    @Override
-    void setPassword(String password);
-
-    @Override
-    boolean isPictureSet();
-
-    ByteArrayRef getPictureByteArrayRef();
-
-    @Override
-    String getTenantId();
-
-    @Override
-    void setTenantId(String tenantId);
-
-    @Override
-    void setStatusCodeId(Integer statusCodeId) ;
-
-    @Override
-    Integer getStatusCodeId();
-
-    @Override
-    String getLoginName();
-
-    @Override
-    void setLoginName(String loginName);
-
-    @Override
-    Integer getAuthTypeCodeId();
-
-    @Override
-    void setAuthTypeCodeId(Integer authTypeCodeId);
 }

@@ -25,7 +25,7 @@ import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class DmnDeploymentEntityImpl extends AbstractDmnEngineNoRevisionEntity implements DmnDeploymentEntity, Serializable {
 

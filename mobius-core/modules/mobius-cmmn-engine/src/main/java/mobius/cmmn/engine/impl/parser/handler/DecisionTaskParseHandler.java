@@ -22,7 +22,7 @@ import mobius.cmmn.model.DecisionTask;
 import mobius.cmmn.model.PlanItem;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DecisionTaskParseHandler extends AbstractPlanItemParseHandler<DecisionTask> {
 

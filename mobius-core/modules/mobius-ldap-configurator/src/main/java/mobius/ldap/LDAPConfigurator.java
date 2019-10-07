@@ -27,7 +27,7 @@ import mobius.idm.engine.configurator.IdmEngineConfigurator;
  * 
  * Check the docs (specifically the setters) to see how this class can be tweaked.
  * 
- * @author Joram Barrez
+ *
  */
 public class LDAPConfigurator extends IdmEngineConfigurator {
 

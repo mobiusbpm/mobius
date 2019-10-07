@@ -22,7 +22,7 @@ import mobius.idm.api.Group;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class CreateGroupCmd implements Command<Group>, Serializable {
 

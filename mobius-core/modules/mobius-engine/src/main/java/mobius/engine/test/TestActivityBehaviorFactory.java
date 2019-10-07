@@ -115,7 +115,7 @@ import mobius.engine.impl.el.FixedValue;
 import mobius.engine.impl.test.NoOpServiceTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TestActivityBehaviorFactory extends AbstractBehaviorFactory implements ActivityBehaviorFactory {
 

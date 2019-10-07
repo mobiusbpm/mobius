@@ -30,7 +30,7 @@ import java.nio.charset.StandardCharsets;
 import java.sql.*;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractSqlScriptBasedDbSchemaManager implements SchemaManager {
     

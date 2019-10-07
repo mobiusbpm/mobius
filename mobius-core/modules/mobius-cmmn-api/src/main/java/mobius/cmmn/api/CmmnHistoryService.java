@@ -29,7 +29,7 @@ import mobius.task.api.history.HistoricTaskLogEntryQuery;
 import mobius.task.api.history.HistoricTaskInstanceQuery;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnHistoryService {
     

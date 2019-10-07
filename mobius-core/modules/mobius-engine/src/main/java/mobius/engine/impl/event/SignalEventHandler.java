@@ -27,7 +27,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptio
 
 /**
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public class SignalEventHandler extends AbstractEventHandler {
 

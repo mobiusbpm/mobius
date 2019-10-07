@@ -25,8 +25,8 @@ import mobius.engine.runtime.ProcessInstanceQuery;
 /**
  * Allows programmatic querying of {@link HistoricProcessInstance}s.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Tijs Rademakers
  * @author Falko Menge
  */

@@ -17,7 +17,7 @@ import mobius.job.api.JobInfo;
 import mobius.job.service.JobServiceConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface ExecuteAsyncRunnableFactory {
 

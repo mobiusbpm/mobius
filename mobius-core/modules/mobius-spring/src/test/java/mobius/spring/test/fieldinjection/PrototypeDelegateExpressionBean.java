@@ -20,7 +20,7 @@ import mobius.engine.delegate.DelegateHelper;
 import mobius.engine.delegate.JavaDelegate;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PrototypeDelegateExpressionBean implements JavaDelegate {
 

@@ -19,7 +19,7 @@ import mobius.bpmn.model.Process;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessDefinitionCacheEntry implements Serializable {
 

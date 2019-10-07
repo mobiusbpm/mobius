@@ -17,7 +17,7 @@ import mobius.common.engine.impl.interceptor.Command;
 import mobius.common.engine.impl.interceptor.CommandConfig;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TotalExecutionTimeCommandInterceptor extends AbstractCommandInterceptor {
 

@@ -54,7 +54,7 @@ import java.lang.annotation.RetentionPolicy;
  * </pre>
  * 
  * @author Dave Syer
- * @author Tom Baeyens
+ *
  * @author Tim Stephenson
  */
 @Retention(RetentionPolicy.RUNTIME)

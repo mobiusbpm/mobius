@@ -26,8 +26,8 @@ import javax.script.SimpleScriptContext;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class ScriptBindings implements Bindings {
 

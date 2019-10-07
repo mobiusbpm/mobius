@@ -25,7 +25,7 @@ import mobius.entitylink.service.impl.persistence.entity.data.HistoricEntityLink
 import mobius.entitylink.service.impl.persistence.entity.data.impl.cachematcher.HistoricEntityLinksByScopeIdAndTypeMatcher;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricEntityLinkDataManager extends AbstractDataManager<HistoricEntityLinkEntity> implements HistoricEntityLinkDataManager {
 

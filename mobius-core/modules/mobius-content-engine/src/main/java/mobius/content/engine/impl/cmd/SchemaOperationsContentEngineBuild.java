@@ -19,7 +19,7 @@ import mobius.content.engine.impl.db.ContentDbSchemaManager;
 import mobius.content.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SchemaOperationsContentEngineBuild implements Command<Void> {
 

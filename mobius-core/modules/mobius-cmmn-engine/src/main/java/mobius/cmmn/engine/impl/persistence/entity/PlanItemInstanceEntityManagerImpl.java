@@ -35,7 +35,7 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntityMan
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemInstanceEntityManagerImpl extends AbstractCmmnEntityManager<PlanItemInstanceEntity>
 		implements PlanItemInstanceEntityManager {

@@ -20,7 +20,7 @@ import java.util.GregorianCalendar;
 import java.util.TimeZone;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DefaultClockImpl implements Clock {
     private TimeZone timeZone;

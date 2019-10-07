@@ -15,7 +15,7 @@ package mobius.common.engine.api.io;
 import java.io.InputStream;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface InputStreamProvider {
 

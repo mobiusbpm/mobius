@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Service to manage {@link User}s and {@link Group}s.
  * 
- * @author Tom Baeyens
+ *
  */
 public interface IdentityService {
 

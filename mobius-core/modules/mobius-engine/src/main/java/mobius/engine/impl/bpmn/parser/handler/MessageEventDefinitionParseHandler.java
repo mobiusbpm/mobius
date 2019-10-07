@@ -24,7 +24,7 @@ import mobius.bpmn.model.MessageEventDefinition;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class MessageEventDefinitionParseHandler extends AbstractBpmnParseHandler<MessageEventDefinition> {

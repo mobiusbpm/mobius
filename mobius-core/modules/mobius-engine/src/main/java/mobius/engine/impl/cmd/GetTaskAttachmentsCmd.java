@@ -22,7 +22,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.task.Attachment;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetTaskAttachmentsCmd implements Command<List<? extends Attachment>>, Serializable {
 

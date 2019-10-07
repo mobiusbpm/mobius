@@ -30,7 +30,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 /**
  * {@link CmmnActivityBehavior} used when 'delegateExpression' is used for a serviceTask.
  * 
- * @author Joram Barrez
+ *
  * @author Josh Long
  * @author Tijs Rademakers
  */

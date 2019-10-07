@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.callback;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CallbackData {
     

@@ -28,8 +28,8 @@ import mobius.variable.service.impl.types.JPAEntityListVariableType;
 import mobius.variable.service.impl.types.JPAEntityVariableType;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricDetailQueryImpl extends AbstractQuery<HistoricDetailQuery, HistoricDetail> implements HistoricDetailQuery {
 

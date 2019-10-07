@@ -26,7 +26,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class DeleteIdentityLinkForCaseInstanceCmd implements Command<Object>, Serializable {
 

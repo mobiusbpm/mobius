@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
  * Class with overridable methods that are called when doing the calls to the ldap system. You can extend this class and plug it into the {@link LDAPConfiguration} if the default queries are inadequate
  * for your use case.
  * 
- * @author Joram Barrez
+ *
  */
 public class LDAPQueryBuilder {
 

@@ -20,8 +20,8 @@ import mobius.variable.api.types.ValueFields;
 import mobius.variable.api.types.VariableType;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface HistoricDetailVariableInstanceUpdateEntity extends HistoricDetailEntity, ValueFields, HistoricVariableUpdate, Entity, HasRevision {
 

@@ -15,8 +15,8 @@ package mobius.idm.engine.impl.persistence.entity;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface MembershipEntity extends Entity {
 

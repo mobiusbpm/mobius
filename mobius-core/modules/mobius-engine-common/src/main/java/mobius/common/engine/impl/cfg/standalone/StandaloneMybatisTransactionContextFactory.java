@@ -17,7 +17,7 @@ import mobius.common.engine.impl.cfg.TransactionContextFactory;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class StandaloneMybatisTransactionContextFactory implements TransactionContextFactory {
 

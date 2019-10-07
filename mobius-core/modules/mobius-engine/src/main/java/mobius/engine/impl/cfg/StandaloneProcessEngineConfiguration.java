@@ -16,7 +16,7 @@ package mobius.engine.impl.cfg;
 import mobius.common.engine.impl.interceptor.CommandInterceptor;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class StandaloneProcessEngineConfiguration extends ProcessEngineConfigurationImpl {
 

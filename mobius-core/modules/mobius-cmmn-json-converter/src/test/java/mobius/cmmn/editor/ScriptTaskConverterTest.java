@@ -22,7 +22,7 @@ import mobius.cmmn.model.PlanItemControl;
 import mobius.cmmn.model.Stage;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ScriptTaskConverterTest extends AbstractConverterTest {
 

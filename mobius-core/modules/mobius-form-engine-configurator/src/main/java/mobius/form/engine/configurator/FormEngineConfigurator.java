@@ -29,7 +29,7 @@ import java.util.List;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class FormEngineConfigurator extends AbstractEngineConfigurator {
 

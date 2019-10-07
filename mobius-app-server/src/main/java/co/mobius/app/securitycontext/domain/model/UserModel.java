@@ -1,25 +1,14 @@
 package co.mobius.app.securitycontext.domain.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-import java.time.Instant;
+import mobius.idm.api.User;
 
 /**
- * rich domain model for User: extends from anaemic model in Mobius engine
+ * rich domain model for User
  */
-@Getter
-@Setter
-@NoArgsConstructor
 public class UserModel  {
-	private String loginName;
-	private String password;
-	private String email;
-	private Integer statusCodeId;
-	private Integer authTypeCodeId;
-	private String createdBy;
-	private Instant createdTime;
-	private String updatedBy;
-	private Instant updatedTime;
+	private User mbsUser;
+
+	public UserModel(User mbsUser) {
+		this.mbsUser = mbsUser;
+	}
 }

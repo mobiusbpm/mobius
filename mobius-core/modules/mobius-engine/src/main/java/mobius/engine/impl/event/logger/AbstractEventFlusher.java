@@ -19,7 +19,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.event.logger.handler.EventLoggerEventHandler;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEventFlusher implements EventFlusher {
 

@@ -24,7 +24,7 @@ import javax.xml.stream.XMLStreamReader;
 import mobius.cmmn.model.ScriptServiceTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TaskXmlConverter extends PlanItemDefinitionXmlConverter {
 

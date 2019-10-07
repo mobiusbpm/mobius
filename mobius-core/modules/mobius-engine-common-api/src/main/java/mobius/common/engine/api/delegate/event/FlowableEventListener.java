@@ -16,7 +16,7 @@ package mobius.common.engine.api.delegate.event;
  * Describes a class that listens for {@link FlowableEvent}s dispatched by the engine.
  * 
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public interface FlowableEventListener {
 

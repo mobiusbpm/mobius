@@ -40,7 +40,7 @@ import mobius.cmmn.model.Stage;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ConversionHelper {
 

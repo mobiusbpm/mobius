@@ -19,7 +19,7 @@ import mobius.engine.impl.persistence.entity.ExecutionEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface ServiceInvoker {
 

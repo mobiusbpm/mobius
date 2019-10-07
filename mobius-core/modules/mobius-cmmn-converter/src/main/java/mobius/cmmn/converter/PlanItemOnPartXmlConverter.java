@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.SentryOnPart;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemOnPartXmlConverter extends BaseCmmnXmlConverter {
     

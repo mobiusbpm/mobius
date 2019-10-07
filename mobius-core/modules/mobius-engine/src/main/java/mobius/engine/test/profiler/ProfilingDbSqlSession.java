@@ -23,7 +23,7 @@ import mobius.common.engine.impl.persistence.cache.EntityCache;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProfilingDbSqlSession extends DbSqlSession {
 

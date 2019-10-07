@@ -15,8 +15,8 @@ package mobius.idm.engine.impl.persistence.entity;
 import java.io.Serializable;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class MembershipEntityImpl extends AbstractIdmEngineNoRevisionEntity implements MembershipEntity, Serializable {
 

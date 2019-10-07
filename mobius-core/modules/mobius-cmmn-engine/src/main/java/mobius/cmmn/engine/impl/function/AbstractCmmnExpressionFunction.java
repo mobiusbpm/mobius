@@ -18,7 +18,7 @@ import java.util.List;
 import mobius.common.engine.impl.el.function.AbstractFlowableShortHandExpressionFunction;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractCmmnExpressionFunction extends AbstractFlowableShortHandExpressionFunction {
 

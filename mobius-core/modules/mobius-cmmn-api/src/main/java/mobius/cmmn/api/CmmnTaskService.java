@@ -30,7 +30,7 @@ import mobius.task.api.TaskQuery;
 import mobius.variable.api.entity.VariableInstance;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnTaskService {
     

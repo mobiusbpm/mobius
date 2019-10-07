@@ -21,7 +21,7 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.engine.impl.persistence.entity.data.EventLogEntryDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class EventLogEntryEntityManagerImpl extends AbstractEntityManager<EventLogEntryEntity> implements EventLogEntryEntityManager {
 

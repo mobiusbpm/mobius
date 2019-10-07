@@ -25,7 +25,7 @@ import mobius.dmn.engine.impl.persistence.entity.DmnDeploymentEntity;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SetDeploymentTenantIdCmd implements Command<Void>, Serializable {
 

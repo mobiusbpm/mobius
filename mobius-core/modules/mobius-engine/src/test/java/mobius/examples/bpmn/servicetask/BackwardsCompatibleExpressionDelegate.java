@@ -18,7 +18,7 @@ import mobius.engine.delegate.DelegateExecution;
 import mobius.engine.delegate.JavaDelegate;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class BackwardsCompatibleExpressionDelegate implements JavaDelegate {
 

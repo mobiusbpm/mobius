@@ -46,8 +46,8 @@ import mobius.form.api.FormService;
 import mobius.variable.service.impl.el.NoExecutionVariableScope;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class StartProcessInstanceCmd<T> implements Command<ProcessInstance>, Serializable {
 

@@ -33,7 +33,7 @@ import mobius.job.service.impl.persistence.entity.data.impl.cachematcher.TimerJo
 /**
  * @author Tijs Rademakers
  * @author Vasile Dirla
- * @author Joram Barrez
+ *
  */
 public class MybatisTimerJobDataManager extends AbstractDataManager<TimerJobEntity> implements TimerJobDataManager {
 

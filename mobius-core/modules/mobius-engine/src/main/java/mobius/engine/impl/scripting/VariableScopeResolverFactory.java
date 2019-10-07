@@ -19,8 +19,8 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class VariableScopeResolverFactory implements ResolverFactory {
 

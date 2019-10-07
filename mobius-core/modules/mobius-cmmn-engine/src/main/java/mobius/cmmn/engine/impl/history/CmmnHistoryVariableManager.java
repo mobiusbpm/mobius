@@ -19,7 +19,7 @@ import mobius.variable.service.history.InternalHistoryVariableManager;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnHistoryVariableManager implements InternalHistoryVariableManager {
     

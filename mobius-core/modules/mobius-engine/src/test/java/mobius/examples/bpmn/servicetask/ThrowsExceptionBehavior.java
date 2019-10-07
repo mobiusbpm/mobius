@@ -18,7 +18,7 @@ import mobius.engine.delegate.DelegateHelper;
 import mobius.engine.impl.delegate.ActivityBehavior;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ThrowsExceptionBehavior implements ActivityBehavior {
 

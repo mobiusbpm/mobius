@@ -48,7 +48,7 @@ import mobius.job.service.impl.cmd.SetJobRetriesCmd;
 import mobius.job.service.impl.cmd.SetTimerJobRetriesCmd;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnManagementServiceImpl extends CommonEngineServiceImpl<CmmnEngineConfiguration> implements CmmnManagementService {
 

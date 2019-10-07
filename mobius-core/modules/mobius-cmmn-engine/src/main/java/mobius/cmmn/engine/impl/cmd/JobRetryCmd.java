@@ -28,7 +28,7 @@ import mobius.job.service.impl.persistence.entity.JobEntity;
 
 /**
  * @author Saeid Mirzaei
- * @author Joram Barrez
+ *
  */
 public class JobRetryCmd implements Command<Object> {
 

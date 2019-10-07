@@ -20,8 +20,8 @@ import mobius.common.engine.impl.util.ReflectUtil;
 import mobius.common.engine.impl.util.io.StreamSource;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class ResourceStreamSource implements StreamSource {
 

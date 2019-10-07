@@ -24,8 +24,8 @@ import mobius.task.service.impl.HistoricTaskInstanceQueryImpl;
 import mobius.task.service.impl.persistence.entity.data.HistoricTaskInstanceDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricTaskInstanceEntityManagerImpl extends AbstractEntityManager<HistoricTaskInstanceEntity> implements HistoricTaskInstanceEntityManager {
 

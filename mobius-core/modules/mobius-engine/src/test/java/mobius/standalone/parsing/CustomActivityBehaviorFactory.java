@@ -18,7 +18,7 @@ import mobius.engine.impl.bpmn.behavior.NoneStartEventActivityBehavior;
 import mobius.engine.impl.bpmn.parser.factory.DefaultActivityBehaviorFactory;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CustomActivityBehaviorFactory extends DefaultActivityBehaviorFactory {
 

@@ -18,7 +18,7 @@ import mobius.common.engine.impl.runtime.Clock;
 import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractProcessDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {
     

@@ -23,7 +23,7 @@ import mobius.engine.impl.bpmn.parser.FieldDeclaration;
 import mobius.engine.impl.el.FixedValue;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractBehaviorFactory {
 

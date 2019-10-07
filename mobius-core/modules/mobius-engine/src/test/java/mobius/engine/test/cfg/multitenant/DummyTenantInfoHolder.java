@@ -22,7 +22,7 @@ import mobius.common.engine.impl.cfg.multitenant.TenantInfoHolder;
 import mobius.common.engine.impl.identity.Authentication;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DummyTenantInfoHolder implements TenantInfoHolder {
 

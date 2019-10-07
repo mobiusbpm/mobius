@@ -18,7 +18,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 /**
  * @author Frederik Hermans
- * @author Joram Barrez
+ *
  * @author Filip Hrisafov
  */
 public class UserResponse {

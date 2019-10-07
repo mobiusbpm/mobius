@@ -24,7 +24,7 @@ import mobius.common.engine.api.query.Query;
  * {@link RepositoryService#getResourceAsStream(String, String)}
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface FormDeploymentQuery extends Query<FormDeploymentQuery, FormDeployment> {
 

@@ -18,7 +18,7 @@ package mobius.identitylink.service;
  * see TaskService#addUserIdentityLink(String, String, String)
  * see TaskService#addGroupIdentityLink(String, String, String)
  * 
- * @author Joram Barrez
+ *
  * @deprecated use {@link mobius.identitylink.api.IdentityLinkType} instead
  */
 public class IdentityLinkType extends mobius.identitylink.api.IdentityLinkType {

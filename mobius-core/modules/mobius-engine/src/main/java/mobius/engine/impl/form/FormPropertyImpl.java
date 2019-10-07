@@ -17,7 +17,7 @@ import mobius.engine.form.FormProperty;
 import mobius.engine.form.FormType;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class FormPropertyImpl implements FormProperty {
 

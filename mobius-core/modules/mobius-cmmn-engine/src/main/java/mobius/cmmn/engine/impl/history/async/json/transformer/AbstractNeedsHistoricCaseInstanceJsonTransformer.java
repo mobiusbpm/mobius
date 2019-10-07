@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import static mobius.job.service.impl.history.async.util.AsyncHistoryJsonUtil.getStringFromJson;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractNeedsHistoricCaseInstanceJsonTransformer extends AbstractHistoryJsonTransformer {
 

@@ -25,7 +25,7 @@ import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class GetJobExceptionStacktraceCmd implements Command<String>, Serializable {
 

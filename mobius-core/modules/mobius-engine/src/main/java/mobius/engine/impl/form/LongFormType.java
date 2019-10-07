@@ -16,7 +16,7 @@ package mobius.engine.impl.form;
 import mobius.engine.form.AbstractFormType;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class LongFormType extends AbstractFormType {
 

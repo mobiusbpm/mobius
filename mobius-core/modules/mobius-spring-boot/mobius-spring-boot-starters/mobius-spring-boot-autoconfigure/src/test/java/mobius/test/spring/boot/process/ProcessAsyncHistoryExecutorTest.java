@@ -32,7 +32,7 @@ import org.springframework.boot.test.context.runner.ApplicationContextRunner;
 import org.springframework.core.task.TaskExecutor;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessAsyncHistoryExecutorTest {
 

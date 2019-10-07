@@ -26,7 +26,7 @@ import mobius.variable.service.impl.persistence.entity.data.HistoricVariableInst
 
 /**
  * @author Christian Lipphardt (camunda)
- * @author Joram Barrez
+ *
  */
 public class HistoricVariableInstanceEntityManagerImpl extends AbstractEntityManager<HistoricVariableInstanceEntity> implements HistoricVariableInstanceEntityManager {
 

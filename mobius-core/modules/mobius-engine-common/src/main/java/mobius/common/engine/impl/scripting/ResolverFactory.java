@@ -18,8 +18,8 @@ import mobius.common.engine.impl.AbstractEngineConfiguration;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface ResolverFactory {
 

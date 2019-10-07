@@ -25,7 +25,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class HistoryManagerInvocationsTest extends CustomConfigurationFlowableTestCase {
 

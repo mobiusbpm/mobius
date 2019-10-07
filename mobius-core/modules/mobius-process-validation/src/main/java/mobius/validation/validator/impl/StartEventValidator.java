@@ -27,7 +27,7 @@ import mobius.validation.validator.Problems;
 import mobius.validation.validator.ProcessLevelValidator;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class StartEventValidator extends ProcessLevelValidator {
 

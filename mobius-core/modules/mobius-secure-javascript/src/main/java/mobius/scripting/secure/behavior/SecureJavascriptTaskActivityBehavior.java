@@ -21,7 +21,7 @@ import mobius.engine.impl.bpmn.helper.ErrorPropagation;
 import mobius.scripting.secure.impl.SecureJavascriptUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SecureJavascriptTaskActivityBehavior extends ScriptTaskActivityBehavior {
 

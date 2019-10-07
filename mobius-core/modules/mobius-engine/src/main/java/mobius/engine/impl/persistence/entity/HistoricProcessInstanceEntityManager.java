@@ -20,7 +20,7 @@ import mobius.engine.history.HistoricProcessInstance;
 import mobius.engine.impl.HistoricProcessInstanceQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricProcessInstanceEntityManager extends EntityManager<HistoricProcessInstanceEntity> {
 

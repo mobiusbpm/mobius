@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItemDefinition;
 import mobius.cmmn.model.Stage;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class PlanItemDefinitionXmlConverter extends CaseElementXmlConverter {
     

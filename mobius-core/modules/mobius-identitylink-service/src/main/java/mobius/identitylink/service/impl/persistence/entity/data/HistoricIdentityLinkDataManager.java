@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.identitylink.service.impl.persistence.entity.HistoricIdentityLinkEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricIdentityLinkDataManager extends DataManager<HistoricIdentityLinkEntity> {
 

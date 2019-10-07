@@ -15,7 +15,7 @@ package mobius.common.engine.impl.interceptor;
 /**
  * The command executor for internal usage.
  * 
- * @author Tom Baeyens
+ *
  */
 public interface CommandExecutor {
 

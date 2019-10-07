@@ -21,7 +21,7 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.engine.impl.persistence.entity.EventLogEntryEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class EngineCreatedEventHandler extends AbstractDatabaseEventLoggerEventHandler {
 

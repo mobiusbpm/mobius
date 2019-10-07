@@ -21,7 +21,7 @@ import mobius.engine.delegate.ExecutionListener;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Joram Barrez
+ *
  */
 @Component("testExecutionListener")
 public class TestExecutionListener implements ExecutionListener {

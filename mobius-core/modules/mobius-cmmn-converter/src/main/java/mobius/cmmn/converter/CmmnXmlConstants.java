@@ -13,7 +13,7 @@
 package mobius.cmmn.converter;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnXmlConstants {
 

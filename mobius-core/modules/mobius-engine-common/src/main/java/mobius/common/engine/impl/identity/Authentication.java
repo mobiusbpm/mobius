@@ -16,7 +16,7 @@ package mobius.common.engine.impl.identity;
 import mobius.common.engine.api.identity.AuthenticationContext;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public abstract class Authentication {
 

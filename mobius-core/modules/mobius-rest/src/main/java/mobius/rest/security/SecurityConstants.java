@@ -13,7 +13,7 @@
 package mobius.rest.security;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface SecurityConstants {
     

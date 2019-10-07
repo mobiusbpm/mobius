@@ -26,8 +26,8 @@ import mobius.engine.impl.util.TaskHelper;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class SubmitTaskFormCmd extends NeedsActiveTaskCmd<Void> {
 

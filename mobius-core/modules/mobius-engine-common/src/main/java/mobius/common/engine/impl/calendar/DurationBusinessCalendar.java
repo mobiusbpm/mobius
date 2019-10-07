@@ -18,7 +18,7 @@ import mobius.common.engine.impl.runtime.ClockReader;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DurationBusinessCalendar extends BusinessCalendarImpl {
 

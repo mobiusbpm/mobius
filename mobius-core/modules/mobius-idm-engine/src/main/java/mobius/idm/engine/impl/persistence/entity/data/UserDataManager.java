@@ -21,7 +21,7 @@ import mobius.idm.engine.impl.UserQueryImpl;
 import mobius.idm.engine.impl.persistence.entity.UserEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface UserDataManager extends DataManager<UserEntity> {
 

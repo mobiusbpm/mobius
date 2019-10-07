@@ -25,7 +25,7 @@ import mobius.idm.engine.impl.util.CommandContextUtil;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class UserQueryImpl extends AbstractQuery<UserQuery, User> implements UserQuery {
 

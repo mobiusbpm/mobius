@@ -26,7 +26,7 @@ import mobius.dmn.engine.impl.persistence.entity.data.AbstractDmnDataManager;
 import mobius.dmn.engine.impl.persistence.entity.data.DecisionTableDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisDecisionTableDataManager extends AbstractDmnDataManager<DecisionTableEntity> implements DecisionTableDataManager {
 

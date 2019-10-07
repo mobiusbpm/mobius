@@ -22,7 +22,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.cmmn.model.ScriptServiceTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ScriptTaskParseHandler extends AbstractPlanItemParseHandler<ScriptServiceTask> {
 

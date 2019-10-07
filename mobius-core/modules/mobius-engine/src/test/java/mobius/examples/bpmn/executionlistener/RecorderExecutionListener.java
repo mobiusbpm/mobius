@@ -25,7 +25,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 
 /**
  * @author Bernd Ruecker
- * @author Joram Barrez
+ *
  */
 public class RecorderExecutionListener implements ExecutionListener {
 

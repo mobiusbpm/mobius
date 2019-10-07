@@ -23,7 +23,7 @@ import mobius.engine.impl.test.NoOpServiceTask;
 import mobius.engine.test.TestActivityBehaviorFactory;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FlowableMockSupport {
 

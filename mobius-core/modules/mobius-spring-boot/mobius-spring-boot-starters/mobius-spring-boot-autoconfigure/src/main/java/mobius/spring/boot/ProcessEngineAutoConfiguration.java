@@ -56,7 +56,7 @@ import java.util.List;
  * @author Josh Long
  * @author Filip Hrisafov
  * @author Javier Casal
- * @author Joram Barrez
+ *
  */
 @Configuration
 @ConditionalOnProcessEngine

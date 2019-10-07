@@ -21,7 +21,7 @@ import mobius.common.engine.impl.scripting.ScriptingEngines;
 
 /**
  * @author Rich Kroll
- * @author Joram Barrez
+ *
  */
 public class ScriptTaskListener implements TaskListener {
 

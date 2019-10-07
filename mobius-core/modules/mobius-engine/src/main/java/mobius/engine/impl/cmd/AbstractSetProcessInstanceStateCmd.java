@@ -35,7 +35,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public abstract class AbstractSetProcessInstanceStateCmd implements Command<Void> {

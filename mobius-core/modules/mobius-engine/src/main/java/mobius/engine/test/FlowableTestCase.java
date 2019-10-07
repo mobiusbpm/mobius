@@ -54,7 +54,7 @@ import junit.framework.TestCase;
  * the time that was set during a test method.
  * </p>
  * 
- * @author Tom Baeyens
+ *
  */
 public abstract class FlowableTestCase extends TestCase {
 

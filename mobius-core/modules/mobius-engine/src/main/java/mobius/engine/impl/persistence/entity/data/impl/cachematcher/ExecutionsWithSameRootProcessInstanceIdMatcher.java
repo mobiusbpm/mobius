@@ -19,7 +19,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcher;
 import mobius.engine.impl.persistence.entity.ExecutionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExecutionsWithSameRootProcessInstanceIdMatcher implements CachedEntityMatcher<ExecutionEntity> {
 

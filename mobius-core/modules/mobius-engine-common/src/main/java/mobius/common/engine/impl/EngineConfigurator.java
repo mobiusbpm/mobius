@@ -15,7 +15,7 @@ package mobius.common.engine.impl;
 /**
  * Implementations of this class can be plugged into a {@link AbstractEngineConfiguration}. Such implementations can configure the engine in any way programmatically possible.
  * 
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface EngineConfigurator {

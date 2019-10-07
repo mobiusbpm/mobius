@@ -18,8 +18,8 @@ import mobius.engine.task.Comment;
 import mobius.engine.task.Event;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface CommentEntity extends Comment, Event, Entity {
 

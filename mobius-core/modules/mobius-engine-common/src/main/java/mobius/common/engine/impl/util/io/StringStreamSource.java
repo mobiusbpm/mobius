@@ -19,7 +19,7 @@ import java.io.UnsupportedEncodingException;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class StringStreamSource implements StreamSource {
 

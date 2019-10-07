@@ -27,8 +27,8 @@ import mobius.engine.task.Attachment;
 import mobius.task.api.Task;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class AttachmentEntityManagerImpl extends AbstractEntityManager<AttachmentEntity> implements AttachmentEntityManager {
 

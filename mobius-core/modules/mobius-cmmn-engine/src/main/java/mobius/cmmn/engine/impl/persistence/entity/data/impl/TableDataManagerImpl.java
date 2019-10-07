@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TableDataManagerImpl implements TableDataManager {
 

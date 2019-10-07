@@ -18,7 +18,7 @@ import mobius.cmmn.model.FieldExtension;
 import mobius.cmmn.model.ServiceTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnClassDelegateFactory {
 

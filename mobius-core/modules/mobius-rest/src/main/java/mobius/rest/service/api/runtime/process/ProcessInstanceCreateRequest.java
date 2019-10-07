@@ -31,7 +31,7 @@ import io.swagger.annotations.ApiModelProperty;
  * 
  * @author Frederik Heremans
  * @author Ryan Johnston (@rjfsu)
- * @author Joram Barrez
+ *
  */
 @ApiModel(description = "Only one of processDefinitionId, processDefinitionKey or message can be used in the request body")
 public class ProcessInstanceCreateRequest {

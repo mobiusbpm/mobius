@@ -30,7 +30,7 @@ import mobius.job.service.impl.persistence.entity.data.JobDataManager;
 import mobius.job.service.impl.persistence.entity.data.impl.cachematcher.JobsByExecutionIdMatcher;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class MybatisJobDataManager extends AbstractDataManager<JobEntity> implements JobDataManager {

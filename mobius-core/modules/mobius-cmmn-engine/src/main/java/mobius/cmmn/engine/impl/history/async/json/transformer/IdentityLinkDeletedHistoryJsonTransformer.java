@@ -27,7 +27,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IdentityLinkDeletedHistoryJsonTransformer extends AbstractHistoryJsonTransformer {
 

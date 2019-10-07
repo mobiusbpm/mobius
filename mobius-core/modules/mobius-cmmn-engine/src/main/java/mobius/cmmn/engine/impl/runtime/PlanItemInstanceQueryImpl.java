@@ -25,7 +25,7 @@ import mobius.common.engine.impl.interceptor.CommandExecutor;
 import mobius.variable.service.impl.AbstractVariableQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemInstanceQueryImpl extends AbstractVariableQueryImpl<PlanItemInstanceQuery, PlanItemInstance> implements PlanItemInstanceQuery {
     

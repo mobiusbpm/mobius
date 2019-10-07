@@ -17,7 +17,7 @@ import mobius.idm.engine.IdmEngineConfiguration;
 /**
  * Lightweight {@link IdmEngineConfiguration} to be used when running with LDAP.
  * 
- * @author Joram Barrez
+ *
  */
 public class LdapIdmEngineConfiguration extends IdmEngineConfiguration {
     

@@ -29,7 +29,7 @@ import mobius.task.service.impl.persistence.CountingTaskEntity;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Tijs Rademakers
  */
 public class SubTaskTest extends PluggableFlowableTestCase {

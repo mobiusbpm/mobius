@@ -15,7 +15,7 @@ package mobius.common.engine.api.history;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricData {
 

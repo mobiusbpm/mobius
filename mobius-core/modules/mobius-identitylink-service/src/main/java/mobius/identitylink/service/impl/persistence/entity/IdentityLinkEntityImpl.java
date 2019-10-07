@@ -19,7 +19,7 @@ import java.util.Map;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class IdentityLinkEntityImpl extends AbstractIdentityLinkServiceNoRevisionEntity implements IdentityLinkEntity, Serializable {
 

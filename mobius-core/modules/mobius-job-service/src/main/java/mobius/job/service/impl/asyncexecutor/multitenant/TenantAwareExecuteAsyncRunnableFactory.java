@@ -22,7 +22,7 @@ import mobius.job.service.impl.persistence.entity.JobEntity;
 /**
  * Factory that produces a {@link Runnable} that executes a {@link JobEntity}. Can be used to create special implementations for specific tenants.
  * 
- * @author Joram Barrez
+ *
  */
 public class TenantAwareExecuteAsyncRunnableFactory implements ExecuteAsyncRunnableFactory {
 

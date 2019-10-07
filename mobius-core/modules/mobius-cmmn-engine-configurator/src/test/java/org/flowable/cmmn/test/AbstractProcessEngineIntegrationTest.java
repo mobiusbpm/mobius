@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 @RunWith(CmmnTestRunner.class)
 public abstract class AbstractProcessEngineIntegrationTest {

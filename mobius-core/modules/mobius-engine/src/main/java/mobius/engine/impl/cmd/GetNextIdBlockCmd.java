@@ -19,7 +19,7 @@ import mobius.engine.impl.persistence.entity.PropertyEntity;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetNextIdBlockCmd implements Command<IdBlock> {
 

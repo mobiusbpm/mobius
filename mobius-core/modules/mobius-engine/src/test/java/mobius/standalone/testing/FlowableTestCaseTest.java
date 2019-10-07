@@ -18,7 +18,7 @@ import mobius.engine.test.FlowableTestCase;
 import mobius.task.api.Task;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FlowableTestCaseTest extends FlowableTestCase {
 

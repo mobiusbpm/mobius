@@ -35,7 +35,7 @@ import mobius.cmmn.model.Stage;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractPlanItemInstanceOperation extends CmmnOperation {
     

@@ -25,7 +25,7 @@ import mobius.idm.engine.impl.persistence.entity.UserEntity;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SaveUserCmd implements Command<Void>, Serializable {
 

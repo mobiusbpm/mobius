@@ -23,7 +23,7 @@ import mobius.cmmn.engine.impl.persistence.entity.data.HistoricMilestoneInstance
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricMilestoneInstanceDataManager extends AbstractCmmnDataManager<HistoricMilestoneInstanceEntity> implements
 		HistoricMilestoneInstanceDataManager {

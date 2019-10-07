@@ -26,7 +26,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TableDataManagerImpl implements TableDataManager {
 

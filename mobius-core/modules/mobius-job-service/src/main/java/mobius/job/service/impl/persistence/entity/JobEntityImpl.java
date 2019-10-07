@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * Job entity.
  *
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class JobEntityImpl extends AbstractJobEntityImpl implements JobEntity {

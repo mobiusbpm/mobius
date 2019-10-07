@@ -22,7 +22,7 @@ import mobius.engine.runtime.ProcessInstanceQuery;
 /**
  * Contains the possible properties that can be used in a {@link ProcessInstanceQuery}.
  * 
- * @author Joram Barrez
+ *
  */
 public class ProcessInstanceQueryProperty implements QueryProperty {
 

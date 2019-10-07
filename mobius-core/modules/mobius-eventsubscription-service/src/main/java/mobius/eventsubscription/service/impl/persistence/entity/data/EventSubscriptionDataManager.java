@@ -23,7 +23,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.MessageEventSubs
 import mobius.eventsubscription.service.impl.persistence.entity.SignalEventSubscriptionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface EventSubscriptionDataManager extends DataManager<EventSubscriptionEntity> {
 

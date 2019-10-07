@@ -23,7 +23,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Falko Menge <falko.menge@camunda.com>
  * @author Frederik Heremans
  */

@@ -21,7 +21,7 @@ import mobius.idm.engine.impl.persistence.entity.data.AbstractIdmDataManager;
 import mobius.idm.engine.impl.persistence.entity.data.PropertyDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisPropertyDataManager extends AbstractIdmDataManager<IdmPropertyEntity> implements PropertyDataManager {
 

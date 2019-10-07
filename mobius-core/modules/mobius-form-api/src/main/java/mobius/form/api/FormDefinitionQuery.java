@@ -22,7 +22,7 @@ import mobius.common.engine.api.query.Query;
  * Allows programmatic querying of {@link FormDefinition}s.
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface FormDefinitionQuery extends Query<FormDefinitionQuery, FormDefinition> {
 

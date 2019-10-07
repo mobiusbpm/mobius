@@ -20,7 +20,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricMilestoneInstanceEntity extends Entity, HasRevision, HistoricMilestoneInstance {
     

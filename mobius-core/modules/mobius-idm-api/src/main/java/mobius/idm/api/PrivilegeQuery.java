@@ -20,7 +20,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link Privilege}
  * 
- * @author Joram Barrez
+ *
  */
 public interface PrivilegeQuery extends Query<PrivilegeQuery, Privilege> {
 

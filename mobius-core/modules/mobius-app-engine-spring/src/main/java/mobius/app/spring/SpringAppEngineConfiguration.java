@@ -38,7 +38,7 @@ import java.util.List;
 /**
  * @author Tijs Rademakers
  * @author David Syer
- * @author Joram Barrez
+ *
  */
 public class SpringAppEngineConfiguration extends AppEngineConfiguration implements SpringEngineConfiguration {
 

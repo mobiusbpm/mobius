@@ -25,7 +25,7 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.engine.runtime.ProcessInstance;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DeleteProcessInstanceCmd implements Command<Void>, Serializable {
 

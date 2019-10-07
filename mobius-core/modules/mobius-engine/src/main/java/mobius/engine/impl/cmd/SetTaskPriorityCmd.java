@@ -19,7 +19,7 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SetTaskPriorityCmd extends NeedsActiveTaskCmd<Void> {
 

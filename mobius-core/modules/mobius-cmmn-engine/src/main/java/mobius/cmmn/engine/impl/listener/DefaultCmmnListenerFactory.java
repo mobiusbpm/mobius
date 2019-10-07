@@ -20,7 +20,7 @@ import mobius.common.engine.impl.el.ExpressionManager;
 import mobius.task.service.delegate.TaskListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DefaultCmmnListenerFactory implements CmmnListenerFactory {
 

@@ -23,7 +23,7 @@ import mobius.app.engine.impl.persistence.entity.data.AppResourceDataManager;
 import mobius.app.engine.AppEngineConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisResourceDataManager extends AbstractAppDataManager<AppResourceEntity>
 		implements AppResourceDataManager {

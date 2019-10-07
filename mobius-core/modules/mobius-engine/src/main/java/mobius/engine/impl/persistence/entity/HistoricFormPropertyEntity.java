@@ -16,8 +16,8 @@ package mobius.engine.impl.persistence.entity;
 import mobius.engine.history.HistoricFormProperty;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface HistoricFormPropertyEntity extends HistoricDetailEntity, HistoricFormProperty {
 

@@ -20,7 +20,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 /**
  * Super class for all gateway activity implementations.
  * 
- * @author Joram Barrez
+ *
  */
 public abstract class GatewayActivityBehavior extends FlowNodeActivityBehavior {
 

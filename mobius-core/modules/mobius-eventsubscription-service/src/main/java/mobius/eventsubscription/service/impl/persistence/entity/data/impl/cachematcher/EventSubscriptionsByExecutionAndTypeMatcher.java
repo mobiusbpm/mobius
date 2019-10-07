@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.eventsubscription.service.impl.persistence.entity.EventSubscriptionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class EventSubscriptionsByExecutionAndTypeMatcher extends CachedEntityMatcherAdapter<EventSubscriptionEntity> {
 

@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.job.service.impl.persistence.entity.SuspendedJobEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SuspendedJobsByExecutionIdMatcher extends CachedEntityMatcherAdapter<SuspendedJobEntity> {
 

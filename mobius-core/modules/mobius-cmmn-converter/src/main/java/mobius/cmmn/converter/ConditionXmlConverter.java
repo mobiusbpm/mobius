@@ -20,7 +20,7 @@ import mobius.cmmn.model.PlanItemRule;
 import mobius.cmmn.model.SentryIfPart;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ConditionXmlConverter extends CaseElementXmlConverter {
     

@@ -21,7 +21,7 @@ import mobius.engine.history.HistoricProcessInstance;
 import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricProcessInstanceEntity extends HistoricScopeInstanceEntity, HistoricProcessInstance, HasRevision {
 

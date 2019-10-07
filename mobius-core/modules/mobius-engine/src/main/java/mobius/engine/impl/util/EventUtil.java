@@ -19,7 +19,7 @@ import mobius.variable.api.event.FlowableVariableEvent;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class EventUtil {
     

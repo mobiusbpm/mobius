@@ -18,7 +18,7 @@ import mobius.common.engine.impl.el.function.VariableExistsExpressionFunction;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableExistsExpressionEnhancerTest {
     

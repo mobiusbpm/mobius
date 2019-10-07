@@ -38,8 +38,8 @@ import mobius.task.api.Task;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricActivityInstanceTest extends PluggableFlowableTestCase {
 

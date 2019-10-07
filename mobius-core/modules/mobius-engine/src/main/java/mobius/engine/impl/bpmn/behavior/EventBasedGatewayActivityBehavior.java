@@ -15,7 +15,7 @@ package mobius.engine.impl.bpmn.behavior;
 
 /**
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public class EventBasedGatewayActivityBehavior extends FlowNodeActivityBehavior {
 

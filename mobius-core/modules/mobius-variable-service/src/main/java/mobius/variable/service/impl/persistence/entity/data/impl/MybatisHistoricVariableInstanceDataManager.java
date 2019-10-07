@@ -29,7 +29,7 @@ import mobius.variable.service.impl.persistence.entity.data.impl.cachematcher.Hi
 import mobius.variable.service.impl.persistence.entity.data.impl.cachematcher.HistoricVariableInstanceByTaskIdMatcher;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricVariableInstanceDataManager extends AbstractDataManager<HistoricVariableInstanceEntity> implements HistoricVariableInstanceDataManager {
 

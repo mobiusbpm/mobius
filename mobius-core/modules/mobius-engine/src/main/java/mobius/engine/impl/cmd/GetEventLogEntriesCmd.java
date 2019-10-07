@@ -20,7 +20,7 @@ import mobius.engine.event.EventLogEntry;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetEventLogEntriesCmd implements Command<List<EventLogEntry>> {
 

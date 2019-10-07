@@ -20,8 +20,8 @@ import mobius.dmn.engine.DmnEngineConfiguration;
 import mobius.dmn.engine.impl.persistence.entity.data.DmnResourceDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class DmnResourceEntityManagerImpl extends AbstractEntityManager<DmnResourceEntity> implements DmnResourceEntityManager {
 

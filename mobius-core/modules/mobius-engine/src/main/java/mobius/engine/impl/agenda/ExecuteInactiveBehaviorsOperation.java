@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
  * 
  * Executes 'background' behaviours of executions that currently are in an activity that implements the {@link InactiveActivityBehavior} interface.
  * 
- * @author Joram Barrez
+ *
  */
 public class ExecuteInactiveBehaviorsOperation extends AbstractOperation {
 

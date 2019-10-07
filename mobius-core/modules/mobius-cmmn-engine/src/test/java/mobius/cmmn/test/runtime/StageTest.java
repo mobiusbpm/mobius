@@ -26,7 +26,7 @@ import mobius.cmmn.engine.test.FlowableCmmnTestCase;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class StageTest extends FlowableCmmnTestCase {
     

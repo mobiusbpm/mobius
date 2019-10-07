@@ -21,7 +21,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetDeploymentProcessDefinitionCmd implements Command<ProcessDefinition>, Serializable {
 

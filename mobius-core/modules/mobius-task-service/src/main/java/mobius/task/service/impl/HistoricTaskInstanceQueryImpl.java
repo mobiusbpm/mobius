@@ -34,8 +34,8 @@ import mobius.variable.service.impl.AbstractVariableQueryImpl;
 import mobius.variable.service.impl.QueryVariableValue;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class HistoricTaskInstanceQueryImpl extends AbstractVariableQueryImpl<HistoricTaskInstanceQuery, HistoricTaskInstance> implements HistoricTaskInstanceQuery {
 

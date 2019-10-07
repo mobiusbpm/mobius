@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractFlowableShortHandExpressionFunction implements FlowableShortHandExpressionFunction {
 

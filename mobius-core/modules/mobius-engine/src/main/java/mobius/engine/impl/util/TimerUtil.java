@@ -49,7 +49,7 @@ import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.ISODateTimeFormat;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerUtil {
 

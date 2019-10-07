@@ -20,7 +20,7 @@ import mobius.common.engine.impl.util.IoUtil;
 import mobius.job.service.impl.persistence.entity.HistoryJobEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class AsyncHistoryJobZippedHandler extends AsyncHistoryJobHandler {
 

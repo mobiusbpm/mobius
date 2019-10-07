@@ -20,7 +20,7 @@ import mobius.task.service.history.InternalHistoryTaskManager;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnHistoryTaskManager implements InternalHistoryTaskManager {
 

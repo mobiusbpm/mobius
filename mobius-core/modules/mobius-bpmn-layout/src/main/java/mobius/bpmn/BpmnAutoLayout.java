@@ -53,7 +53,7 @@ import com.mxgraph.view.mxGraph;
 /**
  * Auto layouts a {@link BpmnModel}.
  * 
- * @author Joram Barrez
+ *
  */
 public class BpmnAutoLayout {
 

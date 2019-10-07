@@ -21,8 +21,8 @@ import mobius.task.api.TaskInfo;
 /**
  * Represents a historic task instance (waiting, finished or deleted) that is stored permanent for statistics, audit and other business intelligence purposes.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface HistoricTaskInstance extends TaskInfo, HistoricData {
 

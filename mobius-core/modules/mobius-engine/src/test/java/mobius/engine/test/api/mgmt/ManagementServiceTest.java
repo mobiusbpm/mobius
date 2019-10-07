@@ -34,7 +34,7 @@ import org.junit.jupiter.api.Test;
  * @author Frederik Heremans
  * @author Falko Menge
  * @author Saeid Mizaei
- * @author Joram Barrez
+ *
  */
 public class ManagementServiceTest extends PluggableFlowableTestCase {
 

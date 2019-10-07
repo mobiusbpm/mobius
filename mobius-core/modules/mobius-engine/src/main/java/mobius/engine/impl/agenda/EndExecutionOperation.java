@@ -55,7 +55,7 @@ import org.slf4j.LoggerFactory;
  * This happens when the conditions are so that the process can't continue via the
  * regular ways and an execution cleanup needs to happen, potentially opening up new ways of continuing the process instance.
  * 
- * @author Joram Barrez
+ *
  */
 public class EndExecutionOperation extends AbstractOperation {
 

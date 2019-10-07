@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.idm.api.Group;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface GroupEntity extends Group, Entity, HasRevision {
 

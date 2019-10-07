@@ -23,7 +23,7 @@ import mobius.engine.TaskService;
  * Exposes twitter-like feeds for tasks and process instances.
  * 
  * @see TaskService#getTaskEvents(String)
- * @author Tom Baeyens
+ *
  */
 public interface Event extends Serializable {
 

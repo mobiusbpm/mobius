@@ -24,7 +24,7 @@ import mobius.job.api.JobQuery;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GroovyScriptTest extends PluggableFlowableTestCase {
 

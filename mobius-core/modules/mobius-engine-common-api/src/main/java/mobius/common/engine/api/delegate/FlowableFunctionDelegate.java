@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
  * Interface for pluggable functions that can be used in the EL expressions
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface FlowableFunctionDelegate {
 

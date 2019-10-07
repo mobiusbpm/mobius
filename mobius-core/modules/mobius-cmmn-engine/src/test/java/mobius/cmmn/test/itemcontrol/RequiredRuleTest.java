@@ -32,7 +32,7 @@ import mobius.task.api.Task;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class RequiredRuleTest extends FlowableCmmnTestCase {
 

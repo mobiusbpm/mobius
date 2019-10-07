@@ -25,7 +25,7 @@ import mobius.engine.task.Comment;
 import mobius.engine.task.Event;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisCommentDataManager extends AbstractProcessDataManager<CommentEntity> implements CommentDataManager {
 

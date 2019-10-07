@@ -22,7 +22,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisSentryPartInstanceDataManagerImpl extends AbstractCmmnDataManager<SentryPartInstanceEntity> implements SentryPartInstanceDataManager {
     

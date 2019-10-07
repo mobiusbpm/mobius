@@ -38,7 +38,7 @@ import org.xml.sax.SAXException;
  * Convenience class for external engines (IDM/DMN/Form/...) to work together with the process engine
  * while also sharing as much internal resources as possible.
  *
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEngineConfigurator implements EngineConfigurator {
 

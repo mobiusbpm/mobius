@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Tests specifically for the {@link AsyncExecutor}.
  * 
- * @author Joram Barrez
+ *
  */
 public class AsyncExecutorTest {
 

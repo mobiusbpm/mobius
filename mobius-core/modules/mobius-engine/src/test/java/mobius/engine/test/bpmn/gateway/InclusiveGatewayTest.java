@@ -42,7 +42,7 @@ import org.junit.jupiter.api.Test;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tom Van Buskirk
  * @author Tijs Rademakers
  * @author Saeid Mirzaei

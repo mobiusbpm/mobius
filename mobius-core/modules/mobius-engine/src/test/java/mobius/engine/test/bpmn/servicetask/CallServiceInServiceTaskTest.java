@@ -23,7 +23,7 @@ import mobius.idm.api.User;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CallServiceInServiceTaskTest extends PluggableFlowableTestCase {
 

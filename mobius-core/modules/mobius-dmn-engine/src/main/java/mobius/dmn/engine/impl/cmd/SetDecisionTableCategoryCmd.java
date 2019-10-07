@@ -22,7 +22,7 @@ import mobius.dmn.engine.impl.persistence.entity.DecisionTableEntity;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SetDecisionTableCategoryCmd implements Command<Void> {
 

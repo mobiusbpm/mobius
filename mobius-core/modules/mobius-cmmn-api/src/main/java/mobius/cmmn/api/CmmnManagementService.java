@@ -24,7 +24,7 @@ import mobius.job.api.SuspendedJobQuery;
 import mobius.job.api.TimerJobQuery;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnManagementService {
 

@@ -25,7 +25,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Example of using the exclusive gateway.
  * 
- * @author Joram Barrez
+ *
  */
 public class ExclusiveGatewayTest extends PluggableFlowableTestCase {
 

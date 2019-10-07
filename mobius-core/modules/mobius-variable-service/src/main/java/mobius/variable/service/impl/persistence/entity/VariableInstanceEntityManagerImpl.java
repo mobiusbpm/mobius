@@ -23,8 +23,8 @@ import mobius.variable.service.VariableServiceConfiguration;
 import mobius.variable.service.impl.persistence.entity.data.VariableInstanceDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Saeid Mirzaei
  */
 public class VariableInstanceEntityManagerImpl extends AbstractEntityManager<VariableInstanceEntity> implements VariableInstanceEntityManager {

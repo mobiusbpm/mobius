@@ -29,7 +29,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CompletionNeutralTest extends FlowableCmmnTestCase {
 

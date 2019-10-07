@@ -22,7 +22,7 @@ import mobius.variable.api.delegate.VariableScope;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DelegateExpressionUtil {
 

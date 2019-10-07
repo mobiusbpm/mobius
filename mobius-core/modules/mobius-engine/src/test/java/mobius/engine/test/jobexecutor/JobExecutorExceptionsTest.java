@@ -24,7 +24,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class JobExecutorExceptionsTest extends PluggableFlowableTestCase {
 

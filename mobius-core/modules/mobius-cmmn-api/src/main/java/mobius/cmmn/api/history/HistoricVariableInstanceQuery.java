@@ -18,7 +18,7 @@ import mobius.common.engine.api.query.Query;
 import mobius.variable.api.history.HistoricVariableInstance;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricVariableInstanceQuery extends Query<HistoricVariableInstanceQuery, HistoricVariableInstance> {
     

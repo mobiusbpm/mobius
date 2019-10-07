@@ -28,7 +28,7 @@ import mobius.engine.repository.ProcessDefinition;
  * A utility class that hides the complexity of {@link ProcessDefinitionEntity} and {@link Process} lookup. Use this class rather than accessing the process definition cache or
  * {@link DeploymentManager} directly.
  * 
- * @author Joram Barrez
+ *
  */
 public class ProcessDefinitionUtil {
 

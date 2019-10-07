@@ -27,7 +27,7 @@ import mobius.engine.impl.util.IdentityLinkUtil;
 
 /**
  * @author Marcus Klimstra
- * @author Joram Barrez
+ *
  */
 public class AddIdentityLinkForProcessInstanceCmd implements Command<Void>, Serializable {
 

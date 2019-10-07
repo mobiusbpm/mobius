@@ -28,8 +28,8 @@ import mobius.engine.impl.util.ProcessInstanceHelper;
 import mobius.engine.runtime.ProcessInstance;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class SubmitStartFormCmd extends NeedsActiveProcessDefinitionCmd<ProcessInstance> {
 

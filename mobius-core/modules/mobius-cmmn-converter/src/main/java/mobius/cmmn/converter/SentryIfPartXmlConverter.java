@@ -18,7 +18,7 @@ import mobius.cmmn.model.BaseElement;
 import mobius.cmmn.model.SentryIfPart;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SentryIfPartXmlConverter extends BaseCmmnXmlConverter {
 

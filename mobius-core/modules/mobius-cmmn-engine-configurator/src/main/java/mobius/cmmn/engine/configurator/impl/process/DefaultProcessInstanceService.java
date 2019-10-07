@@ -32,7 +32,7 @@ import mobius.engine.runtime.ProcessInstance;
 import mobius.engine.runtime.ProcessInstanceBuilder;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DefaultProcessInstanceService implements ProcessInstanceService {
 

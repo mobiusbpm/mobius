@@ -17,7 +17,7 @@ import java.util.Date;
 import mobius.common.engine.api.query.Query;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface MilestoneInstanceQuery extends Query<MilestoneInstanceQuery, MilestoneInstance> {
     

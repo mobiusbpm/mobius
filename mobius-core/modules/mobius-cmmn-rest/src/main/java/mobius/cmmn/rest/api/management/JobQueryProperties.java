@@ -19,7 +19,7 @@ import mobius.common.engine.api.query.QueryProperty;
 import mobius.job.service.impl.JobQueryProperty;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class JobQueryProperties {
 

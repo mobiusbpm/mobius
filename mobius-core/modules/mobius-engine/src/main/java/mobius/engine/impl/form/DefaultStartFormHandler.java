@@ -25,7 +25,7 @@ import mobius.engine.impl.persistence.entity.ProcessDefinitionEntity;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DefaultStartFormHandler extends DefaultFormHandler implements StartFormHandler {
 

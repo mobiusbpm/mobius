@@ -46,7 +46,7 @@ import mobius.form.api.FormDefinition;
 import mobius.identitylink.api.IdentityLink;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class CmmnRepositoryServiceImpl extends CommonEngineServiceImpl<CmmnEngineConfiguration> implements CmmnRepositoryService {

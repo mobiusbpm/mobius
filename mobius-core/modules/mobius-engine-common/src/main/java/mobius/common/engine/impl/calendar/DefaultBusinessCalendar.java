@@ -22,7 +22,7 @@ import mobius.common.engine.impl.context.Context;
 import mobius.common.engine.api.FlowableIllegalArgumentException;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DefaultBusinessCalendar implements BusinessCalendar {
 

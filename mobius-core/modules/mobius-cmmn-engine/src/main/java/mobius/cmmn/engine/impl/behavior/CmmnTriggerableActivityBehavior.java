@@ -36,7 +36,7 @@ import mobius.cmmn.model.PlanItem;
  * Concrete implementations of this class will be set on the {@link PlanItem}
  * in the case model during parsing.
  * 
- * @author Joram Barrez
+ *
  */
 public interface CmmnTriggerableActivityBehavior extends CmmnActivityBehavior {
     

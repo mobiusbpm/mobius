@@ -13,7 +13,7 @@
 package mobius.spring.test.servicetask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SentenceGenerator {
 

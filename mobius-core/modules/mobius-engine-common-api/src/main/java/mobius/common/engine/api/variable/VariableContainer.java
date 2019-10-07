@@ -13,7 +13,7 @@
 package mobius.common.engine.api.variable;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface VariableContainer {
     

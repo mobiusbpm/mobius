@@ -26,7 +26,7 @@ import mobius.engine.impl.persistence.entity.data.ProcessDefinitionDataManager;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisProcessDefinitionDataManager extends AbstractProcessDataManager<ProcessDefinitionEntity> implements ProcessDefinitionDataManager {
 

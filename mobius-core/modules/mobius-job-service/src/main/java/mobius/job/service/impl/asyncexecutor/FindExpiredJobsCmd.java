@@ -21,7 +21,7 @@ import mobius.job.service.impl.persistence.entity.JobInfoEntity;
 import mobius.job.service.impl.persistence.entity.JobInfoEntityManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FindExpiredJobsCmd implements Command<List<? extends JobInfoEntity>> {
 

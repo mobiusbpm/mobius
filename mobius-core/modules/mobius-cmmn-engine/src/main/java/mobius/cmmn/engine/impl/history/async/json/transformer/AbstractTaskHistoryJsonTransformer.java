@@ -24,7 +24,7 @@ import static mobius.job.service.impl.history.async.util.AsyncHistoryJsonUtil.ge
 import static mobius.job.service.impl.history.async.util.AsyncHistoryJsonUtil.getStringFromJson;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractTaskHistoryJsonTransformer extends AbstractHistoryJsonTransformer {
     

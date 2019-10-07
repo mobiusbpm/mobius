@@ -24,7 +24,7 @@ import mobius.form.model.SimpleFormModel;
  * A utility class that hides the complexity of {@link FormDefinitionEntity} and {@link SimpleFormModel} lookup. Use this class rather than accessing the decision table cache or {@link DeploymentManager}
  * directly.
  * 
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class FormUtil {

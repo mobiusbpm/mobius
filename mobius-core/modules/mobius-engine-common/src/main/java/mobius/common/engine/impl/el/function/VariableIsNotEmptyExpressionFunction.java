@@ -19,7 +19,7 @@ import mobius.variable.api.delegate.VariableScope;
 /**
  * Opposite operation of the ${@link VariableIsEmptyExpressionFunction} .
  *  
- * @author Joram Barrez
+ *
  */
 public class VariableIsNotEmptyExpressionFunction extends AbstractFlowableVariableExpressionFunction {
     

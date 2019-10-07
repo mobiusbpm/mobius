@@ -39,7 +39,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class UserTaskTest extends PluggableFlowableTestCase {
 

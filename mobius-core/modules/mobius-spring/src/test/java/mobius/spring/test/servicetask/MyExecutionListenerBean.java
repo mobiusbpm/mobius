@@ -17,7 +17,7 @@ import mobius.engine.delegate.ExecutionListener;
 import mobius.engine.impl.el.FixedValue;
 
 /**
- * @author Joram Barrez
+ *
  * @author Bernd Ruecker (camunda)
  */
 public class MyExecutionListenerBean implements ExecutionListener {

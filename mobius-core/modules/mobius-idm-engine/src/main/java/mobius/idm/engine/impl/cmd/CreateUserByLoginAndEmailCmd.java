@@ -22,7 +22,7 @@ import mobius.idm.engine.impl.util.CommandContextUtil;
 import java.io.Serializable;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class CreateUserByLoginAndEmailCmd implements Command<User>, Serializable {
 

@@ -32,7 +32,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 @ExtendWith(LoggingExtension.class)
 public class SpringAutoDeployTest {

@@ -18,7 +18,7 @@ import mobius.spring.SpringProcessEngineConfiguration;
  * Interface to be implemented by a bean that does some extra configuration of the SpringProcessEngineConfiguration. If such a bean is defined, it will be called when the process engine configuration
  * is created and the default values have been set.
  * 
- * @author Joram Barrez
+ *
  *
  * @deprecated use <code>{@link EngineConfigurationConfigurer}<{@link SpringProcessEngineConfiguration}></code> instead
  */

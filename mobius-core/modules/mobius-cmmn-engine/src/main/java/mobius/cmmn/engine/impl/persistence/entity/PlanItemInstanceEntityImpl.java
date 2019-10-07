@@ -25,7 +25,7 @@ import mobius.variable.service.impl.persistence.entity.VariableScopeImpl;
 import java.util.*;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemInstanceEntityImpl extends AbstractCmmnEngineVariableScopeEntity implements PlanItemInstanceEntity, CountingPlanItemInstanceEntity {
     

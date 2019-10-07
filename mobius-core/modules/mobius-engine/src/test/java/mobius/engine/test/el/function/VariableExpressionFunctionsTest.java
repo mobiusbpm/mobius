@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Test;
  * Note that the function expressions also are tested in the cmmn module (VariableFunctionDelegatesTest),
  * as such this test will not test the detailed behavior, but simply that it works in BPMN context.
  * 
- * @author Joram Barrez
+ *
  */
 public class VariableExpressionFunctionsTest extends PluggableFlowableTestCase{
     

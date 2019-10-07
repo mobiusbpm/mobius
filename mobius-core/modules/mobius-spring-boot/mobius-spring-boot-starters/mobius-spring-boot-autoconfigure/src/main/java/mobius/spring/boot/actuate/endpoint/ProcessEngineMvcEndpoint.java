@@ -35,7 +35,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  *
  * This is duplicated functionality in the full REST API implementation.
  *
- * @author Joram Barrez
+ *
  * @author Josh Long
  */
 @EndpointWebExtension(endpoint = ProcessEngineEndpoint.class)

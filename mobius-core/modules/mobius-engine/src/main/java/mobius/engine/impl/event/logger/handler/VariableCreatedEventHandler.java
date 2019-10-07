@@ -19,7 +19,7 @@ import mobius.engine.impl.persistence.entity.EventLogEntryEntity;
 import mobius.variable.api.event.FlowableVariableEvent;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableCreatedEventHandler extends VariableEventHandler {
 

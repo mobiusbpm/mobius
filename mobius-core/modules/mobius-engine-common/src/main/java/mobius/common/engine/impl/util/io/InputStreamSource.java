@@ -20,8 +20,8 @@ import java.io.InputStream;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class InputStreamSource implements StreamSource {
 

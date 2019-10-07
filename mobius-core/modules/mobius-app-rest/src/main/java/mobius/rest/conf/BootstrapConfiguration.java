@@ -32,7 +32,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  * @author Filip Hrisafov
  */
 @Configuration

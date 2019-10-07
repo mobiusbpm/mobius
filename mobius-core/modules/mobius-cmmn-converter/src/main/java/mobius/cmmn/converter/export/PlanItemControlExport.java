@@ -25,7 +25,7 @@ import mobius.cmmn.model.RequiredRule;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class PlanItemControlExport implements CmmnXmlConstants {
 

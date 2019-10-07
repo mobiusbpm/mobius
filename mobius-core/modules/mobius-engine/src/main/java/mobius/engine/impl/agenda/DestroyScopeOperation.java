@@ -23,7 +23,7 @@ import mobius.engine.impl.util.CommandContextUtil;
  * 
  * The typical example is an interrupting boundary event that is on the boundary of a subprocess and is triggered. At that point, everything within the subprocess would need to be destroyed.
  * 
- * @author Joram Barrez
+ *
  */
 public class DestroyScopeOperation extends AbstractOperation {
 

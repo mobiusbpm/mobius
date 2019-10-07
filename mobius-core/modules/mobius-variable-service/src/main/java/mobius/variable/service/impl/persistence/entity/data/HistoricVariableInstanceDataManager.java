@@ -21,7 +21,7 @@ import mobius.variable.service.impl.HistoricVariableInstanceQueryImpl;
 import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface HistoricVariableInstanceDataManager extends DataManager<HistoricVariableInstanceEntity> {
 

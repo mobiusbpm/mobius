@@ -19,7 +19,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableInstanceBySubScopeIdAndScopeTypeAndVariableNamesMatcher extends CachedEntityMatcherAdapter<VariableInstanceEntity> {
 

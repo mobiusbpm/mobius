@@ -24,7 +24,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntityMan
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntityManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractCmmnManager {
 

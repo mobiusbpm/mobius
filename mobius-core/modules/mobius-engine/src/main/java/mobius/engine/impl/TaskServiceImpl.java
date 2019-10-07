@@ -84,8 +84,8 @@ import mobius.task.service.impl.TaskQueryImpl;
 import mobius.variable.api.entity.VariableInstance;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class TaskServiceImpl extends CommonEngineServiceImpl<ProcessEngineConfigurationImpl> implements TaskService {
 

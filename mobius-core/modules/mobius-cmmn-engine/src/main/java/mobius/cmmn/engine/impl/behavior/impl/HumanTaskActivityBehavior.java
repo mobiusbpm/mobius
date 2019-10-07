@@ -43,7 +43,7 @@ import org.joda.time.DateTime;
 import org.joda.time.Period;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class HumanTaskActivityBehavior extends TaskActivityBehavior implements PlanItemActivityBehavior {
 

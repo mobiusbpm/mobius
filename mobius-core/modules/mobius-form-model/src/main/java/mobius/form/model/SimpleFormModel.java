@@ -23,7 +23,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 @JsonInclude(Include.NON_NULL)

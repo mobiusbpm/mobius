@@ -20,7 +20,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 /**
  * Programmatic querying for {@link HistoricDetail}s.
  * 
- * @author Tom Baeyens
+ *
  */
 public interface HistoricDetailQuery extends Query<HistoricDetailQuery, HistoricDetail> {
 

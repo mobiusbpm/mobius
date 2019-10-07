@@ -29,7 +29,7 @@ import mobius.task.service.delegate.TaskListener;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TaskListenerTest extends CustomCmmnConfigurationFlowableTestCase {
 

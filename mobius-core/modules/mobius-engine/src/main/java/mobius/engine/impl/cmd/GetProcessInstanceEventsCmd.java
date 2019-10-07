@@ -22,7 +22,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.task.Event;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetProcessInstanceEventsCmd implements Command<List<Event>>, Serializable {
 

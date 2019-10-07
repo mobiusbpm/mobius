@@ -22,7 +22,7 @@ import mobius.idm.api.GroupQuery;
 import mobius.idm.engine.impl.GroupQueryImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface GroupEntityManager extends EntityManager<GroupEntity> {
 

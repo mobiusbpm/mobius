@@ -25,7 +25,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.repository.Deployment;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetDeploymentResourceCmd implements Command<InputStream>, Serializable {
 

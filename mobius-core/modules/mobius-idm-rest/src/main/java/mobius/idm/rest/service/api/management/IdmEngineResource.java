@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Joram Barrez
+ *
  */
 @RestController
 @Api(tags = { "Engine" }, description = "Manage IDM Engine", authorizations = { @Authorization(value = "basicAuth") })

@@ -22,8 +22,8 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.engine.repository.Deployment;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface DeploymentEntity extends Deployment, Entity {
 

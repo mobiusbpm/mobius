@@ -14,7 +14,7 @@ package mobius.cmmn.editor.constants;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface CmmnStencilConstants {
 

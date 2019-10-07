@@ -24,7 +24,7 @@ import mobius.common.engine.impl.cfg.TransactionState;
 import mobius.engine.delegate.event.AbstractFlowableEngineEventListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TestHistoricActivityEventListener extends AbstractFlowableEngineEventListener {
 

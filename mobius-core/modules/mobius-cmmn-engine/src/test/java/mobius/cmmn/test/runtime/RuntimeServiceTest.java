@@ -55,7 +55,7 @@ import mobius.identitylink.api.history.HistoricIdentityLink;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Filip Hrisafov
  */
 public class RuntimeServiceTest extends FlowableCmmnTestCase {

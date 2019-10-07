@@ -22,7 +22,7 @@ import mobius.engine.ProcessEngineConfiguration;
 
 /**
  * @author Christian Stettler
- * @author Joram Barrez
+ *
  */
 public class HistoricActivityInstanceEntityImpl extends HistoricScopeInstanceEntityImpl implements HistoricActivityInstanceEntity {
 

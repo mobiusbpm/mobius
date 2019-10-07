@@ -20,7 +20,7 @@ import java.net.URL;
 import mobius.common.engine.api.FlowableIllegalArgumentException;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class UrlStreamSource implements StreamSource {
 

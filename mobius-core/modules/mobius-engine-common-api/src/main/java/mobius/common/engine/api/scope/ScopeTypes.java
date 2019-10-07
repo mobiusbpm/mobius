@@ -13,7 +13,7 @@
 package mobius.common.engine.api.scope;
 
 /**
- * @author Joram Barrez
+ *
  * @author Valentin Zickner
  */
 public interface ScopeTypes {

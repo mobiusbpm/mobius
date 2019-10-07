@@ -64,7 +64,7 @@ import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnXmlConverter implements CmmnXmlConstants {
 

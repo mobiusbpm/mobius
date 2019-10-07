@@ -26,7 +26,7 @@ import mobius.common.engine.api.FlowableObjectNotFoundException;
  * 
  * 
  * @author Bassam Al-Sarori
- * @author Joram Barrez
+ *
  */
 public interface ProcessInstanceBuilder {
 

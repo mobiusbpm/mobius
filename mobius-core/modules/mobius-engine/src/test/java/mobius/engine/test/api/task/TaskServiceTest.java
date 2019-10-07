@@ -73,7 +73,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  * @author Falko Menge
  */
 public class TaskServiceTest extends PluggableFlowableTestCase {

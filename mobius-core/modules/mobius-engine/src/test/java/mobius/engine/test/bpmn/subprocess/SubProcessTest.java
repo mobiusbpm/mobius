@@ -33,7 +33,7 @@ import mobius.task.api.history.HistoricTaskInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class SubProcessTest extends PluggableFlowableTestCase {

@@ -22,7 +22,7 @@ import mobius.job.service.event.impl.FlowableJobEventBuilder;
 import mobius.job.service.impl.persistence.AbstractManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEntityManager<EntityImpl extends Entity> extends AbstractManager implements EntityManager<EntityImpl> {
 

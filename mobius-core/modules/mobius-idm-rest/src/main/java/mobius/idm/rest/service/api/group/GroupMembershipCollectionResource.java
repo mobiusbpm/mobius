@@ -34,7 +34,7 @@ import io.swagger.annotations.Authorization;
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 @RestController
 @Api(tags = { "Groups" }, description = "Manage Groups", authorizations = { @Authorization(value = "basicAuth") })

@@ -21,7 +21,7 @@ import mobius.engine.repository.ProcessDefinition;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessDefinitionCategoryTest extends PluggableFlowableTestCase {
 

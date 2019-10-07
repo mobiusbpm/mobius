@@ -16,7 +16,7 @@ import mobius.task.service.delegate.DelegateTask;
 import mobius.task.service.delegate.TaskListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TestTaskListener implements TaskListener {
 

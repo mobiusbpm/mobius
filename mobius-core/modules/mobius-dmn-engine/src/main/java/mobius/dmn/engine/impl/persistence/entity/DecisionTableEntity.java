@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.dmn.api.DmnDecisionTable;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface DecisionTableEntity extends DmnDecisionTable, Entity {

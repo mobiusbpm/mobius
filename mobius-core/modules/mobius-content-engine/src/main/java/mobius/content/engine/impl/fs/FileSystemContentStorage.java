@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
  * Note that this implementation of the {@link ContentStorage} interface doesn't do anything with the passed metadata, nor returns it when requested!
  * 
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class FileSystemContentStorage implements ContentStorage {
 

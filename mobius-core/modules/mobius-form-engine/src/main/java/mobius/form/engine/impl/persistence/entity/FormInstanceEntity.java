@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.form.api.FormInstance;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface FormInstanceEntity extends FormInstance, Entity {

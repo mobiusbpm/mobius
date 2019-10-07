@@ -19,7 +19,7 @@ import mobius.cmmn.model.ManualActivationRule;
 import mobius.cmmn.model.PlanItemControl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ManualActivationRuleXmlConverter extends CaseElementXmlConverter {
     

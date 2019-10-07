@@ -18,7 +18,7 @@ import mobius.dmn.engine.impl.db.DmnDbSchemaManager;
 import mobius.dmn.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SchemaOperationsDmnEngineBuild implements Command<Void> {
 

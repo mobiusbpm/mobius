@@ -21,7 +21,7 @@ import mobius.task.service.delegate.DelegateTask;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Joram Barrez
+ *
  */
 @Component("testTaskListener")
 public class TestTaskListener implements TaskListener {

@@ -17,7 +17,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.content.engine.ContentEngineConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public abstract class AbstractContentDataManager<EntityImpl extends Entity> extends AbstractDataManager<EntityImpl> {

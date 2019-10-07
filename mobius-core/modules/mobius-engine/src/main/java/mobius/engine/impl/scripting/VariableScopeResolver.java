@@ -25,8 +25,8 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class VariableScopeResolver implements Resolver {
 

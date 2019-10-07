@@ -20,7 +20,7 @@ import mobius.common.engine.api.FlowableIllegalArgumentException;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractFlowableVariableExpressionFunction extends AbstractFlowableShortHandExpressionFunction {
     

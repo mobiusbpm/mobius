@@ -17,7 +17,7 @@ import java.util.List;
 import mobius.common.engine.impl.persistence.entity.EntityManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface ResourceEntityManager extends EntityManager<ResourceEntity> {
 

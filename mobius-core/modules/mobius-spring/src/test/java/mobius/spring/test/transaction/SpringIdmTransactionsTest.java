@@ -44,7 +44,7 @@ import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 import org.springframework.transaction.support.TransactionTemplate;
 
 /**
- * @author Joram Barrez
+ *
  */
 @ContextConfiguration("classpath:mobius/spring/test/transaction/SpringIdmTransactionsTest-context.xml")
 public class SpringIdmTransactionsTest extends SpringFlowableTestCase {

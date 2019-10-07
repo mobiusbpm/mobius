@@ -19,8 +19,8 @@ import mobius.engine.impl.db.ProcessDbSchemaManager;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class SchemaOperationProcessEngineClose implements Command<Void> {
 

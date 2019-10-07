@@ -16,7 +16,7 @@ package mobius.cmmn.engine.impl.parser;
 import mobius.common.engine.api.repository.EngineResource;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnParser {
     

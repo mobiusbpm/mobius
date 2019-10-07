@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 
 /**
- * @author Joram Barrez
+ *
  */
 @DisabledIfSystemProperty(named = "database", matches = "cockroachdb")
 public class TablePageQueryTest extends PluggableFlowableTestCase {

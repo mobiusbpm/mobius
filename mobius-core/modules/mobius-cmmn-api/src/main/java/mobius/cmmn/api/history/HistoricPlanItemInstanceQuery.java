@@ -19,7 +19,7 @@ import mobius.common.engine.api.query.Query;
 
 /**
  * @author Dennis Federico
- * @author Joram Barrez
+ *
  */
 public interface HistoricPlanItemInstanceQuery extends Query<HistoricPlanItemInstanceQuery, HistoricPlanItemInstance> {
 

@@ -23,7 +23,7 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MessageBasedJobManager extends AbstractMessageBasedJobManager {
     

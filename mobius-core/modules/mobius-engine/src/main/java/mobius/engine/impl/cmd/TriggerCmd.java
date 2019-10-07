@@ -24,8 +24,8 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.impl.util.Flowable5Util;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class TriggerCmd extends NeedsActiveExecutionCmd<Object> {
 

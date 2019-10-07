@@ -43,7 +43,7 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TaskHelper {
 

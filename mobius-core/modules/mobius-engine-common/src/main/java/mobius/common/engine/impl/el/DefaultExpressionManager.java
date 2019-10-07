@@ -36,10 +36,10 @@ import mobius.common.engine.impl.persistence.deploy.DeploymentCache;
  * Default {@link ExpressionManager} implementation that contains the logic for creating 
  * and resolving {@link Expression} instances. 
  *
- * @author Tom Baeyens
+ *
  * @author Dave Syer
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class DefaultExpressionManager implements ExpressionManager {
 

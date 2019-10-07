@@ -15,7 +15,7 @@ package mobius.cmmn.editor.json.converter.util;
 import java.util.Collection;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CollectionUtils {
 

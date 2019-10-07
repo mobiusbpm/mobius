@@ -20,7 +20,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.Criterion;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public abstract class BaseCmmnXmlConverter {

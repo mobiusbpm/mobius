@@ -26,7 +26,7 @@ import mobius.cmmn.model.PlanItemTransition;
 import mobius.cmmn.model.SignalEventListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class StateTransition {
     

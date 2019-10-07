@@ -18,7 +18,7 @@ import mobius.cmmn.api.listener.PlanItemInstanceLifecycleListener;
 import mobius.common.engine.api.delegate.Expression;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExpressionPlanItemLifecycleListener implements PlanItemInstanceLifecycleListener {
 

@@ -57,10 +57,10 @@ import mobius.task.api.history.HistoricTaskInstance;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Nils Preusker
  * @author Bernd Ruecker
- * @author Joram Barrez
+ *
  */
 public class CallActivityAdvancedTest extends PluggableFlowableTestCase {
 

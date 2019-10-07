@@ -17,7 +17,7 @@ import mobius.engine.ProcessEngineConfiguration;
 import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DbSchemaCreate {
 

@@ -23,7 +23,7 @@ import mobius.idm.engine.impl.persistence.entity.PrivilegeEntity;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CreatePrivilegeCmd implements Command<Privilege>, Serializable {
 

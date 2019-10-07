@@ -21,7 +21,7 @@ import mobius.idm.api.PasswordSalt;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class CheckPassword implements Command<Boolean>, Serializable {
 

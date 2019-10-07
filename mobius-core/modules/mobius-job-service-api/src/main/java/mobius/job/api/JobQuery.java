@@ -20,7 +20,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link Job}s.
  *
- * @author Joram Barrez
+ *
  * @author Falko Menge
  */
 public interface JobQuery extends Query<JobQuery, Job> {

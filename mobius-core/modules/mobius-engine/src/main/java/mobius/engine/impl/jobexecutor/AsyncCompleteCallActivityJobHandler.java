@@ -29,7 +29,7 @@ import mobius.variable.api.delegate.VariableScope;
  * the parent process instance and can lead to optimistic locking exceptions. 
  * By scheduling the job in context of the parent process instance, the correct lock will be used.  
  * 
- * @author Joram Barrez
+ *
  */
 public class AsyncCompleteCallActivityJobHandler implements JobHandler {
 

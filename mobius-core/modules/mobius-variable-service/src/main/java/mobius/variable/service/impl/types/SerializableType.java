@@ -30,7 +30,7 @@ import mobius.variable.api.types.ValueFields;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Marcus Klimstra (CGI)
  */
 public class SerializableType extends ByteArrayType {

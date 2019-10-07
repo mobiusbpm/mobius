@@ -14,7 +14,7 @@
 package mobius.engine.impl.cfg;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class StandaloneInMemProcessEngineConfiguration extends StandaloneProcessEngineConfiguration {
 

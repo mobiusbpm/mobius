@@ -26,7 +26,7 @@ import java.util.Date;
  * (hence the builder that needs to be used).
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface FormDeployment {
 

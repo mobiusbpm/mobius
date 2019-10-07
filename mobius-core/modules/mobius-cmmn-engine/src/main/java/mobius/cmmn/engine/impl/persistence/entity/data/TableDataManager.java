@@ -16,7 +16,7 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface TableDataManager {
 

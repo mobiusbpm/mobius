@@ -26,7 +26,7 @@ import mobius.engine.impl.persistence.entity.data.AbstractProcessDataManager;
 import mobius.engine.impl.persistence.entity.data.HistoricProcessInstanceDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricProcessInstanceDataManager extends AbstractProcessDataManager<HistoricProcessInstanceEntity> implements HistoricProcessInstanceDataManager {
 

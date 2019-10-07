@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface SentryPartInstanceEntity extends HasRevision, Entity {
     

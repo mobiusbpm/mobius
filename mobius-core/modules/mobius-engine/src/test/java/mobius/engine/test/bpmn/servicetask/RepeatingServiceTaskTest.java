@@ -17,7 +17,7 @@ import mobius.engine.impl.test.PluggableFlowableTestCase;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class RepeatingServiceTaskTest extends PluggableFlowableTestCase {
 

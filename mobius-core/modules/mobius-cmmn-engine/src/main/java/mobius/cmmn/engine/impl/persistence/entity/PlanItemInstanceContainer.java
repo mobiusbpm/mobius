@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * An interface for entities that have child {@link mobius.cmmn.api.runtime.PlanItemInstance}s.
  *
- * @author Joram Barrez
+ *
  */
 public interface PlanItemInstanceContainer {
 

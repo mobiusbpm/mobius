@@ -33,7 +33,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
  * When the variable value is null, true is returned in all cases.
  * When the variale value is not null, and the instance type is not one of the cases above, false will be returned.
  * 
- * @author Joram Barrez
+ *
  */
 public class VariableIsEmptyExpressionFunction extends AbstractFlowableVariableExpressionFunction {
     

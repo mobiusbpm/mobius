@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.interceptor;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public abstract class AbstractCommandInterceptor implements CommandInterceptor {
 

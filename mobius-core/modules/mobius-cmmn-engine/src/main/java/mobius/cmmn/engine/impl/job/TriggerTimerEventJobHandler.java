@@ -20,7 +20,7 @@ import mobius.job.service.impl.persistence.entity.JobEntity;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TriggerTimerEventJobHandler implements JobHandler {
 

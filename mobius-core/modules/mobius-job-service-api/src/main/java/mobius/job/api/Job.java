@@ -18,7 +18,7 @@ import java.util.Date;
 /**
  * Represents one job (timer, async job, etc.).
  * 
- * @author Joram Barrez
+ *
  */
 public interface Job extends JobInfo {
 

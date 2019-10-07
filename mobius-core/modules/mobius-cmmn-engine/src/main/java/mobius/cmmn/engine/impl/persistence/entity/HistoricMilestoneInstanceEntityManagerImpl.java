@@ -23,7 +23,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import java.util.List;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class HistoricMilestoneInstanceEntityManagerImpl extends AbstractCmmnEntityManager<HistoricMilestoneInstanceEntity> implements
 		HistoricMilestoneInstanceEntityManager {

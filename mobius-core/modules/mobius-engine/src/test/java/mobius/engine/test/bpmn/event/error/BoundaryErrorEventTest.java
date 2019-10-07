@@ -28,7 +28,7 @@ import mobius.task.api.Task;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class BoundaryErrorEventTest extends PluggableFlowableTestCase {

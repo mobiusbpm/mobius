@@ -15,7 +15,7 @@ package mobius.common.engine.impl.cfg;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public interface TransactionContextFactory {
 

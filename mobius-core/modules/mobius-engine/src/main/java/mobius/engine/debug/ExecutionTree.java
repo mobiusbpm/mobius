@@ -18,7 +18,7 @@ import java.util.List;
 import mobius.engine.impl.persistence.entity.ExecutionEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExecutionTree implements Iterable<ExecutionTreeNode> {
 

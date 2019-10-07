@@ -46,7 +46,7 @@ import mobius.engine.runtime.Execution;
 import mobius.engine.runtime.ProcessInstance;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisExecutionDataManager extends AbstractProcessDataManager<ExecutionEntity> implements ExecutionDataManager {
 

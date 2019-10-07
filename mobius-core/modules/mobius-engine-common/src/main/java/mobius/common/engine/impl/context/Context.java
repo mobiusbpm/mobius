@@ -20,9 +20,9 @@ import mobius.common.engine.impl.interceptor.CommandContext;
 import mobius.common.engine.impl.transaction.TransactionContextHolder;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Daniel Meyer
- * @author Joram Barrez
+ *
  */
 public class Context {
 

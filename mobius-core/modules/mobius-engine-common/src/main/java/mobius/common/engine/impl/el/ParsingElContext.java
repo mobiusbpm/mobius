@@ -29,7 +29,7 @@ import mobius.common.engine.impl.javax.el.VariableMapper;
  * @see ExpressionManager#createExpression(String)
  * @see ExpressionManager#createMethodExpression(String)
  * 
- * @author Joram Barrez
+ *
  */
 public class ParsingElContext extends ELContext {
 

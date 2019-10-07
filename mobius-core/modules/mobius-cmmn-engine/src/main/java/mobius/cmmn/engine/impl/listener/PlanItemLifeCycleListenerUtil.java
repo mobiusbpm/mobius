@@ -25,7 +25,7 @@ import mobius.cmmn.model.PlanItemDefinition;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemLifeCycleListenerUtil {
 

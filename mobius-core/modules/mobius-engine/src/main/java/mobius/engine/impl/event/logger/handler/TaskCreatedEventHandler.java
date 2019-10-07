@@ -20,7 +20,7 @@ import mobius.engine.impl.persistence.entity.EventLogEntryEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TaskCreatedEventHandler extends AbstractTaskEventHandler {
 

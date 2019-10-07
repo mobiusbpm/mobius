@@ -18,7 +18,7 @@ import mobius.engine.impl.bpmn.parser.factory.DefaultListenerFactory;
 import mobius.task.service.delegate.DelegateTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CustomListenerFactory extends DefaultListenerFactory {
 

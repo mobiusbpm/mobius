@@ -23,7 +23,7 @@ import mobius.idm.api.Group;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GetGroupsWithPrivilegeCmd implements Command<List<Group>>, Serializable {
 

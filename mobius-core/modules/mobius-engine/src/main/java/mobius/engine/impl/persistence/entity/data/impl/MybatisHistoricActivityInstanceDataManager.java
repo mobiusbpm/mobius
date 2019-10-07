@@ -28,7 +28,7 @@ import mobius.engine.impl.persistence.entity.data.impl.cachematcher.HistoricActi
 import mobius.engine.impl.persistence.entity.data.impl.cachematcher.UnfinishedHistoricActivityInstanceMatcher;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisHistoricActivityInstanceDataManager extends AbstractProcessDataManager<HistoricActivityInstanceEntity> implements HistoricActivityInstanceDataManager {
 

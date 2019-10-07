@@ -17,7 +17,7 @@ import mobius.bpmn.model.ManualTask;
 import mobius.engine.impl.bpmn.parser.BpmnParse;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ManualTaskParseHandler extends AbstractActivityBpmnParseHandler<ManualTask> {
 

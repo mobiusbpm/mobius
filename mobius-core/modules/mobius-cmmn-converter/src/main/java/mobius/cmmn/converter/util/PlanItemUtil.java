@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.cmmn.model.Stage;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemUtil {
 

@@ -13,7 +13,7 @@
 package mobius.cmmn.test.listener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TestFilterTargetStateLifecycleListener extends AbstractTestLifecycleListener {
 

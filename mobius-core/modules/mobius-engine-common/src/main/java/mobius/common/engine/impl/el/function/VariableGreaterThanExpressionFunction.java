@@ -17,7 +17,7 @@ import java.util.Arrays;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableGreaterThanExpressionFunction extends AbstractVariableComparatorExpressionFunction {
 

@@ -18,7 +18,7 @@ import mobius.common.engine.impl.interceptor.CommandContextCloseListener;
 import mobius.engine.impl.event.logger.handler.EventLoggerEventHandler;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface EventFlusher extends CommandContextCloseListener {
 

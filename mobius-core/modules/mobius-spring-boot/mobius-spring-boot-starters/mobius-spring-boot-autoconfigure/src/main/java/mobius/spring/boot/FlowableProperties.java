@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  * @author Josh Long
- * @author Joram Barrez
+ *
  * @author Filip Hrisafov
  */
 @ConfigurationProperties(prefix = "flowable")

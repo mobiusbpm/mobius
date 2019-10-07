@@ -24,7 +24,7 @@ import mobius.dmn.model.DmnDefinition;
  * A utility class that hides the complexity of {@link DecisionTableEntity} and {@link Decision} lookup. Use this class rather than accessing the decision table cache or {@link DeploymentManager}
  * directly.
  * 
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class DecisionTableUtil {

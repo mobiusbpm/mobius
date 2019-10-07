@@ -20,7 +20,7 @@ import mobius.idm.engine.impl.persistence.entity.UserEntityImpl;
 import org.junit.Test;
 
 /**
- * @author Arkadiy Gornovoy
+ *
  *
  */
 public class UserEntityTest {

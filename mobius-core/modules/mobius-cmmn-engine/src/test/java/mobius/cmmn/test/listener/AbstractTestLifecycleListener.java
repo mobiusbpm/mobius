@@ -19,7 +19,7 @@ import mobius.cmmn.api.delegate.DelegatePlanItemInstance;
 import mobius.cmmn.api.listener.PlanItemInstanceLifecycleListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractTestLifecycleListener implements PlanItemInstanceLifecycleListener {
 

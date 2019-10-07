@@ -21,7 +21,7 @@ import mobius.form.engine.impl.FormDeploymentQueryImpl;
 import mobius.form.engine.impl.persistence.entity.FormDeploymentEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface FormDeploymentDataManager extends DataManager<FormDeploymentEntity> {
 

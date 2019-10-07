@@ -17,7 +17,7 @@ import mobius.common.engine.impl.cfg.TransactionContext;
 /**
  * A listener that can be used to be notified of lifecycle events of the {@link CommandContext}.
  * 
- * @author Joram Barrez
+ *
  */
 public interface CommandContextCloseListener {
 

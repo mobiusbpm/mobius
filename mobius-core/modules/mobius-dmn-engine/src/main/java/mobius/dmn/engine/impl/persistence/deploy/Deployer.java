@@ -18,7 +18,7 @@ import mobius.dmn.engine.impl.persistence.entity.DmnDeploymentEntity;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface Deployer {
 

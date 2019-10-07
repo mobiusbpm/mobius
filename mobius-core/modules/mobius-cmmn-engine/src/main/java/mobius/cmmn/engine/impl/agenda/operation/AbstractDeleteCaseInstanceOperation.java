@@ -21,7 +21,7 @@ import mobius.cmmn.engine.impl.util.CommandContextUtil;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractDeleteCaseInstanceOperation extends AbstractChangeCaseInstanceStateOperation {
 

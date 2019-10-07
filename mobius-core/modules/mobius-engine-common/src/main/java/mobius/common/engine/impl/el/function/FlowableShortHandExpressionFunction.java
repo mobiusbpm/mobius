@@ -25,7 +25,7 @@ import mobius.common.engine.api.delegate.FlowableFunctionDelegate;
  *   
  * This simplifies registration with an engine configuration, as only one instance needs to be added instead of keeping both in sync. 
  * 
- * @author Joram Barrez
+ *
  */
 public interface FlowableShortHandExpressionFunction extends FlowableFunctionDelegate, FlowableExpressionEnhancer {
 

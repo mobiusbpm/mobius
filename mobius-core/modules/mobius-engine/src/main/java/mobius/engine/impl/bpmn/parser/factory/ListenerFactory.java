@@ -33,7 +33,7 @@ import mobius.engine.impl.cfg.ProcessEngineConfigurationImpl;
  * 
  * An instance of this interface can be injected in the {@link ProcessEngineConfigurationImpl} and its subclasses.
  * 
- * @author Joram Barrez
+ *
  * @author Yvo Swillens
  */
 public interface ListenerFactory {

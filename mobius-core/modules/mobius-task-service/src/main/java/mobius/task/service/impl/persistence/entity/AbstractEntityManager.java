@@ -22,7 +22,7 @@ import mobius.task.service.impl.FlowableTaskEventBuilder;
 import mobius.task.service.impl.persistence.AbstractManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEntityManager<EntityImpl extends Entity> extends AbstractManager implements EntityManager<EntityImpl> {
 

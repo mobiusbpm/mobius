@@ -20,7 +20,7 @@ import mobius.job.service.impl.persistence.entity.JobByteArrayEntityImpl;
 import mobius.job.service.impl.persistence.entity.data.JobByteArrayDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisJobByteArrayDataManager extends AbstractDataManager<JobByteArrayEntity> implements JobByteArrayDataManager {
 

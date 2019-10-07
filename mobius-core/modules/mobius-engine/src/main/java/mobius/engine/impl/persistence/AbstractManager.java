@@ -36,8 +36,8 @@ import mobius.engine.impl.persistence.entity.ResourceEntityManager;
 import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public abstract class AbstractManager {
 

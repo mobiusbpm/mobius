@@ -26,7 +26,7 @@ import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
  * Helper class for writing unit tests with the async executor.
  * Inspired by the JobTestHelper from the bpmn engine, but adapted for cmmn.
  * 
- * @author Joram Barrez
+ *
  */
 public class CmmnJobTestHelper {
     

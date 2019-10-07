@@ -24,7 +24,7 @@ import mobius.idm.engine.impl.persistence.entity.data.AbstractIdmDataManager;
 import mobius.idm.engine.impl.persistence.entity.data.PrivilegeDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisPrivilegeDataManager extends AbstractIdmDataManager<PrivilegeEntity> implements PrivilegeDataManager {
 

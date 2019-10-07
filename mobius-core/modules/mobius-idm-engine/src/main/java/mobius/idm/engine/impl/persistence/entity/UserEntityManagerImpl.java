@@ -24,7 +24,7 @@ import java.util.Map;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class UserEntityManagerImpl extends AbstractEntityManager<UserEntity> implements UserEntityManager {
 

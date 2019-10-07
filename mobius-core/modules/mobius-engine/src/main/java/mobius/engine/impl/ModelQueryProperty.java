@@ -23,7 +23,7 @@ import mobius.engine.repository.ModelQuery;
  * Contains the possible properties that can be used in a {@link ModelQuery}.
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class ModelQueryProperty implements QueryProperty {
 

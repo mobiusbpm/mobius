@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Test;
 /**
  * All tests that do not belong to any other test case, but test a supposedly working feature go here.
  * 
- * @author Joram Barrez
+ *
  */
 public class RegressionTest extends PluggableFlowableTestCase {
 

@@ -20,7 +20,7 @@ import mobius.cmmn.model.ServiceTask;
 import mobius.common.engine.impl.util.ReflectUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DefaultCmmnClassDelegateFactory implements CmmnClassDelegateFactory {
 

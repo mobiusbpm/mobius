@@ -55,7 +55,7 @@ import mobius.job.service.impl.asyncexecutor.multitenant.TenantAwareAsyncExecuto
  * 
  * databasetype
  * 
- * @author Joram Barrez
+ *
  */
 public class MultiSchemaMultiTenantProcessEngineConfiguration extends ProcessEngineConfigurationImpl {
 

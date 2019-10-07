@@ -23,7 +23,7 @@ import mobius.idm.engine.impl.PrivilegeQueryImpl;
 import mobius.idm.engine.impl.persistence.entity.data.PrivilegeDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PrivilegeEntityManagerImpl extends AbstractEntityManager<PrivilegeEntity> implements PrivilegeEntityManager {
 

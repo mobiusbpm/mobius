@@ -21,7 +21,7 @@ import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
  * @author roman.smirnov
- * @author Joram Barrez
+ *
  */
 public class RemoveTaskVariablesCmd extends NeedsActiveTaskCmd<Void> {
 

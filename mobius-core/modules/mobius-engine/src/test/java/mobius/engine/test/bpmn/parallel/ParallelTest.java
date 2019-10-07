@@ -18,7 +18,7 @@ import mobius.engine.test.Deployment;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class ParallelTest extends PluggableFlowableTestCase {
 

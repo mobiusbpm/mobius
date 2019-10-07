@@ -37,7 +37,7 @@ import org.junit.After;
 import org.junit.runner.RunWith;
 
 /**
- * @author Joram Barrez
+ *
  */
 @RunWith(CmmnTestRunner.class)
 public abstract class AbstractFlowableCmmnTestCase {

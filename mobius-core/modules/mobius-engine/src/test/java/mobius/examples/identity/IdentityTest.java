@@ -23,7 +23,7 @@ import mobius.idm.api.User;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class IdentityTest extends PluggableFlowableTestCase {
 

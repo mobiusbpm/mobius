@@ -25,7 +25,7 @@ import mobius.engine.test.FlowableRule;
 import mobius.job.service.impl.asyncexecutor.AsyncExecutor;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  * @author Saeid Mirzaei
  */

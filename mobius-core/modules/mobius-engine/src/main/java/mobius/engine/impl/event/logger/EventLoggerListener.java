@@ -13,7 +13,7 @@
 package mobius.engine.impl.event.logger;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface EventLoggerListener {
 

@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.util.Scanner;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DeploymentCacheTestUtil {
 

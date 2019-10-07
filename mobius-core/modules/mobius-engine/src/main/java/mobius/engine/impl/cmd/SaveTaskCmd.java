@@ -36,7 +36,7 @@ import mobius.task.service.impl.persistence.CountingTaskEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SaveTaskCmd implements Command<Void>, Serializable {
 

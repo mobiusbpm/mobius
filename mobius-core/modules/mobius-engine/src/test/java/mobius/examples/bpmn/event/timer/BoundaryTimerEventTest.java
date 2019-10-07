@@ -20,7 +20,7 @@ import mobius.task.api.Task;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class BoundaryTimerEventTest extends PluggableFlowableTestCase {
 

@@ -23,7 +23,7 @@ import mobius.identitylink.api.IdentityLinkType;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ClaimTaskCmd extends NeedsActiveTaskCmd<Void> {
 

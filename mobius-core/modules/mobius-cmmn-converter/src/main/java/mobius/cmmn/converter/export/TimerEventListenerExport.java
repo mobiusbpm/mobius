@@ -20,7 +20,7 @@ import mobius.cmmn.model.CmmnModel;
 import mobius.cmmn.model.TimerEventListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerEventListenerExport extends AbstractPlanItemDefinitionExport<TimerEventListener> {
 

@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author Tijs Rademakers
  * @author Tom Van Buskirk
- * @author Joram Barrez
+ *
  */
 public class InclusiveGatewayActivityBehavior extends GatewayActivityBehavior implements InactiveActivityBehavior {
 

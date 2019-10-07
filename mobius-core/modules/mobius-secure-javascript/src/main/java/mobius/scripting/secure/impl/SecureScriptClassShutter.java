@@ -20,7 +20,7 @@ import org.mozilla.javascript.ClassShutter;
 /**
  * A {@link ClassShutter} that uses a {@link Set} of Strings denoting fully qualified classnames that are white listed for usage in scripts.
  * 
- * @author Joram Barrez
+ *
  */
 public class SecureScriptClassShutter implements ClassShutter {
 

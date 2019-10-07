@@ -18,7 +18,7 @@ import mobius.common.engine.impl.db.SingleCachedEntityMatcher;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableInstanceBySubScopeIdAndScopeTypeAndVariableNameMatcher implements SingleCachedEntityMatcher<VariableInstanceEntity> {
 

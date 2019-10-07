@@ -24,7 +24,7 @@ import mobius.identitylink.service.impl.persistence.entity.IdentityLinkEntity;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class AddIdentityLinkCmd extends NeedsActiveTaskCmd<Void> {
 

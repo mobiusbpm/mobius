@@ -18,7 +18,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.engine.impl.persistence.entity.HistoricActivityInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class HistoricActivityInstanceMatcher extends CachedEntityMatcherAdapter<HistoricActivityInstanceEntity> {
 

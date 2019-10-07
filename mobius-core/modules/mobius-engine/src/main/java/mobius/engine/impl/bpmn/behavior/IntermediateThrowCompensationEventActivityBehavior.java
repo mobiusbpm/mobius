@@ -37,7 +37,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.CompensateEventS
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class IntermediateThrowCompensationEventActivityBehavior extends FlowNodeActivityBehavior {
 

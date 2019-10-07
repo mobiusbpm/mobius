@@ -15,7 +15,7 @@ package mobius.common.engine.api;
 /**
  * Runtime exception that is the superclass of all Flowable exceptions.
  * 
- * @author Tom Baeyens
+ *
  */
 public class FlowableException extends RuntimeException {
 

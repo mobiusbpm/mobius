@@ -19,7 +19,7 @@ import mobius.engine.impl.test.AbstractTestCase;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class NoDbConnectionTest extends AbstractTestCase {
 

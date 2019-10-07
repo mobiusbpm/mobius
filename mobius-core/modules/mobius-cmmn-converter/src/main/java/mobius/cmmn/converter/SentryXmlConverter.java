@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.Sentry;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SentryXmlConverter extends CaseElementXmlConverter {
     

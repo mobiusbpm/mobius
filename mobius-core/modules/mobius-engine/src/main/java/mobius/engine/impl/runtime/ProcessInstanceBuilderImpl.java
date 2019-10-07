@@ -21,7 +21,7 @@ import mobius.engine.runtime.ProcessInstanceBuilder;
 
 /**
  * @author Bassam Al-Sarori
- * @author Joram Barrez
+ *
  */
 public class ProcessInstanceBuilderImpl implements ProcessInstanceBuilder {
 

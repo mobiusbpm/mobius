@@ -45,7 +45,7 @@ import mobius.eventsubscription.service.impl.persistence.entity.data.impl.cachem
 import mobius.eventsubscription.service.impl.persistence.entity.data.impl.cachematcher.SignalEventSubscriptionByScopeIdAndTypeMatcher;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisEventSubscriptionDataManager extends AbstractEventSubscriptionDataManager<EventSubscriptionEntity> implements EventSubscriptionDataManager {
 

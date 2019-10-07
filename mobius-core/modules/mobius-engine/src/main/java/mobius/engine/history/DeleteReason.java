@@ -13,7 +13,7 @@
 package mobius.engine.history;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DeleteReason {
 

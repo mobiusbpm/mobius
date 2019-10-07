@@ -29,7 +29,7 @@ import mobius.variable.service.impl.persistence.entity.HistoricVariableInstanceE
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntityManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractCmmnManager {
 

@@ -15,7 +15,7 @@ package mobius.cmmn.test.bean;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerBean {
 

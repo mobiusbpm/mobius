@@ -18,7 +18,7 @@ import mobius.cmmn.model.FlowableListener;
 import mobius.task.service.delegate.TaskListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnListenerFactory {
 

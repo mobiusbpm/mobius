@@ -21,8 +21,8 @@ import mobius.common.engine.impl.javax.el.FunctionMapper;
 import mobius.common.engine.impl.javax.el.VariableMapper;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class FlowableElContext extends ELContext {
 

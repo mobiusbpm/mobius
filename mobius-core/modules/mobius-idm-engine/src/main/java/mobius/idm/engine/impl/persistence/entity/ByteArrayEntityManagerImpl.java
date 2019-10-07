@@ -20,7 +20,7 @@ import mobius.idm.engine.IdmEngineConfiguration;
 import mobius.idm.engine.impl.persistence.entity.data.ByteArrayDataManager;
 
 /**
- * @author Joram Barrez
+ *
  * @author Marcus Klimstra (CGI)
  */
 public class ByteArrayEntityManagerImpl extends AbstractEntityManager<IdmByteArrayEntity> implements ByteArrayEntityManager {

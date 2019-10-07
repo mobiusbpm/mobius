@@ -29,7 +29,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemInstanceLifecycleListenerTest extends FlowableCmmnTestCase {
 

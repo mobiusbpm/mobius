@@ -23,7 +23,7 @@ import mobius.variable.api.delegate.VariableScope;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerSuspendProcessDefinitionHandler extends TimerChangeProcessDefinitionSuspensionStateJobHandler {
 

@@ -29,7 +29,7 @@ import mobius.common.engine.api.query.Query;
  * {@link CmmnRepositoryService#getResourceAsStream(String, String)}
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface CmmnDeploymentQuery extends Query<CmmnDeploymentQuery, CmmnDeployment> {
 

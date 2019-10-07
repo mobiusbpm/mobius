@@ -20,7 +20,7 @@ import mobius.common.engine.impl.runtime.Clock;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ClaimTaskCmd extends NeedsActiveTaskCmd<Void> {
 

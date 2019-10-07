@@ -20,7 +20,7 @@ import mobius.common.engine.impl.interceptor.CommandExecutor;
 import mobius.engine.impl.cmd.GetNextIdBlockCmd;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DbIdGenerator implements IdGenerator {
 

@@ -20,7 +20,7 @@ import mobius.common.engine.impl.javax.el.ELContext;
 import mobius.variable.service.impl.persistence.entity.VariableScopeImpl;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableScopeExpressionManager extends DefaultExpressionManager {
     

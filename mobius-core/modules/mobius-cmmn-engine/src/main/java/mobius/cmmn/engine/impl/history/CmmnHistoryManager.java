@@ -24,7 +24,7 @@ import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 import java.util.Date;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CmmnHistoryManager {
 

@@ -57,7 +57,7 @@ import mobius.task.service.impl.TaskQueryImpl;
 import mobius.variable.api.entity.VariableInstance;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnTaskServiceImpl extends CommonEngineServiceImpl<CmmnEngineConfiguration> implements CmmnTaskService {
 

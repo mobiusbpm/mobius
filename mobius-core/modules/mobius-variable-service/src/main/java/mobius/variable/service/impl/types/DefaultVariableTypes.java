@@ -23,7 +23,7 @@ import mobius.variable.api.types.VariableType;
 import mobius.variable.api.types.VariableTypes;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class DefaultVariableTypes implements VariableTypes, Serializable {
 

@@ -23,7 +23,7 @@ import mobius.cmmn.model.BaseElement;
  * Instances of this class can be injected into the {@link CmmnEngineConfiguration}
  * The handler will then be called whenever a CMMN element is parsed that matches the types returned by the
  *
- * @author Joram Barrez
+ *
  */
 public interface CmmnParseHandler {
 

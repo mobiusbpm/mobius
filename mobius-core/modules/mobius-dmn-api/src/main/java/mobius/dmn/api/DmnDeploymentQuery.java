@@ -24,7 +24,7 @@ import mobius.common.engine.api.query.Query;
  * {@link DmnRepositoryService#getResourceAsStream(String, String)}
  * 
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface DmnDeploymentQuery extends Query<DmnDeploymentQuery, DmnDeployment> {
 

@@ -22,7 +22,7 @@ import org.junit.jupiter.api.Test;
 /**
  * See {@link ExclusiveGatewayTest} for a default sequence flow test on an exclusive gateway.
  * 
- * @author Joram Barrez
+ *
  */
 public class DefaultSequenceFlowTest extends PluggableFlowableTestCase {
 

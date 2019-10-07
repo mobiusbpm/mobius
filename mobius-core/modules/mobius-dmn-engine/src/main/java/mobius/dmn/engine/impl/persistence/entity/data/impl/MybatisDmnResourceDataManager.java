@@ -23,7 +23,7 @@ import mobius.dmn.engine.impl.persistence.entity.data.AbstractDmnDataManager;
 import mobius.dmn.engine.impl.persistence.entity.data.DmnResourceDataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisDmnResourceDataManager extends AbstractDmnDataManager<DmnResourceEntity> implements DmnResourceDataManager {
 

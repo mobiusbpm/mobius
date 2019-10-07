@@ -29,7 +29,7 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntityManager;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class JobExecutorTest extends JobExecutorTestCase {
 

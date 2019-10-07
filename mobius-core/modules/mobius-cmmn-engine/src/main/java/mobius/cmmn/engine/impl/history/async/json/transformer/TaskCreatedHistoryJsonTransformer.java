@@ -25,7 +25,7 @@ import mobius.task.service.impl.persistence.entity.HistoricTaskInstanceEntity;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TaskCreatedHistoryJsonTransformer extends AbstractTaskHistoryJsonTransformer {
 

@@ -20,7 +20,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 /**
- * @author Joram Barrez
+ *
  * @author Josh Long
  */
 @ExtendWith(InternalFlowableSpringExtension.class)

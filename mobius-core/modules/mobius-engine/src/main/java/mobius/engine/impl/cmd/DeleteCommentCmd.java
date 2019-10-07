@@ -28,7 +28,7 @@ import mobius.engine.task.Comment;
 import mobius.task.api.Task;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DeleteCommentCmd implements Command<Void>, Serializable {
 

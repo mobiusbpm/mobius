@@ -19,7 +19,7 @@ import mobius.dmn.engine.DmnEngineConfiguration;
 import mobius.dmn.engine.impl.persistence.AbstractManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractEntityManager<EntityImpl extends Entity> extends AbstractManager implements EntityManager<EntityImpl> {
 

@@ -16,7 +16,7 @@ package mobius.engine.test.bpmn.gateway;
 import java.io.Serializable;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ExclusiveGatewayTestOrder implements Serializable {
 

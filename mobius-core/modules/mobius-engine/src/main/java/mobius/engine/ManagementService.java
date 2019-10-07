@@ -39,8 +39,8 @@ import mobius.job.service.impl.persistence.entity.TimerJobEntity;
  * 
  * These operations will typically not be used in a workflow driven application, but are used in for example the operational console.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  * @author Falko Menge
  */
 public interface ManagementService {

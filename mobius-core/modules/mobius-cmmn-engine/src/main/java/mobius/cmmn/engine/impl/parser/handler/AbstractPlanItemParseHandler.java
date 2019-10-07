@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.common.engine.api.FlowableException;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractPlanItemParseHandler<T extends BaseElement> extends AbstractCmmnParseHandler<T> {
 

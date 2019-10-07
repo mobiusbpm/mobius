@@ -13,7 +13,7 @@
 package mobius.common.engine.impl.cfg;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public enum TransactionState {
 

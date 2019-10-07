@@ -15,7 +15,7 @@ package mobius.spring.test.servicetask;
 import mobius.engine.delegate.DelegateExecution;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SentenceToUpperCaseBean {
 

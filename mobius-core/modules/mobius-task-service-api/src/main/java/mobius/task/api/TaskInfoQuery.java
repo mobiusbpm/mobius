@@ -25,7 +25,7 @@ import mobius.task.api.history.HistoricTaskInstanceQuery;
 /**
  * Interface containing shared methods between the {@link TaskQuery} and the {@link HistoricTaskInstanceQuery}.
  * 
- * @author Joram Barrez
+ *
  */
 public interface TaskInfoQuery<T extends TaskInfoQuery<?, ?>, V extends TaskInfo> extends Query<T, V> {
 

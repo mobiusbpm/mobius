@@ -19,7 +19,7 @@ import java.util.Map;
 import mobius.dmn.engine.DmnEngineConfiguration;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class DecisionTableEntityImpl extends AbstractDmnEngineNoRevisionEntity implements DecisionTableEntity, Serializable {

@@ -18,7 +18,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Filip Hrisafov
  */
 @ExtendWith(LoggingExtension.class)

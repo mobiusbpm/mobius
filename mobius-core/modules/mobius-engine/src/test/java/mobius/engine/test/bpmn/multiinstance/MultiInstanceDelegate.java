@@ -16,7 +16,7 @@ import mobius.engine.delegate.DelegateExecution;
 import mobius.engine.delegate.JavaDelegate;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MultiInstanceDelegate implements JavaDelegate {
 

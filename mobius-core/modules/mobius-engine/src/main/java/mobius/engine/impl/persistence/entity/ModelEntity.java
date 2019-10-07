@@ -21,7 +21,7 @@ import mobius.engine.repository.Model;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface ModelEntity extends Model, HasRevision, Entity {
 

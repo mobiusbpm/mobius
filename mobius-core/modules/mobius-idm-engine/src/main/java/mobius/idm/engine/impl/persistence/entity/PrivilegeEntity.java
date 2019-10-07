@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.idm.api.Privilege;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface PrivilegeEntity extends Entity, Privilege {
 

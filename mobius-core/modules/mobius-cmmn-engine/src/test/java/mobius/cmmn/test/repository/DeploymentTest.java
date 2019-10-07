@@ -32,7 +32,7 @@ import static org.assertj.core.api.Assertions.tuple;
 import static org.junit.Assert.*;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DeploymentTest extends FlowableCmmnTestCase {
 

@@ -25,8 +25,8 @@ import mobius.common.engine.api.repository.EngineDeployment;
  * To create a Deployment, use the {@link mobius.engine.repository.DeploymentBuilder}. A Deployment on itself is a <b>read-only</b> object and its content cannot be changed after deployment
  * (hence the builder that needs to be used).
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface Deployment extends EngineDeployment {
 

@@ -31,7 +31,7 @@ import mobius.ldap.LDAPGroupCache.LDAPGroupCacheListener;
  * <p>
  * Check the docs (specifically the setters) to see how this class can be tweaked.
  *
- * @author Joram Barrez
+ *
  */
 public class LDAPConfiguration {
 

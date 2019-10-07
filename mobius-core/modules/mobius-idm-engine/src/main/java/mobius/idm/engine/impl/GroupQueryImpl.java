@@ -25,7 +25,7 @@ import mobius.idm.api.GroupQueryProperty;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class GroupQueryImpl extends AbstractQuery<GroupQuery, Group> implements GroupQuery {
 

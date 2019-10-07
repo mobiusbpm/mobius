@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.job.service.impl.persistence.entity.JobEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class JobsByExecutionIdMatcher extends CachedEntityMatcherAdapter<JobEntity> {
 

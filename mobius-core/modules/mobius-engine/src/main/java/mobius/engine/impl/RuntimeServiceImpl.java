@@ -99,7 +99,7 @@ import mobius.identitylink.api.IdentityLinkType;
 import mobius.variable.api.entity.VariableInstance;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Daniel Meyer
  */
 public class RuntimeServiceImpl extends CommonEngineServiceImpl<ProcessEngineConfigurationImpl> implements RuntimeService {

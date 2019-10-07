@@ -22,7 +22,7 @@ import mobius.common.engine.api.history.HistoricData;
  * 
  * @author Christian Lipphardt (camunda)
  * @author ruecker
- * @author Joram Barrez
+ *
  */
 public interface HistoricVariableInstance extends HistoricData {
 

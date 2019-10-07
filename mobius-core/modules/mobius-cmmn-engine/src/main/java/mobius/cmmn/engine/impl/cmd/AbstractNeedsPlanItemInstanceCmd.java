@@ -23,7 +23,7 @@ import mobius.common.engine.impl.interceptor.Command;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractNeedsPlanItemInstanceCmd implements Command<Void>, Serializable {
 

@@ -21,7 +21,7 @@ import mobius.job.service.impl.asyncexecutor.ExecuteAsyncRunnable;
 /**
  * Extends the default {@link ExecuteAsyncRunnable} by setting the 'tenant' context before executing.
  * 
- * @author Joram Barrez
+ *
  */
 public class TenantAwareExecuteAsyncRunnable extends ExecuteAsyncRunnable {
 

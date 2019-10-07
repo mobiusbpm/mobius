@@ -23,7 +23,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public interface AppDeploymentEntity extends AppDeployment, Entity {
 

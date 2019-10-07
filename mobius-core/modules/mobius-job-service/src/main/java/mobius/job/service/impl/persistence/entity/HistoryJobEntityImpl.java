@@ -24,7 +24,7 @@ import mobius.job.service.JobServiceConfiguration;
 /**
  * History Job entity.
  *
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class HistoryJobEntityImpl extends AbstractJobServiceEntity implements HistoryJobEntity, Serializable {

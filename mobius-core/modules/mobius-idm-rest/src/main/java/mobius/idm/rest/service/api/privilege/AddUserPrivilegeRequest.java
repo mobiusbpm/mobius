@@ -13,7 +13,7 @@
 package mobius.idm.rest.service.api.privilege;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class AddUserPrivilegeRequest {
 

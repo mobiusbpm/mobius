@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.entity.Entity;
 import mobius.identitylink.api.IdentityLink;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface IdentityLinkEntity extends IdentityLink, Entity {
 

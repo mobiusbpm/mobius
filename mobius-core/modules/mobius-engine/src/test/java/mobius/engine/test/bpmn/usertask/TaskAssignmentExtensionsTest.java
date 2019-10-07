@@ -27,7 +27,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Testcase for the non-spec extensions to the task candidate use case.
  * 
- * @author Joram Barrez
+ *
  */
 public class TaskAssignmentExtensionsTest extends PluggableFlowableTestCase {
 

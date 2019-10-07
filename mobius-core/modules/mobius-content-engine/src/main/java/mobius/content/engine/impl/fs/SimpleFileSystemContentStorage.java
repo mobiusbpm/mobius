@@ -38,7 +38,7 @@ import java.util.Map;
  *
  * The id of the returned {@link ContentObject} indicates in which folder it is stored.
  *
- * @author Joram Barrez
+ *
  */
 public class SimpleFileSystemContentStorage implements ContentStorage {
 

@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MilestoneInstanceEntityImpl extends AbstractCmmnEngineEntity implements MilestoneInstanceEntity {
     

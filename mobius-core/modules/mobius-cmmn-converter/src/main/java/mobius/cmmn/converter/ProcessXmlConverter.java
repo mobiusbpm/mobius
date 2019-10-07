@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.Process;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessXmlConverter extends BaseCmmnXmlConverter {
     

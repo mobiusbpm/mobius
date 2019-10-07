@@ -16,9 +16,9 @@ import mobius.common.engine.impl.db.HasRevision;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Marcus Klimstra (CGI)
- * @author Joram Barrez
+ *
  */
 public interface JobByteArrayEntity extends Entity, HasRevision {
 

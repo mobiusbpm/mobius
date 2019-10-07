@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 import junit.framework.TestCase;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public abstract class AbstractContentTestCase extends TestCase {
 

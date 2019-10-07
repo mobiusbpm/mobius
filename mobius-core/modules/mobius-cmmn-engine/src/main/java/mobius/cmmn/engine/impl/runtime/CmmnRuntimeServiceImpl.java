@@ -69,7 +69,7 @@ import mobius.form.api.FormInfo;
 import mobius.identitylink.api.IdentityLink;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnRuntimeServiceImpl extends CommonEngineServiceImpl<CmmnEngineConfiguration> implements CmmnRuntimeService {
 

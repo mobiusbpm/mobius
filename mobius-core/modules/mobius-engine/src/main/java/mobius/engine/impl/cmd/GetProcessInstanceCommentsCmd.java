@@ -23,7 +23,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.task.Comment;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetProcessInstanceCommentsCmd implements Command<List<Comment>>, Serializable {
 

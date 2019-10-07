@@ -17,7 +17,7 @@ import mobius.common.engine.impl.AbstractEngineConfiguration;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class BeansResolverFactory implements ResolverFactory, Resolver {
 

@@ -22,7 +22,7 @@ import mobius.engine.repository.Deployment;
 import org.kie.api.KieBase;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class RulesHelper {
 

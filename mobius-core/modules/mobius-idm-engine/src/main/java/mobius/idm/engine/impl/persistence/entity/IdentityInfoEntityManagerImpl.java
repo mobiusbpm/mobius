@@ -24,8 +24,8 @@ import mobius.idm.engine.IdmEngineConfiguration;
 import mobius.idm.engine.impl.persistence.entity.data.IdentityInfoDataManager;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class IdentityInfoEntityManagerImpl extends AbstractEntityManager<IdentityInfoEntity> implements IdentityInfoEntityManager {
 

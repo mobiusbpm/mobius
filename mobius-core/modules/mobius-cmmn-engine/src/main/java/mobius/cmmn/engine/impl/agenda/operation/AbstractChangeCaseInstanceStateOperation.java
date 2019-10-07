@@ -18,7 +18,7 @@ import mobius.cmmn.engine.impl.persistence.entity.PlanItemInstanceEntity;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractChangeCaseInstanceStateOperation extends AbstractCaseInstanceOperation {
 

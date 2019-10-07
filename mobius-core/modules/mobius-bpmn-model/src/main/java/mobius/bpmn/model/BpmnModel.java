@@ -24,7 +24,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class BpmnModel {
 

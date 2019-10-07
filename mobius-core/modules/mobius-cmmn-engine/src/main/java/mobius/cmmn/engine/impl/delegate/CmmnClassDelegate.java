@@ -34,7 +34,7 @@ import mobius.task.service.delegate.TaskListener;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CmmnClassDelegate implements CmmnActivityBehavior, TaskListener, PlanItemInstanceLifecycleListener, CaseInstanceLifecycleListener {
 

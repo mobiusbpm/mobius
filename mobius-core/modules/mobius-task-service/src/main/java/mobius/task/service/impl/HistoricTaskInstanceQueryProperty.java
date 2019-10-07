@@ -19,7 +19,7 @@ import java.util.Map;
 import mobius.common.engine.api.query.QueryProperty;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class HistoricTaskInstanceQueryProperty implements QueryProperty {
 

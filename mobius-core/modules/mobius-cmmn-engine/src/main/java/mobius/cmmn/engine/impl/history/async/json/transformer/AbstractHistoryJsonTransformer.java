@@ -15,7 +15,7 @@ package mobius.cmmn.engine.impl.history.async.json.transformer;
 import mobius.job.service.impl.history.async.transformer.HistoryJsonTransformer;
 
 /**
- * @author Joram Barrez
+ *
  */
 public abstract class AbstractHistoryJsonTransformer implements HistoryJsonTransformer {
 

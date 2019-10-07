@@ -24,8 +24,8 @@ import mobius.task.api.Task;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public class GetTaskVariableCmd implements Command<Object>, Serializable {
 

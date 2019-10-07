@@ -18,9 +18,9 @@ import java.util.Arrays;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author Tom Baeyens
+ *
  * @author Marcus Klimstra (CGI)
- * @author Joram Barrez
+ *
  */
 public class VariableByteArrayEntityImpl extends AbstractVariableServiceEntity implements VariableByteArrayEntity, Serializable {
 

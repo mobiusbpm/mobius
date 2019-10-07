@@ -18,7 +18,7 @@ import mobius.variable.api.delegate.VariableScope;
 import org.mozilla.javascript.Scriptable;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SecureScriptScope implements Scriptable {
 

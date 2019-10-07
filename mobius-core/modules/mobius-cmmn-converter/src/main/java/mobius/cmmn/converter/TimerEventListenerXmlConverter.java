@@ -18,7 +18,7 @@ import mobius.cmmn.model.BaseElement;
 import mobius.cmmn.model.TimerEventListener;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TimerEventListenerXmlConverter extends PlanItemDefinitionXmlConverter {
 

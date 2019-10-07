@@ -21,7 +21,7 @@ import mobius.engine.impl.persistence.entity.ProcessDefinitionEntity;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessDefinitionFormType extends AbstractFormType {
 

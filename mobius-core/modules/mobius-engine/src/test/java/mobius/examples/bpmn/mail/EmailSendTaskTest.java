@@ -30,7 +30,7 @@ import org.subethamail.wiser.Wiser;
 import org.subethamail.wiser.WiserMessage;
 
 /**
- * @author Joram Barrez
+ *
  * @author Falko Menge
  * @author Simon Amport
  */

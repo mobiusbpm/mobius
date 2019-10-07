@@ -20,7 +20,7 @@ import mobius.variable.api.delegate.VariableScope;
  * Compares the value of a variable (fetched using the variableName through the variable scope).
  * with a value on inequality. If the variable value is null, false is returned (unless compared to null).
  *  
- * @author Joram Barrez
+ *
  */
 public class VariableNotEqualsExpressionFunction extends AbstractFlowableVariableExpressionFunction {
     

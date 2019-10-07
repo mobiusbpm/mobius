@@ -18,7 +18,7 @@ import mobius.cmmn.model.CmmnElement;
 import mobius.cmmn.model.Stage;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanModelXmlConverter extends StageXmlConverter {
 

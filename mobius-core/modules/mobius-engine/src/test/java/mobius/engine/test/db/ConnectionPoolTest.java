@@ -22,7 +22,7 @@ import mobius.engine.impl.test.AbstractTestCase;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ConnectionPoolTest extends AbstractTestCase {
 

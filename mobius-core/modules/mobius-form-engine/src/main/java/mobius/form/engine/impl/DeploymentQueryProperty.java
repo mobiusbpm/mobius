@@ -35,7 +35,7 @@ import mobius.form.api.FormDeploymentQuery;
 /**
  * Contains the possible properties that can be used in a {@link FormDeploymentQuery}.
  * 
- * @author Joram Barrez
+ *
  */
 public class DeploymentQueryProperty implements QueryProperty {
 

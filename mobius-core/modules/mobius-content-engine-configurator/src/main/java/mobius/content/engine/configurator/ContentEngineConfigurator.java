@@ -27,7 +27,7 @@ import java.util.List;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class ContentEngineConfigurator extends AbstractEngineConfigurator {
 

@@ -16,7 +16,7 @@ package mobius.common.engine.impl.interceptor;
 import mobius.common.engine.impl.cfg.TransactionContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TransactionCommandContextCloseListener implements CommandContextCloseListener {
 

@@ -16,7 +16,7 @@ import mobius.cmmn.engine.impl.persistence.entity.CaseInstanceEntity;
 import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseInstanceByCaseDefinitionIdMatcher extends CachedEntityMatcherAdapter<CaseInstanceEntity> {
 

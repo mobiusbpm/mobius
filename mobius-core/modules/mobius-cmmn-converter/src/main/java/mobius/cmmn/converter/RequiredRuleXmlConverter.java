@@ -19,7 +19,7 @@ import mobius.cmmn.model.PlanItemControl;
 import mobius.cmmn.model.RequiredRule;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class RequiredRuleXmlConverter extends CaseElementXmlConverter {
     

@@ -21,7 +21,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.task.service.impl.persistence.entity.TaskEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ProcessVariableScopeELResolver extends VariableContainerELResolver  {
     

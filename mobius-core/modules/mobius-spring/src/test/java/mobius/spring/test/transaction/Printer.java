@@ -16,7 +16,7 @@ package mobius.spring.test.transaction;
 import mobius.engine.delegate.DelegateExecution;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class Printer {
 

@@ -24,7 +24,7 @@ import mobius.engine.impl.persistence.entity.data.ModelDataManager;
 import mobius.engine.repository.Model;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisModelDataManager extends AbstractProcessDataManager<ModelEntity> implements ModelDataManager {
 

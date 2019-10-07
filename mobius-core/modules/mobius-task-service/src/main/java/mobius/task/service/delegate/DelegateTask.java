@@ -23,7 +23,7 @@ import mobius.task.api.DelegationState;
 import mobius.variable.api.delegate.VariableScope;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DelegateTask extends VariableScope {
 

@@ -20,7 +20,7 @@ import mobius.engine.impl.ProcessDefinitionQueryImpl;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface ProcessDefinitionEntityManager extends EntityManager<ProcessDefinitionEntity> {
 

@@ -38,7 +38,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class RepositoryServiceTest extends PluggableFlowableTestCase {
 

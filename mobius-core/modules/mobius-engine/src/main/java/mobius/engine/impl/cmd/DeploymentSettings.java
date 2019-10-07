@@ -13,7 +13,7 @@
 package mobius.engine.impl.cmd;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface DeploymentSettings {
 

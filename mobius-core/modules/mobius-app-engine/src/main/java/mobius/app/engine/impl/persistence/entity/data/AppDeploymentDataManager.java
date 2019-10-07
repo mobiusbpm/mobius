@@ -20,7 +20,7 @@ import mobius.app.engine.impl.persistence.entity.AppDeploymentEntity;
 import mobius.common.engine.impl.persistence.entity.data.DataManager;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface AppDeploymentDataManager extends DataManager<AppDeploymentEntity> {
 

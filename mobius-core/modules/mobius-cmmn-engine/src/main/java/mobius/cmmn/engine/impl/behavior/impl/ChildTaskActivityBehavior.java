@@ -32,7 +32,7 @@ import java.util.Map;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public abstract class ChildTaskActivityBehavior extends CoreCmmnTriggerableActivityBehavior {
 

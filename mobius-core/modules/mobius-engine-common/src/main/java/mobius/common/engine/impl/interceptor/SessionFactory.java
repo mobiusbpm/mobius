@@ -16,8 +16,8 @@ package mobius.common.engine.impl.interceptor;
 /**
  * A session factory produces a {@link Session} instance that has the lifespan of one {@link Command}.
  * 
- * @author Tom Baeyens
- * @author Joram Barrez
+ *
+ *
  */
 public interface SessionFactory {
 

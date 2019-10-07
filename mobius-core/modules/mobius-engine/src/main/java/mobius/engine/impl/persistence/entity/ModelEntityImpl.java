@@ -22,7 +22,7 @@ import mobius.engine.ProcessEngineConfiguration;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class ModelEntityImpl extends AbstractBpmnEngineEntity implements ModelEntity, Serializable {
 

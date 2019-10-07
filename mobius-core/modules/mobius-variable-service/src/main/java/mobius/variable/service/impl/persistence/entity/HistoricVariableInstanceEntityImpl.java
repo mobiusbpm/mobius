@@ -22,7 +22,7 @@ import mobius.variable.api.types.VariableType;
 
 /**
  * @author Christian Lipphardt (camunda)
- * @author Joram Barrez
+ *
  */
 public class HistoricVariableInstanceEntityImpl extends AbstractVariableServiceEntity implements HistoricVariableInstanceEntity, Serializable {
 

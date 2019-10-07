@@ -23,7 +23,7 @@ import mobius.idm.api.Group;
 import mobius.idm.api.User;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CreateUserAndMembershipTestDelegate implements JavaDelegate {
 

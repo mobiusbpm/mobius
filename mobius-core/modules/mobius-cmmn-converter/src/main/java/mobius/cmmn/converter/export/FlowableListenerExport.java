@@ -22,7 +22,7 @@ import mobius.cmmn.model.FlowableListener;
 import mobius.cmmn.model.ImplementationType;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class FlowableListenerExport {
 

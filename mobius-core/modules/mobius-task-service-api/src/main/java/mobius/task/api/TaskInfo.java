@@ -21,7 +21,7 @@ import java.util.Map;
 
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface TaskInfo {
 

@@ -22,7 +22,7 @@ import mobius.common.engine.api.FlowableException;
 import mobius.common.engine.impl.interceptor.CommandContext;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TriggerPlanItemInstanceOperation extends AbstractPlanItemInstanceOperation {
     

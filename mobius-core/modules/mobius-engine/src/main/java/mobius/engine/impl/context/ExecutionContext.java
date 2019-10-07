@@ -20,7 +20,7 @@ import mobius.engine.impl.util.ProcessDefinitionUtil;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class ExecutionContext {
 

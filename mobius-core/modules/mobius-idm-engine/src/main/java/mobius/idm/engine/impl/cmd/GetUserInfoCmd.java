@@ -21,7 +21,7 @@ import mobius.idm.engine.impl.persistence.entity.IdentityInfoEntity;
 import mobius.idm.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class GetUserInfoCmd implements Command<String>, Serializable {
 

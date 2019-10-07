@@ -23,7 +23,7 @@ import mobius.cmmn.model.BaseElement;
 import mobius.cmmn.model.Case;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class CaseParseHandler extends AbstractCmmnParseHandler<Case> {
 

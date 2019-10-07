@@ -25,7 +25,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Joram Barrez
+ *
  * @author Christian Stettler
  */
 public class ScriptTaskTest extends PluggableFlowableTestCase {

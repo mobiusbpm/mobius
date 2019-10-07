@@ -19,7 +19,7 @@ import mobius.common.engine.api.variable.VariableContainer;
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public interface Expression extends Serializable {
 

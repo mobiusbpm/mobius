@@ -18,7 +18,7 @@ import mobius.common.engine.api.query.Query;
 /**
  * Allows programmatic querying of {@link HistoryJob}s.
  *
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public interface HistoryJobQuery extends Query<HistoryJobQuery, HistoryJob> {

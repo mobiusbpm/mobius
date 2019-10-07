@@ -20,7 +20,7 @@ import mobius.common.engine.impl.persistence.entity.data.DataManager;
 import mobius.variable.service.impl.persistence.entity.VariableInstanceEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface VariableInstanceDataManager extends DataManager<VariableInstanceEntity> {
 

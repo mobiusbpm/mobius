@@ -20,7 +20,7 @@ import mobius.common.engine.impl.javax.el.ELContext;
 import mobius.common.engine.impl.javax.el.ELResolver;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class VariableContainerELResolver extends ELResolver {
 

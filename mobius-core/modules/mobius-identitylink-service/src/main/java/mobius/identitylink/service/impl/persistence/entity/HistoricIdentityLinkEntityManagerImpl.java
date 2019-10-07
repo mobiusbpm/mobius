@@ -21,7 +21,7 @@ import mobius.identitylink.service.impl.persistence.entity.data.HistoricIdentity
 
 /**
  * @author Frederik Heremans
- * @author Joram Barrez
+ *
  */
 public class HistoricIdentityLinkEntityManagerImpl extends AbstractEntityManager<HistoricIdentityLinkEntity> implements HistoricIdentityLinkEntityManager {
 

@@ -13,7 +13,7 @@
 package mobius.cmmn.engine.impl.persistence.entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface CountingPlanItemInstanceEntity {
     

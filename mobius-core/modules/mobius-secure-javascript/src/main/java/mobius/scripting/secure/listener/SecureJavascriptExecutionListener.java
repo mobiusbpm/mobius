@@ -18,7 +18,7 @@ import mobius.scripting.secure.behavior.SecureJavascriptTaskParseHandler;
 import mobius.scripting.secure.impl.SecureJavascriptUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SecureJavascriptExecutionListener extends ScriptExecutionListener {
 

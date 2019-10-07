@@ -16,7 +16,7 @@ import mobius.common.engine.impl.persistence.cache.CachedEntityMatcherAdapter;
 import mobius.job.service.impl.persistence.entity.DeadLetterJobEntity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DeadLetterJobsByExecutionIdMatcher extends CachedEntityMatcherAdapter<DeadLetterJobEntity> {
 

@@ -26,7 +26,7 @@ import mobius.engine.impl.delegate.invocation.JavaDelegateInvocation;
 import mobius.engine.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class DelegateExpressionExecutionListener implements ExecutionListener {
 

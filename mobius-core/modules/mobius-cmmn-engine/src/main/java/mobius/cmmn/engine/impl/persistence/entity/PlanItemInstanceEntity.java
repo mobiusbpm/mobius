@@ -17,7 +17,7 @@ import mobius.common.engine.impl.db.HasRevision;
 import mobius.common.engine.impl.persistence.entity.Entity;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface PlanItemInstanceEntity extends Entity, HasRevision, DelegatePlanItemInstance, EntityWithSentryPartInstances, PlanItemInstanceContainer {
     

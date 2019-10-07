@@ -33,7 +33,7 @@ import javax.sql.DataSource;
 /**
  * @author Tijs Rademakers
  * @author David Syer
- * @author Joram Barrez
+ *
  */
 public class SpringIdmEngineConfiguration extends IdmEngineConfiguration implements ApplicationContextAware {
 

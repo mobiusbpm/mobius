@@ -28,7 +28,7 @@ import mobius.common.engine.impl.history.HistoryLevel;
 import org.junit.Test;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class PlanItemLifecycleListenerTest extends CustomCmmnConfigurationFlowableTestCase {
 

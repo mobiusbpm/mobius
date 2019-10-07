@@ -20,7 +20,7 @@ import mobius.common.engine.impl.persistence.entity.EntityManager;
 import mobius.variable.api.types.VariableType;
 
 /**
- * @author Joram Barrez
+ *
  */
 public interface VariableInstanceEntityManager extends EntityManager<VariableInstanceEntity> {
 

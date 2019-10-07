@@ -26,7 +26,7 @@ import java.util.Set;
 
 /**
  * @author Tijs Rademakers
- * @author Joram Barrez
+ *
  */
 public class SpringAutoDeployTest extends AbstractDmnTestCase {
 

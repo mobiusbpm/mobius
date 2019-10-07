@@ -15,7 +15,7 @@ package mobius.cmmn.test.listener;
 import mobius.cmmn.api.runtime.PlanItemInstance;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class TestLifeCycleEvent {
 

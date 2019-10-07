@@ -26,7 +26,7 @@ import mobius.cmmn.model.PlanItem;
 import mobius.cmmn.model.ServiceTask;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class ServiceTaskParseHandler extends AbstractPlanItemParseHandler<ServiceTask> {
 

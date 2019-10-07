@@ -23,7 +23,7 @@ import mobius.engine.impl.util.CommandContextUtil;
 import mobius.engine.test.history.SerializableVariable;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class VariableSetter implements JavaDelegate {
 

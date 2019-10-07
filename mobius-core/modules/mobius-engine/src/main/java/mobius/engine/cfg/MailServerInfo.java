@@ -14,7 +14,7 @@
 package mobius.engine.cfg;
 
 /**
- * @author Tom Baeyens
+ *
  */
 public class MailServerInfo {
 

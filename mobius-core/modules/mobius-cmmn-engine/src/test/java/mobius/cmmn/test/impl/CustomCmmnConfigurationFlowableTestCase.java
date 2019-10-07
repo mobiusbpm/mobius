@@ -34,7 +34,7 @@ import org.slf4j.LoggerFactory;
  * Note that a {@link CmmnEngine} is booted up and shut down for every test, 
  * so use with caution to avoid that total test times go up. 
  * 
- * @author Joram Barrez
+ *
  */
 @RunWith(CmmnTestRunner.class)
 public abstract class CustomCmmnConfigurationFlowableTestCase extends AbstractFlowableCmmnTestCase {

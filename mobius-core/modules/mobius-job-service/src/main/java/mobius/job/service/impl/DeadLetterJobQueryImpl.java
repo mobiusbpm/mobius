@@ -27,7 +27,7 @@ import mobius.job.api.Job;
 import mobius.job.service.impl.util.CommandContextUtil;
 
 /**
- * @author Joram Barrez
+ *
  * @author Tijs Rademakers
  */
 public class DeadLetterJobQueryImpl extends AbstractQuery<DeadLetterJobQuery, Job> implements DeadLetterJobQuery, Serializable {

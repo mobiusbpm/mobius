@@ -28,7 +28,7 @@ import mobius.engine.impl.util.Flowable5Util;
 import mobius.engine.repository.ProcessDefinition;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class SetProcessDefinitionCategoryCmd implements Command<Void> {
 

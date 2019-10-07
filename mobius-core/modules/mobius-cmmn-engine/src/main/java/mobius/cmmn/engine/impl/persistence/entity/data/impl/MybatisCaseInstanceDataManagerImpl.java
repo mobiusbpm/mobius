@@ -29,7 +29,7 @@ import mobius.common.engine.impl.persistence.cache.EntityCache;
 import java.util.*;
 
 /**
- * @author Joram Barrez
+ *
  */
 public class MybatisCaseInstanceDataManagerImpl extends AbstractCmmnDataManager<CaseInstanceEntity> implements CaseInstanceDataManager {
 
